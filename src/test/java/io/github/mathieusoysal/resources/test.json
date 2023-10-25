@@ -1,0 +1,2828 @@
+{
+    "results": {
+        "total": 140,
+        "page": 0,
+        "pageSize": 1,
+        "items": [
+            {
+                "id": 227,
+                "medias": [
+                    {
+                        "src": "227/5a9fa7c9757a5-MOUSSERON 2.jpg",
+                        "description": "Cuisine collective"
+                    },
+                    {
+                        "src": "227/5fad31adf2c9d-IMG_0287.jpg",
+                        "description": null
+                    },
+                    {
+                        "src": "227/5fad31ae1f193-IMG_0290.jpg",
+                        "description": null
+                    },
+                    {
+                        "src": "227/5fad31ae3ad61-IMG_0289.jpg",
+                        "description": null
+                    }
+                ],
+                "area": {
+                    "min": 12.5,
+                    "max": 12.5
+                },
+                "bedCount": 1,
+                "bedroomCount": 1,
+                "beds": [
+                    {
+                        "count": 1,
+                        "type": "simple"
+                    }
+                ],
+                "roomCount": 1,
+                "bookingData": {
+                    "amount": 10000,
+                    "free": false
+                },
+                "code": 47,
+                "occupationModes": [
+                    {
+                        "type": "alone",
+                        "rent": {
+                            "min": 26780,
+                            "max": 26780
+                        }
+                    }
+                ],
+                "label": "Chbre réha",
+                "reference": "2",
+                "studyLevel": {
+                    "min": null,
+                    "max": null
+                },
+                "equipments": [
+                    {
+                        "id": "d090e186-fa0e-11e7-89ed-005056940822",
+                        "category": "Bâtiment",
+                        "label": "WC"
+                    },
+                    {
+                        "id": "d0910683-fa0e-11e7-89ed-005056940822",
+                        "category": "Bâtiment",
+                        "label": "Douche"
+                    }
+                ],
+                "residence": {
+                    "id": "df79da6c-0a70-11e8-89ed-005056940822",
+                    "label": "Cité Jules Mousseron",
+                    "address": "Rue du Chemin Vert 59300 AULNOY-LES-VALENCIENNES",
+                    "code": 11,
+                    "medias": [
+                        {
+                            "src": "df79da6c-0a70-11e8-89ed-005056940822/5a86ab6e18f20-MOUSSERON.jpg",
+                            "description": null
+                        },
+                        {
+                            "src": "df79da6c-0a70-11e8-89ed-005056940822/5a86ab6e620cf-MOUSSERON 2.jpg",
+                            "description": null
+                        }
+                    ],
+                    "description": "<p>R&eacute;sidence situ&eacute;e &agrave; proximit&eacute; du campus Mont Houy de l&#39;Universit&eacute; de Valenciennes proposant des chambres diversement &eacute;quip&eacute;es pour un loyer mensuel TCC compris entre 202, 40 &euro; et 499, 60 &euro;. Elle dispose de salles de travail, d&#39;une salle TV, d&#39;une laverie, d&#39;un foyer g&eacute;r&eacute; par les &eacute;tudiants, d&#39;un parking, d&#39;un garage 2 roues, d&#39;installations sportives, d&#39;une caf&eacute;t&eacute;ria. Les logements donnent droit &agrave; l&#39;aide au logement forfaitaire vers&eacute;e par la CAF.</p>\r\n\r\n<p>Cette r&eacute;sidence est ouverte durant l&#39;&eacute;t&eacute;. Apr&egrave;s paiement de la r&eacute;servation, la date de fin de votre s&eacute;jour sera automatiquement mise &agrave; jour au 31/08 de l&#39;ann&eacute;e universitaire en cours. Si vous souhaitez quitter le logement avant cette date vous devrez d&eacute;poser votre pr&eacute;avis de d&eacute;part en informant l&#39;administration de la r&eacute;sidence.&nbsp;</p>",
+                    "location": {
+                        "lat": 50.331,
+                        "lon": 3.515
+                    },
+                    "transports": [
+                        {
+                            "label": "Tramway",
+                            "description": "Station Chemin Vert",
+                            "distance": 1,
+                            "unitOfMeasure": "on_foot"
+                        },
+                        {
+                            "label": "Bus",
+                            "description": "Arrêt Chemin vert",
+                            "distance": 2,
+                            "unitOfMeasure": "on_foot"
+                        }
+                    ],
+                    "uairne": "0595414P",
+                    "sector": {
+                        "id": "4435ee81-ff55-11e7-89ed-005056940822",
+                        "label": "Valenciennes"
+                    },
+                    "allocationMinimumDuration": 30
+                },
+                "inUnavailabilityPeriod": false,
+                "unavailabilityMessage": null,
+                "description": "<p>Chambre disposant de sanitaires privatifs (douche, WC, lavabo). Cuisine collecitve</p>",
+                "specialConditions": null,
+                "available": true,
+                "highDemand": false,
+                "lowStock": false
+            }
+        ]
+    },
+    "aggregations": {
+        "occupationModes": {
+            "alone": 140,
+            "couple": 9,
+            "house_sharing": 25
+        },
+        "equipmentCategories": [
+            {
+                "label": "Bâtiment",
+                "equipments": [
+                    {
+                        "label": "Frigo",
+                        "count": 134
+                    },
+                    {
+                        "label": "Douche",
+                        "count": 128
+                    },
+                    {
+                        "label": "WC",
+                        "count": 128
+                    },
+                    {
+                        "label": "Evier + plaque",
+                        "count": 99
+                    },
+                    {
+                        "label": "Pièce à vivre",
+                        "count": 16
+                    },
+                    {
+                        "label": "Balcon",
+                        "count": 11
+                    },
+                    {
+                        "label": "Micro-onde",
+                        "count": 10
+                    },
+                    {
+                        "label": "Duplex",
+                        "count": 4
+                    }
+                ]
+            }
+        ],
+        "rent": [
+            {
+                "amount": 0,
+                "count": 0
+            },
+            {
+                "amount": 1000,
+                "count": 0
+            },
+            {
+                "amount": 2000,
+                "count": 0
+            },
+            {
+                "amount": 3000,
+                "count": 0
+            },
+            {
+                "amount": 4000,
+                "count": 0
+            },
+            {
+                "amount": 5000,
+                "count": 0
+            },
+            {
+                "amount": 6000,
+                "count": 0
+            },
+            {
+                "amount": 7000,
+                "count": 0
+            },
+            {
+                "amount": 8000,
+                "count": 0
+            },
+            {
+                "amount": 9000,
+                "count": 0
+            },
+            {
+                "amount": 10000,
+                "count": 0
+            },
+            {
+                "amount": 11000,
+                "count": 0
+            },
+            {
+                "amount": 12000,
+                "count": 0
+            },
+            {
+                "amount": 13000,
+                "count": 0
+            },
+            {
+                "amount": 14000,
+                "count": 18
+            },
+            {
+                "amount": 15000,
+                "count": 0
+            },
+            {
+                "amount": 16000,
+                "count": 6
+            },
+            {
+                "amount": 17000,
+                "count": 6
+            },
+            {
+                "amount": 18000,
+                "count": 24
+            },
+            {
+                "amount": 19000,
+                "count": 18
+            },
+            {
+                "amount": 20000,
+                "count": 6
+            },
+            {
+                "amount": 21000,
+                "count": 18
+            },
+            {
+                "amount": 22000,
+                "count": 24
+            },
+            {
+                "amount": 23000,
+                "count": 18
+            },
+            {
+                "amount": 24000,
+                "count": 36
+            },
+            {
+                "amount": 25000,
+                "count": 78
+            },
+            {
+                "amount": 26000,
+                "count": 43
+            },
+            {
+                "amount": 27000,
+                "count": 35
+            },
+            {
+                "amount": 28000,
+                "count": 12
+            },
+            {
+                "amount": 29000,
+                "count": 44
+            },
+            {
+                "amount": 30000,
+                "count": 3
+            },
+            {
+                "amount": 31000,
+                "count": 36
+            },
+            {
+                "amount": 32000,
+                "count": 31
+            },
+            {
+                "amount": 33000,
+                "count": 42
+            },
+            {
+                "amount": 34000,
+                "count": 30
+            },
+            {
+                "amount": 35000,
+                "count": 36
+            },
+            {
+                "amount": 36000,
+                "count": 24
+            },
+            {
+                "amount": 37000,
+                "count": 30
+            },
+            {
+                "amount": 38000,
+                "count": 42
+            },
+            {
+                "amount": 39000,
+                "count": 36
+            },
+            {
+                "amount": 40000,
+                "count": 42
+            },
+            {
+                "amount": 41000,
+                "count": 36
+            },
+            {
+                "amount": 42000,
+                "count": 30
+            },
+            {
+                "amount": 43000,
+                "count": 12
+            },
+            {
+                "amount": 44000,
+                "count": 0
+            },
+            {
+                "amount": 45000,
+                "count": 6
+            },
+            {
+                "amount": 46000,
+                "count": 0
+            },
+            {
+                "amount": 47000,
+                "count": 0
+            },
+            {
+                "amount": 48000,
+                "count": 0
+            },
+            {
+                "amount": 49000,
+                "count": 0
+            },
+            {
+                "amount": 50000,
+                "count": 0
+            },
+            {
+                "amount": 51000,
+                "count": 4
+            },
+            {
+                "amount": 52000,
+                "count": 6
+            },
+            {
+                "amount": 53000,
+                "count": 0
+            },
+            {
+                "amount": 54000,
+                "count": 0
+            },
+            {
+                "amount": 55000,
+                "count": 0
+            },
+            {
+                "amount": 56000,
+                "count": 0
+            },
+            {
+                "amount": 57000,
+                "count": 0
+            },
+            {
+                "amount": 58000,
+                "count": 0
+            },
+            {
+                "amount": 59000,
+                "count": 0
+            },
+            {
+                "amount": 60000,
+                "count": 0
+            },
+            {
+                "amount": 61000,
+                "count": 3
+            },
+            {
+                "amount": 62000,
+                "count": 0
+            },
+            {
+                "amount": 63000,
+                "count": 0
+            },
+            {
+                "amount": 64000,
+                "count": 5
+            },
+            {
+                "amount": 65000,
+                "count": 0
+            },
+            {
+                "amount": 66000,
+                "count": 0
+            },
+            {
+                "amount": 67000,
+                "count": 0
+            },
+            {
+                "amount": 68000,
+                "count": 0
+            },
+            {
+                "amount": 69000,
+                "count": 0
+            },
+            {
+                "amount": 70000,
+                "count": 0
+            },
+            {
+                "amount": 71000,
+                "count": 0
+            },
+            {
+                "amount": 72000,
+                "count": 0
+            },
+            {
+                "amount": 73000,
+                "count": 0
+            },
+            {
+                "amount": 74000,
+                "count": 0
+            },
+            {
+                "amount": 75000,
+                "count": 0
+            },
+            {
+                "amount": 76000,
+                "count": 0
+            },
+            {
+                "amount": 77000,
+                "count": 0
+            },
+            {
+                "amount": 78000,
+                "count": 0
+            },
+            {
+                "amount": 79000,
+                "count": 0
+            },
+            {
+                "amount": 80000,
+                "count": 0
+            },
+            {
+                "amount": 81000,
+                "count": 0
+            },
+            {
+                "amount": 82000,
+                "count": 0
+            },
+            {
+                "amount": 83000,
+                "count": 0
+            },
+            {
+                "amount": 84000,
+                "count": 0
+            },
+            {
+                "amount": 85000,
+                "count": 0
+            },
+            {
+                "amount": 86000,
+                "count": 0
+            },
+            {
+                "amount": 87000,
+                "count": 0
+            },
+            {
+                "amount": 88000,
+                "count": 0
+            },
+            {
+                "amount": 89000,
+                "count": 0
+            },
+            {
+                "amount": 90000,
+                "count": 0
+            },
+            {
+                "amount": 91000,
+                "count": 0
+            },
+            {
+                "amount": 92000,
+                "count": 0
+            },
+            {
+                "amount": 93000,
+                "count": 0
+            },
+            {
+                "amount": 94000,
+                "count": 0
+            },
+            {
+                "amount": 95000,
+                "count": 0
+            },
+            {
+                "amount": 96000,
+                "count": 0
+            },
+            {
+                "amount": 97000,
+                "count": 0
+            },
+            {
+                "amount": 98000,
+                "count": 0
+            },
+            {
+                "amount": 99000,
+                "count": 0
+            },
+            {
+                "amount": 100000,
+                "count": 0
+            }
+        ],
+        "markers": [
+            {
+                "count": 5,
+                "location": {
+                    "lat": 50.33099996857345,
+                    "lon": 3.5149998776614666
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 50.33099996857345,
+                        "lon": 3.5149998776614666
+                    },
+                    "bottom_right": {
+                        "lat": 50.33099996857345,
+                        "lon": 3.5149998776614666
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "df79da6c-0a70-11e8-89ed-005056940822",
+                        "label": "Cité Jules Mousseron"
+                    }
+                ]
+            },
+            {
+                "count": 4,
+                "location": {
+                    "lat": 42.29999997653067,
+                    "lon": 9.151999913156033
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 42.29999997653067,
+                        "lon": 9.151999913156033
+                    },
+                    "bottom_right": {
+                        "lat": 42.29999997653067,
+                        "lon": 9.151999913156033
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "4febd47d-1227-11e8-89ed-005056940822",
+                        "label": "Residence Pierrette Grimaldi"
+                    },
+                    {
+                        "id": "50c905af-1227-11e8-89ed-005056940822",
+                        "label": "Residence Pascal MARTIN"
+                    }
+                ]
+            },
+            {
+                "count": 3,
+                "location": {
+                    "lat": 48.70599998161197,
+                    "lon": 6.167999971657991
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 48.70599998161197,
+                        "lon": 6.167999971657991
+                    },
+                    "bottom_right": {
+                        "lat": 48.70599998161197,
+                        "lon": 6.167999971657991
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "4f523518-0b75-11e8-89ed-005056940822",
+                        "label": "CU LA BATELIERE"
+                    }
+                ]
+            },
+            {
+                "count": 3,
+                "location": {
+                    "lat": 48.69799995794892,
+                    "lon": 6.165999881923199
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 48.69799995794892,
+                        "lon": 6.165999881923199
+                    },
+                    "bottom_right": {
+                        "lat": 48.69799995794892,
+                        "lon": 6.165999881923199
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "9069474d-0a75-11e8-89ed-005056940822",
+                        "label": "CU BOUDONVILLE"
+                    }
+                ]
+            },
+            {
+                "count": 3,
+                "location": {
+                    "lat": 48.69699999690056,
+                    "lon": 6.159999947994947
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 48.69699999690056,
+                        "lon": 6.159999947994947
+                    },
+                    "bottom_right": {
+                        "lat": 48.69699999690056,
+                        "lon": 6.159999947994947
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "2550ac56-4e10-11ed-8b6b-005056941f86",
+                        "label": "CU MONBOIS LIBERATION"
+                    }
+                ]
+            },
+            {
+                "count": 3,
+                "location": {
+                    "lat": 48.66599994711578,
+                    "lon": 6.164999920874834
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 48.66599994711578,
+                        "lon": 6.164999920874834
+                    },
+                    "bottom_right": {
+                        "lat": 48.66599994711578,
+                        "lon": 6.164999920874834
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "7707a837-0b76-11e8-89ed-005056940822",
+                        "label": "CU MONPLAISIR"
+                    }
+                ]
+            },
+            {
+                "count": 3,
+                "location": {
+                    "lat": 49.24199997447431,
+                    "lon": 4.014999847859144
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 49.24199997447431,
+                        "lon": 4.014999847859144
+                    },
+                    "bottom_right": {
+                        "lat": 49.24199997447431,
+                        "lon": 4.014999847859144
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "7161d9c2-050d-11e8-89ed-005056940822",
+                        "label": "BERLIOZ"
+                    },
+                    {
+                        "id": "77fbd63f-050d-11e8-89ed-005056940822",
+                        "label": "PAUL FORT"
+                    }
+                ]
+            },
+            {
+                "count": 3,
+                "location": {
+                    "lat": 47.842999985441566,
+                    "lon": 1.9409999996423721
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 47.842999985441566,
+                        "lon": 1.9409999996423721
+                    },
+                    "bottom_right": {
+                        "lat": 47.842999985441566,
+                        "lon": 1.9409999996423721
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "58bb14fc-3e1b-11eb-b2a6-005056941f86",
+                        "label": "HETRES"
+                    }
+                ]
+            },
+            {
+                "count": 2,
+                "location": {
+                    "lat": 48.67699993774295,
+                    "lon": 6.194999925792217
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 48.67699993774295,
+                        "lon": 6.194999925792217
+                    },
+                    "bottom_right": {
+                        "lat": 48.67699993774295,
+                        "lon": 6.194999925792217
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "2856b24f-0b78-11e8-89ed-005056940822",
+                        "label": "CU PROVENCAL B"
+                    },
+                    {
+                        "id": "57010c8b-01ce-11e8-89ed-005056940822",
+                        "label": "CU PROVENCAL ACD"
+                    }
+                ]
+            },
+            {
+                "count": 2,
+                "location": {
+                    "lat": 48.679999988526106,
+                    "lon": 6.183999851346016
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 48.679999988526106,
+                        "lon": 6.183999851346016
+                    },
+                    "bottom_right": {
+                        "lat": 48.679999988526106,
+                        "lon": 6.183999851346016
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "29aa5dde-0b78-11e8-89ed-005056940822",
+                        "label": "CU SAURUPT"
+                    }
+                ]
+            },
+            {
+                "count": 2,
+                "location": {
+                    "lat": 48.67299992591143,
+                    "lon": 6.15699989721179
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 48.67299992591143,
+                        "lon": 6.15699989721179
+                    },
+                    "bottom_right": {
+                        "lat": 48.67299992591143,
+                        "lon": 6.15699989721179
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "277bccc5-0b78-11e8-89ed-005056940822",
+                        "label": "CU PLACIEUX"
+                    }
+                ]
+            },
+            {
+                "count": 2,
+                "location": {
+                    "lat": 48.66099997423589,
+                    "lon": 6.188999991863966
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 48.66099997423589,
+                        "lon": 6.188999991863966
+                    },
+                    "bottom_right": {
+                        "lat": 48.66099997423589,
+                        "lon": 6.188999991863966
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "02752df5-0b71-11e8-89ed-005056940822",
+                        "label": "CU HAUTE MALGRANGE"
+                    }
+                ]
+            },
+            {
+                "count": 2,
+                "location": {
+                    "lat": 48.666999991983175,
+                    "lon": 6.172999944537878
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 48.666999991983175,
+                        "lon": 6.172999944537878
+                    },
+                    "bottom_right": {
+                        "lat": 48.666999991983175,
+                        "lon": 6.172999944537878
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "303ad499-0a7e-11e8-89ed-005056940822",
+                        "label": "CU DU CHARMOIS"
+                    }
+                ]
+            },
+            {
+                "count": 2,
+                "location": {
+                    "lat": 49.674999956041574,
+                    "lon": 4.9779998883605
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 49.674999956041574,
+                        "lon": 4.9779998883605
+                    },
+                    "bottom_right": {
+                        "lat": 49.674999956041574,
+                        "lon": 4.9779998883605
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "70db76df-050d-11e8-89ed-005056940822",
+                        "label": "BAZEILLES"
+                    }
+                ]
+            },
+            {
+                "count": 2,
+                "location": {
+                    "lat": 50.33299997448921,
+                    "lon": 3.531999886035919
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 50.33299997448921,
+                        "lon": 3.531999886035919
+                    },
+                    "bottom_right": {
+                        "lat": 50.33299997448921,
+                        "lon": 3.531999886035919
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "996f7016-0be0-11e8-89ed-005056940822",
+                        "label": "Résidence Gustave Ansart"
+                    }
+                ]
+            },
+            {
+                "count": 2,
+                "location": {
+                    "lat": 49.264999916777015,
+                    "lon": 4.02699988335371
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 49.264999916777015,
+                        "lon": 4.02699988335371
+                    },
+                    "bottom_right": {
+                        "lat": 49.264999916777015,
+                        "lon": 4.02699988335371
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "7262208c-050d-11e8-89ed-005056940822",
+                        "label": "CHARBONNEAUX"
+                    }
+                ]
+            },
+            {
+                "count": 2,
+                "location": {
+                    "lat": 49.23699991777539,
+                    "lon": 4.003999941051006
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 49.23699991777539,
+                        "lon": 4.003999941051006
+                    },
+                    "bottom_right": {
+                        "lat": 49.23699991777539,
+                        "lon": 4.003999941051006
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "73e5c053-050d-11e8-89ed-005056940822",
+                        "label": "FACULTES"
+                    },
+                    {
+                        "id": "74e50dcf-050d-11e8-89ed-005056940822",
+                        "label": "HLM"
+                    }
+                ]
+            },
+            {
+                "count": 2,
+                "location": {
+                    "lat": 48.267999943345785,
+                    "lon": 4.069999884814024
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 48.267999943345785,
+                        "lon": 4.069999884814024
+                    },
+                    "bottom_right": {
+                        "lat": 48.267999943345785,
+                        "lon": 4.069999884814024
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "76f0a01f-050d-11e8-89ed-005056940822",
+                        "label": "LEONARD DE VINCI"
+                    }
+                ]
+            },
+            {
+                "count": 2,
+                "location": {
+                    "lat": 46.94999998435378,
+                    "lon": 2.009999994188547
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 46.94999998435378,
+                        "lon": 2.009999994188547
+                    },
+                    "bottom_right": {
+                        "lat": 46.94999998435378,
+                        "lon": 2.009999994188547
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "4a6bf8f5-0d87-11e8-89ed-005056940822",
+                        "label": "LES COINCHETTES"
+                    }
+                ]
+            },
+            {
+                "count": 2,
+                "location": {
+                    "lat": 46.812999956309795,
+                    "lon": 1.6969999484717846
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 46.812999956309795,
+                        "lon": 1.6969999484717846
+                    },
+                    "bottom_right": {
+                        "lat": 46.812999956309795,
+                        "lon": 1.6969999484717846
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "420525a1-0d87-11e8-89ed-005056940822",
+                        "label": "CHARLEMAGNE"
+                    }
+                ]
+            },
+            {
+                "count": 2,
+                "location": {
+                    "lat": 46.68099998496473,
+                    "lon": 0.36699995398521423
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 46.68099998496473,
+                        "lon": 0.36699995398521423
+                    },
+                    "bottom_right": {
+                        "lat": 46.68099998496473,
+                        "lon": 0.36699995398521423
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "540bec3d-073d-11e8-89ed-005056940822",
+                        "label": "RESIDENCE CENTRE DE VIE"
+                    }
+                ]
+            },
+            {
+                "count": 2,
+                "location": {
+                    "lat": 46.328999949619174,
+                    "lon": 2.5879999436438084
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 46.328999949619174,
+                        "lon": 2.5879999436438084
+                    },
+                    "bottom_right": {
+                        "lat": 46.328999949619174,
+                        "lon": 2.5879999436438084
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "42576b6b-0bf3-11e8-89ed-005056940822",
+                        "label": "Montlucon"
+                    }
+                ]
+            },
+            {
+                "count": 2,
+                "location": {
+                    "lat": 45.88899998925626,
+                    "lon": 2.1739999763667583
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 45.88899998925626,
+                        "lon": 2.1739999763667583
+                    },
+                    "bottom_right": {
+                        "lat": 45.88899998925626,
+                        "lon": 2.1739999763667583
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "f6cba354-0820-11e8-89ed-005056940822",
+                        "label": "Résidence de Felletin"
+                    }
+                ]
+            },
+            {
+                "count": 2,
+                "location": {
+                    "lat": 45.25999993085861,
+                    "lon": 1.7479999735951424
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 45.25999993085861,
+                        "lon": 1.7479999735951424
+                    },
+                    "bottom_right": {
+                        "lat": 45.25999993085861,
+                        "lon": 1.7479999735951424
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "f73f1996-0820-11e8-89ed-005056940822",
+                        "label": "Résidence de Souilhac"
+                    }
+                ]
+            },
+            {
+                "count": 2,
+                "location": {
+                    "lat": 45.15599995851517,
+                    "lon": 1.5089998953044415
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 45.15599995851517,
+                        "lon": 1.5089998953044415
+                    },
+                    "bottom_right": {
+                        "lat": 45.15599995851517,
+                        "lon": 1.5089998953044415
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "daeffe72-0ce4-11e8-89ed-005056940822",
+                        "label": "Résidence de Brive"
+                    }
+                ]
+            },
+            {
+                "count": 2,
+                "location": {
+                    "lat": 42.298999931663275,
+                    "lon": 9.151999913156033
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 42.298999931663275,
+                        "lon": 9.151999913156033
+                    },
+                    "bottom_right": {
+                        "lat": 42.298999931663275,
+                        "lon": 9.151999913156033
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "4f7afc7f-1227-11e8-89ed-005056940822",
+                        "label": "Residence Christophe GARELLI"
+                    },
+                    {
+                        "id": "5059e524-1227-11e8-89ed-005056940822",
+                        "label": "Residence Farrandu ETTORI"
+                    }
+                ]
+            },
+            {
+                "count": 2,
+                "location": {
+                    "lat": 44.09499996341765,
+                    "lon": 3.0769998393952847
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 44.09499996341765,
+                        "lon": 3.0769998393952847
+                    },
+                    "bottom_right": {
+                        "lat": 44.09499996341765,
+                        "lon": 3.0769998393952847
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "22b9d8ec-f15d-11e7-89ed-005056940822",
+                        "label": "Résidence Pierre Douzou"
+                    }
+                ]
+            },
+            {
+                "count": 2,
+                "location": {
+                    "lat": 48.08499994687736,
+                    "lon": -0.7590001076459885
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 48.08499994687736,
+                        "lon": -0.7590001076459885
+                    },
+                    "bottom_right": {
+                        "lat": 48.08499994687736,
+                        "lon": -0.7590001076459885
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "b7f333d9-0b38-11e8-89ed-005056940822",
+                        "label": "RESIDENCE LA DORMERIE"
+                    }
+                ]
+            },
+            {
+                "count": 2,
+                "location": {
+                    "lat": 48.12299997545779,
+                    "lon": -1.643000040203333
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 48.12299997545779,
+                        "lon": -1.643000040203333
+                    },
+                    "bottom_right": {
+                        "lat": 48.12299997545779,
+                        "lon": -1.643000040203333
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "709136fb-f6ac-11e7-89ed-005056940822",
+                        "label": "Rés. Univ. Beaulieu"
+                    }
+                ]
+            },
+            {
+                "count": 2,
+                "location": {
+                    "lat": 43.8839999679476,
+                    "lon": -0.4970000870525837
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 43.8839999679476,
+                        "lon": -0.4970000870525837
+                    },
+                    "bottom_right": {
+                        "lat": 43.8839999679476,
+                        "lon": -0.4970000870525837
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "27d4c545-fc8e-11e7-89ed-005056940822",
+                        "label": "LE VELUM"
+                    }
+                ]
+            },
+            {
+                "count": 2,
+                "location": {
+                    "lat": 43.30972493626177,
+                    "lon": -0.3750958666205406
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 43.30972493626177,
+                        "lon": -0.3750958666205406
+                    },
+                    "bottom_right": {
+                        "lat": 43.30972493626177,
+                        "lon": -0.3750958666205406
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "28451dd0-fc8e-11e7-89ed-005056940822",
+                        "label": "ERABLES"
+                    }
+                ]
+            },
+            {
+                "count": 2,
+                "location": {
+                    "lat": 43.48199995234609,
+                    "lon": -1.489000003784895
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 43.48199995234609,
+                        "lon": -1.489000003784895
+                    },
+                    "bottom_right": {
+                        "lat": 43.48199995234609,
+                        "lon": -1.489000003784895
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "d7cd0d1a-ff5a-11e7-89ed-005056940822",
+                        "label": "ARANCETTE"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 50.71899994276464,
+                    "lon": 3.168999943882227
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 50.71899994276464,
+                        "lon": 3.168999943882227
+                    },
+                    "bottom_right": {
+                        "lat": 50.71899994276464,
+                        "lon": 3.168999943882227
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "9de02dde-0be0-11e8-89ed-005056940822",
+                        "label": "Résidence Les Tilleuls"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 50.73899991810322,
+                    "lon": 2.259999979287386
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 50.73899991810322,
+                        "lon": 2.259999979287386
+                    },
+                    "bottom_right": {
+                        "lat": 50.73899991810322,
+                        "lon": 2.259999979287386
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "9ecb1028-0be0-11e8-89ed-005056940822",
+                        "label": "Résidence Olympie"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 49.343999940901995,
+                    "lon": 6.182999890297651
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 49.343999940901995,
+                        "lon": 6.182999890297651
+                    },
+                    "bottom_right": {
+                        "lat": 49.343999940901995,
+                        "lon": 6.182999890297651
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "b18db3e4-25de-11e8-89ed-005056940822",
+                        "label": "CU DAUPHINE BRETAGNE"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 49.11899998784065,
+                    "lon": 7.076999936252832
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 49.11899998784065,
+                        "lon": 7.076999936252832
+                    },
+                    "bottom_right": {
+                        "lat": 49.11899998784065,
+                        "lon": 7.076999936252832
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "462fe0e0-3f2a-11e8-89ed-005056940822",
+                        "label": "CU DOUAUMONT"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 48.69599995203316,
+                    "lon": 6.162999998778105
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 48.69599995203316,
+                        "lon": 6.162999998778105
+                    },
+                    "bottom_right": {
+                        "lat": 48.69599995203316,
+                        "lon": 6.162999998778105
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "7693dfc1-0b76-11e8-89ed-005056940822",
+                        "label": "CU MONBOIS"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 48.683999916538596,
+                    "lon": 6.15699989721179
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 48.683999916538596,
+                        "lon": 6.15699989721179
+                    },
+                    "bottom_right": {
+                        "lat": 48.683999916538596,
+                        "lon": 6.15699989721179
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "4fc8f1bd-0b75-11e8-89ed-005056940822",
+                        "label": "CU MEDREVILLE"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 47.638999968767166,
+                    "lon": 6.852999944239855
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 47.638999968767166,
+                        "lon": 6.852999944239855
+                    },
+                    "bottom_right": {
+                        "lat": 47.638999968767166,
+                        "lon": 6.852999944239855
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "681cdf40-7875-11e9-a02d-005056941f86",
+                        "label": "Residence J.P. Sartre"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 47.64399994164705,
+                    "lon": 6.836999896913767
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 47.64399994164705,
+                        "lon": 6.836999896913767
+                    },
+                    "bottom_right": {
+                        "lat": 47.64399994164705,
+                        "lon": 6.836999896913767
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "67cf537e-7875-11e9-a02d-005056941f86",
+                        "label": "Residence Duvillard"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 47.248999988660216,
+                    "lon": 5.9859998524188995
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 47.248999988660216,
+                        "lon": 5.9859998524188995
+                    },
+                    "bottom_right": {
+                        "lat": 47.248999988660216,
+                        "lon": 5.9859998524188995
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "66da3d36-7875-11e9-a02d-005056941f86",
+                        "label": "Résidence Colette"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 45.182999996468425,
+                    "lon": 5.730999894440174
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 45.182999996468425,
+                        "lon": 5.730999894440174
+                    },
+                    "bottom_right": {
+                        "lat": 45.182999996468425,
+                        "lon": 5.730999894440174
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "e1c0ab8c-f6d3-11e7-89ed-005056940822",
+                        "label": "HOME"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 49.77099998854101,
+                    "lon": 4.726999942213297
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 49.77099998854101,
+                        "lon": 4.726999942213297
+                    },
+                    "bottom_right": {
+                        "lat": 49.77099998854101,
+                        "lon": 4.726999942213297
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "75eacf40-050d-11e8-89ed-005056940822",
+                        "label": "La GRAVIERE"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 49.77299999445677,
+                    "lon": 4.711999855935574
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 49.77299999445677,
+                        "lon": 4.711999855935574
+                    },
+                    "bottom_right": {
+                        "lat": 49.77299999445677,
+                        "lon": 4.711999855935574
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "77718a7b-050d-11e8-89ed-005056940822",
+                        "label": "MAISON DES ETUDIANTS"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 50.18199998885393,
+                    "lon": 3.241999950259924
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 50.18199998885393,
+                        "lon": 3.241999950259924
+                    },
+                    "bottom_right": {
+                        "lat": 50.18199998885393,
+                        "lon": 3.241999950259924
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "a096412e-0be0-11e8-89ed-005056940822",
+                        "label": "Résidence Saint Roch"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 49.24199997447431,
+                    "lon": 4.059999939054251
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 49.24199997447431,
+                        "lon": 4.059999939054251
+                    },
+                    "bottom_right": {
+                        "lat": 49.24199997447431,
+                        "lon": 4.059999939054251
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "73641acc-050d-11e8-89ed-005056940822",
+                        "label": "EVARISTE GALOIS"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 49.24399998039007,
+                    "lon": 4.056999888271093
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 49.24399998039007,
+                        "lon": 4.056999888271093
+                    },
+                    "bottom_right": {
+                        "lat": 49.24399998039007,
+                        "lon": 4.056999888271093
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "787ab714-050d-11e8-89ed-005056940822",
+                        "label": "TEILHARD DE CHARDIN"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 48.96099993959069,
+                    "lon": 4.358999859541655
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 48.96099993959069,
+                        "lon": 4.358999859541655
+                    },
+                    "bottom_right": {
+                        "lat": 48.96099993959069,
+                        "lon": 4.358999859541655
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "766c1e1f-050d-11e8-89ed-005056940822",
+                        "label": "Le FAUBOURG"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 49.9059999268502,
+                    "lon": 2.2909999452531338
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 49.9059999268502,
+                        "lon": 2.2909999452531338
+                    },
+                    "bottom_right": {
+                        "lat": 49.9059999268502,
+                        "lon": 2.2909999452531338
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "ecdd8ef2-73f9-11ea-8c39-005056941f86",
+                        "label": "RESIDENCE DELOUARD"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 49.88999996334314,
+                    "lon": 2.289999984204769
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 49.88999996334314,
+                        "lon": 2.289999984204769
+                    },
+                    "bottom_right": {
+                        "lat": 49.88999996334314,
+                        "lon": 2.289999984204769
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "56913e8e-0112-11e8-89ed-005056940822",
+                        "label": "RESIDENCE BEFFROI"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 49.87999993376434,
+                    "lon": 2.286999933421612
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 49.87999993376434,
+                        "lon": 2.286999933421612
+                    },
+                    "bottom_right": {
+                        "lat": 49.87999993376434,
+                        "lon": 2.286999933421612
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "3a8a255f-0113-11e8-89ed-005056940822",
+                        "label": "RESIDENCE COTEAU"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 49.869999988004565,
+                    "lon": 2.269999925047159
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 49.869999988004565,
+                        "lon": 2.269999925047159
+                    },
+                    "bottom_right": {
+                        "lat": 49.869999988004565,
+                        "lon": 2.269999925047159
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "147d0edb-0046-11e8-89ed-005056940822",
+                        "label": "RESIDENCE BAILLY"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 49.46699992753565,
+                    "lon": 1.061999872326851
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 49.46699992753565,
+                        "lon": 1.061999872326851
+                    },
+                    "bottom_right": {
+                        "lat": 49.46699992753565,
+                        "lon": 1.061999872326851
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "ba4c19c2-5548-11e9-a02d-005056941f86",
+                        "label": "RESIDENCE PLEIADE"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 48.61799997277558,
+                    "lon": 2.4339999072253704
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 48.61799997277558,
+                        "lon": 2.4339999072253704
+                    },
+                    "bottom_right": {
+                        "lat": 48.61799997277558,
+                        "lon": 2.4339999072253704
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "923ac454-05a3-11e8-89ed-005056940822",
+                        "label": "Evry- Aunettes"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 47.84199994057417,
+                    "lon": 1.9369999878108501
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 47.84199994057417,
+                        "lon": 1.9369999878108501
+                    },
+                    "bottom_right": {
+                        "lat": 47.84199994057417,
+                        "lon": 1.9369999878108501
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "58b64d32-3e1b-11eb-b2a6-005056941f86",
+                        "label": "DAHLIAS"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 47.840999979525805,
+                    "lon": 1.935999859124422
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 47.840999979525805,
+                        "lon": 1.935999859124422
+                    },
+                    "bottom_right": {
+                        "lat": 47.840999979525805,
+                        "lon": 1.935999859124422
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "4a917203-0ce0-11e8-89ed-005056940822",
+                        "label": "ARISTOTE"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 47.9139999859035,
+                    "lon": 1.8649999424815178
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 47.9139999859035,
+                        "lon": 1.8649999424815178
+                    },
+                    "bottom_right": {
+                        "lat": 47.9139999859035,
+                        "lon": 1.8649999424815178
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "58bde78b-3e1b-11eb-b2a6-005056941f86",
+                        "label": "ROSES"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 47.84599995240569,
+                    "lon": 1.9289999641478062
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 47.84599995240569,
+                        "lon": 1.9289999641478062
+                    },
+                    "bottom_right": {
+                        "lat": 47.84599995240569,
+                        "lon": 1.9289999641478062
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "42e33f6c-0d87-11e8-89ed-005056940822",
+                        "label": "CHATAIGNIERS"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 47.31399997137487,
+                    "lon": 5.073999837040901
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 47.31399997137487,
+                        "lon": 5.073999837040901
+                    },
+                    "bottom_right": {
+                        "lat": 47.31399997137487,
+                        "lon": 5.073999837040901
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "679c6c1d-7875-11e9-a02d-005056941f86",
+                        "label": "Résidence Beaune"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 47.31099992059171,
+                    "lon": 5.0729998759925365
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 47.31099992059171,
+                        "lon": 5.0729998759925365
+                    },
+                    "bottom_right": {
+                        "lat": 47.31099992059171,
+                        "lon": 5.0729998759925365
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "6745ebca-7875-11e9-a02d-005056941f86",
+                        "label": "Antipodes"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 47.32299995608628,
+                    "lon": 5.034999847412109
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 47.32299995608628,
+                        "lon": 5.034999847412109
+                    },
+                    "bottom_right": {
+                        "lat": 47.32299995608628,
+                        "lon": 5.034999847412109
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "68cdd64d-7875-11e9-a02d-005056941f86",
+                        "label": "Résidence Maret"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 46.19599993340671,
+                    "lon": 5.221999939531088
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 46.19599993340671,
+                        "lon": 5.221999939531088
+                    },
+                    "bottom_right": {
+                        "lat": 46.19599993340671,
+                        "lon": 5.221999939531088
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "3711b9aa-0b58-11e8-89ed-005056940822",
+                        "label": "RESIDENCE BOURG"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 47.099999925121665,
+                    "lon": 2.419999949634075
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 47.099999925121665,
+                        "lon": 2.419999949634075
+                    },
+                    "bottom_right": {
+                        "lat": 47.099999925121665,
+                        "lon": 2.419999949634075
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "46f21fc1-0d87-11e8-89ed-005056940822",
+                        "label": "GIBJONCS"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 46.58799991942942,
+                    "lon": 0.34599993377923965
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 46.58799991942942,
+                        "lon": 0.34599993377923965
+                    },
+                    "bottom_right": {
+                        "lat": 46.58799991942942,
+                        "lon": 0.34599993377923965
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "112525bc-0824-11e8-89ed-005056940822",
+                        "label": "RESIDENCE CANOLLE"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 45.8629999961704,
+                    "lon": 1.2979998998343945
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 45.8629999961704,
+                        "lon": 1.2979998998343945
+                    },
+                    "bottom_right": {
+                        "lat": 45.8629999961704,
+                        "lon": 1.2979998998343945
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "3f6302f6-0821-11e8-89ed-005056940822",
+                        "label": "Résidence Ester"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 45.84299993701279,
+                    "lon": 1.2389998510479927
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 45.84299993701279,
+                        "lon": 1.2389998510479927
+                    },
+                    "bottom_right": {
+                        "lat": 45.84299993701279,
+                        "lon": 1.2389998510479927
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "3e7b1d0d-0821-11e8-89ed-005056940822",
+                        "label": "Résidence de Beaublanc"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 45.83899992518127,
+                    "lon": 1.2329999171197414
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 45.83899992518127,
+                        "lon": 1.2329999171197414
+                    },
+                    "bottom_right": {
+                        "lat": 45.83899992518127,
+                        "lon": 1.2329999171197414
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "1add3ba8-0d86-11e8-89ed-005056940822",
+                        "label": "Cité de La Borie"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 45.83899992518127,
+                    "lon": 1.2309999950230122
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 45.83899992518127,
+                        "lon": 1.2309999950230122
+                    },
+                    "bottom_right": {
+                        "lat": 45.83899992518127,
+                        "lon": 1.2309999950230122
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "3d992e17-0821-11e8-89ed-005056940822",
+                        "label": "Résidence de l'Aurence"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 45.815999982878566,
+                    "lon": 1.2249998934566975
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 45.815999982878566,
+                        "lon": 1.2249998934566975
+                    },
+                    "bottom_right": {
+                        "lat": 45.815999982878566,
+                        "lon": 1.2249998934566975
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "1b50149f-0d86-11e8-89ed-005056940822",
+                        "label": "Cité Guérin"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 45.18799996934831,
+                    "lon": 0.7199999503791332
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 45.18799996934831,
+                        "lon": 0.7199999503791332
+                    },
+                    "bottom_right": {
+                        "lat": 45.18799996934831,
+                        "lon": 0.7199999503791332
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "26ef0095-fc8e-11e7-89ed-005056940822",
+                        "label": "PATIO"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 45.19499994814396,
+                    "lon": 0.7129998877644539
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 45.19499994814396,
+                        "lon": 0.7129998877644539
+                    },
+                    "bottom_right": {
+                        "lat": 45.19499994814396,
+                        "lon": 0.7129998877644539
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "1522dbb1-fc90-11e7-89ed-005056940822",
+                        "label": "GRANDES ARCADES"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 42.30504596605897,
+                    "lon": 9.155441857874393
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 42.30504596605897,
+                        "lon": 9.155441857874393
+                    },
+                    "bottom_right": {
+                        "lat": 42.30504596605897,
+                        "lon": 9.155441857874393
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "513813b0-1227-11e8-89ed-005056940822",
+                        "label": "Residence Pascal Paoli 1"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 42.30499994941056,
+                    "lon": 9.15499996393919
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 42.30499994941056,
+                        "lon": 9.15499996393919
+                    },
+                    "bottom_right": {
+                        "lat": 42.30499994941056,
+                        "lon": 9.15499996393919
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "51a6bcaf-1227-11e8-89ed-005056940822",
+                        "label": "Residence Pascal Paoli 2"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 42.30399998836219,
+                    "lon": 9.153999835252762
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 42.30399998836219,
+                        "lon": 9.153999835252762
+                    },
+                    "bottom_right": {
+                        "lat": 42.30399998836219,
+                        "lon": 9.153999835252762
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "5216696b-1227-11e8-89ed-005056940822",
+                        "label": "Residence Antoine CASANOVA"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 43.709999956190586,
+                    "lon": 7.287999931722879
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 43.709999956190586,
+                        "lon": 7.287999931722879
+                    },
+                    "bottom_right": {
+                        "lat": 43.709999956190586,
+                        "lon": 7.287999931722879
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "a367b487-10d6-11e8-89ed-005056940822",
+                        "label": "Résidence Romain Gary"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 43.718999940901995,
+                    "lon": 7.268999833613634
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 43.718999940901995,
+                        "lon": 7.268999833613634
+                    },
+                    "bottom_right": {
+                        "lat": 43.718999940901995,
+                        "lon": 7.268999833613634
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "033487ff-02b1-11e8-89ed-005056940822",
+                        "label": "Résidence Montebello"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 43.6809999961406,
+                    "lon": 7.225999999791384
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 43.6809999961406,
+                        "lon": 7.225999999791384
+                    },
+                    "bottom_right": {
+                        "lat": 43.6809999961406,
+                        "lon": 7.225999999791384
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "85adfd57-0288-11e8-89ed-005056940822",
+                        "label": "Residence Jean Médecin"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 43.624999998137355,
+                    "lon": 7.049999982118607
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 43.624999998137355,
+                        "lon": 7.049999982118607
+                    },
+                    "bottom_right": {
+                        "lat": 43.624999998137355,
+                        "lon": 7.049999982118607
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "8c344c21-04e9-11e8-89ed-005056940822",
+                        "label": "Résidence Newton"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 43.56499998830259,
+                    "lon": 7.023999989032745
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 43.56499998830259,
+                        "lon": 7.023999989032745
+                    },
+                    "bottom_right": {
+                        "lat": 43.56499998830259,
+                        "lon": 7.023999989032745
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "f82eeaf4-04e9-11e8-89ed-005056940822",
+                        "label": "Résidence Les Clémentines"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 43.133999928832054,
+                    "lon": 6.015999857336283
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 43.133999928832054,
+                        "lon": 6.015999857336283
+                    },
+                    "bottom_right": {
+                        "lat": 43.133999928832054,
+                        "lon": 6.015999857336283
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "fca33cbe-04eb-11e8-89ed-005056940822",
+                        "label": "Résidence Le Fenouillet"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 44.92999996058643,
+                    "lon": 4.924999941140413
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 44.92999996058643,
+                        "lon": 4.924999941140413
+                    },
+                    "bottom_right": {
+                        "lat": 44.92999996058643,
+                        "lon": 4.924999941140413
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "e08859bf-f6d3-11e7-89ed-005056940822",
+                        "label": "CLACTON"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 43.950999956578016,
+                    "lon": 4.817999918013811
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 43.950999956578016,
+                        "lon": 4.817999918013811
+                    },
+                    "bottom_right": {
+                        "lat": 43.950999956578016,
+                        "lon": 4.817999918013811
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "f3bc9c01-fa01-11e7-89ed-005056940822",
+                        "label": "RESIDENCE LA GARIDELLE"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 43.81899998523295,
+                    "lon": 4.327999893575907
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 43.81899998523295,
+                        "lon": 4.327999893575907
+                    },
+                    "bottom_right": {
+                        "lat": 43.81899998523295,
+                        "lon": 4.327999893575907
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "7feb5cb2-bc9b-11ec-ae5f-005056941f86",
+                        "label": "RESIDENCE SAINT CESAIRE"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 42.70199999213219,
+                    "lon": 2.8979999385774136
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 42.70199999213219,
+                        "lon": 2.8979999385774136
+                    },
+                    "bottom_right": {
+                        "lat": 42.70199999213219,
+                        "lon": 2.8979999385774136
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "c854dfbd-00fb-11e8-89ed-005056940822",
+                        "label": "RESIDENCE WILSON"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 49.20999996364117,
+                    "lon": -0.3700000047683716
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 49.20999996364117,
+                        "lon": -0.3700000047683716
+                    },
+                    "bottom_right": {
+                        "lat": 49.20999996364117,
+                        "lon": -0.3700000047683716
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "b815c2db-5548-11e9-a02d-005056941f86",
+                        "label": "RESIDENCE BACOT"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 48.12199993059039,
+                    "lon": -1.7030000500380993
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 48.12199993059039,
+                        "lon": -1.7030000500380993
+                    },
+                    "bottom_right": {
+                        "lat": 48.12199993059039,
+                        "lon": -1.7030000500380993
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "737711ea-f6ac-11e7-89ed-005056940822",
+                        "label": "Rés Univ Villejean-Alsace"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 48.12399993650615,
+                    "lon": -1.712000034749508
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 48.12399993650615,
+                        "lon": -1.712000034749508
+                    },
+                    "bottom_right": {
+                        "lat": 48.12399993650615,
+                        "lon": -1.712000034749508
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "7356c9ad-f6ac-11e7-89ed-005056940822",
+                        "label": "Rés Univ Villejean-Ouest"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 48.5149999614805,
+                    "lon": -2.7380001358687878
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 48.5149999614805,
+                        "lon": -2.7380001358687878
+                    },
+                    "bottom_right": {
+                        "lat": 48.5149999614805,
+                        "lon": -2.7380001358687878
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "72929565-f6ac-11e7-89ed-005056940822",
+                        "label": "Rés. Univ. Loucheur"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 48.50999998860061,
+                    "lon": -2.7460001595318317
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 48.50999998860061,
+                        "lon": -2.7460001595318317
+                    },
+                    "bottom_right": {
+                        "lat": 48.50999998860061,
+                        "lon": -2.7460001595318317
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "d72a6495-e429-11ed-8b6b-005056941f86",
+                        "label": "Rés. Univ. Les Villes Dorées"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 47.98199993558228,
+                    "lon": -4.098000135272741
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 47.98199993558228,
+                        "lon": -4.098000135272741
+                    },
+                    "bottom_right": {
+                        "lat": 47.98199993558228,
+                        "lon": -4.098000135272741
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "71724e45-f6ac-11e7-89ed-005056940822",
+                        "label": "Rés. Univ. de Quimper"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 47.26599999703467,
+                    "lon": -1.5650000609457493
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 47.26599999703467,
+                        "lon": -1.5650000609457493
+                    },
+                    "bottom_right": {
+                        "lat": 47.26599999703467,
+                        "lon": -1.5650000609457493
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "bb85b167-0b38-11e8-89ed-005056940822",
+                        "label": "RESIDENCE MAD. BRES"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 43.89699996449053,
+                    "lon": -0.4930000752210617
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 43.89699996449053,
+                        "lon": -0.4930000752210617
+                    },
+                    "bottom_right": {
+                        "lat": 43.89699996449053,
+                        "lon": -0.4930000752210617
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "f4e6f6c1-fc8e-11e7-89ed-005056940822",
+                        "label": "BOSQUET"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 43.69899996556342,
+                    "lon": -1.040000058710575
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 43.69899996556342,
+                        "lon": -1.040000058710575
+                    },
+                    "bottom_right": {
+                        "lat": 43.69899996556342,
+                        "lon": -1.040000058710575
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "f38dca0f-fc8e-11e7-89ed-005056940822",
+                        "label": "ANDRE MALRAUX"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 43.47899998538196,
+                    "lon": -1.490000132471323
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 43.47899998538196,
+                        "lon": -1.490000132471323
+                    },
+                    "bottom_right": {
+                        "lat": 43.47899998538196,
+                        "lon": -1.490000132471323
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "f79afbc8-fc8e-11e7-89ed-005056940822",
+                        "label": "EUGENE GOYHENECHE"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 43.48199995234609,
+                    "lon": -1.5120001137256622
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 43.48199995234609,
+                        "lon": -1.5120001137256622
+                    },
+                    "bottom_right": {
+                        "lat": 43.48199995234609,
+                        "lon": -1.5120001137256622
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "8c2128bb-fc8d-11e7-89ed-005056940822",
+                        "label": "ROLAND BARTHES"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 43.47899998538196,
+                    "lon": -1.5130000747740269
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 43.47899998538196,
+                        "lon": -1.5130000747740269
+                    },
+                    "bottom_right": {
+                        "lat": 43.47899998538196,
+                        "lon": -1.5130000747740269
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "26d05058-3b4c-11e9-a02d-005056941f86",
+                        "label": "KATTALIN AGUIRRE"
+                    }
+                ]
+            },
+            {
+                "count": 1,
+                "location": {
+                    "lat": 43.43899995088577,
+                    "lon": -1.5870000422000885
+                },
+                "bounds": {
+                    "top_left": {
+                        "lat": 43.43899995088577,
+                        "lon": -1.5870000422000885
+                    },
+                    "bottom_right": {
+                        "lat": 43.43899995088577,
+                        "lon": -1.5870000422000885
+                    }
+                },
+                "residences": [
+                    {
+                        "id": "b11d010b-e294-11ed-8b6b-005056941f86",
+                        "label": "ERLEAK"
+                    }
+                ]
+            }
+        ]
+    }
+}

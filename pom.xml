@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <!-- FIXME replace pseudo-->
-    <groupId>io.github.pseudo</groupId>
-    <!-- FIXME replace name -->
-    <artifactId>template</artifactId>
+    <groupId>io.github.mathieusoysal</groupId>
+    <artifactId>logement-crous</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
 
-    <!-- FIXME replace template-->
-    <name>template</name>
-    <!-- FIXME replace with the description of your Library-->
-    <description>Library description.</description>
-    <!-- FIXME replace www.example.com-->
-    <url>http://www.example.com</url>
+    <name>Mon Logement CROUS</name>
+    <description>Library to extract the current available housing from the CROUS.</description>
+    <url>https://github.com/MathieuSoysal/Librairie-Java-Logement-CROUS</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -35,7 +32,6 @@
         <maven.install>3.0.0-M1</maven.install>
 
         <!-- SonarCloud properties -->
-        <!-- FIXME replace with your SonarCloud organization on https://sonarcloud.io -->
         <sonar.organization>mathieusoysal</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
@@ -63,45 +59,39 @@
             <version>${junit}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-xml</artifactId>
+            <version>2.15.3</version>
+        </dependency>
     </dependencies>
 
     <licenses>
         <license>
-            <!-- FIXME replace with the name of your LICENSE -->
             <name>Apache-2.0 License</name>
-            <!-- FIXME replace with the to your LICENSE url -->
-            <url>https://github.com/MathieuSoysal/Java-Maven-library-template/blob/master/LICENSE</url>
+            <url>https://github.com/MathieuSoysal/Librairie-Java-Logement-CROUS/blob/master/LICENSE</url>
         </license>
     </licenses>
 
     <developers>
         <developer>
-            <!-- FIXME replace with your name -->
             <name>Mathieu SOYSAL</name>
-            <!-- FIXME replace with your email -->
             <email>Mathieu.Soysal@outlook.fr</email>
-            <!-- FIXME replace with your site (optional) -->
             <url>https://MathieuSoysal.me/</url>
-            <!-- FIXME replace with your organization (optional) -->
             <organization>com.github.devlab-umontp</organization>
-            <!-- FIXME replace with your organization URL (optional) -->
             <organizationUrl>https://github.com/DevLab-umontp</organizationUrl>
         </developer>
     </developers>
 
     <issueManagement>
         <system>github</system>
-        <!-- FIXME replace the link to your issues -->
-        <url>https://github.com/MathieuSoysal/Java-Maven-library-template/issues</url>
+        <url>https://github.com/MathieuSoysal/Librairie-Java-Logement-CROUS/issues</url>
     </issueManagement>
 
     <scm>
-        <!-- FIXME replace GITHUB-USERNAME to the GitHub username and replace GITHUB-REPOSITORY to the repository name -->
-        <connection>scm:git:git://github.com/GITHUB-USERNAME/GITHUB-REPOSITORY.git</connection>
-        <!-- FIXME replace GITHUB-USERNAME to the GitHub username and replace GITHUB-REPOSITORY to the repository name -->
-        <developerConnection>scm:git:ssh://github.com:GITHUB-USERNAME/GITHUB-REPOSITORY.git</developerConnection>
-        <!-- FIXME replace GITHUB-USERNAME to the GitHub username and replace GITHUB-REPOSITORY to the repository name -->
-        <url>http://github.com/GITHUB-USERNAME/GITHUB-REPOSITORY</url>
+        <connection>scm:git:git://github.com/MathieuSoysal/Librairie-Java-Logement-CROUS.git</connection>
+        <developerConnection>scm:git:ssh://github.com/MathieuSoysal/Librairie-Java-Logement-CROUS.git</developerConnection>
+        <url>http://github.com/MathieuSoysal/Librairie-Java-Logement-CROUS</url>
     </scm>
 
     <profiles>
@@ -197,10 +187,8 @@
             <distributionManagement>
                 <repository>
                     <id>github</id>
-                    <!-- FIXME replace GITHUB-USERNAME to the GitHub username -->
-                    <name>GitHub GITHUB-USERNAME Apache Maven Packages</name>
-                    <!-- FIXME replace GITHUB-USERNAME to the GitHub username and replace GITHUB-REPOSITORY to the repository name -->
-                    <url>https://maven.pkg.github.com/GITHUB-USERNAME/GITHUB-REPOSITORY</url>
+                    <name>GitHub MathieuSoysal Apache Maven Packages</name>
+                    <url>https://maven.pkg.github.com/MathieuSoysal/Librairie-Java-Logement-CROUS</url>
                 </repository>
             </distributionManagement>
         </profile>
@@ -244,9 +232,9 @@
                         </goals>
                         <configuration>
                             <transformers>
-                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <!-- FIXME replace io.github.pseudo.App-->
-                                    <mainClass>io.github.pseudo.App</mainClass>
+                                <transformer
+                                    implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                    <mainClass>io.github.mathieusoysal.App</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>

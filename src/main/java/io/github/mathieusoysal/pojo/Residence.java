@@ -28,7 +28,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
         "allocationMinimumDuration"
 })
 @Generated("jsonschema2pojo")
-public class Residence {
+class Residence {
 
     @JsonProperty("id")
     private String id;

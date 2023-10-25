@@ -17,7 +17,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
         "max"
 })
 @Generated("jsonschema2pojo")
-public class Rent {
+class Rent {
 
     @JsonProperty("min")
     private Integer min;

@@ -18,7 +18,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
         "label"
 })
 @Generated("jsonschema2pojo")
-public class Equipment {
+class Equipment {
 
     @JsonProperty("id")
     private String id;

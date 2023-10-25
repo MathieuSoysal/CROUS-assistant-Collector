@@ -17,7 +17,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
         "free"
 })
 @Generated("jsonschema2pojo")
-public class BookingData {
+class BookingData {
 
     @JsonProperty("amount")
     private Integer amount;

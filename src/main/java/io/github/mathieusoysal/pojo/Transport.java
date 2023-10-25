@@ -19,7 +19,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
         "unitOfMeasure"
 })
 @Generated("jsonschema2pojo")
-public class Transport {
+class Transport {
 
     @JsonProperty("label")
     private String label;

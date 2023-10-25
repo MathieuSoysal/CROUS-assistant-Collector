@@ -17,7 +17,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
         "description"
 })
 @Generated("jsonschema2pojo")
-public class Media {
+class Media {
 
     @JsonProperty("src")
     private String src;

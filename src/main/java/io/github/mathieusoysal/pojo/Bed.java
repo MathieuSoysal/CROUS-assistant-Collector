@@ -17,7 +17,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
         "type"
 })
 @Generated("jsonschema2pojo")
-public class Bed {
+class Bed {
 
     @JsonProperty("count")
     private Integer count;

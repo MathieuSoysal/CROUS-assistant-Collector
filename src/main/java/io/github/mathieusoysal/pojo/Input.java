@@ -16,7 +16,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
         "results"
 })
 @Generated("jsonschema2pojo")
-public class Input {
+class Input {
 
     @JsonProperty("results")
     private Results results;

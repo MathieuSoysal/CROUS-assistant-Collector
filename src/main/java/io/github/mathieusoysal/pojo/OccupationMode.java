@@ -17,7 +17,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
         "rent"
 })
 @Generated("jsonschema2pojo")
-public class OccupationMode {
+class OccupationMode {
 
     @JsonProperty("type")
     private String type;

@@ -39,7 +39,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
         "lowStock"
 })
 @Generated("jsonschema2pojo")
-public class Item {
+class Item {
 
     @JsonProperty("id")
     private Integer id;

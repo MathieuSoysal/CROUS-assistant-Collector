@@ -17,7 +17,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
         "max"
 })
 @Generated("jsonschema2pojo")
-public class Area {
+class Area {
 
     @JsonProperty("min")
     private Double min;

@@ -21,7 +21,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
         "items"
 })
 @Generated("jsonschema2pojo")
-public class Results {
+class Results {
 
     @JsonProperty("total")
     private Integer total;

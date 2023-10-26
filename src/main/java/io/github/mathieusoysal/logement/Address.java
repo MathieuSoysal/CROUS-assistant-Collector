@@ -1,7 +1,5 @@
 package io.github.mathieusoysal.logement;
 
-import java.util.regex.Pattern;
-
 /**
  * This class represents an address, which consists of a street, city, zip code,
  * and location.
@@ -11,16 +9,15 @@ import java.util.regex.Pattern;
  * @version 1.0
  * @author MathieuSoysal
  */
+/**
+ * Represents an address of a residence.
+ */
 public class Address {
 
     /**
-     * The street address of the residence.
+     * The full street address of the residence.
      */
-    private String address;
-
-    public String getAddress() {
-        return address;
-    }
+    private String fullAddress;
 
     /**
      * The street of the address.
@@ -42,63 +39,91 @@ public class Address {
      */
     private Location location;
 
-    public String getStreet() {
-        return street;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public String getZipCode() {
-        return zipCode;
-    }
-
-    public Location getLocation() {
-        return location;
-    }
-
+    /**
+     * Constructs an address object with the given street, city, zip code, and location.
+     *
+     * @param street the street of the address
+     * @param city the city of the address
+     * @param zipCode the zip code of the address
+     * @param location the location of the address
+     */
     public Address(String street, String city, String zipCode, Location location) {
         this.street = street;
         this.city = city;
         this.zipCode = zipCode;
-        this.address = getFullAddress();
+        this.fullAddress = getFullAddressFromAttributes(street, city, zipCode);
         this.location = location;
     }
 
+    /**
+     * Constructs an address object with the given full address and location.
+     *
+     * @param address the full address of the residence
+     * @param location the location of the address
+     */
     public Address(String address, Location location) {
-        this.street = street;
-        this.city = city;
-        this.zipCode = zipCode;
-        this.address = address;
+        this.street = AddressUtils.getStreetFromString(address);
+        this.city = AddressUtils.getCityFromString(address);
+        this.zipCode = AddressUtils.getZipCodeFromString(address);
+        this.fullAddress = address;
         this.location = location;
     }
 
-    private void initAddressAttributesFromString(String address) {
-        this.street = ;
-        this.zipCode = addressAttributes[1].split(" ")[0];
-        this.city = AddressUtils.getCityFromString(address);
+    /**
+     * Returns the full street address of the residence.
+     *
+     * @return the full street address of the residence
+     */
+    public String getFullAddress() {
+        return fullAddress;
     }
 
-    private String getFullAddress() {
-        return street + ", " + zipCode + " " + city;
+    /**
+     * Returns the street of the address.
+     *
+     * @return the street of the address
+     */
+    public String getStreet() {
+        return street;
+    }
+
+    /**
+     * Returns the city of the address.
+     *
+     * @return the city of the address
+     */
+    public String getCity() {
+        return city;
+    }
+
+    /**
+     * Returns the zip code of the address.
+     *
+     * @return the zip code of the address
+     */
+    public String getZipCode() {
+        return zipCode;
+    }
+
+    /**
+     * Returns the location of the address.
+     *
+     * @return the location of the address
+     */
+    public Location getLocation() {
+        return location;
+    }
+
+    /**
+     * Returns the full street address of the residence constructed from the given street, city, and zip code.
+     *
+     * @param street the street of the address
+     * @param city the city of the address
+     * @param zipCode the zip code of the address
+     * @return the full street address of the residence constructed from the given street, city, and zip code
+     */
+    private String getFullAddressFromAttributes(String street, String city, String zipCode) {
+        return street + " " + zipCode + " " + city;
     }
 }
 
-class AddressUtils {
-    private static final Pattern PATTERN_REGEX_CITY = Pattern.compile("(\\d =?)[^\\d]*$", Pattern.MULTILINE);
-    private static final Pattern PATTER_REGEX_ZIP_CODE = Pattern.compile("\\d*(?=[a-zA-Z]*[^\\d]*$)", Pattern.MULTILINE);
-    private static final Pattern PATTERN_REGEX_STREET = Pattern.compile(".*[^ ](?= {1,}[a-zA-Z]*[0-9]{1,} {1,}[^0-9]*$)", Pattern.MULTILINE);
-
-    private AddressUtils() {
-    }
-
-    public static String getCityFromString(String address) {
-        return PATTERN_REGEX_CITY.matcher(address).group(1);
-    }
-
-    public static String getZipCodeFromString(String address) {
-        return PATTER_REGEX_ZIP_CODE.matcher(address).group(1);
-    }
-
-}

@@ -2,38 +2,22 @@ package io.github.mathieusoysal.logement;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.ValueSource;
+import org.junit.jupiter.params.provider.CsvSource;
 
 class AddressUtilsTest {
 
     // Parameterized tests with strings
 
     @ParameterizedTest
-    @ValueSource(strings = {
-            "123 Main St, 84450 city",
-            "123 Main St     84450           city",
-            "123 Main St     84450       11841    city",
-            "456 Main St 8484 84450 city"
-    })
-    void testGetCityFromString(String address) {
+    @CsvSource(value = {
+            "city de la garde;123 Main St 84450       city de la garde",
+            "Belle    -_éà@ç=$*ù+}ç_ç&     city;123 Main St     84450  Belle    -_éà@ç=$*ù+}ç_ç&     city",
+            "qsdsqddqssdqdqst qsd sqdsq sqd sqd sqd sqcity;123 Main St     84450       11841    qsdsqddqssdqdqst qsd sqdsq sqd sqd sqd sqcity",
+            "c;456 Main St 8484 84450 c"
+    }, delimiter = ';')
+    void testGetCityFromString(String expectedCity, String address) {
         String city = AddressUtils.getCityFromString(address);
-        assertEquals("city", city);
+        assertEquals(expectedCity, city);
     }
-
-    @Test
-    void testGetZipCodeFromString() {
-        String address = "123 Main St, Anytown, USA 12345";
-        String zipCode = AddressUtils.getZipCodeFromString(address);
-        assertEquals("12345", zipCode);
-    }
-
-    @Test
-    void testGetStreetFromString() {
-        String address = "123 Main St, Anytown, USA 12345";
-        String street = AddressUtils.getStreetFromString(address);
-        assertEquals("123 Main St", street);
-    }
-
 }

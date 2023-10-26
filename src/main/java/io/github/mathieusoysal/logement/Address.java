@@ -117,12 +117,33 @@ public class Address {
 
     @Override
     public int hashCode() {
-        return 1;
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((fullAddress == null) ? 0 : fullAddress.hashCode());
+        result = prime * result + ((location == null) ? 0 : location.hashCode());
+        return result;
     }
 
     @Override
     public boolean equals(final Object obj) {
-        return false;
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        final Address other = (Address) obj;
+        if (fullAddress == null) {
+            if (other.fullAddress != null)
+                return false;
+        } else if (!fullAddress.equals(other.fullAddress))
+            return false;
+        if (location == null) {
+            if (other.location != null)
+                return false;
+        } else if (!location.equals(other.location))
+            return false;
+        return true;
     }
 
     /**

@@ -28,7 +28,10 @@ class AddressUtils {
     }
 
     public static String getZipCodeFromString(String address) {
-        return null;
+        Matcher matcher = PATTER_REGEX_ZIP_CODE.matcher(address);
+        if (matcher.find())
+            return matcher.group(0);
+        return "";
     }
 
 }

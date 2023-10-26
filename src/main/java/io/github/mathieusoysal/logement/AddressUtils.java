@@ -21,7 +21,10 @@ class AddressUtils {
     }
 
     public static String getStreetFromString(String address) {
-        return null;
+        Matcher matcher = PATTERN_REGEX_STREET.matcher(address);
+        if (matcher.find())
+            return matcher.group(0);
+        return "";
     }
 
     public static String getZipCodeFromString(String address) {

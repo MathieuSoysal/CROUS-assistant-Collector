@@ -7,8 +7,6 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 class AddressUtilsTest {
 
-    // Parameterized tests with strings
-
     @ParameterizedTest
     @CsvSource(value = {
             "city de la garde;123 Main St 84450       city de la garde",
@@ -19,5 +17,18 @@ class AddressUtilsTest {
     void testGetCityFromString(String expectedCity, String address) {
         String city = AddressUtils.getCityFromString(address);
         assertEquals(expectedCity, city);
+    }
+
+
+    @ParameterizedTest
+    @CsvSource(value = {
+            "123 Main St 84450       city de la garde;123 Main St",
+            "123 -  - - 8451 8451 Main St     84450 city;123 -  - - 8451 8451 Main St",
+            "123 Main St     84450       11841 city;123 Main St     84450",
+            "456 Main St 8484 84450 city;456 Main St 8484"
+    }, delimiter = ';')
+    void testGetStreetFromString(String address, String expectedStreet) {
+        String street = AddressUtils.getStreetFromString(address);
+        assertEquals(expectedStreet, street);
     }
 }

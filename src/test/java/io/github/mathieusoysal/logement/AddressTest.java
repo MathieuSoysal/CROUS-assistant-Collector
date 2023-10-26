@@ -96,4 +96,48 @@ class AddressTest {
         // Assert
         Assertions.assertEquals(location, result);
     }
+
+    @Test
+    void testEquals_withAddress() {
+        // Arrange
+        Address address1 = new Address("123 Main St", "Anytown", "12345", null);
+        Address address2 = new Address("123 Main St", "Anytown", "12345", null);
+        Address address3 = new Address("456 Oak St", "Othertown", "67890", null);
+
+        // Act & Assert
+        Assertions.assertEquals(address1, address2);
+        Assertions.assertNotEquals(address1, address3);
+    }
+
+    @Test
+    void testEquals_withLocation() {
+        // Arrange
+        Address address1 = new Address("123 Main St", "Anytown", "12345", new Location(0, 0));
+        Address address2 = new Address("123 Main St", "Anytown", "12345", new Location(0, 0));
+        Address address3 = new Address("123 Main St", "Anytown", "12345", new Location(0, 1));
+
+        // Act & Assert
+        Assertions.assertEquals(address1, address2);
+        Assertions.assertNotEquals(address1, address3);
+    }
+
+    @Test
+    void testEqualsWithNull() {
+        // Arrange
+        Address address1 = new Address("123 Main St", "Anytown", "12345", null);
+        Address address2 = null;
+
+        // Act & Assert
+        Assertions.assertNotEquals(address1, address2);
+    }
+
+    @Test
+    void testEqualsWithDifferentClass() {
+        // Arrange
+        Address address = new Address("123 Main St", "Anytown", "12345", null);
+        Object obj = new Object();
+
+        // Act & Assert
+        Assertions.assertNotEquals(address, obj);
+    }
 }

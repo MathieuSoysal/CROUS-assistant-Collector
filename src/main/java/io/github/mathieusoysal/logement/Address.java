@@ -17,37 +17,38 @@ public class Address {
     /**
      * The full street address of the residence.
      */
-    private String fullAddress;
+    private final String fullAddress;
 
     /**
      * The street of the address.
      */
-    private String street;
+    private final String street;
 
     /**
      * The city of the address.
      */
-    private String city;
+    private final String city;
 
     /**
      * The zip code of the address.
      */
-    private String zipCode;
+    private final String zipCode;
 
     /**
      * The location of the address.
      */
-    private Location location;
+    private final Location location;
 
     /**
-     * Constructs an address object with the given street, city, zip code, and location.
+     * Constructs an address object with the given street, city, zip code, and
+     * location.
      *
-     * @param street the street of the address
-     * @param city the city of the address
-     * @param zipCode the zip code of the address
+     * @param street   the street of the address
+     * @param city     the city of the address
+     * @param zipCode  the zip code of the address
      * @param location the location of the address
      */
-    public Address(String street, String city, String zipCode, Location location) {
+    public Address(final String street, final String city, final String zipCode, final Location location) {
         this.street = street;
         this.city = city;
         this.zipCode = zipCode;
@@ -58,10 +59,10 @@ public class Address {
     /**
      * Constructs an address object with the given full address and location.
      *
-     * @param address the full address of the residence
+     * @param address  the full address of the residence
      * @param location the location of the address
      */
-    public Address(String address, Location location) {
+    public Address(final String address, final Location location) {
         this.street = AddressUtils.getStreetFromString(address);
         this.city = AddressUtils.getCityFromString(address);
         this.zipCode = AddressUtils.getZipCodeFromString(address);
@@ -114,16 +115,27 @@ public class Address {
         return location;
     }
 
+    @Override
+    public int hashCode() {
+        return 1;
+    }
+
+    @Override
+    public boolean equals(final Object obj) {
+        return false;
+    }
+
     /**
-     * Returns the full street address of the residence constructed from the given street, city, and zip code.
+     * Returns the full street address of the residence constructed from the given
+     * street, city, and zip code.
      *
-     * @param street the street of the address
-     * @param city the city of the address
+     * @param street  the street of the address
+     * @param city    the city of the address
      * @param zipCode the zip code of the address
-     * @return the full street address of the residence constructed from the given street, city, and zip code
+     * @return the full street address of the residence constructed from the given
+     *         street, city, and zip code
      */
-    private String getFullAddressFromAttributes(String street, String city, String zipCode) {
+    private String getFullAddressFromAttributes(final String street, final String city, final String zipCode) {
         return street + " " + zipCode + " " + city;
     }
 }
-

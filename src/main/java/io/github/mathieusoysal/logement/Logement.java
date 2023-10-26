@@ -179,19 +179,3 @@ public class Logement {
     }
 
 }
-
-
-public class LogementBuilder {
-    private Logement logement;
-
-    public LogementBuilder(int id) {
-        logement = new Logement(id);
-    }
-
-    public LogementBuilder withLabel(String label) {
-        .setLabel(label);
-        return this;
-    }
-
-    
-}

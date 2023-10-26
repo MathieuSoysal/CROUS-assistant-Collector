@@ -1,5 +1,5 @@
 
-package io.github.mathieusoysal.pojo;
+package io.github.mathieusoysal.logement.pojo;
 
 import java.util.ArrayList;
 import java.util.HashMap;

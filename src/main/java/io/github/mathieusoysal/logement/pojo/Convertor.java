@@ -1,4 +1,4 @@
-package io.github.mathieusoysal.pojo;
+package io.github.mathieusoysal.logement.pojo;
 
 import java.io.File;
 import java.io.IOException;

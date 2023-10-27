@@ -78,7 +78,7 @@ public enum Equipement {
             case "Duplex":
                 return DUPLEX;
             default:
-                throw new IllegalArgumentException("Equipement " + equipement + " not found");
+                return UNKNOWN;
         }
     }
 }

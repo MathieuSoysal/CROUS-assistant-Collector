@@ -46,7 +46,8 @@ public enum Equipement {
      * A duplex apartment
      */
     DUPLEX,
-    NONE; // No equipment
+    NONE,
+    UNKNOWN; // No equipment
 
     /**
      * Returns the Equipement enum value corresponding to the given string.

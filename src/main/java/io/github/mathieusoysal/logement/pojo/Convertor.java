@@ -56,7 +56,7 @@ class Convertor {
 
     private static Address getAddress(Item item) {
         return new Address(item.getResidence().getAddress(),
-                new Location(item.getResidence().getLocation().getLat(), item.getResidence().getLocation().getLat()));
+                new Location(item.getResidence().getLocation().getLat(), item.getResidence().getLocation().getLon()));
     }
 
     private static List<io.github.mathieusoysal.logement.Equipement> getEquipements(Item item) {

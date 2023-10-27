@@ -35,7 +35,7 @@ public enum OccupationKind {
             case "couple_two_spaces":
                 return COUPLE_TWO_SPACES;
             default:
-                throw new IllegalArgumentException("OccupationKind " + occupationKind + " not found");
+                return UNKNOWN;
         }
     }
 }

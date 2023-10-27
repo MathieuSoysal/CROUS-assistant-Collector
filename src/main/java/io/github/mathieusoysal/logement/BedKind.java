@@ -36,7 +36,7 @@ public enum BedKind {
             case "raised":
                 return RAISED;
             default:
-                throw new IllegalArgumentException("BedKind " + bedKind + " not found");
+                return UNKNOWN;
         }
     }
 

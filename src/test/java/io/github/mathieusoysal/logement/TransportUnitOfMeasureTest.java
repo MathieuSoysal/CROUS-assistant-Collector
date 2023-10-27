@@ -2,40 +2,20 @@ package io.github.mathieusoysal.logement;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 
 class TransportUnitOfMeasureTest {
 
-    @Test
-    void testFromString_withNull_returnsNone() {
-        // Arrange
-        String transportUnitOfMeasure = null;
-
+    @ParameterizedTest
+    @ValueSource(strings = {
+            " ",
+            "",
+            "null"
+    })
+    void testFromString(String input) {
         // Act
-        TransportUnitOfMeasure result = TransportUnitOfMeasure.fromString(transportUnitOfMeasure);
-
-        // Assert
-        Assertions.assertEquals(TransportUnitOfMeasure.NONE, result);
-    }
-
-    @Test
-    void testFromString_withBlank_returnsNone() {
-        // Arrange
-        String transportUnitOfMeasure = "";
-
-        // Act
-        TransportUnitOfMeasure result = TransportUnitOfMeasure.fromString(transportUnitOfMeasure);
-
-        // Assert
-        Assertions.assertEquals(TransportUnitOfMeasure.NONE, result);
-    }
-
-    @Test
-    void testFromString_withNullString_returnsNone() {
-        // Arrange
-        String transportUnitOfMeasure = "null";
-
-        // Act
-        TransportUnitOfMeasure result = TransportUnitOfMeasure.fromString(transportUnitOfMeasure);
+        TransportUnitOfMeasure result = TransportUnitOfMeasure.fromString(input);
 
         // Assert
         Assertions.assertEquals(TransportUnitOfMeasure.NONE, result);

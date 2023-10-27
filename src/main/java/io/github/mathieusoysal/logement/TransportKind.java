@@ -2,7 +2,8 @@ package io.github.mathieusoysal.logement;
 
 /**
  * This enum represents the different types of transportation available.
- * It also provides a method to convert a String representation of a transport kind to its corresponding enum value.
+ * It also provides a method to convert a String representation of a transport
+ * kind to its corresponding enum value.
  */
 public enum TransportKind {
     PAYING_URBAN_PARKING,
@@ -14,16 +15,19 @@ public enum TransportKind {
     BIKE,
     RER,
     METRO,
-    NONE;
+    NONE,
+    UNKNOWN;
 
     /**
-     * Converts a String representation of a transport kind to its corresponding enum value.
+     * Converts a String representation of a transport kind to its corresponding
+     * enum value.
+     * 
      * @param transportKind the String representation of the transport kind
      * @return the corresponding TransportKind enum value
      * @throws IllegalArgumentException if the transport kind is not found
      */
     public static TransportKind fromString(String transportKind) {
-        if (transportKind == null || transportKind.isBlank() || transportKind.equals("null")) 
+        if (transportKind == null || transportKind.isBlank() || transportKind.equals("null"))
             return NONE;
         switch (transportKind) {
             case "Stationnement urbain payant":

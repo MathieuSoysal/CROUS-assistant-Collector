@@ -64,7 +64,9 @@ class ConvertorTest {
         assertEquals(227, logement.getId());
         assertEquals("Cité Jules Mousseron", logement.getLabel());
         assertEquals("Rue du Chemin Vert 59300 AULNOY-LES-VALENCIENNES",
-                logement.getAddress().toString());
+                logement.getAddress().getFullAddress());
+        assertEquals(50.331, logement.getAddress().getLocation().latitude());
+        assertEquals(3.515, logement.getAddress().getLocation().longitude());
         assertEquals(1, logement.getBedCount());
         assertEquals(BedKind.SIMPLE, logement.getBedKind());
         assertEquals(1, logement.getBedroomCount());
@@ -77,7 +79,7 @@ class ConvertorTest {
         assertFalse(logement.isLowStock());
         assertEquals(12.5, logement.getAreaMin());
         assertEquals(12.5, logement.getAreaMax());
-        assertEquals(1, logement.getEquipements().size());
+        assertEquals(2, logement.getEquipements().size());
         assertEquals(io.github.mathieusoysal.logement.Equipement.WC,
                 logement.getEquipements().get(0));
         assertEquals(io.github.mathieusoysal.logement.Equipement.SHOWER,

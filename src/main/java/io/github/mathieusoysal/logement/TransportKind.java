@@ -51,7 +51,7 @@ public enum TransportKind {
             case "Métro":
                 return METRO;
             default:
-                throw new IllegalArgumentException("TransportKind " + transportKind + " not found");
+                return UNKNOWN;
         }
     }
 

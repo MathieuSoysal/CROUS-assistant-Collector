@@ -1,24 +1,29 @@
 package io.github.mathieusoysal.logement;
 
 /**
- * An enumeration representing the different kinds of occupation for a housing unit.
+ * An enumeration representing the different kinds of occupation for a housing
+ * unit.
  */
 public enum OccupationKind {
     ALONE,
     COUPLE_ONE_SPACE,
     HOUSE_SHARING,
     COUPLE_TWO_SPACES,
-    NONE;
+    NONE,
+    UNKNOWN;
 
     /**
      * Returns the OccupationKind corresponding to the given string representation.
      * 
-     * @param occupationKind the string representation of the OccupationKind to retrieve
-     * @return the corresponding OccupationKind, or NONE if the given string is null, blank, or "null"
-     * @throws IllegalArgumentException if the given string does not correspond to any OccupationKind
+     * @param occupationKind the string representation of the OccupationKind to
+     *                       retrieve
+     * @return the corresponding OccupationKind, or NONE if the given string is
+     *         null, blank, or "null"
+     * @throws IllegalArgumentException if the given string does not correspond to
+     *                                  any OccupationKind
      */
     public static OccupationKind fromString(String occupationKind) {
-        if (occupationKind == null || occupationKind.isBlank() || occupationKind.equals("null")) 
+        if (occupationKind == null || occupationKind.isBlank() || occupationKind.equals("null"))
             return NONE;
         switch (occupationKind) {
             case "alone":

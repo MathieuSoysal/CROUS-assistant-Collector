@@ -19,6 +19,12 @@ public class OccupationMod {
      */
     private int rentMax;
 
+    OccupationMod(OccupationKind occupationKind, int rentMin, int rentMax) {
+        this.occupationKind = occupationKind;
+        this.rentMin = rentMin;
+        this.rentMax = rentMax;
+    }
+
     public OccupationKind getOccupationKind() {
         return occupationKind;
     }
@@ -30,11 +36,4 @@ public class OccupationMod {
     public int getRentMax() {
         return rentMax;
     }
-
-    OccupationMod(OccupationKind occupationKind, int rentMin, int rentMax) {
-        this.occupationKind = occupationKind;
-        this.rentMin = rentMin;
-        this.rentMax = rentMax;
-    }
-
 }

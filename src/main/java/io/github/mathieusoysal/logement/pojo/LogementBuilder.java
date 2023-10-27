@@ -1,6 +1,10 @@
-package io.github.mathieusoysal.logement;
+package io.github.mathieusoysal.logement.pojo;
 
 import java.util.List;
+
+import io.github.mathieusoysal.logement.Address;
+import io.github.mathieusoysal.logement.BedKind;
+import io.github.mathieusoysal.logement.Equipement;
 
 class LogementBuilder {
     private Logement logement;
@@ -69,12 +73,12 @@ class LogementBuilder {
         return this;
     }
 
-    LogementBuilder withAreaMin(int hAreaMin) {
+    LogementBuilder withAreaMin(double hAreaMin) {
         logement.setAreaMin(hAreaMin);
         return this;
     }
 
-    LogementBuilder withAreaMax(int hAreaMax) {
+    LogementBuilder withAreaMax(double hAreaMax) {
         logement.setAreaMax(hAreaMax);
         return this;
     }
@@ -87,6 +91,10 @@ class LogementBuilder {
     LogementBuilder withLabel(String label) {
         logement.setLabel(label);
         return this;
+    }
+
+    Logement build() {
+        return logement;
     }
 
 }

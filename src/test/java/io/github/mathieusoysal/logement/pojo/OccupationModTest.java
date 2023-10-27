@@ -1,7 +1,10 @@
-package io.github.mathieusoysal.logement;
+package io.github.mathieusoysal.logement.pojo;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+
+import io.github.mathieusoysal.logement.OccupationKind;
+import io.github.mathieusoysal.logement.pojo.OccupationMod;
 
 class OccupationModTest {
     @Test

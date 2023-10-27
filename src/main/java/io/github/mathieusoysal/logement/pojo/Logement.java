@@ -1,6 +1,10 @@
-package io.github.mathieusoysal.logement;
+package io.github.mathieusoysal.logement.pojo;
 
 import java.util.List;
+
+import io.github.mathieusoysal.logement.Address;
+import io.github.mathieusoysal.logement.BedKind;
+import io.github.mathieusoysal.logement.Equipement;
 
 /**
  * Logement
@@ -27,8 +31,8 @@ public class Logement {
     private boolean highDemand;
     private boolean lowStock;
     private List<Equipement> equipements;
-    private int areaMin;
-    private int areaMax;
+    private double areaMin;
+    private double areaMax;
     private List<OccupationMod> occupationMods;
 
     /**
@@ -36,7 +40,7 @@ public class Logement {
      *
      * @param id the ID of the Logement object
      */
-    Logement(int id) {
+    protected Logement(int id) {
         this.id = id;
     }
 
@@ -135,7 +139,8 @@ public class Logement {
     /**
      * Returns whether this Logement object is in an unavailability period.
      *
-     * @return true if this Logement object is in an unavailability period; false otherwise
+     * @return true if this Logement object is in an unavailability period; false
+     *         otherwise
      */
     public boolean isInUnavailabilityPeriod() {
         return inUnavailabilityPeriod;
@@ -191,7 +196,7 @@ public class Logement {
      *
      * @return the minimum area of this Logement object
      */
-    public int getAreaMin() {
+    public double getAreaMin() {
         return areaMin;
     }
 
@@ -200,7 +205,7 @@ public class Logement {
      *
      * @return the maximum area of this Logement object
      */
-    public int getAreaMax() {
+    public double getAreaMax() {
         return areaMax;
     }
 
@@ -265,11 +270,11 @@ public class Logement {
         this.equipements = equipements;
     }
 
-    void setAreaMin(int areaMin) {
+    void setAreaMin(double areaMin) {
         this.areaMin = areaMin;
     }
 
-    void setAreaMax(int areaMax) {
+    void setAreaMax(double areaMax) {
         this.areaMax = areaMax;
     }
 

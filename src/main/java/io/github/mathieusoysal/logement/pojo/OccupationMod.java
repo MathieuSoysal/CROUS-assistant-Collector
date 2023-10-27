@@ -1,4 +1,6 @@
-package io.github.mathieusoysal.logement;
+package io.github.mathieusoysal.logement.pojo;
+
+import io.github.mathieusoysal.logement.OccupationKind;
 
 /**
  * This class represents a modification of the occupation of a housing unit.

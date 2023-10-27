@@ -9,6 +9,14 @@ public class Transport {
     private int distance;
     private TransportUnitOfMeasure unitOfMeasure;
 
+    /**
+     * Constructs a new Transport object with the specified parameters.
+     * 
+     * @param kind          the kind of transportation
+     * @param description   a description of the transportation
+     * @param distance      the distance traveled by the transportation
+     * @param unitOfMeasure the unit of measure for the distance
+     */
     public Transport(TransportKind kind, String description, int distance, TransportUnitOfMeasure unitOfMeasure) {
         this.kind = kind;
         this.description = description;
@@ -16,6 +24,11 @@ public class Transport {
         this.unitOfMeasure = unitOfMeasure;
     }
 
+    /**
+     * Returns a hash code value for the object.
+     * 
+     * @return a hash code value for this object
+     */
     @Override
     public int hashCode() {
         final int prime = 31;
@@ -25,6 +38,12 @@ public class Transport {
         return result;
     }
 
+    /**
+     * Indicates whether some other object is "equal to" this one.
+     * 
+     * @param obj the reference object with which to compare
+     * @return true if this object is the same as the obj argument; false otherwise
+     */
     @Override
     public boolean equals(Object obj) {
         if (this == obj)
@@ -44,18 +63,38 @@ public class Transport {
         return true;
     }
 
+    /**
+     * Returns the kind of transportation.
+     * 
+     * @return the kind of transportation
+     */
     public TransportKind getKind() {
         return kind;
     }
 
+    /**
+     * Returns the description of the transportation.
+     * 
+     * @return the description of the transportation
+     */
     public String getDescription() {
         return description;
     }
 
+    /**
+     * Returns the distance traveled by the transportation.
+     * 
+     * @return the distance traveled by the transportation
+     */
     public int getDistance() {
         return distance;
     }
 
+    /**
+     * Returns the unit of measure for the distance.
+     * 
+     * @return the unit of measure for the distance
+     */
     public TransportUnitOfMeasure getUnitOfMeasure() {
         return unitOfMeasure;
     }

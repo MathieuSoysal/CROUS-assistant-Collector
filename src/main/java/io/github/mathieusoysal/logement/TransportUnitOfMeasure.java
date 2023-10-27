@@ -4,9 +4,25 @@ package io.github.mathieusoysal.logement;
  * This enum represents the unit of measure for transportation.
  */
 public enum TransportUnitOfMeasure {
+
+    /**
+     * The distance is measured in metres.
+     */
     METRE,
-    NONE,
+
+    /**
+     * The distance is measured on foot (time in minutes).
+     */
     ON_FOOT,
+
+    /**
+     * The distance is not measured.
+     */
+    NONE,
+
+    /**
+     * The unit of measure is unknown.
+     */
     UNKNOWN;
 
     /**

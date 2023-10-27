@@ -5,14 +5,39 @@ package io.github.mathieusoysal.logement;
  * unit.
  */
 public enum OccupationKind {
+
+    /**
+     * A housing unit occupied by a single person
+     */
     ALONE,
+
+    /**
+     * A housing unit occupied by a couple with one space
+     */
     COUPLE_ONE_SPACE,
-    HOUSE_SHARING,
+
+    /**
+     * A housing unit occupied by a couple with two spaces
+     */
     COUPLE_TWO_SPACES,
+
+    /**
+     * A housing unit occupied by several people
+     */
+    HOUSE_SHARING,
+
+    /**
+     * No occupation kind
+     */
     NONE,
+
+    /**
+     * Unknown occupation kind
+     */
     UNKNOWN;
 
     /**
+     * 
      * Returns the OccupationKind corresponding to the given string representation.
      * 
      * @param occupationKind the string representation of the OccupationKind to

@@ -1,2 +1,7 @@
 package io.github.mathieusoysal.logement;
-public record Location(double latitude, double longitude) {}
+
+/**
+ * Represents a location for a student housing unit.
+ */
+public record Location(double latitude, double longitude) {
+}

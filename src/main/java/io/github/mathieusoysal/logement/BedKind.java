@@ -7,11 +7,35 @@ package io.github.mathieusoysal.logement;
  * @author MathieuSoysal
  */
 public enum BedKind {
+
+    /**
+     * A simple bed.
+     */
     SIMPLE,
+
+    /**
+     * A double bed.
+     */
     DOUBLE,
+
+    /**
+     * A mobile bed.
+     */
     MOBILE,
+
+    /**
+     * A raised bed.
+     */
     RAISED,
+
+    /**
+     * No kind of bed.
+     */
     NONE,
+
+    /**
+     * Unknown kind of bed.
+     */
     UNKNOWN;
 
     /**
@@ -20,8 +44,6 @@ public enum BedKind {
      * @param bedKind the string representation of the BedKind
      * @return the corresponding BedKind, or NONE if the string is null, blank or
      *         "null"
-     * @throws IllegalArgumentException if the string does not correspond to any
-     *                                  BedKind
      */
     public static BedKind fromString(String bedKind) {
         if (bedKind == null || bedKind.isBlank() || bedKind.equals("null"))

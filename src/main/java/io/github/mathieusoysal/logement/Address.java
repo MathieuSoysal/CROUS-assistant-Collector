@@ -9,9 +9,6 @@ package io.github.mathieusoysal.logement;
  * @version 1.0
  * @author MathieuSoysal
  */
-/**
- * Represents an address of a residence.
- */
 public class Address {
 
     /**

@@ -1,21 +1,66 @@
 package io.github.mathieusoysal.logement;
 
 /**
- * This enum represents the different types of transportation available.
+ * This enum represents the different types of transportation available near a
+ * housing unit.
  * It also provides a method to convert a String representation of a transport
  * kind to its corresponding enum value.
  */
 public enum TransportKind {
+
+    /**
+     * A paying urban parking
+     */
     PAYING_URBAN_PARKING,
+
+    /**
+     * A free urban parking
+     */
     FREE_URBAN_PARKING,
+
+    /**
+     * A bus
+     */
     BUS,
+
+    /**
+     * A tramway
+     */
     TRAMWAY,
+
+    /**
+     * A private parking
+     */
     PRIVATE_PARKING,
+
+    /**
+     * A train
+     */
     TRAIN,
+
+    /**
+     * A bike
+     */
     BIKE,
+
+    /**
+     * A RER
+     */
     RER,
+
+    /**
+     * A metro
+     */
     METRO,
+
+    /**
+     * No transport kind
+     */
     NONE,
+
+    /**
+     * Unknown transport kind
+     */
     UNKNOWN;
 
     /**

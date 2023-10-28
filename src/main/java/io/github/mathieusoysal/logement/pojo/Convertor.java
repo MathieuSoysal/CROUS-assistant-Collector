@@ -26,7 +26,7 @@ class Convertor {
         return results.getResults().getItems();
     }
 
-    public static List<Logement> convertItemsToLogements(List<Item> items) {
+    static List<Logement> convertItemsToLogements(List<Item> items) {
         return items.stream().map(Convertor::convertItemToLogement).toList();
     }
 

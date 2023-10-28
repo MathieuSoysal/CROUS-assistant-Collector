@@ -13,9 +13,6 @@ import io.github.mathieusoysal.logement.Equipement;
  * @version 1.0.0
  * @since 2020-12-01
  */
-/**
- * Represents a housing unit.
- */
 public class Logement {
 
     private int id;
@@ -41,7 +38,7 @@ public class Logement {
      *
      * @param id the ID of the Logement object
      */
-    protected Logement(int id) {
+    Logement(int id) {
         this.id = id;
     }
 

@@ -11,14 +11,20 @@
     "customizations": {
         "vscode": {
             "extensions": [
-				"vscjava.vscode-java-pack",
-				"SonarSource.sonarlint-vscode",
-				"redhat.vscode-xml",
-				"github.vscode-github-actions",
-				"ryanluker.vscode-coverage-gutters",
-				"Postman.postman-for-vscode",
-				"madhavd1.javadoc-tools"
-			]
+                "vscjava.vscode-java-pack",
+                "SonarSource.sonarlint-vscode",
+                "redhat.vscode-xml",
+                "github.vscode-github-actions",
+                "ryanluker.vscode-coverage-gutters",
+                "Postman.postman-for-vscode",
+                "madhavd1.javadoc-tools"
+            ]
         }
-    }
+    },
+    "remoteUser": "root",
+    "containerUser": "vscode",
+    "workspaceMount": "",
+    "runArgs": [
+        "--volume=${localWorkspaceFolder}:/workspaces/${localWorkspaceFolderBasename}:Z"
+    ]
 }

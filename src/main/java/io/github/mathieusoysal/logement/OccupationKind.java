@@ -44,8 +44,6 @@ public enum OccupationKind {
      *                       retrieve
      * @return the corresponding OccupationKind, or NONE if the given string is
      *         null, blank, or "null"
-     * @throws IllegalArgumentException if the given string does not correspond to
-     *                                  any OccupationKind
      */
     public static OccupationKind fromString(String occupationKind) {
         if (occupationKind == null || occupationKind.isBlank() || occupationKind.equals("null"))

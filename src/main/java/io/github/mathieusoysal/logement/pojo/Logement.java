@@ -34,6 +34,7 @@ public class Logement {
     private double areaMin;
     private double areaMax;
     private List<OccupationMod> occupationMods;
+    private List<io.github.mathieusoysal.logement.Transport> transports;
 
     /**
      * Constructs a new Logement object with the specified ID.
@@ -218,6 +219,15 @@ public class Logement {
         return occupationMods;
     }
 
+    /**
+     * Returns the list of transports available for this logement.
+     *
+     * @return the list of transports available for this logement
+     */
+    public List<io.github.mathieusoysal.logement.Transport> getTransports() {
+        return transports;
+    }
+
     void setId(int id) {
         this.id = id;
     }
@@ -280,6 +290,10 @@ public class Logement {
 
     void setOccupationMods(List<OccupationMod> occupationMods) {
         this.occupationMods = occupationMods;
+    }
+
+    void setTransports(List<io.github.mathieusoysal.logement.Transport> transports) {
+        this.transports = transports;
     }
 
 }

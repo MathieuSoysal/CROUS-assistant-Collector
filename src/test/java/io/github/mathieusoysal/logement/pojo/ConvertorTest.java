@@ -13,6 +13,8 @@ import org.junit.jupiter.api.Test;
 
 import io.github.mathieusoysal.logement.BedKind;
 import io.github.mathieusoysal.logement.OccupationKind;
+import io.github.mathieusoysal.logement.TransportKind;
+import io.github.mathieusoysal.logement.TransportUnitOfMeasure;
 
 class ConvertorTest {
     private static File jsonTestFile = new File("src/test/java/io/github/mathieusoysal/resources/test.json");
@@ -77,6 +79,15 @@ class ConvertorTest {
         assertTrue(logement.isAvailable());
         assertFalse(logement.isHighDemand());
         assertFalse(logement.isLowStock());
+        assertEquals(2, logement.getTransports().size());
+        assertEquals(TransportKind.TRAMWAY, logement.getTransports().get(0).getKind());
+        assertEquals(TransportUnitOfMeasure.ON_FOOT, logement.getTransports().get(0).getUnitOfMeasure());
+        assertEquals(1, logement.getTransports().get(0).getDistance());
+        assertEquals("Station Chemin Vert", logement.getTransports().get(0).getDescription());
+        assertEquals(TransportKind.BUS, logement.getTransports().get(1).getKind());
+        assertEquals(TransportUnitOfMeasure.ON_FOOT, logement.getTransports().get(1).getUnitOfMeasure());
+        assertEquals(2, logement.getTransports().get(1).getDistance());
+        assertEquals("Arrêt Chemin vert", logement.getTransports().get(1).getDescription());
         assertEquals(12.5, logement.getAreaMin());
         assertEquals(12.5, logement.getAreaMax());
         assertEquals(2, logement.getEquipements().size());

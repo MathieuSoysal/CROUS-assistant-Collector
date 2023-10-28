@@ -93,6 +93,11 @@ class LogementBuilder {
         return this;
     }
 
+    LogementBuilder withTransport(List<io.github.mathieusoysal.logement.Transport> transports) {
+        logement.setTransports(transports);
+        return this;
+    }
+
     Logement build() {
         return logement;
     }

@@ -12,6 +12,8 @@ import io.github.mathieusoysal.logement.Address;
 import io.github.mathieusoysal.logement.BedKind;
 import io.github.mathieusoysal.logement.Location;
 import io.github.mathieusoysal.logement.OccupationKind;
+import io.github.mathieusoysal.logement.TransportKind;
+import io.github.mathieusoysal.logement.TransportUnitOfMeasure;
 
 class Convertor {
 
@@ -50,7 +52,8 @@ class Convertor {
                 .withEquipements(getEquipements(item))
                 .withAreaMin(item.getArea().getMin())
                 .withAreaMax(item.getArea().getMax())
-                .withOccupationMods(getOccupationMods(item));
+                .withOccupationMods(getOccupationMods(item))
+                .withTransport(getTransports(item));
         return logementBuilder.build();
     }
 
@@ -71,6 +74,16 @@ class Convertor {
                         OccupationKind.fromString(occupationMod.getType()),
                         occupationMod.getRent().getMin(),
                         occupationMod.getRent().getMax()))
+                .toList();
+    }
+
+    private static List<io.github.mathieusoysal.logement.Transport> getTransports(Item item) {
+        return item.getResidence().getTransports().stream()
+                .map(transport -> new io.github.mathieusoysal.logement.Transport(
+                        TransportKind.fromString(transport.getLabel()),
+                        transport.getDescription(),
+                        transport.getDistance(),
+                        TransportUnitOfMeasure.fromString(transport.getUnitOfMeasure())))
                 .toList();
     }
 

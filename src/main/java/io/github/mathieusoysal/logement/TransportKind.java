@@ -69,7 +69,6 @@ public enum TransportKind {
      * 
      * @param transportKind the String representation of the transport kind
      * @return the corresponding TransportKind enum value
-     * @throws IllegalArgumentException if the transport kind is not found
      */
     public static TransportKind fromString(String transportKind) {
         if (transportKind == null || transportKind.isBlank() || transportKind.equals("null"))
@@ -89,8 +88,6 @@ public enum TransportKind {
                 return TRAIN;
             case "Vélo":
                 return BIKE;
-            case "":
-                return NONE;
             case "RER":
                 return RER;
             case "Métro":

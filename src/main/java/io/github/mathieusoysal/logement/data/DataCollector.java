@@ -37,7 +37,16 @@ public class DataCollector {
         return logements;
     }
 
-    public static List<Logement> getAllLogementsWithoutConnection() {
-        return null;
+    public static List<Logement> getAllLogementsWithoutConnection()
+            throws ApiRequestFailedException, StreamReadException, DatabindException, IOException {
+        List<Logement> logements;
+        try (Playwright playwright = Playwright.create()) {
+            var respons = playwright.request().newContext()
+                    .head("https://trouverunlogement.lescrous.fr/api/fr/search/29", REQUEST_TO_GET_LOGEMENTS);
+            if (!respons.ok())
+                throw new ApiRequestFailedException(respons);
+            logements = Convertor.getLogementsFromBruteJsonString(respons.text());
+        }
+        return logements;
     }
 }

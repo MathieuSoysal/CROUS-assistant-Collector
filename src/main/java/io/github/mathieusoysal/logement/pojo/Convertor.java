@@ -53,7 +53,7 @@ public class Convertor {
                 .withLabel(item.getResidence().getLabel())
                 .withAddress(getAddress(item))
                 .withBedCount(item.getBedCount())
-                .withBedKind(BedKind.fromString(item.getBeds().get(0).getType()))
+                .withBedKind(BedKind.fromString(item.getBeds().isEmpty() ? "" : item.getBeds().get(0).getType()))
                 .withBedroomCount(item.getBedroomCount())
                 .withRoomCount(item.getRoomCount())
                 .withInUnavailabilityPeriod(item.getInUnavailabilityPeriod())

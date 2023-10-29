@@ -49,4 +49,8 @@ public class DataCollector {
         }
         return logements;
     }
+
+    public static List<Logement> getAvailableLogementsWithConnection(String string, String string2) {
+        return null;
+    }
 }

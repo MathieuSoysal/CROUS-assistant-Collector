@@ -38,4 +38,16 @@ class DataCollectorTest {
         Assertions.assertNotEquals(0, result.size());
     }
 
+    @Test
+    void testGetLogementsWithConnection_returnsLogements()
+            throws StreamReadException, DatabindException, ApiRequestFailedException, IOException {
+        // Arrange
+
+        // Act
+        List<Logement> result = DataCollector.getAvailableLogementsWithConnection("ss", "dd");
+
+        // Assert
+        Assertions.assertNotEquals(0, result.size());
+    }
+
 }

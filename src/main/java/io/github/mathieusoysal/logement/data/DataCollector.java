@@ -36,4 +36,8 @@ public class DataCollector {
         }
         return logements;
     }
+
+    public static List<Logement> getAllLogementsWithoutConnection() {
+        return null;
+    }
 }

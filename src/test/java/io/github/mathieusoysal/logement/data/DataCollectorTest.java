@@ -44,10 +44,12 @@ class DataCollectorTest {
         // Arrange
 
         // Act
-        List<Logement> result = DataCollector.getAvailableLogementsWithConnection("ss", "dd");
+        List<Logement> result = DataCollector.getAvailableLogementsWithConnection(
+                System.getenv("TEST_MAIL"),
+                System.getenv("TEST_PASSWORD"));
 
         // Assert
-        Assertions.assertNotEquals(0, result.size());
+        Assertions.assertNotEquals(DataCollector.getAvailableLogementsWithoutConnection().size(), result.size());
     }
 
 }

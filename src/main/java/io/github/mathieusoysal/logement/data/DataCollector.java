@@ -5,7 +5,13 @@ import java.util.List;
 
 import com.fasterxml.jackson.core.exc.StreamReadException;
 import com.fasterxml.jackson.databind.DatabindException;
+import com.microsoft.playwright.Browser;
+import com.microsoft.playwright.BrowserContext;
+import com.microsoft.playwright.BrowserType;
+import com.microsoft.playwright.Locator;
+import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
+import com.microsoft.playwright.options.AriaRole;
 import com.microsoft.playwright.options.RequestOptions;
 
 import io.github.mathieusoysal.exceptions.ApiRequestFailedException;
@@ -17,8 +23,6 @@ public class DataCollector {
     private static final RequestOptions REQUEST_TO_GET_LOGEMENTS = RequestOptions.create()
             .setMethod("POST")
             .setHeader("Content-Type", "application/json")
-            .setHeader("Cookie",
-                    "SimpleSAMLSessionID=e184a6c92c5ada910ce150e94ef1a98e; qpid=ckumqujfm5tsvkqek740")
             .setData(BODY_POST_TO_GET_LOGEMENTS);
 
     private DataCollector() {
@@ -50,7 +54,36 @@ public class DataCollector {
         return logements;
     }
 
-    public static List<Logement> getAvailableLogementsWithConnection(String string, String string2) {
-        return null;
+    public static List<Logement> getAvailableLogementsWithConnection(String email, String password)
+            throws ApiRequestFailedException, StreamReadException, DatabindException, IOException {
+        List<Logement> logements;
+        try (Playwright playwright = Playwright.create();
+                Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
+                BrowserContext context = browser.newContext();
+                Page page = context.newPage()) {
+            playwright.selectors().setTestIdAttribute("id");
+            page.navigate("https://trouverunlogement.lescrous.fr/tools/32/search");
+            page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Identification")).click();
+            page.waitForLoadState();
+            page.getByTestId("login[app]-label-0").click();
+            page.getByAltText("saml-logo").click();
+            page.waitForLoadState();
+            page.getByPlaceholder("Login (Email)").click();
+            page.getByPlaceholder("Login (Email)").fill(email);
+            page.getByLabel("Password *").click();
+            page.getByLabel("Password *").fill(password);
+            page.getByLabel("Password *").press("Enter");
+            page.waitForLoadState();
+            page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Lancer une recherche"))
+                    .click();
+            page.waitForLoadState();
+            var respons = page.request()
+                    .head("https://trouverunlogement.lescrous.fr/api/fr/search/32",
+                            REQUEST_TO_GET_LOGEMENTS);
+            if (!respons.ok())
+                throw new ApiRequestFailedException(respons);
+            logements = Convertor.getLogementsFromBruteJsonString(respons.text());
+        }
+        return logements;
     }
 }

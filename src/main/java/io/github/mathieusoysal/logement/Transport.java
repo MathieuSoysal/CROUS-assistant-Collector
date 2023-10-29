@@ -17,10 +17,10 @@ public class Transport {
      * @param distance      the distance traveled by the transportation
      * @param unitOfMeasure the unit of measure for the distance
      */
-    public Transport(TransportKind kind, String description, int distance, TransportUnitOfMeasure unitOfMeasure) {
+    public Transport(TransportKind kind, String description, Integer distance, TransportUnitOfMeasure unitOfMeasure) {
         this.kind = kind;
         this.description = description;
-        this.distance = distance;
+        this.distance = distance == null ? 0 : distance;
         this.unitOfMeasure = unitOfMeasure;
     }
 

@@ -58,7 +58,7 @@ class ConvertorTest {
     @Test
     void testConvertItemsToLogements() throws IOException {
         // Act
-        List<Logement> logements = Convertor.getLogementsFromJsonFile(jsonTestFile);
+        List<Logement> logements = Convertor.getLogementsFromBruteJsonFile(jsonTestFile);
 
         // Assert
         assertEquals(1, logements.size());

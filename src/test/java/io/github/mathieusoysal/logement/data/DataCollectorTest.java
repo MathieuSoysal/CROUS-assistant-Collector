@@ -1,5 +1,7 @@
 package io.github.mathieusoysal.logement.data;
 
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
 import java.io.IOException;
 import java.util.List;
 
@@ -42,11 +44,15 @@ class DataCollectorTest {
     void testGetLogementsWithConnection_returnsLogements()
             throws StreamReadException, DatabindException, ApiRequestFailedException, IOException {
         // Arrange
+        String email = System.getenv("TEST_MAIL");
+        String password = System.getenv("TEST_PASSWORD");
 
         // Act
+        assertNotNull(email);
+        assertNotNull(password);
         List<Logement> result = DataCollector.getAvailableLogementsWithConnection(
-                System.getenv("TEST_MAIL"),
-                System.getenv("TEST_PASSWORD"));
+                email,
+                password);
 
         // Assert
         Assertions.assertNotEquals(DataCollector.getAvailableLogementsWithoutConnection().size(), result.size());

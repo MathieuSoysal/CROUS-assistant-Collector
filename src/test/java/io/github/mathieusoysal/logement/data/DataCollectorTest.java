@@ -42,7 +42,8 @@ class DataCollectorTest {
 
     @Test
     void testGetLogementsWithConnection_returnsLogements()
-            throws StreamReadException, DatabindException, ApiRequestFailedException, IOException {
+            throws StreamReadException, DatabindException, ApiRequestFailedException, IOException,
+            InterruptedException {
         // Arrange
         String email = System.getenv("TEST_MAIL");
         String password = System.getenv("TEST_PASSWORD");

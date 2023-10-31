@@ -1,17 +1,24 @@
 package io.github.mathieusoysal.logement.data;
 
 import java.io.IOException;
+import java.nio.file.Paths;
 import java.util.List;
+import java.util.concurrent.TimeoutException;
+import java.util.function.BooleanSupplier;
 
 import com.fasterxml.jackson.core.exc.StreamReadException;
 import com.fasterxml.jackson.databind.DatabindException;
 import com.microsoft.playwright.Browser;
+import com.microsoft.playwright.Browser.NewContextOptions;
 import com.microsoft.playwright.BrowserContext;
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
+import com.microsoft.playwright.TimeoutError;
+import com.microsoft.playwright.Tracing;
 import com.microsoft.playwright.options.AriaRole;
+import com.microsoft.playwright.options.LoadState;
 import com.microsoft.playwright.options.RequestOptions;
 
 import io.github.mathieusoysal.exceptions.ApiRequestFailedException;
@@ -55,24 +62,33 @@ public class DataCollector {
     }
 
     public static List<Logement> getAvailableLogementsWithConnection(String email, String password)
-            throws ApiRequestFailedException, StreamReadException, DatabindException, IOException {
+            throws ApiRequestFailedException, StreamReadException, DatabindException, IOException,
+            InterruptedException {
+        Playwright playwright = Playwright.create();
+        Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions());
+        BrowserContext context = browser.newContext(new NewContextOptions().setScreenSize(1920, 1080));
+        Page page = context.newPage();
         List<Logement> logements;
-        try (Playwright playwright = Playwright.create();
-                Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
-                BrowserContext context = browser.newContext();
-                Page page = context.newPage()) {
+        try {
+            context.tracing().start(new Tracing.StartOptions()
+                    .setScreenshots(true)
+                    .setSnapshots(true)
+                    .setSources(true));
             playwright.selectors().setTestIdAttribute("id");
             page.navigate("https://trouverunlogement.lescrous.fr/tools/32/search");
             page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Identification")).click();
             page.waitForLoadState();
+            String currentUrl = page.url();
+            page.locator("#boxlogin div").filter(new Locator.FilterOptions().setHasText("0")).nth(1).click();
             page.getByTestId("login[app]-label-0").click();
-            page.getByAltText("saml-logo").click();
-            page.waitForLoadState();
-            page.getByPlaceholder("Login (Email)").click();
-            page.getByPlaceholder("Login (Email)").fill(email);
-            page.getByLabel("Password *").click();
-            page.getByLabel("Password *").fill(password);
-            page.getByLabel("Password *").press("Enter");
+            page.waitForLoadState(LoadState.DOMCONTENTLOADED);
+            playwright.selectors().setTestIdAttribute("type");
+            page.getByTestId("email").hover();
+            page.getByTestId("email").click();
+            page.getByTestId("email").fill(email);
+            page.getByTestId("password").click();
+            page.getByTestId("password").fill(password);
+            page.getByTestId("password").press("Enter");
             page.waitForLoadState();
             page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Lancer une recherche"))
                     .click();
@@ -83,6 +99,15 @@ public class DataCollector {
             if (!respons.ok())
                 throw new ApiRequestFailedException(respons);
             logements = Convertor.getLogementsFromBruteJsonString(respons.text());
+        } catch (TimeoutError e) {
+            context.tracing().stop(new Tracing.StopOptions()
+                    .setPath(Paths.get("trace.zip")));
+            throw e;
+        } finally {
+            page.close();
+            context.close();
+            browser.close();
+            playwright.close();
         }
         return logements;
     }

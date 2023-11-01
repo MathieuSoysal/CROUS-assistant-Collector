@@ -107,8 +107,13 @@ public class DataCollector {
         playwright.selectors().setTestIdAttribute("id");
         String currentUrl = page.url();
         try {
-            page.locator("#boxlogin div").filter(new Locator.FilterOptions().setHasText("0")).nth(1).click();
-            page.getByTestId("login[app]-label-0").click();
+            page.locator("#boxlogin div").nth(0).click();
+            if (page.url().equals(currentUrl))
+                page.locator("#boxlogin div").filter(new Locator.FilterOptions().setHasText("0")).nth(1).click();
+            if (page.url().equals(currentUrl))
+                page.getByTestId("login[app]-label-0").click();
+            if (page.url().equals(currentUrl))
+                page.getByAltText("saml-logo").click();
             page.waitForLoadState(LoadState.DOMCONTENTLOADED);
             waitForUrlChange(currentUrl, page);
         } catch (TimeoutError e) {

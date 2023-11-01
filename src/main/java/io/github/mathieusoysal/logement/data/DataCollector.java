@@ -3,7 +3,6 @@ package io.github.mathieusoysal.logement.data;
 import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.List;
-import java.util.concurrent.TimeoutException;
 import java.util.function.BooleanSupplier;
 
 import com.fasterxml.jackson.core.exc.StreamReadException;
@@ -22,6 +21,8 @@ import com.microsoft.playwright.options.LoadState;
 import com.microsoft.playwright.options.RequestOptions;
 
 import io.github.mathieusoysal.exceptions.ApiRequestFailedException;
+import io.github.mathieusoysal.exceptions.CannotBeConnectedError;
+import io.github.mathieusoysal.exceptions.LoginOptionCantBeSelectedError;
 import io.github.mathieusoysal.logement.pojo.Convertor;
 import io.github.mathieusoysal.logement.pojo.Logement;
 
@@ -31,9 +32,6 @@ public class DataCollector {
             .setMethod("POST")
             .setHeader("Content-Type", "application/json")
             .setData(BODY_POST_TO_GET_LOGEMENTS);
-
-    private DataCollector() {
-    }
 
     public static List<Logement> getAvailableLogementsWithoutConnection()
             throws ApiRequestFailedException, StreamReadException, DatabindException, IOException {
@@ -74,22 +72,9 @@ public class DataCollector {
                     .setScreenshots(true)
                     .setSnapshots(true)
                     .setSources(true));
-            playwright.selectors().setTestIdAttribute("id");
-            page.navigate("https://trouverunlogement.lescrous.fr/tools/32/search");
-            page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Identification")).click();
-            page.waitForLoadState();
-            String currentUrl = page.url();
-            page.locator("#boxlogin div").filter(new Locator.FilterOptions().setHasText("0")).nth(1).click();
-            page.getByTestId("login[app]-label-0").click();
-            page.waitForLoadState(LoadState.DOMCONTENTLOADED);
-            playwright.selectors().setTestIdAttribute("type");
-            page.getByTestId("email").hover();
-            page.getByTestId("email").click();
-            page.getByTestId("email").fill(email);
-            page.getByTestId("password").click();
-            page.getByTestId("password").fill(password);
-            page.getByTestId("password").press("Enter");
-            page.waitForLoadState();
+            goToLoginPage(page);
+            selectLoginOption(playwright, page);
+            connectToTheCrous(email, password, playwright, page);
             page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Lancer une recherche"))
                     .click();
             page.waitForLoadState();
@@ -99,7 +84,7 @@ public class DataCollector {
             if (!respons.ok())
                 throw new ApiRequestFailedException(respons);
             logements = Convertor.getLogementsFromBruteJsonString(respons.text());
-        } catch (TimeoutError e) {
+        } catch (TimeoutError | LoginOptionCantBeSelectedError | CannotBeConnectedError e) {
             context.tracing().stop(new Tracing.StopOptions()
                     .setPath(Paths.get("trace.zip")));
             throw e;
@@ -110,5 +95,58 @@ public class DataCollector {
             playwright.close();
         }
         return logements;
+    }
+
+    private static void goToLoginPage(Page page) {
+        page.navigate("https://trouverunlogement.lescrous.fr/tools/32/search");
+        page.getByRole(AriaRole.LINK, new Page.GetByRoleOptions().setName("Identification")).click();
+        page.waitForLoadState();
+    }
+
+    private static void selectLoginOption(Playwright playwright, Page page) {
+        playwright.selectors().setTestIdAttribute("id");
+        String currentUrl = page.url();
+        try {
+            page.locator("#boxlogin div").filter(new Locator.FilterOptions().setHasText("0")).nth(1).click();
+            page.getByTestId("login[app]-label-0").click();
+            page.waitForLoadState(LoadState.DOMCONTENTLOADED);
+            waitForUrlChange(currentUrl, page);
+        } catch (TimeoutError e) {
+            throw new LoginOptionCantBeSelectedError(e.getMessage(), page.content());
+        }
+    }
+
+    private static void connectToTheCrous(String email, String password, Playwright playwright, Page page) {
+        playwright.selectors().setTestIdAttribute("type");
+        String currentUrl = page.url();
+        try {
+            fillForm(email, password, page);
+            waitForPageLoad(page);
+            waitForUrlChange(currentUrl, page);
+        } catch (TimeoutError e) {
+            throw new CannotBeConnectedError(e.getMessage(), page.content());
+        }
+    }
+
+    private static void fillForm(String email, String password, Page page) {
+        var emailField = page.getByTestId("email");
+        emailField.hover();
+        emailField.click();
+        emailField.fill(email);
+        var passwordField = page.getByTestId("password");
+        passwordField.click();
+        passwordField.fill(password);
+        passwordField.press("Enter");
+    }
+
+    private static void waitForPageLoad(Page page) {
+        page.waitForLoadState();
+    }
+
+    private static void waitForUrlChange(String currentUrl, Page page) {
+        page.waitForCondition(() -> !page.url().equals(currentUrl));
+    }
+
+    private DataCollector() {
     }
 }

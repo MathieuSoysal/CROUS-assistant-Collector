@@ -225,6 +225,16 @@ public class Logement {
         return transports;
     }
 
+    @Override
+    public String toString() {
+        return "Logement [id=" + id + ", label=" + label + ", address=" + address + ", bedCount=" + bedCount
+                + ", bedKind=" + bedKind + ", bedroomCount=" + bedroomCount + ", roomCount=" + roomCount
+                + ", inUnavailabilityPeriod=" + inUnavailabilityPeriod + ", description=" + description + ", available="
+                + available + ", highDemand=" + highDemand + ", lowStock=" + lowStock + ", equipements=" + equipements
+                + ", areaMin=" + areaMin + ", areaMax=" + areaMax + ", occupationMods=" + occupationMods
+                + ", transports=" + transports + "]";
+    }
+
     void setId(int id) {
         this.id = id;
     }

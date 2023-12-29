@@ -21,6 +21,7 @@
             ]
         }
     },
+    "postStartCommand": "mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args=\"install --with-deps\"",
     "remoteUser": "root",
     "containerUser": "vscode",
     "workspaceMount": "",

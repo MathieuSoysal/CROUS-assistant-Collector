@@ -15,7 +15,7 @@ import io.github.mathieusoysal.logement.OccupationKind;
 import io.github.mathieusoysal.logement.TransportKind;
 import io.github.mathieusoysal.logement.TransportUnitOfMeasure;
 
-class Convertor {
+public class Convertor {
 
     private Convertor() {
     }
@@ -26,13 +26,25 @@ class Convertor {
         return results.getResults().getItems();
     }
 
+    static List<Item> getItemsFromJsonString(String json) throws StreamReadException, DatabindException, IOException {
+        ObjectMapper objectMapper = new ObjectMapper();
+        Input results = objectMapper.readValue(json, Input.class);
+        return results.getResults().getItems();
+    }
+
     static List<Logement> convertItemsToLogements(List<Item> items) {
         return items.stream().map(Convertor::convertItemToLogement).toList();
     }
 
-    public static List<Logement> getLogementsFromJsonFile(File file)
+    public static List<Logement> getLogementsFromBruteJsonFile(File file)
             throws StreamReadException, DatabindException, IOException {
         List<Item> items = getItemsFromJsonFile(file);
+        return convertItemsToLogements(items);
+    }
+
+    public static List<Logement> getLogementsFromBruteJsonString(String json)
+            throws StreamReadException, DatabindException, IOException {
+        List<Item> items = getItemsFromJsonString(json);
         return convertItemsToLogements(items);
     }
 
@@ -41,7 +53,7 @@ class Convertor {
                 .withLabel(item.getResidence().getLabel())
                 .withAddress(getAddress(item))
                 .withBedCount(item.getBedCount())
-                .withBedKind(BedKind.fromString(item.getBeds().get(0).getType()))
+                .withBedKind(BedKind.fromString(item.getBeds().isEmpty() ? "" : item.getBeds().get(0).getType()))
                 .withBedroomCount(item.getBedroomCount())
                 .withRoomCount(item.getRoomCount())
                 .withInUnavailabilityPeriod(item.getInUnavailabilityPeriod())

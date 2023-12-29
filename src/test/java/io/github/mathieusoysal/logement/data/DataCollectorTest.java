@@ -49,8 +49,8 @@ class DataCollectorTest {
         String password = System.getenv("TEST_PASSWORD");
 
         // Act
-        assertNotNull(email);
-        assertNotNull(password);
+        assertNotNull(email, "Please set TEST_MAIL environment variable");
+        assertNotNull(password, "Please set TEST_PASSWORD environment variable");
         List<Logement> result = DataCollector.getAvailableLogementsWithConnection(
                 email,
                 password);

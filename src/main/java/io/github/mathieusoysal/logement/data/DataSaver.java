@@ -7,6 +7,7 @@ import java.time.DateTimeException;
 import java.time.OffsetDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
+import java.util.stream.Stream;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -41,8 +42,11 @@ public class DataSaver {
 
     private static File getArchiveFile(File archiveFolder) throws DateTimeException {
         String archiveFileName = OffsetDateTime.now().toLocalTime().format(DateTimeFormatter.ofPattern("HH"));
-        File archiveFile = new File(archiveFolder, archiveFileName);
-        return archiveFile;
+        Stream.of(archiveFolder.listFiles())
+                .filter(file -> file.getName().equals(archiveFileName))
+                .findFirst()
+                .ifPresent(File::delete);
+        return new File(archiveFolder, archiveFileName);
     }
 
     private static String convertLogementsToJson(List<Logement> logements) throws JsonProcessingException {

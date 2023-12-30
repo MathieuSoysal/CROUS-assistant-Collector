@@ -7,6 +7,7 @@ import java.util.List;
 import com.fasterxml.jackson.core.exc.StreamReadException;
 import com.fasterxml.jackson.databind.DatabindException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.github.forax.beautifullogger.Logger;
 
 import io.github.mathieusoysal.logement.Address;
 import io.github.mathieusoysal.logement.BedKind;
@@ -16,24 +17,32 @@ import io.github.mathieusoysal.logement.TransportKind;
 import io.github.mathieusoysal.logement.TransportUnitOfMeasure;
 
 public class Convertor {
+    private static final Logger LOGGER = Logger.getLogger();
 
     private Convertor() {
     }
 
     static List<Item> getItemsFromJsonFile(File file) throws StreamReadException, DatabindException, IOException {
+        LOGGER.info(() -> "Reading json file for convertion to java object");
         ObjectMapper objectMapper = new ObjectMapper();
         Input results = objectMapper.readValue(file, Input.class);
+        LOGGER.info(() -> "Json file converted to java object");
         return results.getResults().getItems();
     }
 
     static List<Item> getItemsFromJsonString(String json) throws StreamReadException, DatabindException, IOException {
+        LOGGER.info(() -> "Reading json string for convertion to java object");
         ObjectMapper objectMapper = new ObjectMapper();
         Input results = objectMapper.readValue(json, Input.class);
+        LOGGER.info(() -> "Json string converted to java object");
         return results.getResults().getItems();
     }
 
     static List<Logement> convertItemsToLogements(List<Item> items) {
-        return items.stream().map(Convertor::convertItemToLogement).toList();
+        LOGGER.info(() -> "Converting items to logements");
+        var result = items.stream().map(Convertor::convertItemToLogement).toList();
+        LOGGER.info(() -> "Items converted to logements");
+        return result;
     }
 
     public static List<Logement> getLogementsFromBruteJsonFile(File file)

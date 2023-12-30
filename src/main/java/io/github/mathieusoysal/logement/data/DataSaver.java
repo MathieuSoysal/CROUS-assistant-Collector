@@ -27,6 +27,7 @@ public class DataSaver {
             archiveFolder.mkdir();
             LOGGER.info(() -> "Archive folder created");
         }
+
         return archiveFolder;
     }
 

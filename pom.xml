@@ -36,8 +36,21 @@
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
+
     <dependencies>
         <!-- Dependencies -->
+        <dependency>
+            <groupId>com.github.forax</groupId>
+            <artifactId>beautiful_logger</artifactId>
+            <version>0.10.6</version>
+        </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.dataformat</groupId>
             <artifactId>jackson-dataformat-xml</artifactId>

@@ -5906,57 +5906,6 @@
     "unitOfMeasure" : "NONE"
   } ]
 }, {
-  "id" : 1307,
-  "label" : "RESIDENCE LA PAULIANE",
-  "address" : {
-    "fullAddress" : "335, Chemin de la Guiramande 13090 Aix-En-Provence",
-    "street" : "335, Chemin de la Guiramande",
-    "city" : "Aix-En-Provence",
-    "zipCode" : "13090",
-    "location" : {
-      "latitude" : 43.507,
-      "longitude" : 5.448
-    }
-  },
-  "bedCount" : 1,
-  "bedKind" : "SIMPLE",
-  "bedroomCount" : 1,
-  "roomCount" : 1,
-  "inUnavailabilityPeriod" : false,
-  "description" : "<p>281 Studios de 17 M2<br />\r\nMeubl&eacute;s et &eacute;quip&eacute;s de cuisinettes et d&#39;une salle d&#39;eau avec des toilettes.</p>\r\n\r\n<p><strong>Ces logements sont accessibles exclusivement aux &eacute;tudiants inscrits en niveau Licence 3 ou &eacute;quivalent et sup&eacute;rieur.</strong><br />\r\nAttention, une v&eacute;rification de votre niveau d&#39;&eacute;tudes sera effectu&eacute;e avant votre entr&eacute;e dans les lieux, une pr&eacute;sentation de votre certificat de scolarit&eacute; ou une preuve d&#39;inscription pour l&#39;ann&eacute;e universitaire en cours sera exig&eacute;e.<br />\r\nSi vous n&#39;avez pas le niveau d&#39;&eacute;tudes requis vous n&#39;aurez pas acc&egrave;s &agrave; ce logement.</p>\r\n\r\n<p><strong>Attention : les charges sont donn&eacute;es &agrave; titre indicatif avec leur valeur pour l&rsquo;ann&eacute;e 2022-2023, et sont susceptibles d&rsquo;&eacute;voluer pour l&rsquo;ann&eacute;e 2023-2024 en fonction des d&eacute;lib&eacute;rations qui pourront &ecirc;tre adopt&eacute;es par le conseil d&rsquo;administration.</strong></p>\r\n\r\n<p>A proximit&eacute; du parking Relais Krypton, quartier Pont de l&rsquo;Arc</p>\r\n\r\n<p><em>Pour une demande d&#39;h&eacute;bergement, dans le cadre d&#39;une situation de handicap (moteur, sensoriel, maladies invalidantes) : Merci de faire votre demande uniquement par le biais du formulaire : <a href=\"https://demande-logement-situation-handicap.crous-aix-marseille.fr/\" target=\"_blank\">fiche handicap</a></em></p>\r\n\r\n<p>&nbsp;</p>",
-  "available" : true,
-  "highDemand" : false,
-  "lowStock" : false,
-  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
-  "areaMin" : 16.7,
-  "areaMax" : 24.21,
-  "occupationMods" : [ {
-    "occupationKind" : "ALONE",
-    "rentMin" : 29468,
-    "rentMax" : 29468
-  } ],
-  "transports" : [ {
-    "kind" : "BUS",
-    "description" : "Ligne A : Saint-Mitre - Parking Krypton.<br />\r\nQuartiers desservis : Jas de Bouffan, Encagnane, Rotonde, Gare Routière, Facultés, Fenouillères, Krypton.<br />\r\nUn  bus toutes les 7 minutes en heures de pointe jusqu'à minuit la semaine et 1h du matin les vendredis et samedis.",
-    "distance" : 7,
-    "unitOfMeasure" : "ON_FOOT"
-  }, {
-    "kind" : "BUS",
-    "description" : "Ligne 9 : Château Galice - Magnan<br />\r\nQuartiers desservis : Château Galice, La Molière, Jas de Bouffan, Encagnane, Clos Bernadette, La Fourane, Fenouillères, Meyran, Val-Saint-André.<br />\r\nUn bus toutes les 30 minutes.",
-    "distance" : 7,
-    "unitOfMeasure" : "ON_FOOT"
-  }, {
-    "kind" : "BUS",
-    "description" : "Ligne 16 : Roi René - Parking Relais Krypton  (ne circule pas le dimanche)<br />\r\nQuartiers desservis : Avenue de l’arc de Meyran, Avenue Saint- Jérôme, Tour de Ville, Hôpital Pontier, Rotonde.<br />\r\nUn bus toutes les 20 minutes.",
-    "distance" : 7,
-    "unitOfMeasure" : "ON_FOOT"
-  }, {
-    "kind" : "PAYING_URBAN_PARKING",
-    "description" : "P+R Krypton<br />\r\nOuvert de 6h00 à 21h00 du lundi au dimanche et jours fériés",
-    "distance" : 0,
-    "unitOfMeasure" : "NONE"
-  } ]
-}, {
   "id" : 1319,
   "label" : "Résidence Rimbaud",
   "address" : {

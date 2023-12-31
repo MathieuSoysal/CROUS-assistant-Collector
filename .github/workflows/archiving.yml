@@ -25,6 +25,7 @@ jobs:
         - uses: JamesIves/github-pages-deploy-action@v4.4.3
           with:
             token: ${{ secrets.GITHUB_TOKEN }}
+            clean: false
             branch: api
             folder: archive
             target-folder: v1/logements-crous/availabel

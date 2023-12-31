@@ -1,0 +1,36 @@
+name: Archiving data
+
+on:
+  schedule:
+    - cron: '30 * * * *'
+  workflow_dispatch:
+
+jobs:
+    creating-archive:
+        runs-on: ubuntu-latest
+        steps:
+        - uses: actions/checkout@v4
+        - uses: actions/setup-java@v4
+          with:
+            distribution: 'temurin'
+            java-version: '17'
+            cache: 'maven'
+            cache-dependency-path: ~/.m2/repository
+        - name: Install Playwright
+          run: mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install --with-deps"
+        - name: Archive
+          run: mvn exec:java
+          env:
+            MAIL : ${{ secrets.TEST_MAIL }}
+            PASSWORD : ${{ secrets.TEST_PASSWORD }}
+        - uses: JamesIves/github-pages-deploy-action@v4.4.3
+          with:
+            token: ${{ secrets.GITHUB_TOKEN }}
+            branch: api
+            folder: archive
+            target-folder: v1/logements-crous/availabel
+
+
+          
+
+    

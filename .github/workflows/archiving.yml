@@ -17,8 +17,8 @@ jobs:
             cache: 'maven'
         - name: Install Playwright
           run: mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install --with-deps"
-        - name: Archive
-          run: mvn exec:java
+        - name: archive
+          run: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -PArchiving exec:java
           env:
             MAIL : ${{ secrets.TEST_MAIL }}
             PASSWORD : ${{ secrets.TEST_PASSWORD }}

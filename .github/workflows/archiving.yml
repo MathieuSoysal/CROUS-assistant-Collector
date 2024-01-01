@@ -32,7 +32,7 @@ jobs:
             clean: false
             branch: api
             folder: archive
-            target-folder: v1/logements-crous/availabel
+            target-folder: v1/logements-crous/available
 
 
           

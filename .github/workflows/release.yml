@@ -28,6 +28,7 @@ jobs:
           asset_path: target/logement-crous-1.0.jar
 
   publish:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: JIB container build and publish
@@ -35,5 +36,5 @@ jobs:
         with:
           PASSWORD: ${{ secrets.GITHUB_TOKEN }}
         env:
-          MAIL : ${{ secrets.TEST_MAIL }}
-          PASSWORD : ${{ secrets.TEST_PASSWORD }}
+          TEST_MAIL : ${{ secrets.TEST_MAIL }}
+          TEST_PASSWORD : ${{ secrets.TEST_PASSWORD }}

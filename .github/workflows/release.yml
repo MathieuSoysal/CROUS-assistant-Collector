@@ -34,3 +34,6 @@ jobs:
         uses: MathieuSoysal/jib-container-publish.yml@v2.1.4
         with:
           PASSWORD: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          MAIL : ${{ secrets.TEST_MAIL }}
+          PASSWORD : ${{ secrets.TEST_PASSWORD }}

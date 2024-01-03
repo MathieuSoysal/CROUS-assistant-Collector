@@ -22,8 +22,15 @@ jobs:
         env:
           MAIL : ${{ secrets.TEST_MAIL }}
           PASSWORD : ${{ secrets.TEST_PASSWORD }}
-
       - uses: shogo82148/actions-upload-release-asset@v1
         with:
           upload_url: ${{ github.event.release.upload_url }}
           asset_path: target/logement-crous-1.0.jar
+
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: JIB container build and publish
+        uses: MathieuSoysal/jib-container-publish.yml@v2.1.4
+        with:
+          PASSWORD: ${{ secrets.GITHUB_TOKEN }}

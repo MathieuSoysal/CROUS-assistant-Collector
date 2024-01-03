@@ -3,9 +3,19 @@
     "image": "mcr.microsoft.com/devcontainers/java:1-17-bullseye",
     "features": {
         "ghcr.io/devcontainers/features/java:1": {
-            "version": "none",
-            "installMaven": "true",
-            "installGradle": "false"
+            "installMaven": true,
+            "version": "latest",
+            "jdkDistro": "ms",
+            "gradleVersion": "latest",
+            "mavenVersion": "latest",
+            "antVersion": "latest"
+        },
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {
+            "moby": true,
+            "azureDnsAutoDetection": true,
+            "installDockerBuildx": true,
+            "version": "latest",
+            "dockerDashComposeVersion": "v1"
         }
     },
     "customizations": {

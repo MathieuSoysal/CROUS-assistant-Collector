@@ -5,14 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.mathieusoysal</groupId>
-    <artifactId>logement-crous</artifactId>
+    <artifactId>crous-artificat-collector</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
 
-    <name>Mon Logement CROUS</name>
-    <description>Library to extract the current available housing from the CROUS.</description>
-    <url>https://github.com/MathieuSoysal/Librairie-Java-Logement-CROUS</url>
+    <name>CROUS-Assistant-Collector</name>
+    <description>Program to collect available logement CROUS.</description>
+    <url>https://github.com/MathieuSoysal/CROUS-assistant-Collector</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -92,7 +92,7 @@
     <licenses>
         <license>
             <name>Apache-2.0 License</name>
-            <url>https://github.com/MathieuSoysal/Librairie-Java-Logement-CROUS/blob/master/LICENSE</url>
+            <url>https://github.com/MathieuSoysal/CROUS-assistant-Collector/blob/master/LICENSE</url>
         </license>
     </licenses>
 
@@ -108,113 +108,16 @@
 
     <issueManagement>
         <system>github</system>
-        <url>https://github.com/MathieuSoysal/Librairie-Java-Logement-CROUS/issues</url>
+        <url>https://github.com/MathieuSoysal/CROUS-assistant-Collector/issues</url>
     </issueManagement>
 
     <scm>
-        <connection>scm:git:git://github.com/MathieuSoysal/Librairie-Java-Logement-CROUS.git</connection>
-        <developerConnection>scm:git:ssh://github.com/MathieuSoysal/Librairie-Java-Logement-CROUS.git</developerConnection>
-        <url>http://github.com/MathieuSoysal/Librairie-Java-Logement-CROUS</url>
+        <connection>scm:git:git://github.com/MathieuSoysal/CROUS-assistant-Collector.git</connection>
+        <developerConnection>scm:git:ssh://github.com/MathieuSoysal/CROUS-assistant-Collector.git</developerConnection>
+        <url>http://github.com/MathieuSoysal/CROUS-assistant-Collector</url>
     </scm>
 
     <profiles>
-        <!-- Porfil : Maven Centrale -->
-        <profile>
-            <id>ossrhDeploy</id>
-            <distributionManagement>
-                <snapshotRepository>
-                    <id>ossrh</id>
-                    <name>Central Repository OSSRH</name>
-                    <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
-                </snapshotRepository>
-                <repository>
-                    <id>ossrh</id>
-                    <name>Central Repository OSSRH</name>
-                    <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-                </repository>
-            </distributionManagement>
-
-            <build>
-                <plugins>
-                    <plugin>
-                        <groupId>org.sonatype.plugins</groupId>
-                        <artifactId>nexus-staging-maven-plugin</artifactId>
-                        <version>1.6.8</version>
-                        <extensions>true</extensions>
-                        <configuration>
-                            <serverId>ossrh</serverId>
-                            <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
-                            <autoReleaseAfterClose>true</autoReleaseAfterClose>
-                        </configuration>
-                        <dependencies>
-                            <dependency>
-                                <groupId>com.thoughtworks.xstream</groupId>
-                                <artifactId>xstream</artifactId>
-                                <version>1.4.15</version>
-                            </dependency>
-                        </dependencies>
-                    </plugin>
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-source-plugin</artifactId>
-                        <version>3.2.1</version>
-                        <executions>
-                            <execution>
-                                <id>attach-sources</id>
-                                <goals>
-                                    <goal>jar-no-fork</goal>
-                                </goals>
-                            </execution>
-                        </executions>
-                    </plugin>
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-javadoc-plugin</artifactId>
-                        <version>3.3.1</version>
-                        <executions>
-                            <execution>
-                                <id>attach-javadocs</id>
-                                <goals>
-                                    <goal>jar</goal>
-                                </goals>
-                            </execution>
-                        </executions>
-                    </plugin>
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-gpg-plugin</artifactId>
-                        <version>3.0.1</version>
-                        <executions>
-                            <execution>
-                                <id>sign-artifacts</id>
-                                <phase>verify</phase>
-                                <goals>
-                                    <goal>sign</goal>
-                                </goals>
-                                <configuration>
-                                    <gpgArguments>
-                                        <arg>--pinentry-mode</arg>
-                                        <arg>loopback</arg>
-                                    </gpgArguments>
-                                </configuration>
-                            </execution>
-                        </executions>
-                    </plugin>
-                </plugins>
-            </build>
-        </profile>
-
-        <!-- Profil : Github Apache Maven Packages -->
-        <profile>
-            <id>githubDeploy</id>
-            <distributionManagement>
-                <repository>
-                    <id>github</id>
-                    <name>GitHub MathieuSoysal Apache Maven Packages</name>
-                    <url>https://maven.pkg.github.com/MathieuSoysal/Librairie-Java-Logement-CROUS</url>
-                </repository>
-            </distributionManagement>
-        </profile>
         <profile>
             <id>Archiving</id>
             <build>

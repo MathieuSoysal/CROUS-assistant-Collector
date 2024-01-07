@@ -21,6 +21,10 @@ public class OccupationMod {
      */
     private int rentMax;
     
+
+    public OccupationMod() {
+    }
+
     /**
      * Constructs a new OccupationMod object with the specified occupation kind, minimum rent, and maximum rent.
      * 

@@ -5,7 +5,6 @@ import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.List;
 import java.util.stream.IntStream;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -16,7 +15,6 @@ import com.microsoft.playwright.Playwright;
 
 import io.github.mathieusoysal.exceptions.ApiRequestErrorRuntimeException;
 import io.github.mathieusoysal.exceptions.ConvertionErrorRuntimeException;
-import io.github.mathieusoysal.logement.pojo.Convertor;
 import io.github.mathieusoysal.logement.pojo.Logement;
 
 public class DataSumUp {
@@ -42,17 +40,16 @@ public class DataSumUp {
         return sumUp;
     }
 
-    private static List<Logement> getFromUrl(String url, APIRequestContext context) {
+    private static Logement[] getFromUrl(String url, APIRequestContext context) {
         LOGGER.info(() -> "Getting data from url: " + url);
         var respons = context.get(url);
         if (!respons.ok())
             throw new ApiRequestErrorRuntimeException(respons);
         LOGGER.info(() -> "Data received");
         try {
-            return Convertor.getLogementsFromBruteJsonString(respons.text());
+            return new ObjectMapper().readValue(respons.text(), Logement[].class);
         } catch (IOException e) {
-            LOGGER.error(() -> "Error while parsing json: " + respons.text());
-            throw new ConvertionErrorRuntimeException(respons.text(), e);
+            throw new ConvertionErrorRuntimeException(e.getMessage(), e);
         }
     }
 

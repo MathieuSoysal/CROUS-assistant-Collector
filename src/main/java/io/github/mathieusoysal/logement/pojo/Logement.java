@@ -33,6 +33,11 @@ public class Logement {
     private List<OccupationMod> occupationMods;
     private List<io.github.mathieusoysal.logement.Transport> transports;
 
+
+    // Create constructor
+    public Logement()
+    {}
+
     /**
      * Constructs a new Logement object with the specified ID.
      *

@@ -101,4 +101,6 @@ class ConvertorTest {
         assertEquals(26780, logement.getOccupationMods().get(0).getRentMax());
     }
 
+    
+
 }

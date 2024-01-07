@@ -10,6 +10,7 @@ import org.junit.jupiter.api.Test;
 
 import com.fasterxml.jackson.core.exc.StreamReadException;
 import com.fasterxml.jackson.databind.DatabindException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 import io.github.mathieusoysal.exceptions.ApiRequestFailedException;
 import io.github.mathieusoysal.logement.pojo.Logement;
@@ -38,6 +39,22 @@ class DataCollectorTest {
 
         // Assert
         Assertions.assertNotEquals(0, result.size());
+    }
+
+    @Test
+    void testConvertion() throws StreamReadException, DatabindException, ApiRequestFailedException, IOException {
+        List<Logement> result = DataCollector.getAllLogementsWithoutConnection();
+
+        assertNotNull(result);
+
+        ObjectMapper objectMapper = new ObjectMapper();
+
+        String json = objectMapper.writeValueAsString(result);
+
+        assertNotNull(json);
+
+        List<Logement> logements = objectMapper.readValue(json, new com.fasterxml.jackson.core.type.TypeReference<List<Logement>>() {
+        });
     }
 
     @Test

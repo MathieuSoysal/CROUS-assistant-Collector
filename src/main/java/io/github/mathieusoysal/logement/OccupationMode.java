@@ -1,11 +1,9 @@
-package io.github.mathieusoysal.logement.pojo;
-
-import io.github.mathieusoysal.logement.OccupationKind;
+package io.github.mathieusoysal.logement;
 
 /**
  * This class represents a modification of the occupation of a housing unit.
  */
-public class OccupationMod {
+public class OccupationMode {
     /**
      * The new kind of occupation.
      */
@@ -22,7 +20,7 @@ public class OccupationMod {
     private int rentMax;
     
 
-    public OccupationMod() {
+    public OccupationMode() {
     }
 
     /**
@@ -32,7 +30,7 @@ public class OccupationMod {
      * @param rentMin the new minimum rent
      * @param rentMax the new maximum rent
      */
-    OccupationMod(OccupationKind occupationKind, int rentMin, int rentMax) {
+    public OccupationMode(OccupationKind occupationKind, int rentMin, int rentMax) {
         this.occupationKind = occupationKind;
         this.rentMin = rentMin;
         this.rentMax = rentMax;

@@ -1,4 +1,4 @@
-package io.github.mathieusoysal.logement.data;
+package io.github.mathieusoysal.data.managment;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -16,7 +16,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.github.forax.beautifullogger.Logger;
 
-import io.github.mathieusoysal.logement.pojo.Logement;
+import io.github.mathieusoysal.data.managment.collectors.DataCollectorFromArchive;
+import io.github.mathieusoysal.logement.Logement;
 
 public class DataSaver {
     private static final Logger LOGGER = Logger.getLogger();
@@ -32,10 +33,10 @@ public class DataSaver {
         return archiveFolder;
     }
 
-    public static File createArchiveLogementsForDay(LocalDate date, final String linkToData)
-            throws JsonProcessingException {
+    public static File createArchiveLogementsForDay(LocalDate date, final String linkToData) {
         File archiveFolder = getArchiveFolderForCurrentDate();
-        String logementsJson = DataSumUp.createSumUpOfTheDay(date, linkToData);
+        var dataCollectorFromArchive = new DataCollectorFromArchive(linkToData);
+        String logementsJson = dataCollectorFromArchive.getSumUpOfDay(date);
         File archiveFile = getArchiveFileForDay(archiveFolder);
         writeLogementsDataInsideArchiveFile(logementsJson, archiveFile);
         return archiveFile;

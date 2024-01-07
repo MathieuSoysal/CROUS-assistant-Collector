@@ -1,4 +1,4 @@
-package io.github.mathieusoysal.logement.data;
+package io.github.mathieusoysal.data.managment.collectors;
 
 import java.io.IOException;
 import java.text.DecimalFormat;
@@ -7,7 +7,6 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.stream.IntStream;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.forax.beautifullogger.Logger;
 import com.microsoft.playwright.APIRequestContext;
@@ -15,15 +14,26 @@ import com.microsoft.playwright.Playwright;
 
 import io.github.mathieusoysal.exceptions.ApiRequestErrorRuntimeException;
 import io.github.mathieusoysal.exceptions.ConvertionErrorRuntimeException;
-import io.github.mathieusoysal.logement.pojo.Logement;
+import io.github.mathieusoysal.logement.Logement;
 
-public class DataSumUp {
+class RequestorToGetSumUpOfDay implements Requestor {
     private static final Logger LOGGER = Logger.getLogger();
     private static final NumberFormat NUMBER_FORMAT = new DecimalFormat("00");
 
-    public static String createSumUpOfTheDay(LocalDate date, String linkToData) throws JsonProcessingException {
-        LOGGER.info(() -> "Creating sum up of the day: " + date.format(DateTimeFormatter.ISO_LOCAL_DATE));
-        String linkToDataForTheDay = linkToData + "/" + date.format(DateTimeFormatter.ISO_LOCAL_DATE);
+    private final String date;
+
+    public RequestorToGetSumUpOfDay(LocalDate date) {
+        this.date = date.format(DateTimeFormatter.ISO_LOCAL_DATE);
+    }
+
+    public RequestorToGetSumUpOfDay(String date) {
+        this.date = date;
+    }
+
+    @Override
+    public String requestWitGet(String url) {
+        LOGGER.info(() -> "Creating sum up of the day: " + date);
+        String linkToDataForTheDay = url + "/" + date;
         String sumUp = "";
         ObjectMapper objectMapper = new ObjectMapper();
         LOGGER.info(() -> "Creating profil to request logements");
@@ -35,6 +45,8 @@ public class DataSumUp {
                     .map(link -> getFromUrl(link, context))
                     .toArray());
             LOGGER.info(() -> "Logements received");
+        } catch (IOException e) {
+            e.printStackTrace();
         }
         LOGGER.info(() -> "profil closed");
         return sumUp;

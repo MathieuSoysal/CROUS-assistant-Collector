@@ -1,7 +1,5 @@
 package io.github.mathieusoysal.exceptions;
 
-import java.io.IOException;
-
 public class ConvertionErrorRuntimeException extends RuntimeException {
 
     public ConvertionErrorRuntimeException(String message) {

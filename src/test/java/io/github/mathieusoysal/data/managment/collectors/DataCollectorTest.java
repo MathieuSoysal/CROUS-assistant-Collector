@@ -1,19 +1,23 @@
-package io.github.mathieusoysal.logement.data;
+package io.github.mathieusoysal.data.managment.collectors;
 
+import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import java.io.IOException;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.exc.StreamReadException;
 import com.fasterxml.jackson.databind.DatabindException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import io.github.mathieusoysal.exceptions.ApiRequestFailedException;
-import io.github.mathieusoysal.logement.pojo.Logement;
+import io.github.mathieusoysal.logement.Logement;
 
 class DataCollectorTest {
 
@@ -23,7 +27,7 @@ class DataCollectorTest {
         // Arrange
 
         // Act
-        List<Logement> result = DataCollector.getAvailableLogementsWithoutConnection();
+        List<Logement> result = DataCollectorFromCrous.getAvailableLogementsWithoutConnection();
 
         // Assert
         Assertions.assertNotEquals(0, result.size());
@@ -35,7 +39,7 @@ class DataCollectorTest {
         // Arrange
 
         // Act
-        List<Logement> result = DataCollector.getAllLogementsWithoutConnection();
+        List<Logement> result = DataCollectorFromCrous.getAllLogementsWithoutConnection();
 
         // Assert
         Assertions.assertNotEquals(0, result.size());
@@ -43,7 +47,7 @@ class DataCollectorTest {
 
     @Test
     void testConvertion() throws StreamReadException, DatabindException, ApiRequestFailedException, IOException {
-        List<Logement> result = DataCollector.getAllLogementsWithoutConnection();
+        List<Logement> result = DataCollectorFromCrous.getAllLogementsWithoutConnection();
 
         assertNotNull(result);
 
@@ -53,8 +57,10 @@ class DataCollectorTest {
 
         assertNotNull(json);
 
-        List<Logement> logements = objectMapper.readValue(json, new com.fasterxml.jackson.core.type.TypeReference<List<Logement>>() {
-        });
+
+        assertDoesNotThrow(() -> objectMapper.readValue(json,
+                new com.fasterxml.jackson.core.type.TypeReference<List<Logement>>() {
+                }));
     }
 
     @Test
@@ -68,12 +74,23 @@ class DataCollectorTest {
         // Act
         assertNotNull(email, "Please set TEST_MAIL environment variable");
         assertNotNull(password, "Please set TEST_PASSWORD environment variable");
-        List<Logement> result = DataCollector.getAvailableLogementsWithConnection(
+        List<Logement> result = DataCollectorFromCrous.getAvailableLogementsWithConnection(
                 email,
                 password);
 
         // Assert
-        Assertions.assertNotEquals(DataCollector.getAvailableLogementsWithoutConnection().size(), result.size());
+        Assertions.assertNotEquals(DataCollectorFromCrous.getAvailableLogementsWithoutConnection().size(),
+                result.size());
+    }
+
+    @Test
+    void testCreateSumUpOfTheDay() throws JsonProcessingException {
+        String linkToData = "https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available";
+        LocalDate date = LocalDate.parse("2024-01-02", DateTimeFormatter.ISO_LOCAL_DATE);
+        assertDoesNotThrow(
+                () -> {
+                    DataCollectorFromArchive dataCollectorFromArchive = new DataCollectorFromArchive(linkToData);
+                    dataCollectorFromArchive.getSumUpOfDay(date);});
     }
 
 }

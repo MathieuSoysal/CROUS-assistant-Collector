@@ -6,7 +6,7 @@ package io.github.mathieusoysal.logement;
  * 
  * @author MathieuSoysal
  */
-public enum Equipement {
+public enum Equipment {
     /**
      * A toilet
      */
@@ -63,7 +63,7 @@ public enum Equipement {
      * @param equipement the string representation of the equipment
      * @return the Equipement enum value corresponding to the given string
      */
-    public static Equipement fromString(String equipement) {
+    public static Equipment fromString(String equipement) {
         if (equipement == null || equipement.isBlank() || equipement.equals("null"))
             return NONE;
         switch (equipement) {

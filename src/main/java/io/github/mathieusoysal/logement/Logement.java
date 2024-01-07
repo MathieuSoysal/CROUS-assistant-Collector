@@ -1,10 +1,6 @@
-package io.github.mathieusoysal.logement.pojo;
+package io.github.mathieusoysal.logement;
 
 import java.util.List;
-
-import io.github.mathieusoysal.logement.Address;
-import io.github.mathieusoysal.logement.BedKind;
-import io.github.mathieusoysal.logement.Equipement;
 
 /**
  * Logement
@@ -27,10 +23,10 @@ public class Logement {
     private boolean available;
     private boolean highDemand;
     private boolean lowStock;
-    private List<Equipement> equipements;
+    private List<Equipment> equipements;
     private double areaMin;
     private double areaMax;
-    private List<OccupationMod> occupationMods;
+    private List<OccupationMode> occupationMods;
     private List<io.github.mathieusoysal.logement.Transport> transports;
 
 
@@ -43,7 +39,7 @@ public class Logement {
      *
      * @param id the ID of the Logement object
      */
-    Logement(int id) {
+    public Logement(int id) {
         this.id = id;
     }
 
@@ -190,7 +186,7 @@ public class Logement {
      *
      * @return the list of equipment in this Logement object
      */
-    public List<Equipement> getEquipements() {
+    public List<Equipment> getEquipements() {
         return equipements;
     }
 
@@ -217,7 +213,7 @@ public class Logement {
      *
      * @return the list of occupation modifications for this Logement object
      */
-    public List<OccupationMod> getOccupationMods() {
+    public List<OccupationMode> getOccupationMods() {
         return occupationMods;
     }
 
@@ -240,71 +236,71 @@ public class Logement {
                 + ", transports=" + transports + "]";
     }
 
-    void setId(int id) {
+    public void setId(int id) {
         this.id = id;
     }
 
-    void setLabel(String label) {
+    public void setLabel(String label) {
         this.label = label;
     }
 
-    void setAddress(Address address) {
+    public void setAddress(Address address) {
         this.address = address;
     }
 
-    void setBedCount(int bedCount) {
+    public void setBedCount(int bedCount) {
         this.bedCount = bedCount;
     }
 
-    void setBedKind(BedKind bedKind) {
+    public void setBedKind(BedKind bedKind) {
         this.bedKind = bedKind;
     }
 
-    void setBedroomCount(int bedroomCount) {
+    public void setBedroomCount(int bedroomCount) {
         this.bedroomCount = bedroomCount;
     }
 
-    void setRoomCount(int roomCount) {
+    public void setRoomCount(int roomCount) {
         this.roomCount = roomCount;
     }
 
-    void setInUnavailabilityPeriod(boolean inUnavailabilityPeriod) {
+    public void setInUnavailabilityPeriod(boolean inUnavailabilityPeriod) {
         this.inUnavailabilityPeriod = inUnavailabilityPeriod;
     }
 
-    void setDescription(String description) {
+    public void setDescription(String description) {
         this.description = description;
     }
 
-    void setAvailable(boolean available) {
+    public void setAvailable(boolean available) {
         this.available = available;
     }
 
-    void setHighDemand(boolean highDemand) {
+    public void setHighDemand(boolean highDemand) {
         this.highDemand = highDemand;
     }
 
-    void setLowStock(boolean lowStock) {
+    public void setLowStock(boolean lowStock) {
         this.lowStock = lowStock;
     }
 
-    void setEquipements(List<Equipement> equipements) {
+    public void setEquipements(List<Equipment> equipements) {
         this.equipements = equipements;
     }
 
-    void setAreaMin(double areaMin) {
+    public void setAreaMin(double areaMin) {
         this.areaMin = areaMin;
     }
 
-    void setAreaMax(double areaMax) {
+    public void setAreaMax(double areaMax) {
         this.areaMax = areaMax;
     }
 
-    void setOccupationMods(List<OccupationMod> occupationMods) {
+    public void setOccupationMods(List<OccupationMode> occupationMods) {
         this.occupationMods = occupationMods;
     }
 
-    void setTransports(List<io.github.mathieusoysal.logement.Transport> transports) {
+    public void setTransports(List<io.github.mathieusoysal.logement.Transport> transports) {
         this.transports = transports;
     }
 

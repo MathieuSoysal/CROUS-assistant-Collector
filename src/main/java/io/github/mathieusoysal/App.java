@@ -3,15 +3,11 @@ package io.github.mathieusoysal;
 import java.io.IOException;
 import java.time.LocalDate;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.core.exc.StreamReadException;
-import com.fasterxml.jackson.databind.DatabindException;
 import com.github.forax.beautifullogger.Logger;
 
-import io.github.mathieusoysal.exceptions.ApiRequestFailedException;
+import io.github.mathieusoysal.data.managment.DataSaver;
+import io.github.mathieusoysal.data.managment.collectors.DataCollectorFromCrous;
 import io.github.mathieusoysal.exceptions.PropertiesNotFoundRuntimeException;
-import io.github.mathieusoysal.logement.data.DataCollector;
-import io.github.mathieusoysal.logement.data.DataSaver;
 
 public class App {
     private static final Logger LOGGER = Logger.getLogger();
@@ -20,8 +16,7 @@ public class App {
     private static final String LINK_TO_DATA_PROPERTIE_NAME = "LINK_TO_DATA";
 
     public static void main(String[] args)
-            throws StreamReadException, DatabindException, ApiRequestFailedException, IOException,
-            InterruptedException {
+            throws IOException {
         LOGGER.info(() -> "Starting application");
         if (sumupdayModIsActivated())
             DataSaver.createArchiveLogementsForDay(LocalDate.now(), System.getenv(LINK_TO_DATA_PROPERTIE_NAME));
@@ -35,9 +30,8 @@ public class App {
     }
 
     private static void createArchiveForThisHour()
-            throws ApiRequestFailedException, StreamReadException, DatabindException,
-            IOException, InterruptedException, JsonProcessingException {
-        var logements = DataCollector.getAvailableLogementsWithConnection(getEmail(), getPassword());
+            throws IOException {
+        var logements = DataCollectorFromCrous.getAvailableLogementsWithConnection(getEmail(), getPassword());
         DataSaver.createArchiveLogementsForHour(logements);
     }
 

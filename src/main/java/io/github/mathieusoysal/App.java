@@ -1,7 +1,9 @@
 package io.github.mathieusoysal;
 
 import java.io.IOException;
+import java.time.LocalDate;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.exc.StreamReadException;
 import com.fasterxml.jackson.databind.DatabindException;
 import com.github.forax.beautifullogger.Logger;
@@ -15,36 +17,46 @@ public class App {
     private static final Logger LOGGER = Logger.getLogger();
     private static final String MAIL_PROPERTIES_NAME = "MAIL";
     private static final String PASSWORD_PROPERTIES_NAME = "PASSWORD";
+    private static final String LINK_TO_DATA_PROPERTIE_NAME = "LINK_TO_DATA";
 
     public static void main(String[] args)
             throws StreamReadException, DatabindException, ApiRequestFailedException, IOException,
             InterruptedException {
         LOGGER.info(() -> "Starting application");
-        var logements = DataCollector.getAvailableLogementsWithConnection(getEmail(), getPassword());
-        DataSaver.createArchiveLogementsForHour(logements);
+        if (sumupdayModIsActivated())
+            DataSaver.createArchiveLogementsForDay(LocalDate.now(), System.getenv(LINK_TO_DATA_PROPERTIE_NAME));
+        else
+            createArchiveForThisHour();
         LOGGER.info(() -> "Application finished");
     }
 
-    private static String getEmail() {
-        LOGGER.info(() -> "Getting email from environment variables");
-        String email = System.getenv(MAIL_PROPERTIES_NAME);
-        if (email == null)
-        {
-            LOGGER.error(() -> "Email not found in environment variables");
-            throw new PropertiesNotFoundRuntimeException(MAIL_PROPERTIES_NAME);
+    private static boolean sumupdayModIsActivated() {
+        return System.getenv(LINK_TO_DATA_PROPERTIE_NAME) != null;
+    }
+
+    private static void createArchiveForThisHour()
+            throws ApiRequestFailedException, StreamReadException, DatabindException,
+            IOException, InterruptedException, JsonProcessingException {
+        var logements = DataCollector.getAvailableLogementsWithConnection(getEmail(), getPassword());
+        DataSaver.createArchiveLogementsForHour(logements);
+    }
+
+    private static String getPropertie(final String propertieName) {
+        LOGGER.info(() -> "Getting " + propertieName + " from environment variables");
+        String propertie = System.getenv(propertieName);
+        if (propertie == null) {
+            LOGGER.error(() -> propertieName + " not found in environment variables");
+            throw new PropertiesNotFoundRuntimeException(propertieName);
         }
-        return email;
+        return propertie;
+    }
+
+    private static String getEmail() {
+        return getPropertie(MAIL_PROPERTIES_NAME);
     }
 
     private static String getPassword() {
-        LOGGER.info(() -> "Getting password from environment variables");
-        String password = System.getenv(PASSWORD_PROPERTIES_NAME);
-        if (password == null)
-        {
-            LOGGER.error(() -> "Password not found in environment variables");
-            throw new PropertiesNotFoundRuntimeException(PASSWORD_PROPERTIES_NAME);
-        }
-        return password;
+        return getPropertie(PASSWORD_PROPERTIES_NAME);
     }
 
 }

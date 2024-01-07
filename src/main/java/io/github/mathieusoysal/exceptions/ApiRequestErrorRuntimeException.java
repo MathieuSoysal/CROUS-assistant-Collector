@@ -16,7 +16,7 @@ public class ApiRequestErrorRuntimeException extends RuntimeException {
     }
 
     public ApiRequestErrorRuntimeException(APIResponse respons) {
-        super("Api request failed with status code " + respons.status());
+        super("Api request failed with status code " + respons.status() + " : " + respons.url());
     }
 
 }

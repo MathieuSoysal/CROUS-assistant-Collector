@@ -21,7 +21,7 @@ public class App {
             InterruptedException {
         LOGGER.info(() -> "Starting application");
         var logements = DataCollector.getAvailableLogementsWithConnection(getEmail(), getPassword());
-        DataSaver.createArchiveLogements(logements);
+        DataSaver.createArchiveLogementsForHour(logements);
         LOGGER.info(() -> "Application finished");
     }
 

@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.LocalDate;
 import java.util.List;
 
 import org.junit.jupiter.api.AfterEach;
@@ -36,8 +37,14 @@ class DataSaverTest {
     @Test
     void testCreateArchiveLogements() throws ApiRequestFailedException, IOException {
         List<Logement> logements = DataCollector.getAllLogementsWithoutConnection().stream().limit(2).toList();
-        var file = assertDoesNotThrow(() -> DataSaver.createArchiveLogements(logements));
+        var file = assertDoesNotThrow(() -> DataSaver.createArchiveLogementsForHour(logements));
         file.delete();
+    }
+
+    @Test
+    void testCreateArchiveLogementsForDay() throws ApiRequestFailedException, IOException {
+        var file = assertDoesNotThrow(() -> DataSaver.createArchiveLogementsForDay(LocalDate.of(2024, 1, 3),
+                "https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available/"));
     }
 
 }

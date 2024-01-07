@@ -5,6 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.time.DateTimeException;
+import java.time.LocalDate;
 import java.time.OffsetDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
@@ -31,10 +32,19 @@ public class DataSaver {
         return archiveFolder;
     }
 
-    public static File createArchiveLogements(List<Logement> logements) throws JsonProcessingException {
+    public static File createArchiveLogementsForDay(LocalDate date, final String linkToData)
+            throws JsonProcessingException {
+        File archiveFolder = getArchiveFolderForCurrentDate();
+        String logementsJson = DataSumUp.createSumUpOfTheDay(date, linkToData);
+        File archiveFile = getArchiveFileForDay(archiveFolder);
+        writeLogementsDataInsideArchiveFile(logementsJson, archiveFile);
+        return archiveFile;
+    }
+
+    public static File createArchiveLogementsForHour(List<Logement> logements) throws JsonProcessingException {
         File archiveFolder = getArchiveFolderForCurrentDate();
         String logementsJson = convertLogementsToJson(logements);
-        File archiveFile = getArchiveFile(archiveFolder);
+        File archiveFile = getArchiveFileForHour(archiveFolder);
         writeLogementsDataInsideArchiveFile(logementsJson, archiveFile);
         return archiveFile;
     }
@@ -50,14 +60,22 @@ public class DataSaver {
         LOGGER.info(() -> "Logements written to file");
     }
 
-    private static File getArchiveFile(File archiveFolder) throws DateTimeException {
+    private static File getArchiveFileForHour(File archiveFolder) {
+        return getArchiveFile(archiveFolder,
+                OffsetDateTime.now().toLocalTime().format(DateTimeFormatter.ofPattern("HH")));
+    }
+
+    private static File getArchiveFileForDay(File archiveFolder) {
+        return getArchiveFile(archiveFolder, "sum-up");
+    }
+
+    private static File getArchiveFile(File archiveFolder, String archiveFileName) throws DateTimeException {
         LOGGER.info(() -> "Getting archive file");
-        String archiveFileName = OffsetDateTime.now().toLocalTime().format(DateTimeFormatter.ofPattern("HH"));
         Stream.of(archiveFolder.listFiles())
                 .filter(file -> file.getName().equals(archiveFileName))
                 .findFirst()
                 .ifPresent(file -> {
-                    LOGGER.error(() -> "Archive file already exists");
+                    LOGGER.warning(() -> "Archive file already exists");
                     try {
                         Files.delete(file.toPath());
                     } catch (IOException e) {

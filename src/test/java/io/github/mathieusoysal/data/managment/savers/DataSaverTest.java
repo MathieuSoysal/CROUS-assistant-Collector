@@ -1,4 +1,4 @@
-package io.github.mathieusoysal.data.managment;
+package io.github.mathieusoysal.data.managment.savers;
 
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -13,6 +13,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 
 import io.github.mathieusoysal.data.managment.collectors.DataCollectorFromCrous;
+import io.github.mathieusoysal.data.managment.savers.DataSaver;
 import io.github.mathieusoysal.exceptions.ApiRequestFailedException;
 import io.github.mathieusoysal.logement.Logement;
 
@@ -25,15 +26,6 @@ class DataSaverTest {
             archiveFolder.delete();
     }
 
-    @Test
-    void testCreateArchiveFolder() {
-        File archiveFolder = DataSaver.createArchiveFolder();
-
-        assertTrue(archiveFolder.exists());
-        assertTrue(archiveFolder.isDirectory());
-        assertEquals("archive", archiveFolder.getName());
-        archiveFolder.delete();
-    }
 
     @Test
     void testCreateArchiveLogements() throws ApiRequestFailedException, IOException {

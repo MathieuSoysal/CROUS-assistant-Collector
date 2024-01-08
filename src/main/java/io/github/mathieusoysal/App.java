@@ -5,8 +5,8 @@ import java.time.LocalDate;
 
 import com.github.forax.beautifullogger.Logger;
 
-import io.github.mathieusoysal.data.managment.DataSaver;
 import io.github.mathieusoysal.data.managment.collectors.DataCollectorFromCrous;
+import io.github.mathieusoysal.data.managment.savers.DataSaver;
 import io.github.mathieusoysal.exceptions.PropertiesNotFoundRuntimeException;
 
 public class App {

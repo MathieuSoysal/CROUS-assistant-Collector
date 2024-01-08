@@ -1,19 +1,17 @@
 package io.github.mathieusoysal.data.managment.collectors;
 
-import java.io.IOException;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.stream.IntStream;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.forax.beautifullogger.Logger;
 import com.microsoft.playwright.APIRequestContext;
 import com.microsoft.playwright.Playwright;
 
+import io.github.mathieusoysal.data.managment.convertors.Convertor;
 import io.github.mathieusoysal.exceptions.ApiRequestErrorRuntimeException;
-import io.github.mathieusoysal.exceptions.ConvertionErrorRuntimeException;
 import io.github.mathieusoysal.logement.Logement;
 
 class RequestorToGetSumUpOfDay implements Requestor {
@@ -34,22 +32,19 @@ class RequestorToGetSumUpOfDay implements Requestor {
     public String requestWitGet(String url) {
         LOGGER.info(() -> "Creating sum up of the day: " + date);
         String linkToDataForTheDay = url + "/" + date;
-        String sumUp = "";
-        ObjectMapper objectMapper = new ObjectMapper();
+        Logement[][] sumUp;
         LOGGER.info(() -> "Creating profil to request logements");
         try (Playwright playwright = Playwright.create()) {
             LOGGER.info(() -> "profil created");
             var context = playwright.request().newContext();
-            sumUp = objectMapper.writeValueAsString(IntStream.range(0, 24)
-                    .mapToObj(hour -> linkToDataForTheDay + "/" + NUMBER_FORMAT.format(hour))
-                    .map(link -> getFromUrl(link, context))
-                    .toArray());
+            sumUp = IntStream.range(0, 24)
+                    .<String>mapToObj(hour -> linkToDataForTheDay + "/" + NUMBER_FORMAT.format(hour))
+                    .<Logement[]>map(link -> getFromUrl(link, context))
+                    .toArray(Logement[][]::new);
             LOGGER.info(() -> "Logements received");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        } 
         LOGGER.info(() -> "profil closed");
-        return sumUp;
+        return Convertor.convertLogementMatrixToJson(sumUp);
     }
 
     private static Logement[] getFromUrl(String url, APIRequestContext context) {
@@ -58,11 +53,7 @@ class RequestorToGetSumUpOfDay implements Requestor {
         if (!respons.ok())
             throw new ApiRequestErrorRuntimeException(respons);
         LOGGER.info(() -> "Data received");
-        try {
-            return new ObjectMapper().readValue(respons.text(), Logement[].class);
-        } catch (IOException e) {
-            throw new ConvertionErrorRuntimeException(e.getMessage(), e);
-        }
+        return Convertor.convertJsonToArrayOfLogements(respons.text());
     }
 
 }

@@ -11,30 +11,32 @@ package io.github.mathieusoysal.logement;
  */
 public class Address {
 
+    public Address(){}
+
     /**
      * The full street address of the residence.
      */
-    private final String fullAddress;
+    private String fullAddress;
 
     /**
      * The street of the address.
      */
-    private final String street;
+    private String street;
 
     /**
      * The city of the address.
      */
-    private final String city;
+    private String city;
 
     /**
      * The zip code of the address.
      */
-    private final String zipCode;
+    private String zipCode;
 
     /**
      * The location of the address.
      */
-    private final Location location;
+    private Location location;
 
     /**
      * Constructs an address object with the given street, city, zip code, and

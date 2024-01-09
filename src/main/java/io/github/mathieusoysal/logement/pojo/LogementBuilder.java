@@ -4,7 +4,9 @@ import java.util.List;
 
 import io.github.mathieusoysal.logement.Address;
 import io.github.mathieusoysal.logement.BedKind;
-import io.github.mathieusoysal.logement.Equipement;
+import io.github.mathieusoysal.logement.Equipment;
+import io.github.mathieusoysal.logement.Logement;
+import io.github.mathieusoysal.logement.OccupationMode;
 
 class LogementBuilder {
     private Logement logement;
@@ -68,7 +70,7 @@ class LogementBuilder {
         return this;
     }
 
-    LogementBuilder withEquipements(List<Equipement> hEquipements) {
+    LogementBuilder withEquipements(List<Equipment> hEquipements) {
         logement.setEquipements(hEquipements);
         return this;
     }
@@ -83,7 +85,7 @@ class LogementBuilder {
         return this;
     }
 
-    LogementBuilder withOccupationMods(List<OccupationMod> hOccupationMods) {
+    LogementBuilder withOccupationMods(List<OccupationMode> hOccupationMods) {
         logement.setOccupationMods(hOccupationMods);
         return this;
     }

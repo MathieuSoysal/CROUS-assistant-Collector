@@ -11,10 +11,10 @@ class EquipementTest {
         String input = "WC";
 
         // Act
-        Equipement result = Equipement.fromString(input);
+        Equipment result = Equipment.fromString(input);
 
         // Assert
-        Assertions.assertEquals(Equipement.WC, result);
+        Assertions.assertEquals(Equipment.WC, result);
     }
 
     @Test
@@ -23,10 +23,10 @@ class EquipementTest {
         String input = null;
 
         // Act
-        Equipement result = Equipement.fromString(input);
+        Equipment result = Equipment.fromString(input);
 
         // Assert
-        Assertions.assertEquals(Equipement.NONE, result);
+        Assertions.assertEquals(Equipment.NONE, result);
     }
 
     @Test
@@ -35,10 +35,10 @@ class EquipementTest {
         String input = "";
 
         // Act
-        Equipement result = Equipement.fromString(input);
+        Equipment result = Equipment.fromString(input);
 
         // Assert
-        Assertions.assertEquals(Equipement.NONE, result);
+        Assertions.assertEquals(Equipment.NONE, result);
     }
 
     @Test
@@ -47,10 +47,10 @@ class EquipementTest {
         String input = "null";
 
         // Act
-        Equipement result = Equipement.fromString(input);
+        Equipment result = Equipment.fromString(input);
 
         // Assert
-        Assertions.assertEquals(Equipement.NONE, result);
+        Assertions.assertEquals(Equipment.NONE, result);
     }
 
     @Test
@@ -59,9 +59,9 @@ class EquipementTest {
         String input = "InvalidEquipement";
 
         // Act
-        Equipement result = Equipement.fromString(input);
+        Equipment result = Equipment.fromString(input);
 
         // Assert
-        Assertions.assertEquals(Equipement.UNKNOWN, result);
+        Assertions.assertEquals(Equipment.UNKNOWN, result);
     }
 }

@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import io.github.mathieusoysal.logement.OccupationKind;
-import io.github.mathieusoysal.logement.pojo.OccupationMod;
+import io.github.mathieusoysal.logement.OccupationMode;
 
 class OccupationModTest {
     @Test
@@ -13,7 +13,7 @@ class OccupationModTest {
         OccupationKind expectedOccupationKind = OccupationKind.ALONE;
         int rentMin = 100;
         int rentMax = 200;
-        OccupationMod occupationMod = new OccupationMod(expectedOccupationKind, rentMin, rentMax);
+        OccupationMode occupationMod = new OccupationMode(expectedOccupationKind, rentMin, rentMax);
 
         // Act
         OccupationKind actualOccupationKind = occupationMod.getOccupationKind();
@@ -28,7 +28,7 @@ class OccupationModTest {
         OccupationKind occupationKind = OccupationKind.ALONE;
         int expectedRentMin = 100;
         int rentMax = 200;
-        OccupationMod occupationMod = new OccupationMod(occupationKind, expectedRentMin, rentMax);
+        OccupationMode occupationMod = new OccupationMode(occupationKind, expectedRentMin, rentMax);
 
         // Act
         int actualRentMin = occupationMod.getRentMin();
@@ -43,7 +43,7 @@ class OccupationModTest {
         OccupationKind occupationKind = OccupationKind.ALONE;
         int rentMin = 100;
         int expectedRentMax = 200;
-        OccupationMod occupationMod = new OccupationMod(occupationKind, rentMin, expectedRentMax);
+        OccupationMode occupationMod = new OccupationMode(occupationKind, rentMin, expectedRentMax);
 
         // Act
         int actualRentMax = occupationMod.getRentMax();

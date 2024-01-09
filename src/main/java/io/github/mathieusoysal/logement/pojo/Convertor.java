@@ -4,14 +4,13 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
-import com.fasterxml.jackson.core.exc.StreamReadException;
-import com.fasterxml.jackson.databind.DatabindException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.forax.beautifullogger.Logger;
 
 import io.github.mathieusoysal.logement.Address;
 import io.github.mathieusoysal.logement.BedKind;
 import io.github.mathieusoysal.logement.Location;
+import io.github.mathieusoysal.logement.Logement;
 import io.github.mathieusoysal.logement.OccupationKind;
 import io.github.mathieusoysal.logement.TransportKind;
 import io.github.mathieusoysal.logement.TransportUnitOfMeasure;
@@ -22,7 +21,7 @@ public class Convertor {
     private Convertor() {
     }
 
-    static List<Item> getItemsFromJsonFile(File file) throws StreamReadException, DatabindException, IOException {
+    static List<Item> getItemsFromJsonFile(File file) throws IOException {
         LOGGER.info(() -> "Reading json file for convertion to java object");
         ObjectMapper objectMapper = new ObjectMapper();
         Input results = objectMapper.readValue(file, Input.class);
@@ -30,7 +29,7 @@ public class Convertor {
         return results.getResults().getItems();
     }
 
-    static List<Item> getItemsFromJsonString(String json) throws StreamReadException, DatabindException, IOException {
+    static List<Item> getItemsFromJsonString(String json) throws IOException {
         LOGGER.info(() -> "Reading json string for convertion to java object");
         ObjectMapper objectMapper = new ObjectMapper();
         Input results = objectMapper.readValue(json, Input.class);
@@ -46,13 +45,13 @@ public class Convertor {
     }
 
     public static List<Logement> getLogementsFromBruteJsonFile(File file)
-            throws StreamReadException, DatabindException, IOException {
+            throws IOException {
         List<Item> items = getItemsFromJsonFile(file);
         return convertItemsToLogements(items);
     }
 
     public static List<Logement> getLogementsFromBruteJsonString(String json)
-            throws StreamReadException, DatabindException, IOException {
+            throws IOException {
         List<Item> items = getItemsFromJsonString(json);
         return convertItemsToLogements(items);
     }
@@ -83,15 +82,15 @@ public class Convertor {
                 new Location(item.getResidence().getLocation().getLat(), item.getResidence().getLocation().getLon()));
     }
 
-    private static List<io.github.mathieusoysal.logement.Equipement> getEquipements(Item item) {
+    private static List<io.github.mathieusoysal.logement.Equipment> getEquipements(Item item) {
         return item.getEquipments().stream()
-                .map(equipment -> io.github.mathieusoysal.logement.Equipement.fromString((equipment.getLabel())))
+                .map(equipment -> io.github.mathieusoysal.logement.Equipment.fromString((equipment.getLabel())))
                 .toList();
     }
 
-    private static List<OccupationMod> getOccupationMods(Item item) {
+    private static List<io.github.mathieusoysal.logement.OccupationMode> getOccupationMods(Item item) {
         return item.getOccupationModes().stream()
-                .map(occupationMod -> new OccupationMod(
+                .map(occupationMod -> new io.github.mathieusoysal.logement.OccupationMode(
                         OccupationKind.fromString(occupationMod.getType()),
                         occupationMod.getRent().getMin(),
                         occupationMod.getRent().getMax()))

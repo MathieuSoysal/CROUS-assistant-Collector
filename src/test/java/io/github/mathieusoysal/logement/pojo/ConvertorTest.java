@@ -12,6 +12,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import io.github.mathieusoysal.logement.BedKind;
+import io.github.mathieusoysal.logement.Logement;
 import io.github.mathieusoysal.logement.OccupationKind;
 import io.github.mathieusoysal.logement.TransportKind;
 import io.github.mathieusoysal.logement.TransportUnitOfMeasure;
@@ -91,14 +92,16 @@ class ConvertorTest {
         assertEquals(12.5, logement.getAreaMin());
         assertEquals(12.5, logement.getAreaMax());
         assertEquals(2, logement.getEquipements().size());
-        assertEquals(io.github.mathieusoysal.logement.Equipement.WC,
+        assertEquals(io.github.mathieusoysal.logement.Equipment.WC,
                 logement.getEquipements().get(0));
-        assertEquals(io.github.mathieusoysal.logement.Equipement.SHOWER,
+        assertEquals(io.github.mathieusoysal.logement.Equipment.SHOWER,
                 logement.getEquipements().get(1));
         assertEquals(1, logement.getOccupationMods().size());
         assertEquals(OccupationKind.ALONE, logement.getOccupationMods().get(0).getOccupationKind());
         assertEquals(26780, logement.getOccupationMods().get(0).getRentMin());
         assertEquals(26780, logement.getOccupationMods().get(0).getRentMax());
     }
+
+    
 
 }

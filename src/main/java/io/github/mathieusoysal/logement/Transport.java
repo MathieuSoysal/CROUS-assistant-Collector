@@ -9,6 +9,9 @@ public class Transport {
     private int distance;
     private TransportUnitOfMeasure unitOfMeasure;
 
+    public Transport() {
+    }
+
     /**
      * Constructs a new Transport object with the specified parameters.
      * 

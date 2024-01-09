@@ -5,7 +5,9 @@ import java.time.LocalDate;
 
 import com.github.forax.beautifullogger.Logger;
 
+import io.github.mathieusoysal.data.managment.collectors.DataCollectorFromArchive;
 import io.github.mathieusoysal.data.managment.collectors.DataCollectorFromCrous;
+import io.github.mathieusoysal.data.managment.savers.ArchiveName;
 import io.github.mathieusoysal.data.managment.savers.DataSaver;
 import io.github.mathieusoysal.exceptions.PropertiesNotFoundRuntimeException;
 
@@ -19,10 +21,16 @@ public class App {
             throws IOException {
         LOGGER.info(() -> "Starting application");
         if (sumupdayModIsActivated())
-            DataSaver.createArchiveLogementsForDay(LocalDate.now(), System.getenv(LINK_TO_DATA_PROPERTIE_NAME));
+            createArchiveSumUpForThisDay();
         else
             createArchiveForThisHour();
         LOGGER.info(() -> "Application finished");
+    }
+
+    private static void createArchiveSumUpForThisDay() {
+        var dataCollector = new DataCollectorFromArchive(LINK_TO_DATA_PROPERTIE_NAME);
+        var sumUpOfTheDay = dataCollector.getSumUpOfDay(LocalDate.now());
+        DataSaver.save(ArchiveName.DAY_SUM_UP, sumUpOfTheDay);
     }
 
     private static boolean sumupdayModIsActivated() {
@@ -32,7 +40,7 @@ public class App {
     private static void createArchiveForThisHour()
             throws IOException {
         var logements = DataCollectorFromCrous.getAvailableLogementsWithConnection(getEmail(), getPassword());
-        DataSaver.createArchiveLogementsForHour(logements);
+        DataSaver.save(ArchiveName.HOUR, logements);
     }
 
     private static String getPropertie(final String propertieName) {

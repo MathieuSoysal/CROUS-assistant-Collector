@@ -18,9 +18,13 @@ class FolderManager {
     }
 
     static File getOrCreateArchiveFolderWithCurrentDate() {
+        return getOrCreateArchiveFolderWithGivenDate(OffsetDateTime.now());
+    }
+
+    static File getOrCreateArchiveFolderWithGivenDate(OffsetDateTime date) {
         LOGGER.info(() -> "Getting archive folder for current date");
         File archiveFolder = createArchiveFolder();
-        String archiveFolderName = OffsetDateTime.now().toLocalDate().toString();
+        String archiveFolderName = date.format(java.time.format.DateTimeFormatter.ISO_LOCAL_DATE);
         File archiveFile = new File(archiveFolder, archiveFolderName);
         if (!archiveFile.exists()) {
             archiveFile.mkdir();

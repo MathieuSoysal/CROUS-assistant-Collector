@@ -28,7 +28,8 @@ public class App {
     }
 
     private static void createArchiveSumUpForThisDay() {
-        var dataCollector = new DataCollectorFromArchive(LINK_TO_DATA_PROPERTIE_NAME);
+        String linkToData = getPropertie(LINK_TO_DATA_PROPERTIE_NAME);
+        var dataCollector = new DataCollectorFromArchive(linkToData);
         var sumUpOfTheDay = dataCollector.getSumUpOfDay(LocalDate.now());
         DataSaver.save(ArchiveName.DAY_SUM_UP, sumUpOfTheDay);
     }

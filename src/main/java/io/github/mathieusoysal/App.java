@@ -2,7 +2,9 @@ package io.github.mathieusoysal;
 
 import java.io.IOException;
 import java.time.LocalDate;
+import java.util.stream.IntStream;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.forax.beautifullogger.Logger;
 
 import io.github.mathieusoysal.data.managment.collectors.DataCollectorFromArchive;
@@ -10,6 +12,8 @@ import io.github.mathieusoysal.data.managment.collectors.DataCollectorFromCrous;
 import io.github.mathieusoysal.data.managment.savers.ArchiveName;
 import io.github.mathieusoysal.data.managment.savers.DataSaver;
 import io.github.mathieusoysal.exceptions.PropertiesNotFoundRuntimeException;
+import io.github.mathieusoysal.logement.Logement;
+import io.github.mathieusoysal.logement.LogementsClassifier;
 
 public class App {
     private static final Logger LOGGER = Logger.getLogger();
@@ -17,14 +21,15 @@ public class App {
     private static final String PASSWORD_PROPERTIES_NAME = "PASSWORD";
     private static final String LINK_TO_DATA_PROPERTIE_NAME = "LINK_TO_DATA";
 
-    public static void main(String[] args)
-            throws IOException {
-        LOGGER.info(() -> "Starting application");
-        if (sumupdayModIsActivated())
-            createArchiveSumUpForThisDay();
-        else
-            createArchiveForThisHour();
-        LOGGER.info(() -> "Application finished");
+    public static void main(String[] args) {
+        String linkToData = "https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available/";
+        var dataCollector = new DataCollectorFromArchive(linkToData);
+        var collectors = new LogementsClassifier();
+        IntStream.range(1, 12)
+                .mapToObj(i -> dataCollector.getSumUpConvertedOfDay(LocalDate.of(2024, 1, i)))
+                .forEach(collectors::addLogements);
+        var result = collectors.classify();
+        createArchiveSumUpForThisDay();
     }
 
     private static void createArchiveSumUpForThisDay() {

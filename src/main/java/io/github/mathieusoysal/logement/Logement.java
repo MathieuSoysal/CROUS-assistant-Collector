@@ -2,6 +2,8 @@ package io.github.mathieusoysal.logement;
 
 import java.util.List;
 
+import io.github.mathieusoysal.Utils;
+
 /**
  * Logement
  * 
@@ -29,10 +31,9 @@ public class Logement {
     private List<OccupationMode> occupationMods;
     private List<io.github.mathieusoysal.logement.Transport> transports;
 
-
     // Create constructor
-    public Logement()
-    {}
+    public Logement() {
+    }
 
     /**
      * Constructs a new Logement object with the specified ID.
@@ -56,12 +57,6 @@ public class Logement {
         return result;
     }
 
-    /**
-     * Indicates whether some other object is "equal to" this one.
-     *
-     * @param obj the reference object with which to compare
-     * @return true if this object is the same as the obj argument; false otherwise
-     */
     @Override
     public boolean equals(Object obj) {
         if (this == obj)
@@ -69,7 +64,46 @@ public class Logement {
         if (obj == null || getClass() != obj.getClass())
             return false;
         Logement other = (Logement) obj;
-        return id == other.id;
+        if (address == null) {
+            if (other.address != null)
+                return false;
+        } else if (!address.equals(other.address))
+            return false;
+        if (areaMax != other.areaMax)
+            return false;
+        if (areaMin != other.areaMin)
+            return false;
+        if (available != other.available)
+            return false;
+        if (bedCount != other.bedCount)
+            return false;
+        if (bedKind != other.bedKind)
+            return false;
+        if (bedroomCount != other.bedroomCount)
+            return false;
+        if (description == null) {
+            if (other.description != null)
+                return false;
+        } else if (!description.equals(other.description))
+            return false;
+        if (highDemand != other.highDemand)
+            return false;
+        if (id != other.id)
+            return false;
+        if (inUnavailabilityPeriod != other.inUnavailabilityPeriod)
+            return false;
+        if (label == null) {
+            if (other.label != null)
+                return false;
+        } else if (!label.equals(other.label))
+            return false;
+        if (lowStock != other.lowStock)
+            return false;
+        if (!Utils.listEqualsIgnoreOrder(occupationMods, other.occupationMods))
+            return false;
+        if (roomCount != other.roomCount)
+            return false;
+        return Utils.listEqualsIgnoreOrder(transports, other.transports);
     }
 
     /**

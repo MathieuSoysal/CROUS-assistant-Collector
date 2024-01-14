@@ -1,8 +1,9 @@
 package io.github.mathieusoysal.logement;
 
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
-
-import io.github.mathieusoysal.Utils;
+import java.util.Set;
 
 /**
  * Logement
@@ -28,7 +29,7 @@ public class Logement {
     private List<Equipment> equipements;
     private double areaMin;
     private double areaMax;
-    private List<OccupationMode> occupationMods;
+    private Set<OccupationMode> occupationMods;
     private List<io.github.mathieusoysal.logement.Transport> transports;
 
     // Create constructor
@@ -59,51 +60,38 @@ public class Logement {
 
     @Override
     public boolean equals(Object obj) {
-        if (this == obj)
-            return true;
-        if (obj == null || getClass() != obj.getClass())
+        if (obj == null)
+            return false;
+        if (!(obj instanceof Logement))
             return false;
         Logement other = (Logement) obj;
-        if (address == null) {
-            if (other.address != null)
-                return false;
-        } else if (!address.equals(other.address))
-            return false;
-        if (areaMax != other.areaMax)
-            return false;
-        if (areaMin != other.areaMin)
-            return false;
-        if (available != other.available)
-            return false;
-        if (bedCount != other.bedCount)
-            return false;
-        if (bedKind != other.bedKind)
-            return false;
-        if (bedroomCount != other.bedroomCount)
-            return false;
-        if (description == null) {
-            if (other.description != null)
-                return false;
-        } else if (!description.equals(other.description))
-            return false;
-        if (highDemand != other.highDemand)
-            return false;
-        if (id != other.id)
-            return false;
-        if (inUnavailabilityPeriod != other.inUnavailabilityPeriod)
-            return false;
-        if (label == null) {
-            if (other.label != null)
-                return false;
-        } else if (!label.equals(other.label))
-            return false;
-        if (lowStock != other.lowStock)
-            return false;
-        if (!Utils.listEqualsIgnoreOrder(occupationMods, other.occupationMods))
-            return false;
-        if (roomCount != other.roomCount)
-            return false;
-        return Utils.listEqualsIgnoreOrder(transports, other.transports);
+        return id == other.id;
+    }
+
+    /**
+     * Adds the specified Logement object to this Logement object.
+     *
+     * @param logement the Logement object to be added
+     */
+    public void addLogement(Logement logement) {
+        if (logement == null)
+            return;
+        label = logement.getLabel();
+        address = logement.getAddress();
+        bedCount = logement.getBedCount();
+        bedKind = logement.getBedKind();
+        bedroomCount = logement.getBedroomCount();
+        roomCount = logement.getRoomCount();
+        inUnavailabilityPeriod = logement.isInUnavailabilityPeriod();
+        description = logement.getDescription();
+        available = logement.isAvailable();
+        highDemand = logement.isHighDemand();
+        lowStock = logement.isLowStock();
+        equipements = logement.getEquipements();
+        areaMin = logement.getAreaMin();
+        areaMax = logement.getAreaMax();
+        occupationMods.addAll(logement.occupationMods);
+        transports = logement.getTransports();
     }
 
     /**
@@ -248,7 +236,7 @@ public class Logement {
      * @return the list of occupation modifications for this Logement object
      */
     public List<OccupationMode> getOccupationMods() {
-        return occupationMods;
+        return new ArrayList<>(occupationMods);
     }
 
     /**
@@ -331,7 +319,7 @@ public class Logement {
     }
 
     public void setOccupationMods(List<OccupationMode> occupationMods) {
-        this.occupationMods = occupationMods;
+        this.occupationMods = new HashSet<>(occupationMods);
     }
 
     public void setTransports(List<io.github.mathieusoysal.logement.Transport> transports) {

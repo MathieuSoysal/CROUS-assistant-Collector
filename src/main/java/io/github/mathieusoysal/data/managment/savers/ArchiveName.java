@@ -5,6 +5,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.function.Supplier;
 
 public enum ArchiveName {
+    ALL_LOGEMENTS(() -> "all_logements"),
     DAY_SUM_UP(() -> "sum-up"),
     HOUR(() -> OffsetDateTime.now().toLocalTime().format(DateTimeFormatter.ofPattern("HH")));
 

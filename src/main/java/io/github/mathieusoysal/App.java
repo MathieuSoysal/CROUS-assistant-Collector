@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.time.LocalDate;
 import java.util.stream.IntStream;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.forax.beautifullogger.Logger;
 
 import io.github.mathieusoysal.data.managment.collectors.DataCollectorFromArchive;
@@ -12,7 +11,6 @@ import io.github.mathieusoysal.data.managment.collectors.DataCollectorFromCrous;
 import io.github.mathieusoysal.data.managment.savers.ArchiveName;
 import io.github.mathieusoysal.data.managment.savers.DataSaver;
 import io.github.mathieusoysal.exceptions.PropertiesNotFoundRuntimeException;
-import io.github.mathieusoysal.logement.Logement;
 import io.github.mathieusoysal.logement.LogementsClassifier;
 
 public class App {
@@ -28,8 +26,7 @@ public class App {
         IntStream.range(1, 12)
                 .mapToObj(i -> dataCollector.getSumUpConvertedOfDay(LocalDate.of(2024, 1, i)))
                 .forEach(collectors::addLogements);
-        var result = collectors.classify();
-        createArchiveSumUpForThisDay();
+        DataSaver.save(ArchiveName.ALL_LOGEMENTS, collectors.getLogements());
     }
 
     private static void createArchiveSumUpForThisDay() {

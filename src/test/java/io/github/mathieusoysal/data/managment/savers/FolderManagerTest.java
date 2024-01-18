@@ -12,7 +12,7 @@ class FolderManagerTest {
 
     @Test
     void testCreateArchiveFolder() {
-        File archiveFolder = FolderManager.createArchiveFolder();
+        File archiveFolder = FolderManager.getOrCreateArchiveFolder();
 
         assertTrue(archiveFolder.exists());
         assertTrue(archiveFolder.isDirectory());

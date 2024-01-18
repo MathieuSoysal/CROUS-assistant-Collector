@@ -93,4 +93,11 @@ class DataCollectorTest {
                     dataCollectorFromArchive.getSumUpOfDay(date);});
     }
 
+    @Test
+    void testGetAllLogements()
+    {
+        String linkToData = "https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available";
+        assertDoesNotThrow(() -> new DataCollectorFromArchive(linkToData).getAllLogements());
+    }
+
 }

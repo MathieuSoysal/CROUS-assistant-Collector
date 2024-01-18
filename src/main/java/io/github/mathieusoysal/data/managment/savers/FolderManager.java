@@ -7,7 +7,7 @@ class FolderManager {
     private static final java.util.logging.Logger LOGGER = java.util.logging.Logger
             .getLogger(FolderManager.class.getName());
 
-    static File createArchiveFolder() {
+    static File getOrCreateArchiveFolder() {
         LOGGER.info(() -> "getting archive folder");
         File archiveFolder = new File("archive");
         if (!archiveFolder.exists()) {
@@ -23,7 +23,7 @@ class FolderManager {
 
     static File getOrCreateArchiveFolderWithGivenDate(OffsetDateTime date) {
         LOGGER.info(() -> "Getting archive folder for current date");
-        File archiveFolder = createArchiveFolder();
+        File archiveFolder = getOrCreateArchiveFolder();
         String archiveFolderName = date.format(java.time.format.DateTimeFormatter.ISO_LOCAL_DATE);
         File archiveFile = new File(archiveFolder, archiveFolderName);
         if (!archiveFile.exists()) {

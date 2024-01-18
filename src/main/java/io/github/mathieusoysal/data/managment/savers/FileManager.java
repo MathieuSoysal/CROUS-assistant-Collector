@@ -11,10 +11,14 @@ import com.github.forax.beautifullogger.Logger;
 class FileManager {
     private static final Logger LOGGER = Logger.getLogger();
 
-    static File getOrCreateArchiveFile(ArchiveName archiveName) {
+    static File getOrCreateArchiveFileForCurrentDay(ArchiveName archiveName) {
         var archiveFolder = FolderManager.getOrCreateArchiveFolderWithCurrentDate();
-        return getArchiveFile(archiveFolder,
-                archiveName.getName());
+        return getArchiveFile(archiveFolder, archiveName.getName());
+    }
+
+    static File getOrCreateArchiveFileForGlobal(ArchiveName archiveName) {
+        var archiveFolder = FolderManager.getOrCreateArchiveFolder();
+        return getArchiveFile(archiveFolder, archiveName.getName());
     }
 
     private static File getArchiveFile(File archiveFolder, String archiveFileName) throws DateTimeException {

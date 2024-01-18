@@ -556,6 +556,52 @@
     "unitOfMeasure" : "NONE"
   } ]
 }, {
+  "id" : 2074,
+  "label" : "Résidence Nobel",
+  "address" : {
+    "fullAddress" : "36, place du 19 mars 1962 81000 Albi",
+    "street" : "36, place du 19 mars 1962",
+    "city" : "Albi",
+    "zipCode" : "81000",
+    "location" : {
+      "latitude" : 43.913,
+      "longitude" : 2.139
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Nombre de logements de ce type = 43</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 19.0,
+  "areaMax" : 21.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 28800,
+    "rentMax" : 28800
+  } ],
+  "transports" : [ {
+    "kind" : "BUS",
+    "description" : "Ligne H",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "TRAIN",
+    "description" : "",
+    "distance" : 1600,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "NONE",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
   "id" : 2076,
   "label" : "RESIDENCE FLORA TRISTAN",
   "address" : {
@@ -1492,6 +1538,52 @@
     "description" : "",
     "distance" : 300,
     "unitOfMeasure" : "METRE"
+  } ]
+}, {
+  "id" : 66,
+  "label" : "CU HAUTE MALGRANGE",
+  "address" : {
+    "fullAddress" : "Rue Jean Lamour 54500 VANDOEUVRE LES NANCY",
+    "street" : "Rue Jean Lamour",
+    "city" : "VANDOEUVRE LES NANCY",
+    "zipCode" : "54500",
+    "location" : {
+      "latitude" : 48.661,
+      "longitude" : 6.189
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : null,
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 13.5,
+  "areaMax" : 13.5,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 35960,
+    "rentMax" : 35960
+  } ],
+  "transports" : [ {
+    "kind" : "BUS",
+    "description" : "",
+    "distance" : 1,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "PRIVATE_PARKING",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "FREE_URBAN_PARKING",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
   } ]
 }, {
   "id" : 67,
@@ -2618,6 +2710,57 @@
     "unitOfMeasure" : "METRE"
   }, {
     "kind" : "FREE_URBAN_PARKING",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
+  "id" : 126,
+  "label" : "RESIDENCE JEAN TUSQUES",
+  "address" : {
+    "fullAddress" : "3 RUE DES EPINETTES 44300 NANTES",
+    "street" : "3 RUE DES EPINETTES",
+    "city" : "NANTES",
+    "zipCode" : "44300",
+    "location" : {
+      "latitude" : 47.227,
+      "longitude" : -1.52
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Les logements sont tous &eacute;quip&eacute;s de WIFI et : lit, table, chaise, bureau, meuble de rangement.</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 18.0,
+  "areaMax" : 18.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 26535,
+    "rentMax" : 26535
+  } ],
+  "transports" : [ {
+    "kind" : "TRAMWAY",
+    "description" : "Ligne 1 (Mairie de Doulon)",
+    "distance" : 100,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "BUS",
+    "description" : "Lignes 12 et 87 (Mairie de Doulon)",
+    "distance" : 100,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "PAYING_URBAN_PARKING",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "NONE",
     "description" : "",
     "distance" : 0,
     "unitOfMeasure" : "NONE"
@@ -5187,7 +5330,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p>&nbsp;</p>\r\n\r\n<p><strong>LOGEMENT DISPONIBLE AU 16/02/2024</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Important - Pour une demande de logement sur le secteur Bordeaux-M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide</strong> ;</p>\r\n\r\n<p>- les &eacute;tudiants internationaux en mobilit&eacute; individuelle <strong>inscrits en Doctorat et Master</strong>. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; dans l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement. En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement :</em></p>\r\n\r\n<ul>\r\n\t<li><em>Le logement dispose d&#39;un bureau, d&#39;une table, d&#39;une armoire ( &eacute;tag&egrave;re + penderie) et d&#39;un lit ( sommier + matelas) de 190x90cm.</em></li>\r\n</ul>",
+  "description" : "<p>&nbsp;</p>\r\n\r\n<p><strong>LOGEMENT DISPONIBLE AU 01/02/2024 OU AU 16/02/2024</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Important - Pour une demande de logement sur le secteur Bordeaux-M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide</strong> ;</p>\r\n\r\n<p>- les &eacute;tudiants internationaux en mobilit&eacute; individuelle <strong>inscrits en Doctorat et Master</strong>. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; dans l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement. En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement :</em></p>\r\n\r\n<ul>\r\n\t<li><em>Le logement dispose d&#39;un bureau, d&#39;une table, d&#39;une armoire ( &eacute;tag&egrave;re + penderie) et d&#39;un lit ( sommier + matelas) de 190x90cm.</em></li>\r\n</ul>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -6985,6 +7128,42 @@
     "unitOfMeasure" : "NONE"
   } ]
 }, {
+  "id" : 2358,
+  "label" : "CITE HEINLEX",
+  "address" : {
+    "fullAddress" : "60 RUE MICHEL ANGE 44600 SAINT NAZAIRE",
+    "street" : "60 RUE MICHEL ANGE",
+    "city" : "SAINT NAZAIRE",
+    "zipCode" : "44600",
+    "location" : {
+      "latitude" : 47.263,
+      "longitude" : -2.267
+    }
+  },
+  "bedCount" : 2,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 2,
+  "roomCount" : 3,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Les logements sont tous &eacute;quip&eacute;s de : lit, table, chaise, bureau, meuble de rangement, r&eacute;frig&eacute;rateur, cuisine, sanitaires et douches collectifs</p>\r\n\r\n<p>&nbsp;</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "LIVING_ROOM", "WC", "SHOWER", "UNKNOWN", "FRIDGE", "MICROWAVE" ],
+  "areaMin" : 26.25,
+  "areaMax" : 26.25,
+  "occupationMods" : [ {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 26800,
+    "rentMax" : 26800
+  } ],
+  "transports" : [ {
+    "kind" : "BUS",
+    "description" : "ligne U1 arrêt IUT HEINLEX",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
   "id" : 2360,
   "label" : "Cité Albert Camus",
   "address" : {
@@ -7269,6 +7448,47 @@
     "description" : "Arrêt Société générale",
     "distance" : 4,
     "unitOfMeasure" : "ON_FOOT"
+  } ]
+}, {
+  "id" : 323,
+  "label" : "RESIDENCE CANOLLE",
+  "address" : {
+    "fullAddress" : "15, Rue Guillaume VII Le Troubadour - 86000 POITIERS",
+    "street" : "15, Rue Guillaume VII Le Troubadour -",
+    "city" : "POITIERS",
+    "zipCode" : "86000",
+    "location" : {
+      "latitude" : 46.588,
+      "longitude" : 0.346
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p><strong>Les studios</strong> (avec balcon), d&#39;une surface de 26 m&sup2;, disposent d&#39;une petite cuisine (&eacute;quip&eacute;es de plaques de cuisson et d&#39;un frigo), d&#39;une salle de bain (WC, douche, lavabo) et d&#39;un balcon.</p>\r\n\r\n<p>Studio meubl&eacute; : 1 lit simple, un bureau, une armoire comprenant une penderie et des &eacute;tag&egrave;res, une table et une chaise.</p>\r\n\r\n<p>&nbsp;</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE", "BALCONY" ],
+  "areaMin" : 26.0,
+  "areaMax" : 26.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 43100,
+    "rentMax" : 43100
+  } ],
+  "transports" : [ {
+    "kind" : "BUS",
+    "description" : "Arrêts de bus : Voie Malraux, Jardin des plantes, Pôle Notre Dame",
+    "distance" : 10,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "PAYING_URBAN_PARKING",
+    "description" : "Parking privé gratuit avec activation de sa carte étudiant auprès du secrétariat de la résidence",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
   } ]
 }, {
   "id" : 325,
@@ -8743,6 +8963,42 @@
     "unitOfMeasure" : "METRE"
   } ]
 }, {
+  "id" : 389,
+  "label" : "Guyancourt - Vauban",
+  "address" : {
+    "fullAddress" : "1, Boulevard d Alembert 78280 - GUYANCOURT",
+    "street" : "1, Boulevard d Alembert",
+    "city" : "- GUYANCOURT",
+    "zipCode" : "78280",
+    "location" : {
+      "latitude" : 48.78,
+      "longitude" : 2.044
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>- Studio / Colocation : Non&nbsp;<br />\r\n- Aides disponibles : APL&nbsp;<br />\r\n- Accessibilit&eacute; PMR : NON&nbsp;<br />\r\n- Chauffage collectif : Oui<br />\r\n- Espace collectif : Laverie, salle commune, d&eacute;p&ocirc;t troc.</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 19.1,
+  "areaMax" : 20.01,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 41000,
+    "rentMax" : 42200
+  } ],
+  "transports" : [ {
+    "kind" : "RER",
+    "description" : "Saint-Quentin-en-Yvelines",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
   "id" : 390,
   "label" : "RESIDENCE LES HAUTS DE SAINT AUBIN",
   "address" : {
@@ -9431,7 +9687,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p>&nbsp;</p>\r\n\r\n<p><strong>LOGEMENT DISPONIBLE AU 01/02/2024</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Important - Pour une demande de logement sur le secteur Bordeaux-M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide</strong> ;</p>\r\n\r\n<p>- les &eacute;tudiants internationaux en mobilit&eacute; individuelle <strong>inscrits en Doctorat et Master</strong>. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; dans l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement. En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement :</em></p>\r\n\r\n<ul>\r\n\t<li><em>Unit&eacute; de vie (&eacute;vier, r&eacute;frig&eacute;rateur, plaques de cuisson, placards)</em></li>\r\n\t<li><em>Salle d&#39;eau (douche, lavabo, wc)</em></li>\r\n\t<li><em>1 lit simple (90), bureau, chaise, table, placard</em></li>\r\n</ul>",
+  "description" : "<p>&nbsp;</p>\r\n\r\n<p><strong>LOGEMENT DISPONIBLE AU 16/02/2024</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Important - Pour une demande de logement sur le secteur Bordeaux-M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide</strong> ;</p>\r\n\r\n<p>- les &eacute;tudiants internationaux en mobilit&eacute; individuelle <strong>inscrits en Doctorat et Master</strong>. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; dans l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement. En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement :</em></p>\r\n\r\n<ul>\r\n\t<li><em>Unit&eacute; de vie (&eacute;vier, r&eacute;frig&eacute;rateur, plaques de cuisson, placards)</em></li>\r\n\t<li><em>Salle d&#39;eau (douche, lavabo, wc)</em></li>\r\n\t<li><em>1 lit simple (90), bureau, chaise, table, placard</em></li>\r\n</ul>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -10080,6 +10336,47 @@
     "description" : "Bus n° 9, 10, 12 et 23",
     "distance" : 9,
     "unitOfMeasure" : "ON_FOOT"
+  } ]
+}, {
+  "id" : 439,
+  "label" : "RESIDENCE CANOLLE",
+  "address" : {
+    "fullAddress" : "15, Rue Guillaume VII Le Troubadour - 86000 POITIERS",
+    "street" : "15, Rue Guillaume VII Le Troubadour -",
+    "city" : "POITIERS",
+    "zipCode" : "86000",
+    "location" : {
+      "latitude" : 46.588,
+      "longitude" : 0.346
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 2,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p><strong>Les studios</strong>, d&#39;une surface de 29 &agrave; 32 m&sup2;, disposent d&#39;une petite cuisine (&eacute;quip&eacute;es de plaques de cuisson et d&#39;un frigo) et d&#39;une salle de bain (WC, douche, lavabo).<br />\r\nLe mobilier comprend 1 lit simple, un bureau, une armoire comprenant une penderie et des &eacute;tag&egrave;res, une table et une chaise.</p>\r\n\r\n<p>&nbsp;</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "LIVING_ROOM", "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 29.0,
+  "areaMax" : 32.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 42500,
+    "rentMax" : 42500
+  } ],
+  "transports" : [ {
+    "kind" : "BUS",
+    "description" : "Arrêts de bus : Voie Malraux, Jardin des plantes, Pôle Notre Dame",
+    "distance" : 10,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "PAYING_URBAN_PARKING",
+    "description" : "Parking privé gratuit avec activation de sa carte étudiant auprès du secrétariat de la résidence",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
   } ]
 }, {
   "id" : 2488,
@@ -11205,6 +11502,62 @@
     "unitOfMeasure" : "NONE"
   } ]
 }, {
+  "id" : 490,
+  "label" : "Cité Albert Châtelet",
+  "address" : {
+    "fullAddress" : "Rue Frédéric Combemale 59000 LILLE",
+    "street" : "Rue Frédéric Combemale",
+    "city" : "LILLE",
+    "zipCode" : "59000",
+    "location" : {
+      "latitude" : 50.614,
+      "longitude" : 3.035
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Chambre disposant de sanitaires privatifs (douche, WC, lavabo), d&#39;une kitchenette (&eacute;vier, r&eacute;frig&eacute;rateur, plaques de cuisson), d&#39;une prise t&eacute;l&eacute;phonique.</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 9.3,
+  "areaMax" : 10.8,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 26780,
+    "rentMax" : 26780
+  } ],
+  "transports" : [ {
+    "kind" : "METRO",
+    "description" : "Ligne 1 station CHU-Centre O. Lambret",
+    "distance" : 400,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "BUS",
+    "description" : "Arrêt Chasseurs De Driant",
+    "distance" : 15,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "TRAIN",
+    "description" : "Gare SNCF de Lille CHR",
+    "distance" : 500,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "NONE",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "BIKE",
+    "description" : "",
+    "distance" : 17,
+    "unitOfMeasure" : "ON_FOOT"
+  } ]
+}, {
   "id" : 491,
   "label" : "CU TECHNOPOLE 2",
   "address" : {
@@ -11321,6 +11674,47 @@
     "description" : "Arrêt  Arras-parking citadelle",
     "distance" : 400,
     "unitOfMeasure" : "METRE"
+  } ]
+}, {
+  "id" : 2545,
+  "label" : "DJINN",
+  "address" : {
+    "fullAddress" : "rue Lac saint André 73370 le Bourget du Lac",
+    "street" : "rue Lac saint André",
+    "city" : "le Bourget du Lac",
+    "zipCode" : "73370",
+    "location" : {
+      "latitude" : 45.641,
+      "longitude" : 5.872
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p><strong>Logement studio 18m&sup2;</strong></p>\r\n\r\n<ul>\r\n\t<li><strong>loyer 331 &euro; pour l&#39;ann&eacute;e 22-23</strong><br />\r\n\t(eau, &eacute;l&eacute;ctricit&eacute;, chauffage, internet et maintenance compris)</li>\r\n\t<li><strong>Caution</strong>&nbsp;:&nbsp;260&nbsp;&euro;&nbsp;</li>\r\n\t<li><strong>Dur&eacute;e du bail</strong>&nbsp;: 12 mois (pr&eacute;avis de 1 mois)</li>\r\n</ul>\r\n\r\n<p>Le logement ouvre droit &agrave; l&rsquo;APL (demande &agrave; effectuer sur www.caf.fr dans le mois d&rsquo;arriv&eacute;e dans le logement).</p>\r\n\r\n<p><strong>Equipements individuels</strong></p>\r\n\r\n<ul>\r\n\t<li>Lit</li>\r\n\t<li>Chaise</li>\r\n\t<li>Bureau</li>\r\n\t<li>&Eacute;tag&egrave;re</li>\r\n\t<li>Placard</li>\r\n\t<li>Table</li>\r\n\t<li>Evier</li>\r\n\t<li>Plaque de cuisson</li>\r\n\t<li>Salle de bain (douche, lavabo, WC)</li>\r\n\t<li>Petit refrig&eacute;rateur</li>\r\n\t<li>Acc&egrave;s internet</li>\r\n\t<li>Prise TV et prise t&eacute;l&eacute;phone</li>\r\n\t<li><strong>Linge&nbsp;de lit, vaisselle&nbsp;et micro-ondes NON FOURNIS</strong></li>\r\n</ul>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 18.0,
+  "areaMax" : 18.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 33100,
+    "rentMax" : 33100
+  } ],
+  "transports" : [ {
+    "kind" : "BUS",
+    "description" : "Bus SYNCHRO ligne A <br />\r\nBus ONDEA ligne 1",
+    "distance" : 5,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "FREE_URBAN_PARKING",
+    "description" : "Parking autour de la résidence + places PMR",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
   } ]
 }, {
   "id" : 2546,
@@ -12958,6 +13352,57 @@
     "unitOfMeasure" : "METRE"
   } ]
 }, {
+  "id" : 565,
+  "label" : "Cité Bas-Liévin",
+  "address" : {
+    "fullAddress" : "48/50 rue du Bas-Liévin 59000 LILLE",
+    "street" : "48/50 rue du Bas-Liévin",
+    "city" : "LILLE",
+    "zipCode" : "59000",
+    "location" : {
+      "latitude" : 50.609,
+      "longitude" : 3.073
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Chambre disposant de sanitaires privatifs (douche, WC, lavabo), d&#39;une kitchenette (&eacute;vier, r&eacute;frig&eacute;rateur, plaques de cuisson), d&#39;une prise t&eacute;l&eacute;phonique.</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 10.2,
+  "areaMax" : 12.3,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 26780,
+    "rentMax" : 26780
+  } ],
+  "transports" : [ {
+    "kind" : "BUS",
+    "description" : "Arrêt Jean Jaures à Ronchin",
+    "distance" : 300,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "METRO",
+    "description" : "Ligne 2, station Porte de Douai",
+    "distance" : 20,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "NONE",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "NONE",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
   "id" : 2617,
   "label" : "CLAIREFONTAINE",
   "address" : {
@@ -12975,7 +13420,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>LOGEMENT DISPONIBLE AU 16/02/2024</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Important - Pour une demande de logement sur le secteur Bordeaux-M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide</strong> ;</p>\r\n\r\n<p>- les &eacute;tudiants internationaux en mobilit&eacute; individuelle <strong>inscrits en Doctorat et Master</strong>. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; dans l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement. En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.&nbsp;</p>",
+  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>LOGEMENT DISPONIBLE AU 16/02/2024 </strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Important - Pour une demande de logement sur le secteur Bordeaux-M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide</strong> ;</p>\r\n\r\n<p>- les &eacute;tudiants internationaux en mobilit&eacute; individuelle <strong>inscrits en Doctorat et Master</strong>. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; dans l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement. En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.&nbsp;</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -14166,6 +14611,52 @@
     "unitOfMeasure" : "METRE"
   }, {
     "kind" : "PAYING_URBAN_PARKING",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
+  "id" : 616,
+  "label" : "RESIDENCE AZIYADE",
+  "address" : {
+    "fullAddress" : "171 rue de Coureilles - 17000 LA ROCHELLE",
+    "street" : "171 rue de Coureilles -",
+    "city" : "LA ROCHELLE",
+    "zipCode" : "17000",
+    "location" : {
+      "latitude" : 46.141,
+      "longitude" : -1.151
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p><strong>T1</strong> meubl&eacute; &eacute;quip&eacute; d&#39;un lit d&#39;une personne avec salle d&#39;eau (douche, wc et lavabo).<br />\r\nNon &eacute;quip&eacute; en vaisselle et en linge de lit.<br />\r\nVente de kit literie jetable (draps, couette, oreiller jetable) &agrave; la Cit&eacute; Antin&eacute;a.<br />\r\nInternet filaire (pr&eacute;voir c&acirc;ble RJ 45 droit).</p>\r\n\r\n<p>&nbsp;</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE", "MICROWAVE" ],
+  "areaMin" : 18.0,
+  "areaMax" : 18.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 38400,
+    "rentMax" : 38400
+  } ],
+  "transports" : [ {
+    "kind" : "BUS",
+    "description" : "ligne Illico 3 ou 4  - Arrêt la Sole<br />\r\nPour récupération des clés à la Cité Antinéa",
+    "distance" : 200,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "BUS",
+    "description" : "Ligne Illico 3 - arrêt maison de la Charente maritime",
+    "distance" : 100,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "FREE_URBAN_PARKING",
     "description" : "",
     "distance" : 0,
     "unitOfMeasure" : "NONE"
@@ -17292,6 +17783,47 @@
     "unitOfMeasure" : "ON_FOOT"
   } ]
 }, {
+  "id" : 712,
+  "label" : "Nanterre",
+  "address" : {
+    "fullAddress" : "8 allée de l'Université 92000 Nanterre",
+    "street" : "8 allée de l'Université",
+    "city" : "Nanterre",
+    "zipCode" : "92000",
+    "location" : {
+      "latitude" : 48.905,
+      "longitude" : 2.212
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "RAISED",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>- Chambre / Partie commune : cuisine&nbsp;<br />\r\n- Colocation : Non /<br />\r\n- Aides disponibles : ALS&nbsp;<br />\r\n- Accessibilit&eacute; PMR : NON&nbsp;<br />\r\n- Chauffage collectif : Oui&nbsp;<br />\r\n- Espace collectif : Laverie, foyer avec tv, salles de travail, local v&eacute;los.</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "FRIDGE" ],
+  "areaMin" : 10.74,
+  "areaMax" : 10.74,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 24800,
+    "rentMax" : 24800
+  } ],
+  "transports" : [ {
+    "kind" : "RER",
+    "description" : "Gare : Nanterre université (RER A)",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "NONE",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
   "id" : 2763,
   "label" : "Résidence La Bastide Rouge",
   "address" : {
@@ -17700,6 +18232,52 @@
     "unitOfMeasure" : "NONE"
   } ]
 }, {
+  "id" : 2771,
+  "label" : "CU MONPLAISIR",
+  "address" : {
+    "fullAddress" : "rue Jacques Callot 54500 VANDOEUVRE LES NANCY",
+    "street" : "rue Jacques Callot",
+    "city" : "VANDOEUVRE LES NANCY",
+    "zipCode" : "54500",
+    "location" : {
+      "latitude" : 48.666,
+      "longitude" : 6.165
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p><strong>Le b&acirc;timent E de la r&eacute;sidence a &eacute;t&eacute; r&eacute;habilit&eacute; en 2022, offrant ainsi des logements r&eacute;nov&eacute;s et plus confortables.</strong></p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 13.0,
+  "areaMax" : 13.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 35960,
+    "rentMax" : 35960
+  } ],
+  "transports" : [ {
+    "kind" : "BUS",
+    "description" : "",
+    "distance" : 10,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "PRIVATE_PARKING",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "FREE_URBAN_PARKING",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
   "id" : 2774,
   "label" : "RESIDENCE ROBERT TATIN",
   "address" : {
@@ -17869,6 +18447,47 @@
     "unitOfMeasure" : "NONE"
   }, {
     "kind" : "PAYING_URBAN_PARKING",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
+  "id" : 734,
+  "label" : "Nanterre",
+  "address" : {
+    "fullAddress" : "8 allée de l'Université 92000 Nanterre",
+    "street" : "8 allée de l'Université",
+    "city" : "Nanterre",
+    "zipCode" : "92000",
+    "location" : {
+      "latitude" : 48.905,
+      "longitude" : 2.212
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "RAISED",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>- Chambre<br />\r\n- Partie commune : cuisine&nbsp;<br />\r\n- Colocation : NON&nbsp;<br />\r\n- Aides disponibles : ALS&nbsp;<br />\r\n- Accessibilit&eacute; PMR : NON&nbsp;<br />\r\n- Chauffage collectif : Oui<br />\r\n- Espace collectif : Laverie, foyer avec tv, salles de travail, local v&eacute;los.</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "FRIDGE" ],
+  "areaMin" : 10.74,
+  "areaMax" : 10.74,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 24800,
+    "rentMax" : 24800
+  } ],
+  "transports" : [ {
+    "kind" : "RER",
+    "description" : "Gare : Nanterre université (RER A)",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "NONE",
     "description" : "",
     "distance" : 0,
     "unitOfMeasure" : "NONE"
@@ -18326,7 +18945,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>LOGEMENT DISPONIBLE AU 16/01/2024 ou au 01/02/2024</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Important - Pour une demande de logement sur le secteur Bordeaux-M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide</strong> ;</p>\r\n\r\n<p>- les &eacute;tudiants internationaux en mobilit&eacute; individuelle <strong>inscrits en Doctorat et Master</strong>. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; dans l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement. En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement :</em></p>\r\n\r\n<ul>\r\n\t<li><em>Tous les logements ont les m&ecirc;mes &eacute;quipements. A savoir, une salle de bain avec toilettes, lavabo, douche. Les cuisines sont &eacute;quip&eacute;es, d&#39;un evier, d&#39;une plaque &eacute;lectrique, d&#39;un frigo et une prise &eacute;lectrique pr&eacute;vue pour un micro-onde (non fourni). Le logement est &eacute;quip&eacute; d&#39;un lit (sommier + matelas) et d&#39;un bureau.</em></li>\r\n</ul>",
+  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>LOGEMENT DISPONIBLE AU 01/02/2024</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Important - Pour une demande de logement sur le secteur Bordeaux-M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide</strong> ;</p>\r\n\r\n<p>- les &eacute;tudiants internationaux en mobilit&eacute; individuelle <strong>inscrits en Doctorat et Master</strong>. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; dans l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement. En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement :</em></p>\r\n\r\n<ul>\r\n\t<li><em>Tous les logements ont les m&ecirc;mes &eacute;quipements. A savoir, une salle de bain avec toilettes, lavabo, douche. Les cuisines sont &eacute;quip&eacute;es, d&#39;un evier, d&#39;une plaque &eacute;lectrique, d&#39;un frigo et une prise &eacute;lectrique pr&eacute;vue pour un micro-onde (non fourni). Le logement est &eacute;quip&eacute; d&#39;un lit (sommier + matelas) et d&#39;un bureau.</em></li>\r\n</ul>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -19853,6 +20472,47 @@
   } ],
   "transports" : [ ]
 }, {
+  "id" : 840,
+  "label" : "Orsay-L Ile",
+  "address" : {
+    "fullAddress" : "Bâtiment 227 14, rue du Docteur Collé 91440 Bures sur Yvette",
+    "street" : "Bâtiment 227 14, rue du Docteur Collé",
+    "city" : "Bures sur Yvette",
+    "zipCode" : "91440",
+    "location" : {
+      "latitude" : 48.699,
+      "longitude" : 2.164
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>- Studette / Colocation : Non<br />\r\n- Aides disponibles : APL<br />\r\n- Accessibilit&eacute; PMR : Non<br />\r\n- Chauffage collectif : Oui<br />\r\n- Espace collectif : Laverie, foyer &eacute;tudiant et local v&eacute;los</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 18.13,
+  "areaMax" : 22.7,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 37200,
+    "rentMax" : 37200
+  } ],
+  "transports" : [ {
+    "kind" : "RER",
+    "description" : "Gare : Bures-sur-Yvette (RER B)",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "BUS",
+    "description" : "Plusieurs lignes de bus desservent la résidence.",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
   "id" : 2890,
   "label" : "Résidence Gaston Adriensence",
   "address" : {
@@ -20056,6 +20716,42 @@
     "description" : "Parking Hôtel de Ville",
     "distance" : 0,
     "unitOfMeasure" : "NONE"
+  } ]
+}, {
+  "id" : 847,
+  "label" : "CITE JEANNE D'ARC",
+  "address" : {
+    "fullAddress" : "49, Rue de la Cathédrale - 86000 POITIERS",
+    "street" : "49, Rue de la Cathédrale -",
+    "city" : "POITIERS",
+    "zipCode" : "86000",
+    "location" : {
+      "latitude" : 46.582,
+      "longitude" : 0.345
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p><strong>Chambre 3 fonctions</strong> 9 &agrave; 20 m&sup2; &eacute;quip&eacute;e d&rsquo;une cabine individuelle (sanitaire, lavabo et douche), d&rsquo;un lit individuel, d&rsquo;un bureau, d&rsquo;une chaise et d&rsquo;&eacute;tag&egrave;re de rangement, d&rsquo;un frigo &ndash; cuisine collective.</p>\r\n\r\n<p>La chambre dispose d&#39;une connexion internet (WIFI).</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "FRIDGE" ],
+  "areaMin" : 12.0,
+  "areaMax" : 12.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 25300,
+    "rentMax" : 25300
+  } ],
+  "transports" : [ {
+    "kind" : "BUS",
+    "description" : "Arrêt de bus : Pôle Notre-Dame, Cordeliers",
+    "distance" : 10,
+    "unitOfMeasure" : "ON_FOOT"
   } ]
 }, {
   "id" : 2897,
@@ -21918,6 +22614,47 @@
     "unitOfMeasure" : "NONE"
   } ]
 }, {
+  "id" : 909,
+  "label" : "Résidence La Fresque",
+  "address" : {
+    "fullAddress" : "10, rue Edmé BOUCHARDON 78000 - VERSAILLES",
+    "street" : "10, rue Edmé BOUCHARDON",
+    "city" : "- VERSAILLES",
+    "zipCode" : "78000",
+    "location" : {
+      "latitude" : 48.811,
+      "longitude" : 2.146
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>- Studio / Colocation : Non&nbsp;<br />\r\n- Aides disponibles : APL&nbsp;<br />\r\n- Accessibilit&eacute; PMR : OUI&nbsp;<br />\r\n- Chauffage collectif : Oui&nbsp;<br />\r\n- Espace collectif : Laverie, salle commune, Local v&eacute;los.</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 17.0,
+  "areaMax" : 25.3,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 43700,
+    "rentMax" : 54400
+  } ],
+  "transports" : [ {
+    "kind" : "RER",
+    "description" : "Versailles Rive-Droite",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "BUS",
+    "description" : "Plusieurs lignes de bus permettent également de desservir les gares de Versailles (Rive gauche, Rive droite, Chantiers et Porchefontaine).",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
   "id" : 910,
   "label" : "Residence Pierrette Grimaldi",
   "address" : {
@@ -23709,6 +24446,62 @@
     "description" : "Cour intérieur avec parking.<br />\r\nParking souterrain payant.",
     "distance" : 0,
     "unitOfMeasure" : "NONE"
+  } ]
+}, {
+  "id" : 1033,
+  "label" : "Résidence Les Tripodes",
+  "address" : {
+    "fullAddress" : "118 route de Narbonne CS 17705 31077 Toulouse Cedex 4",
+    "street" : "",
+    "city" : "",
+    "zipCode" : "4",
+    "location" : {
+      "latitude" : 43.562,
+      "longitude" : 1.466
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Nombre de logements de ce type = 64</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 9.0,
+  "areaMax" : 15.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 25281,
+    "rentMax" : 25281
+  } ],
+  "transports" : [ {
+    "kind" : "TRAIN",
+    "description" : "",
+    "distance" : 7000,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "METRO",
+    "description" : "Ligne B - Station Université Paul Sabatier - Station Faculté de Pharmacie",
+    "distance" : 2,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "BUS",
+    "description" : "Lignes 24, 44, 54, 56, 78 , 82 et Nocturne",
+    "distance" : 2,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "FREE_URBAN_PARKING",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "BIKE",
+    "description" : "",
+    "distance" : 2,
+    "unitOfMeasure" : "ON_FOOT"
   } ]
 }, {
   "id" : 1036,
@@ -27360,6 +28153,42 @@
     "description" : "",
     "distance" : 0,
     "unitOfMeasure" : "NONE"
+  } ]
+}, {
+  "id" : 1333,
+  "label" : "RESIDENCE MINERVE",
+  "address" : {
+    "fullAddress" : "Cours Alfred Wegener - Av. Paul Parguel - 34090 Montpellier",
+    "street" : "Cours Alfred Wegener - Av. Paul Parguel -",
+    "city" : "Montpellier",
+    "zipCode" : "34090",
+    "location" : {
+      "latitude" : 43.635,
+      "longitude" : 3.86
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Les logements sont tous &eacute;quip&eacute;s de : lit 1 place, table, chaise, bureau, meuble de rangement, kitchenette avec plaques &eacute;lectriques et r&eacute;frig&eacute;rateur, salle de douche.</p>\r\n\r\n<p><strong>Charges en plus du loyer : </strong>- Electricit&eacute; : prendre un contrat aupr&egrave;s d&#39;un fournisseur d&#39;acc&egrave;s - Eau : la consommation est factur&eacute;e sur relev&eacute; de compteur par la r&eacute;sidence.</p>\r\n\r\n<p>Ce logement peut ouvrir droit &agrave; des prestations de la Caisse d&#39;Allocation Familiale. Pour plus de renseignements, se rendre sur : https://www.caf.fr/.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><em><strong>Les montants sont donn&eacute;s &agrave; titre indicatif</strong></em><em><strong>. Ils sont susceptibles d&rsquo;&eacute;voluer sur d&eacute;cision du conseil d&rsquo;administration du Crous.</strong></em></p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 18.0,
+  "areaMax" : 18.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 33200,
+    "rentMax" : 33200
+  } ],
+  "transports" : [ {
+    "kind" : "TRAMWAY",
+    "description" : "Tramway ligne 1 : arrêt Universités puis navette : arrêt Gascogne",
+    "distance" : 2,
+    "unitOfMeasure" : "ON_FOOT"
   } ]
 }, {
   "id" : 1336,
@@ -33216,6 +34045,42 @@
     "unitOfMeasure" : "ON_FOOT"
   } ]
 }, {
+  "id" : 1798,
+  "label" : "Guyancourt - Vauban",
+  "address" : {
+    "fullAddress" : "1, Boulevard d Alembert 78280 - GUYANCOURT",
+    "street" : "1, Boulevard d Alembert",
+    "city" : "- GUYANCOURT",
+    "zipCode" : "78280",
+    "location" : {
+      "latitude" : 48.78,
+      "longitude" : 2.044
+    }
+  },
+  "bedCount" : 2,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 2,
+  "roomCount" : 3,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>- Duplex / Colocation 2 places<br />\r\n- Aides disponibles : APL&nbsp;<br />\r\n- Accessibilit&eacute; PMR : Non<br />\r\n- Chauffage collectif : Oui&nbsp;<br />\r\n- Espace collectif : Laverie, salle commune, d&eacute;p&ocirc;t troc.</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "LIVING_ROOM", "WC", "SHOWER", "UNKNOWN", "FRIDGE", "DUPLEX", "BALCONY" ],
+  "areaMin" : 36.74,
+  "areaMax" : 36.74,
+  "occupationMods" : [ {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 30000,
+    "rentMax" : 30000
+  } ],
+  "transports" : [ {
+    "kind" : "RER",
+    "description" : "Saint-Quentin-en-Yvelines",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
   "id" : 1800,
   "label" : "SAINT SYMPHORIEN",
   "address" : {
@@ -33416,6 +34281,51 @@
     "unitOfMeasure" : "METRE"
   }, {
     "kind" : "FREE_URBAN_PARKING",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
+  "id" : 1818,
+  "label" : "Rés. Univ. Le Bouguen",
+  "address" : {
+    "fullAddress" : "4, 4bis, 4ter av. Le Gorgeu 29200 BREST",
+    "street" : "4, 4bis, 4ter av. Le Gorgeu",
+    "city" : "BREST",
+    "zipCode" : "29200",
+    "location" : {
+      "latitude" : 48.398,
+      "longitude" : -4.495
+    }
+  },
+  "bedCount" : 2,
+  "bedKind" : "MOBILE",
+  "bedroomCount" : 1,
+  "roomCount" : 2,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">7 Logements - <strong>Attributions prioritaire aux couples - </strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>FAIBLE DISPONIBILITE ET FORTE DEMANDE !! N&#39;H2SITEZ PAS A FORMULER D&#39;AUTRES&nbsp; VOEUX DE LOGEMENT SUR CETTE VILLE</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Studios meubl&eacute;s de 35 &agrave; 39 m&sup2; &eacute;quip&eacute;s de trois tables, quatre chaises, deux lits simples, d&rsquo;un coin cuisine&nbsp;avec &eacute;vier, plaque de cuisson et r&eacute;frig&eacute;rateur ainsi que d&rsquo;un espace WC, douche et lavabo.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">6 studios sont am&eacute;nag&eacute;s pour les personnes &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable jusqu&rsquo;en ao&ucirc;t 2024. Logements ouvrant droit aux APL.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Logements r&eacute;serv&eacute;s aux couples ou colocataires.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>ATTENTION&nbsp;: ce type de logement existe en faible quantit&eacute;. Il est vivement recommand&eacute; de formuler des v&oelig;ux sur d&rsquo;autres types de logements.</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Montant du d&eacute;p&ocirc;t de garantie&nbsp;: 299,00 &euro;</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "LIVING_ROOM", "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 35.0,
+  "areaMax" : 39.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 42348,
+    "rentMax" : 42348
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 42348,
+    "rentMax" : 42348
+  } ],
+  "transports" : [ {
+    "kind" : "BUS",
+    "description" : "Lignes : 1-12-13-5",
+    "distance" : 0,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "PRIVATE_PARKING",
     "description" : "",
     "distance" : 0,
     "unitOfMeasure" : "NONE"

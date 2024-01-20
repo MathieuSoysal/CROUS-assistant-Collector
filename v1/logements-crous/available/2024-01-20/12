@@ -18075,6 +18075,57 @@
     "unitOfMeasure" : "NONE"
   } ]
 }, {
+  "id" : 2306,
+  "label" : "Résidence Moulins-Parc Centre",
+  "address" : {
+    "fullAddress" : "91 rue d'Arras 59000 Lille",
+    "street" : "91 rue d'Arras",
+    "city" : "Lille",
+    "zipCode" : "59000",
+    "location" : {
+      "latitude" : 50.622,
+      "longitude" : 3.067
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Studio comprenant une salle de bains et une cuisinette.</p>\r\n\r\n<p>La fourniture de l&#39;eau et l&#39;abonnement internet sont compris dans les charges mais <strong>le locataire doit ouvrir un abonnement aupr&egrave;s du fournisseur d&#39;&eacute;lectricit&eacute; de son choix</strong>.</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 19.9,
+  "areaMax" : 19.9,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 29500,
+    "rentMax" : 29500
+  } ],
+  "transports" : [ {
+    "kind" : "METRO",
+    "description" : "Métro M2 : la station Grand Palais",
+    "distance" : 900,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "BUS",
+    "description" : "Arrêt Douai-Arras",
+    "distance" : 100,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "TRAIN",
+    "description" : "Gare Lille Flandres",
+    "distance" : 24,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "BIKE",
+    "description" : "",
+    "distance" : 100,
+    "unitOfMeasure" : "METRE"
+  } ]
+}, {
   "id" : 2341,
   "label" : "Résidence Pythagore",
   "address" : {
@@ -18211,103 +18262,6 @@
     "description" : "",
     "distance" : 0,
     "unitOfMeasure" : "NONE"
-  } ]
-}, {
-  "id" : 2382,
-  "label" : "Résidence Gustave Eiffel",
-  "address" : {
-    "fullAddress" : "Cité Scientifique 51/65, rue de Ticléni 59650 VILLENEUVE D ASCQ",
-    "street" : "Cité Scientifique 51/65, rue de Ticléni",
-    "city" : "VILLENEUVE D ASCQ",
-    "zipCode" : "59650",
-    "location" : {
-      "latitude" : 50.611,
-      "longitude" : 3.149
-    }
-  },
-  "bedCount" : 1,
-  "bedKind" : "MOBILE",
-  "bedroomCount" : 1,
-  "roomCount" : 2,
-  "inUnavailabilityPeriod" : false,
-  "description" : "<p>Studio pour 2 personnes &eacute;quip&eacute; d&#39;une salle de bains et d&#39;une kitchenette, disposant de 2 lits approchables.</p>\r\n\r\n<p>La fourniture de l&#39;eau et l&#39;abonnement internet sont compris dans les charges mais <strong>le locataire doit ouvrir un abonnement aupr&egrave;s du fournisseur d&#39;&eacute;lectricit&eacute; de son choix</strong>.</p>",
-  "available" : true,
-  "highDemand" : false,
-  "lowStock" : false,
-  "equipements" : [ "LIVING_ROOM", "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
-  "areaMin" : 27.66,
-  "areaMax" : 27.66,
-  "occupationMods" : [ {
-    "occupationKind" : "ALONE",
-    "rentMin" : 45807,
-    "rentMax" : 45807
-  } ],
-  "transports" : [ {
-    "kind" : "METRO",
-    "description" : "Métro M1 : la station Cite Scientifique",
-    "distance" : 800,
-    "unitOfMeasure" : "METRE"
-  }, {
-    "kind" : "PAYING_URBAN_PARKING",
-    "description" : "parking réservé à la résidence.",
-    "distance" : 0,
-    "unitOfMeasure" : "NONE"
-  }, {
-    "kind" : "BIKE",
-    "description" : "",
-    "distance" : 15,
-    "unitOfMeasure" : "ON_FOOT"
-  } ]
-}, {
-  "id" : 2306,
-  "label" : "Résidence Moulins-Parc Centre",
-  "address" : {
-    "fullAddress" : "91 rue d'Arras 59000 Lille",
-    "street" : "91 rue d'Arras",
-    "city" : "Lille",
-    "zipCode" : "59000",
-    "location" : {
-      "latitude" : 50.622,
-      "longitude" : 3.067
-    }
-  },
-  "bedCount" : 1,
-  "bedKind" : "SIMPLE",
-  "bedroomCount" : 1,
-  "roomCount" : 1,
-  "inUnavailabilityPeriod" : false,
-  "description" : "<p>Studio comprenant une salle de bains et une cuisinette.</p>\r\n\r\n<p>La fourniture de l&#39;eau et l&#39;abonnement internet sont compris dans les charges mais <strong>le locataire doit ouvrir un abonnement aupr&egrave;s du fournisseur d&#39;&eacute;lectricit&eacute; de son choix</strong>.</p>",
-  "available" : true,
-  "highDemand" : false,
-  "lowStock" : false,
-  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
-  "areaMin" : 19.9,
-  "areaMax" : 19.9,
-  "occupationMods" : [ {
-    "occupationKind" : "ALONE",
-    "rentMin" : 29500,
-    "rentMax" : 29500
-  } ],
-  "transports" : [ {
-    "kind" : "METRO",
-    "description" : "Métro M2 : la station Grand Palais",
-    "distance" : 900,
-    "unitOfMeasure" : "METRE"
-  }, {
-    "kind" : "BUS",
-    "description" : "Arrêt Douai-Arras",
-    "distance" : 100,
-    "unitOfMeasure" : "METRE"
-  }, {
-    "kind" : "TRAIN",
-    "description" : "Gare Lille Flandres",
-    "distance" : 24,
-    "unitOfMeasure" : "ON_FOOT"
-  }, {
-    "kind" : "BIKE",
-    "description" : "",
-    "distance" : 100,
-    "unitOfMeasure" : "METRE"
   } ]
 }, {
   "id" : 2904,
@@ -18731,6 +18685,52 @@
     "kind" : "TRAMWAY",
     "description" : "Tram B - Arrêt Forum",
     "distance" : 8,
+    "unitOfMeasure" : "ON_FOOT"
+  } ]
+}, {
+  "id" : 2382,
+  "label" : "Résidence Gustave Eiffel",
+  "address" : {
+    "fullAddress" : "Cité Scientifique 51/65, rue de Ticléni 59650 VILLENEUVE D ASCQ",
+    "street" : "Cité Scientifique 51/65, rue de Ticléni",
+    "city" : "VILLENEUVE D ASCQ",
+    "zipCode" : "59650",
+    "location" : {
+      "latitude" : 50.611,
+      "longitude" : 3.149
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "MOBILE",
+  "bedroomCount" : 1,
+  "roomCount" : 2,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Studio pour 2 personnes &eacute;quip&eacute; d&#39;une salle de bains et d&#39;une kitchenette, disposant de 2 lits approchables.</p>\r\n\r\n<p>La fourniture de l&#39;eau et l&#39;abonnement internet sont compris dans les charges mais <strong>le locataire doit ouvrir un abonnement aupr&egrave;s du fournisseur d&#39;&eacute;lectricit&eacute; de son choix</strong>.</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "LIVING_ROOM", "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 27.66,
+  "areaMax" : 27.66,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 45807,
+    "rentMax" : 45807
+  } ],
+  "transports" : [ {
+    "kind" : "METRO",
+    "description" : "Métro M1 : la station Cite Scientifique",
+    "distance" : 800,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "PAYING_URBAN_PARKING",
+    "description" : "parking réservé à la résidence.",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "BIKE",
+    "description" : "",
+    "distance" : 15,
     "unitOfMeasure" : "ON_FOOT"
   } ]
 }, {

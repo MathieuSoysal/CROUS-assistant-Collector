@@ -14,15 +14,22 @@ import io.github.mathieusoysal.logement.Logement;
 public class DataSaver {
     private static final Logger LOGGER = Logger.getLogger();
 
-    public static File save(ArchiveName archiveName, String content) {
-        File archiveFile = FileManager.getOrCreateArchiveFile(archiveName);
+    public static File saveForCurrentDay(ArchiveName archiveName, String content) {
+        File archiveFile = FileManager.getOrCreateArchiveFileForCurrentDay(archiveName);
         writeDataInsideArchiveFile(content, archiveFile);
         return archiveFile;
     }
 
-    public static File save(ArchiveName archiveName, List<Logement> logements) {
+    public static File saveForCurrentDay(ArchiveName archiveName, List<Logement> logements) {
         String logementsJson = Convertor.convertLogementsToJson(logements);
-        return save(archiveName, logementsJson);
+        return saveForCurrentDay(archiveName, logementsJson);
+    }
+
+    public static File saveForGlobalArchive(ArchiveName archiveName, List<Logement> logements) {
+        File archiveFile = FileManager.getOrCreateArchiveFileForGlobal(archiveName);
+        String logementsJson = Convertor.convertLogementsToJson(logements);
+        writeDataInsideArchiveFile(logementsJson, archiveFile);
+        return archiveFile;
     }
 
     private static void writeDataInsideArchiveFile(String logementsJson, File archiveFile) {

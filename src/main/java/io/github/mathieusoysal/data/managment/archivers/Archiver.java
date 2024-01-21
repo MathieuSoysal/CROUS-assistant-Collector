@@ -1,0 +1,26 @@
+package io.github.mathieusoysal.data.managment.archivers;
+
+import java.time.LocalDate;
+
+import io.github.mathieusoysal.Properties;
+
+@FunctionalInterface
+public interface Archiver {
+    public static final String DEFAULT_LINK_TO_ARCHIVE = "https://raw.githubusercontent.com/mathieusoysal/LogementsCrous/main/data/data.csv";
+
+    static String getLinkToArchive() {
+        if (Properties.LINK_TO_ARCHIVE.isPresent())
+            return Properties.LINK_TO_ARCHIVE.getValue();
+        else
+            return DEFAULT_LINK_TO_ARCHIVE;
+    }
+
+    static LocalDate getDayToArchive() {
+        if(Properties.SPECIFIC_DAY.isPresent())
+            return LocalDate.parse(Properties.SPECIFIC_DAY.getValue());
+        else
+            return LocalDate.now();
+    }
+
+    void archive();
+}

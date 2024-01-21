@@ -28,7 +28,7 @@ class DataSaverTest {
     @Test
     void testCreateArchiveLogements() throws ApiRequestFailedException, IOException {
         List<Logement> logements = DataCollectorFromCrous.getAllLogementsWithoutConnection().stream().limit(2).toList();
-        var file = assertDoesNotThrow(() -> DataSaver.save(ArchiveName.HOUR, logements));
+        var file = assertDoesNotThrow(() -> DataSaver.saveForCurrentDay(ArchiveName.HOUR, logements));
         file.delete();
     }
 
@@ -38,7 +38,7 @@ class DataSaverTest {
         var dataCollector = new DataCollectorFromArchive(
                 "https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available/");
         String data = assertDoesNotThrow(() -> dataCollector.getSumUpOfDay(LocalDate.of(2024, 1, 10)));
-        assertDoesNotThrow(() -> DataSaver.save(ArchiveName.DAY_SUM_UP, data));
+        assertDoesNotThrow(() -> DataSaver.saveForCurrentDay(ArchiveName.DAY_SUM_UP, data));
     }
 
 }

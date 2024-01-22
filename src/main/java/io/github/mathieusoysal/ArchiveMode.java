@@ -2,10 +2,10 @@ package io.github.mathieusoysal;
 
 import com.github.forax.beautifullogger.Logger;
 
-import io.github.mathieusoysal.data.managment.archivers.ArchiveAllLogements;
-import io.github.mathieusoysal.data.managment.archivers.ArchiveDay;
-import io.github.mathieusoysal.data.managment.archivers.ArchiveHour;
-import io.github.mathieusoysal.data.managment.archivers.Archiver;
+import io.github.mathieusoysal.archivers.ArchiveAllLogements;
+import io.github.mathieusoysal.archivers.ArchiveDay;
+import io.github.mathieusoysal.archivers.ArchiveHour;
+import io.github.mathieusoysal.archivers.Archiver;
 
 public enum ArchiveMode {
     DAY_SUM_UP(ArchiveDay::new),

@@ -1,4 +1,4 @@
-package io.github.mathieusoysal.data.managment.archivers;
+package io.github.mathieusoysal.archivers;
 
 import io.github.mathieusoysal.data.managment.collectors.DataCollectorFromArchive;
 import io.github.mathieusoysal.data.managment.savers.ArchiveName;

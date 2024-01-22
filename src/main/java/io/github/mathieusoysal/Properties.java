@@ -35,8 +35,4 @@ public enum Properties {
         }
         return propertie;
     }
-
-    public static boolean modToArchiveIsActivated() {
-        return System.getenv(ARCHIVE_MODE.getName()) != null;
-    }
 }

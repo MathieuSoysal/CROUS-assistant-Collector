@@ -2,15 +2,15 @@ package io.github.mathieusoysal;
 
 import com.github.forax.beautifullogger.Logger;
 
-import io.github.mathieusoysal.archivers.ArchiveAllLogements;
-import io.github.mathieusoysal.archivers.ArchiveDay;
-import io.github.mathieusoysal.archivers.ArchiveHour;
+import io.github.mathieusoysal.archivers.ArchiverAllLogements;
+import io.github.mathieusoysal.archivers.ArchiverDay;
+import io.github.mathieusoysal.archivers.ArchiverHour;
 import io.github.mathieusoysal.archivers.Archiver;
 
 public enum ArchiveMode {
-    DAY_SUM_UP(ArchiveDay::new),
-    ALL_LOGEMENTS(ArchiveAllLogements::new),
-    HOUR(ArchiveHour::new);
+    DAY_SUM_UP(ArchiverDay::new),
+    ALL_LOGEMENTS(ArchiverAllLogements::new),
+    HOUR(ArchiverHour::new);
 
     private static final Logger LOGGER = Logger.getLogger();
     private final Archiver archiver;

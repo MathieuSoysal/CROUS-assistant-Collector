@@ -4,7 +4,7 @@ import io.github.mathieusoysal.data.managment.collectors.DataCollectorFromArchiv
 import io.github.mathieusoysal.data.managment.savers.ArchiveName;
 import io.github.mathieusoysal.data.managment.savers.DataSaver;
 
-public class ArchiveDay implements Archiver {
+public class ArchiverDay implements Archiver {
 
     @Override
     public void archive() {

@@ -5,7 +5,7 @@ import io.github.mathieusoysal.data.managment.collectors.DataCollectorFromCrous;
 import io.github.mathieusoysal.data.managment.savers.ArchiveName;
 import io.github.mathieusoysal.data.managment.savers.DataSaver;
 
-public class ArchiveHour implements Archiver {
+public class ArchiverHour implements Archiver {
 
     @Override
     public void archive() {

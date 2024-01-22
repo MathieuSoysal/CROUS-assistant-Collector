@@ -5,7 +5,7 @@ import io.github.mathieusoysal.data.managment.savers.ArchiveName;
 import io.github.mathieusoysal.data.managment.savers.DataSaver;
 import io.github.mathieusoysal.logement.LogementsClassifier;
 
-public class ArchiveAllLogements implements Archiver {
+public class ArchiverAllLogements implements Archiver {
 
     @Override
     public void archive() {

@@ -22,5 +22,5 @@ public interface Archiver {
             return LocalDate.now();
     }
 
-    void archive();
+    public void archive();
 }

@@ -15,7 +15,7 @@ public enum ArchiveMode {
     private static final Logger LOGGER = Logger.getLogger();
     private final Archiver archiver;
 
-    ArchiveMode(Archiver archiver) {
+    private ArchiveMode(Archiver archiver) {
         this.archiver = archiver;
     }
 

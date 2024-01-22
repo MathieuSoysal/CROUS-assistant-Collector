@@ -8,7 +8,7 @@ public enum Properties {
     LINK_TO_ARCHIVE("LINK_TO_ARCHIVE"),
     MAIL("MAIL"),
     PASSWORD("PASSWORD"),
-    ARCHIVE_MOD("ARCHIVE_MOD"),
+    ARCHIVE_MODE("ARCHIVE_MODE"),
     SPECIFIC_DAY("DAY_TO_SUM_UP");
 
     private static final Logger LOGGER = Logger.getLogger();
@@ -37,6 +37,6 @@ public enum Properties {
     }
 
     public static boolean modToArchiveIsActivated() {
-        return System.getenv(ARCHIVE_MOD.getName()) != null;
+        return System.getenv(ARCHIVE_MODE.getName()) != null;
     }
 }

@@ -7,7 +7,7 @@ public class App {
 
     public static void main(String[] args) {
         LOGGER.info(() -> "Starting application");
-        ArchiveMod archiveMod = ArchiveMod.getArchiveModFromEnvironmentVariables();
+        ArchiveMode archiveMod = ArchiveMode.getArchiveModFromEnvironmentVariables();
         archiveMod.archive();
         LOGGER.info(() -> "Application successfully finished");
     }

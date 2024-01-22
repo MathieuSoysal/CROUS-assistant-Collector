@@ -7,7 +7,7 @@ import io.github.mathieusoysal.data.managment.archivers.ArchiveDay;
 import io.github.mathieusoysal.data.managment.archivers.ArchiveHour;
 import io.github.mathieusoysal.data.managment.archivers.Archiver;
 
-public enum ArchiveMod {
+public enum ArchiveMode {
     DAY_SUM_UP(ArchiveDay::new),
     ALL_LOGEMENTS(ArchiveAllLogements::new),
     HOUR(ArchiveHour::new);
@@ -15,7 +15,7 @@ public enum ArchiveMod {
     private static final Logger LOGGER = Logger.getLogger();
     private final Archiver archiver;
 
-    ArchiveMod(Archiver archiver) {
+    ArchiveMode(Archiver archiver) {
         this.archiver = archiver;
     }
 
@@ -23,16 +23,16 @@ public enum ArchiveMod {
         archiver.archive();
     }
 
-    public static ArchiveMod getArchiveMod(String archiveMod) {
+    public static ArchiveMode getArchiveMod(String archiveMod) {
         try {
-            return ArchiveMod.valueOf(archiveMod);
+            return ArchiveMode.valueOf(archiveMod);
         } catch (IllegalArgumentException e) {
             LOGGER.warning(() -> archiveMod + " is not a valid archive mod");
             return HOUR;
         }
     }
 
-    public static ArchiveMod getArchiveModFromEnvironmentVariables() {
-        return getArchiveMod(Properties.ARCHIVE_MOD.getValue());
+    public static ArchiveMode getArchiveModFromEnvironmentVariables() {
+        return getArchiveMod(Properties.ARCHIVE_MODE.getValue());
     }
 }

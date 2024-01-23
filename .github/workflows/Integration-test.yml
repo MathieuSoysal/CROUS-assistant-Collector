@@ -49,6 +49,10 @@ jobs:
             ARCHIVE_MODE: HOUR
             MAIL : ${{ secrets.TEST_MAIL }}
             PASSWORD : ${{ secrets.TEST_PASSWORD }}
+        - uses: GuillaumeFalourd/assert-command-line-output@v2
+          with:
+            command_line: ls archive/*
+            contains: archive
     creating-archive-day-sum-up:
       needs: unit-test
       runs-on: ubuntu-latest
@@ -75,6 +79,7 @@ jobs:
         with:
           command_line: ls archive/*
           contains: sum-up
+
     creating-archive-all-logement:
       needs: unit-test
       runs-on: ubuntu-latest
@@ -97,6 +102,7 @@ jobs:
           ARCHIVE_MODE: ALL_LOGEMENTS
           SPESIFIC_DAY: "2024-01-03"
           LINK_TO_ARCHIVE: https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available
+
       - uses: GuillaumeFalourd/assert-command-line-output@v2
         with:
           command_line: ls archive/*

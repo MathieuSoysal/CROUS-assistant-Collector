@@ -9,19 +9,19 @@ class ArchiveModeTest {
 
     @Test
     void testGetArchiveMod_shouldReturnHour_whenArchiveModIsHour() {
-        ArchiveMode archiveMode = ArchiveMode.getArchiveMod("HOUR");
+        ArchiveMode archiveMode = ArchiveMode.getArchiveMode("HOUR");
         assertEquals(ArchiveMode.HOUR, archiveMode);
     }
 
     @Test
     void testGetArchiveMod_shouldReturnDay_whenArchiveModIsDay() {
-        ArchiveMode archiveMode = ArchiveMode.getArchiveMod("DAY_SUM_UP");
+        ArchiveMode archiveMode = ArchiveMode.getArchiveMode("DAY_SUM_UP");
         assertEquals(ArchiveMode.DAY_SUM_UP, archiveMode);
     }
 
     @Test
     void testGetArchiveMod_shouldReturnWeek_whenArchiveModIsWeek() {
-        ArchiveMode archiveMode = ArchiveMode.getArchiveMod("ALL_LOGEMENTS");
+        ArchiveMode archiveMode = ArchiveMode.getArchiveMode("ALL_LOGEMENTS");
         assertEquals(ArchiveMode.ALL_LOGEMENTS, archiveMode);
     }
 
@@ -29,7 +29,7 @@ class ArchiveModeTest {
     @Test
     void testGetArchiveMod_shouldLogErrorAndExit_whenArchiveModIsInvalid() {
         assertThrows(IllegalArgumentException.class, () -> {
-            ArchiveMode.getArchiveMod("INVALID");
+            ArchiveMode.getArchiveMode("INVALID");
         });
     }
 }

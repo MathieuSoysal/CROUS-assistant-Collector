@@ -23,19 +23,18 @@ public enum ArchiveMode {
         archiver.archive();
     }
 
-    public static ArchiveMode getArchiveMod(String archiveMod) {
+    public static ArchiveMode getArchiveMode(String archiveMod) {
         try {
             return ArchiveMode.valueOf(archiveMod);
         } catch (IllegalArgumentException e) {
             LOGGER.error(() -> archiveMod + " is not a valid archive mod");
-            System.exit(1);
-            return HOUR;
+            throw e;
         }
     }
 
     public static ArchiveMode getArchiveModFromEnvironmentVariables() {
         if (Properties.ARCHIVE_MODE.isPresent())
-            return getArchiveMod(Properties.ARCHIVE_MODE.getValue());
+            return getArchiveMode(Properties.ARCHIVE_MODE.getValue());
         else
             return HOUR;
     }

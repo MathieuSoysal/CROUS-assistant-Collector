@@ -25,7 +25,9 @@ public enum ArchiveMode {
 
     public static ArchiveMode getArchiveMode(String archiveMod) {
         try {
-            return ArchiveMode.valueOf(archiveMod);
+            ArchiveMode m = ArchiveMode.valueOf(archiveMod);
+            LOGGER.info(() -> "Archive mode is " + m.name());
+            return m;
         } catch (IllegalArgumentException e) {
             LOGGER.error(() -> archiveMod + " is not a valid archive mod");
             throw e;

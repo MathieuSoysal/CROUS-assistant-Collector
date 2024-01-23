@@ -27,7 +27,8 @@ public enum ArchiveMode {
         try {
             return ArchiveMode.valueOf(archiveMod);
         } catch (IllegalArgumentException e) {
-            LOGGER.warning(() -> archiveMod + " is not a valid archive mod");
+            LOGGER.error(() -> archiveMod + " is not a valid archive mod");
+            System.exit(1);
             return HOUR;
         }
     }

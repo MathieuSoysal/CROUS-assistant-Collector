@@ -8,9 +8,9 @@ import io.github.mathieusoysal.archivers.ArchiverHour;
 import io.github.mathieusoysal.archivers.Archiver;
 
 public enum ArchiveMode {
-    DAY_SUM_UP(ArchiverDay::new),
-    ALL_LOGEMENTS(ArchiverAllLogements::new),
-    HOUR(ArchiverHour::new);
+    DAY_SUM_UP(new ArchiverDay()),
+    ALL_LOGEMENTS(new ArchiverAllLogements()),
+    HOUR(new ArchiverHour());
 
     private static final Logger LOGGER = Logger.getLogger();
     private final Archiver archiver;

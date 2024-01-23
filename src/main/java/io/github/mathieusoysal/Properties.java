@@ -9,7 +9,7 @@ public enum Properties {
     MAIL("MAIL"),
     PASSWORD("PASSWORD"),
     ARCHIVE_MODE("ARCHIVE_MODE"),
-    SPECIFIC_DAY("DAY_TO_SUM_UP");
+    SPECIFIC_DAY("SPECIFIC_DAY");
 
     private static final Logger LOGGER = Logger.getLogger();
     private final String name;

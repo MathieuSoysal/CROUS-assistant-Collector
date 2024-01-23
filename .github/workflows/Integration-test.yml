@@ -23,6 +23,7 @@ jobs:
       - name: Run tests
         run: mvn test
         env:
+          SPESIFIC_DAY: "2024-01-03"
           ARCHIVE_MODE: HOUR
           TEST_MAIL : ${{ secrets.TEST_MAIL }}
           TEST_PASSWORD : ${{ secrets.TEST_PASSWORD }}

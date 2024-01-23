@@ -6,7 +6,7 @@ import io.github.mathieusoysal.Properties;
 
 @FunctionalInterface
 public interface Archiver {
-    public static final String DEFAULT_LINK_TO_ARCHIVE = "https://raw.githubusercontent.com/mathieusoysal/LogementsCrous/main/data/data.csv";
+    public static final String DEFAULT_LINK_TO_ARCHIVE = "https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available/";
 
     static String getLinkToArchive() {
         if (Properties.LINK_TO_ARCHIVE.isPresent())

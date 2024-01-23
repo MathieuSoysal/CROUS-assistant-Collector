@@ -26,9 +26,13 @@ public class DataSaver {
     }
 
     public static File saveForGlobalArchive(ArchiveName archiveName, List<Logement> logements) {
-        File archiveFile = FileManager.getOrCreateArchiveFileForGlobal(archiveName);
         String logementsJson = Convertor.convertLogementsToJson(logements);
-        writeDataInsideArchiveFile(logementsJson, archiveFile);
+        return saveForGlobalArchive(archiveName, logementsJson);
+    }
+
+    public static File saveForGlobalArchive(ArchiveName archiveName, String content) {
+        File archiveFile = FileManager.getOrCreateArchiveFileForGlobal(archiveName);
+        writeDataInsideArchiveFile(content, archiveFile);
         return archiveFile;
     }
 

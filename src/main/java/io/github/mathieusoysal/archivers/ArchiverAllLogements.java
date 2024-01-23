@@ -19,11 +19,21 @@ public class ArchiverAllLogements implements Archiver {
 
     @Override
     public void archive() {
+        var archivedFile = archiveAllLogements();
+        updateHashOfAllLogement(archivedFile);
+    }
+
+    private void updateHashOfAllLogement(File archivedFile) {
+        var hash = getHashOfArchivedFile(archivedFile);
+        DataSaver.saveForGlobalArchive(ArchiveName.HASH_ALL_LOGEMENTS, hash);
+    }
+
+    private File archiveAllLogements() {
         var dataCollector = new DataCollectorFromArchive(Archiver.getLinkToArchive());
         var logements = new LogementsClassifier();
         logements.addLogements(dataCollector.getAllLogements());
         logements.addLogements(dataCollector.getConvertedSumUpOfDay(Archiver.getDayToArchive()));
-        DataSaver.saveForGlobalArchive(ArchiveName.ALL_LOGEMENTS, logements.getLogements());
+        return DataSaver.saveForGlobalArchive(ArchiveName.ALL_LOGEMENTS, logements.getLogements());
     }
 
     String getHashOfArchivedFile(File archivedFile) {

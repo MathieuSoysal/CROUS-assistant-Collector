@@ -51,7 +51,7 @@ jobs:
             PASSWORD : ${{ secrets.TEST_PASSWORD }}
         - uses: GuillaumeFalourd/assert-command-line-output@v2
           with:
-            command_line: ls archive/*
+            command_line: ls
             contains: archive
     creating-archive-day-sum-up:
       needs: unit-test

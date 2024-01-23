@@ -33,6 +33,9 @@ public enum ArchiveMode {
     }
 
     public static ArchiveMode getArchiveModFromEnvironmentVariables() {
-        return getArchiveMod(Properties.ARCHIVE_MODE.getValue());
+        if (Properties.ARCHIVE_MODE.isPresent())
+            return getArchiveMod(Properties.ARCHIVE_MODE.getValue());
+        else
+            return HOUR;
     }
 }

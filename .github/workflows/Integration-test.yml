@@ -46,6 +46,7 @@ jobs:
             (echo "===== Maven Deploy Attempt: 3 ====" && mvn install -DskipTests=true -Dmaven.javadoc.skip=true -PArchiving exec:java) || \
             (echo "==== Maven Deploy Step Failed ====" && exit 1)
           env:
+            ARCHIVE_MODE: HOUR
             MAIL : ${{ secrets.TEST_MAIL }}
             PASSWORD : ${{ secrets.TEST_PASSWORD }}
     creating-archive-day-sum-up:

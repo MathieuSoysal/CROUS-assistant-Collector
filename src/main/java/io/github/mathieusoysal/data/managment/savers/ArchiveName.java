@@ -8,7 +8,7 @@ public enum ArchiveName {
     ALL_LOGEMENTS(() -> "all_logements"),
     HASH_ALL_LOGEMENTS(() -> "hash_all_logements"),
     DAY_SUM_UP(() -> "sum-up"),
-    HOUR(() -> OffsetDateTime.now().toLocalTime().format(DateTimeFormatter.ofPattern("HH")));
+    HOUR(() -> OffsetDateTime.now().format(DateTimeFormatter.ofPattern("HH")));
 
     private final Supplier<String> nameSupplier;
 

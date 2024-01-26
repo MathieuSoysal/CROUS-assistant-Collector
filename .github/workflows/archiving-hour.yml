@@ -7,33 +7,15 @@ on:
 
 jobs:
     creating-archive:
-        runs-on: ubuntu-latest
-        steps:
-        - uses: actions/checkout@v4
-        - uses: actions/setup-java@v4
-          with:
-            distribution: 'temurin'
-            java-version: '17'
-            cache: 'maven'
-        - name: Install Playwright
-          run: mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install --with-deps"
-        - name: archive
-          run: |
-            (echo "===== Maven Deploy Attempt: 1 ====" && mvn install -DskipTests=true -Dmaven.javadoc.skip=true -PArchiving exec:java) || \
-            (echo "===== Maven Deploy Attempt: 2 ====" && mvn install -DskipTests=true -Dmaven.javadoc.skip=true -PArchiving exec:java) || \
-            (echo "===== Maven Deploy Attempt: 3 ====" && mvn install -DskipTests=true -Dmaven.javadoc.skip=true -PArchiving exec:java) || \
-            (echo "==== Maven Deploy Step Failed ====" && exit 1)
-          env:
-            ARCHIVE_MODE: HOUR
-            MAIL : ${{ secrets.TEST_MAIL }}
-            PASSWORD : ${{ secrets.TEST_PASSWORD }}
-        - uses: JamesIves/github-pages-deploy-action@v4.4.3
-          with:
-            token: ${{ secrets.GITHUB_TOKEN }}
-            clean: false
-            branch: api
-            folder: archive
-            target-folder: v1/logements-crous/available
+        permissions:
+          contents: write
+        uses: ./.github/workflows/reusable-archiving.yml
+        with:
+          ARCHIVE_MODE: HOUR
+        secrets:
+          MAIL : ${{ secrets.TEST_MAIL }}
+          PASSWORD : ${{ secrets.TEST_PASSWORD }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
 
           

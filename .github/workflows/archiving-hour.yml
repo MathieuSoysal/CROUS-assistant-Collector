@@ -12,6 +12,7 @@ jobs:
         uses: ./.github/workflows/reusable-archiving.yml
         with:
           ARCHIVE_MODE: HOUR
+          deploy: true
         secrets:
           MAIL : ${{ secrets.TEST_MAIL }}
           PASSWORD : ${{ secrets.TEST_PASSWORD }}

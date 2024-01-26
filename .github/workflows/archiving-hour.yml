@@ -24,6 +24,7 @@ jobs:
             (echo "===== Maven Deploy Attempt: 3 ====" && mvn install -DskipTests=true -Dmaven.javadoc.skip=true -PArchiving exec:java) || \
             (echo "==== Maven Deploy Step Failed ====" && exit 1)
           env:
+            ARCHIVE_MODE: HOUR
             MAIL : ${{ secrets.TEST_MAIL }}
             PASSWORD : ${{ secrets.TEST_PASSWORD }}
         - uses: JamesIves/github-pages-deploy-action@v4.4.3

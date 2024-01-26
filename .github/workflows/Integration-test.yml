@@ -30,44 +30,25 @@ jobs:
           TEST_PASSWORD : ${{ secrets.TEST_PASSWORD }}
     creating-archive-with-connection:
       needs: unit-test
-      runs-on: ubuntu-latest
-      steps:
-      - uses: actions/checkout@v4
-      - uses: ./.github/workflows/reusable-archiving.yml
-        with:
-          ARCHIVE_MODE: HOUR
-          MAIL : ${{ secrets.TEST_MAIL }}
-          PASSWORD : ${{ secrets.TEST_PASSWORD }}
-      - uses: GuillaumeFalourd/assert-command-line-output@v2
-        with:
-          command_line: ls
-          contains: archive
+      uses: ./.github/workflows/reusable-archiving.yml
+      with:
+        ARCHIVE_MODE: HOUR
+      secrets:
+        MAIL : ${{ secrets.TEST_MAIL }}
+        PASSWORD : ${{ secrets.TEST_PASSWORD }}
+
     creating-archive-day-sum-up:
       needs: unit-test
-      runs-on: ubuntu-latest
-      steps:
-      - uses: actions/checkout@v4
-      - uses: ./.github/workflows/reusable-archiving.yml
-        with:
-          ARCHIVE_MODE: DAY_SUM_UP
-          SPECIFIC_DAY: "2024-01-03"
-          LINK_TO_ARCHIVE: https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available
-      - uses: GuillaumeFalourd/assert-command-line-output@v2
-        with:
-          command_line: ls archive/*
-          contains: sum-up
+      uses: ./.github/workflows/reusable-archiving.yml
+      with:
+        ARCHIVE_MODE: DAY_SUM_UP
+        SPECIFIC_DAY: "2024-01-03"
+        LINK_TO_DATA: https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available
 
     creating-archive-all-logement:
       needs: unit-test
-      runs-on: ubuntu-latest
-      steps:
-      - uses: actions/checkout@v4
-      - uses: ./.github/workflows/reusable-archiving.yml
-        with:
-          ARCHIVE_MODE: ALL_LOGEMENTS
-          SPECIFIC_DAY: "2024-01-03"
-          LINK_TO_ARCHIVE: https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available
-      - uses: GuillaumeFalourd/assert-command-line-output@v2
-        with:
-          command_line: ls archive/*
-          contains: all_logements
+      uses: ./.github/workflows/reusable-archiving.yml
+      with:
+        ARCHIVE_MODE: ALL_LOGEMENTS
+        SPECIFIC_DAY: "2024-01-03"
+        LINK_TO_DATA: https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available

@@ -13,24 +13,22 @@ on:
         required: false
         type: string
         default: 'https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available'
-      MAIL:
-        description: 'The mail to send the archive to hour, mail is used olny if ARCHIVE_MODE is HOUR'
-        required: false
-        type: string
-      PASSWORD:
-        description: 'The password of the mail to send the archive to hour, password is used olny if ARCHIVE_MODE is HOUR'
-        required: false
-        type: string
       SPECIFIC_DAY:
         description: 'The day to archive, day is used olny if ARCHIVE_MODE is DAY'
         required: false
         type: string
         default: ''
+    secrets:
+        MAIL:
+            description: 'The mail to send the archive to hour, mail is used olny if ARCHIVE_MODE is HOUR'
+        PASSWORD:
+            description: 'The password of the mail to send the archive to hour, password is used olny if ARCHIVE_MODE is HOUR'
 
 jobs:
     creating-archive:
         runs-on: ubuntu-latest
         steps:
+        - uses: actions/checkout@v4
         - uses: actions/setup-java@v4
           with:
             distribution: 'temurin'
@@ -52,5 +50,5 @@ jobs:
           env:
             LINK_TO_DATA: ${{ inputs.LINK_TO_DATA }}
             ARCHIVE_MODE: ${{ inputs.ARCHIVE_MODE }}
-            MAIL: ${{ inputs.MAIL }}
-            PASSWORD: ${{ inputs.PASSWORD }}
+            MAIL: ${{ secrets.MAIL }}
+            PASSWORD: ${{ secrets.PASSWORD }}

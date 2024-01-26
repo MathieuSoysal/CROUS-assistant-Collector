@@ -47,7 +47,7 @@ class RequestorToGetSumUpOfDay implements Requestor {
                     .<Logement[]>map(link -> getFromUrl(link, context))
                     .toArray(Logement[][]::new);
             LOGGER.info(() -> "Logements received");
-        } 
+        }
         LOGGER.info(() -> "profil closed");
         return sumUp;
     }
@@ -55,8 +55,13 @@ class RequestorToGetSumUpOfDay implements Requestor {
     private static Logement[] getFromUrl(String url, APIRequestContext context) {
         LOGGER.info(() -> "Getting data from url: " + url);
         var respons = context.get(url);
-        if (!respons.ok())
-            throw new ApiRequestErrorRuntimeException(respons);
+        if (!respons.ok()) {
+            if (respons.status() == 404) {
+                LOGGER.warning(() -> "No data found to url: " + url);
+                return new Logement[0];
+            } else
+                throw new ApiRequestErrorRuntimeException(respons);
+        }
         LOGGER.info(() -> "Data received");
         return Convertor.convertJsonToArrayOfLogements(respons.text());
     }

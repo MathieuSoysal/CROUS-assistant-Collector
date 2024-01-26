@@ -47,6 +47,7 @@ jobs:
       - name: Build JIB container and publish to GitHub Packages
         run: |
           mvn package com.google.cloud.tools:jib-maven-plugin:3.3.2:build \
+          -Djib.from.image=mcr.microsoft.com/playwright/java:v1.41.0-jammy \
           -Djib.to.image=ghcr.io/${{ steps.downcase.outputs.lowercase }}:latest \
           -Djib.to.auth.username=${{ github.actor }} \
           -Djib.to.auth.password=${{ secrets.GITHUB_TOKEN }} $MULTI_MODULE_ARGS $MAIN_CLASS_ARGS

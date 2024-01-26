@@ -3,26 +3,39 @@ name: Archiving data with reusable workflow
 on:
   workflow_call:
     inputs:
-      ARCHIVE_MODE:
-        description: 'The mode of archiving'
-        required: true
-        type: string
-        default: 'HOUR'
-      LINK_TO_DATA:
-        description: 'The link to the data to archive'
-        required: false
-        type: string
-        default: 'https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available'
-      SPECIFIC_DAY:
-        description: 'The day to archive, day is used olny if ARCHIVE_MODE is DAY'
-        required: false
-        type: string
-        default: ''
+        ARCHIVE_MODE:
+            description: 'The mode of archiving'
+            required: true
+            type: string
+            default: 'HOUR'
+        LINK_TO_DATA:
+            description: 'The link to the data to archive'
+            required: false
+            type: string
+            default: 'https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available'
+        SPECIFIC_DAY:
+            description: 'The day to archive, day is used olny if ARCHIVE_MODE is DAY'
+            required: false
+            type: string
+            default: ''
+        deploy:
+            description: 'Deploy the archive to github pages'
+            required: false
+            type: boolean
+            default: false
+        target-folder:
+            description: 'The target folder to deploy the archive to github pages'
+            required: false
+            type: string
+            default: 'v1/logements-crous/available'
+      
     secrets:
         MAIL:
             description: 'The mail to send the archive to hour, mail is used olny if ARCHIVE_MODE is HOUR'
         PASSWORD:
             description: 'The password of the mail to send the archive to hour, password is used olny if ARCHIVE_MODE is HOUR'
+        token:
+            description: 'The token to deploy the archive to github pages'
 
 jobs:
     creating-archive:
@@ -52,3 +65,12 @@ jobs:
             ARCHIVE_MODE: ${{ inputs.ARCHIVE_MODE }}
             MAIL: ${{ secrets.MAIL }}
             PASSWORD: ${{ secrets.PASSWORD }}
+        - name: Deploy to Github Pages
+          if: inputs.deploy == true
+          uses: JamesIves/github-pages-deploy-action@v4.4.3
+          with:
+            token: ${{ secrets.token }}
+            clean: false
+            branch: api
+            folder: archive
+            target-folder: ${{ inputs.target-folder }}

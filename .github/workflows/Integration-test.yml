@@ -28,50 +28,24 @@ jobs:
           TEST_MAIL : ${{ secrets.TEST_MAIL }}
           TEST_PASSWORD : ${{ secrets.TEST_PASSWORD }}
     creating-archive-with-connection:
-        needs: unit-test
-        runs-on: ubuntu-latest
-        steps:
-        - uses: actions/checkout@v4
-        - uses: actions/setup-java@v4
-          with:
-            distribution: 'temurin'
-            java-version: '17'
-            cache: 'maven'
-        - name: Install Playwright
-          run: mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install --with-deps"
-        - name: archive
-          run: |
-            (echo "===== Maven Deploy Attempt: 1 ====" && mvn install -DskipTests=true -Dmaven.javadoc.skip=true -PArchiving exec:java) || \
-            (echo "===== Maven Deploy Attempt: 2 ====" && mvn install -DskipTests=true -Dmaven.javadoc.skip=true -PArchiving exec:java) || \
-            (echo "===== Maven Deploy Attempt: 3 ====" && mvn install -DskipTests=true -Dmaven.javadoc.skip=true -PArchiving exec:java) || \
-            (echo "==== Maven Deploy Step Failed ====" && exit 1)
-          env:
-            ARCHIVE_MODE: HOUR
-            MAIL : ${{ secrets.TEST_MAIL }}
-            PASSWORD : ${{ secrets.TEST_PASSWORD }}
-        - uses: GuillaumeFalourd/assert-command-line-output@v2
-          with:
-            command_line: ls
-            contains: archive
+      needs: unit-test
+      runs-on: ubuntu-latest
+      steps:
+      - uses: ./.github/workflows/reusable-archiving.yml
+        with:
+          ARCHIVE_MODE: HOUR
+          MAIL : ${{ secrets.TEST_MAIL }}
+          PASSWORD : ${{ secrets.TEST_PASSWORD }}
+      - uses: GuillaumeFalourd/assert-command-line-output@v2
+        with:
+          command_line: ls
+          contains: archive
     creating-archive-day-sum-up:
       needs: unit-test
       runs-on: ubuntu-latest
       steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-java@v4
+      - uses: ./.github/workflows/reusable-archiving.yml
         with:
-          distribution: 'temurin'
-          java-version: '17'
-          cache: 'maven'
-      - name: Install Playwright
-        run: mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install --with-deps"
-      - name: archive
-        run: |
-          (echo "===== Maven Deploy Attempt: 1 ====" && mvn install -DskipTests=true -Dmaven.javadoc.skip=true -PArchiving exec:java) || \
-          (echo "===== Maven Deploy Attempt: 2 ====" && mvn install -DskipTests=true -Dmaven.javadoc.skip=true -PArchiving exec:java) || \
-          (echo "===== Maven Deploy Attempt: 3 ====" && mvn install -DskipTests=true -Dmaven.javadoc.skip=true -PArchiving exec:java) || \
-          (echo "==== Maven Deploy Step Failed ====" && exit 1)
-        env:
           ARCHIVE_MODE: DAY_SUM_UP
           SPECIFIC_DAY: "2024-01-03"
           LINK_TO_ARCHIVE: https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available
@@ -84,25 +58,11 @@ jobs:
       needs: unit-test
       runs-on: ubuntu-latest
       steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-java@v4
+      - uses: ./.github/workflows/reusable-archiving.yml
         with:
-          distribution: 'temurin'
-          java-version: '17'
-          cache: 'maven'
-      - name: Install Playwright
-        run: mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install --with-deps"
-      - name: archive
-        run: |
-          (echo "===== Maven Deploy Attempt: 1 ====" && mvn install -DskipTests=true -Dmaven.javadoc.skip=true -PArchiving exec:java) || \
-          (echo "===== Maven Deploy Attempt: 2 ====" && mvn install -DskipTests=true -Dmaven.javadoc.skip=true -PArchiving exec:java) || \
-          (echo "===== Maven Deploy Attempt: 3 ====" && mvn install -DskipTests=true -Dmaven.javadoc.skip=true -PArchiving exec:java) || \
-          (echo "==== Maven Deploy Step Failed ====" && exit 1)
-        env:
           ARCHIVE_MODE: ALL_LOGEMENTS
           SPECIFIC_DAY: "2024-01-03"
           LINK_TO_ARCHIVE: https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available
-
       - uses: GuillaumeFalourd/assert-command-line-output@v2
         with:
           command_line: ls archive/*

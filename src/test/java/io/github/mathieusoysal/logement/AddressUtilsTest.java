@@ -9,6 +9,7 @@ class AddressUtilsTest {
 
     @ParameterizedTest
     @CsvSource(value = {
+            "Marseille;10 rue Henri Poincaré -13388 Marseille",
             "city de la garde;123 Main St 84450       city de la garde",
             "Belle    -_éà@ç=$*ù+}ç_ç&     city;123 Main St     84450  Belle    -_éà@ç=$*ù+}ç_ç&     city",
             "qsdsqddqssdqdqst qsd sqdsq sqd sqd sqd sqcity;123 Main St     84450       11841    qsdsqddqssdqdqst qsd sqdsq sqd sqd sqd sqcity",
@@ -19,9 +20,9 @@ class AddressUtilsTest {
         assertEquals(expectedCity, city);
     }
 
-
     @ParameterizedTest
     @CsvSource(value = {
+        "10 rue Henri Poincaré -13388 Marseille;10 rue Henri Poincaré",
             "123 Main St 84450       city de la garde;123 Main St",
             "123 -  - - 8451 8451 Main St     84450 city;123 -  - - 8451 8451 Main St",
             "123 Main St     84450       11841 city;123 Main St     84450",

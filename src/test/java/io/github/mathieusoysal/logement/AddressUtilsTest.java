@@ -22,7 +22,7 @@ class AddressUtilsTest {
 
     @ParameterizedTest
     @CsvSource(value = {
-        "10 rue Henri Poincaré -13388 Marseille;10 rue Henri Poincaré",
+            "10 rue Henri Poincaré -13388 Marseille;10 rue Henri Poincaré",
             "123 Main St 84450       city de la garde;123 Main St",
             "123 -  - - 8451 8451 Main St     84450 city;123 -  - - 8451 8451 Main St",
             "123 Main St     84450       11841 city;123 Main St     84450",
@@ -35,6 +35,7 @@ class AddressUtilsTest {
 
     @ParameterizedTest
     @CsvSource(value = {
+            "10 rue Henri Poincaré -13388 Marseille;13388",
             "123 Main St 84       city de la garde;84",
             "123 -  - - 8451 8451 Main St     84450 city;84450",
             "123 Main St     84450       11841 city;11841",

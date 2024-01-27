@@ -9,6 +9,7 @@ class AddressUtilsTest {
 
     @ParameterizedTest
     @CsvSource(value = {
+            "Toulouse Cedex 4;118 Route de Narbonne CS 17705 31077 Toulouse Cedex 4",
             "NICE cedex2;96, avenue de Valrose - 06106 NICE cedex2",
             "Marseille;10 rue Henri Poincaré -13388 Marseille",
             "city de la garde;123 Main St 84450       city de la garde",
@@ -23,6 +24,7 @@ class AddressUtilsTest {
 
     @ParameterizedTest
     @CsvSource(value = {
+            "118 Route de Narbonne CS 17705 31077 Toulouse Cedex 4;118 Route de Narbonne CS 17705",
             "96, avenue de Valrose - 06106 NICE cedex2;96, avenue de Valrose",
             "10 rue Henri Poincaré -13388 Marseille;10 rue Henri Poincaré",
             "123 Main St 84450       city de la garde;123 Main St",
@@ -37,6 +39,7 @@ class AddressUtilsTest {
 
     @ParameterizedTest
     @CsvSource(value = {
+            "118 Route de Narbonne CS 17705 31077 Toulouse Cedex 4;31077",
             "96, avenue de Valrose - 06106 NICE cedex2;06106",
             "10 rue Henri Poincaré -13388 Marseille;13388",
             "123 Main St 84       city de la garde;84",

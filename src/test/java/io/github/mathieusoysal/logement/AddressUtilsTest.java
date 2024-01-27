@@ -9,6 +9,7 @@ class AddressUtilsTest {
 
     @ParameterizedTest
     @CsvSource(value = {
+            "NICE cedex2;96, avenue de Valrose - 06106 NICE cedex2",
             "Marseille;10 rue Henri Poincaré -13388 Marseille",
             "city de la garde;123 Main St 84450       city de la garde",
             "Belle    -_éà@ç=$*ù+}ç_ç&     city;123 Main St     84450  Belle    -_éà@ç=$*ù+}ç_ç&     city",

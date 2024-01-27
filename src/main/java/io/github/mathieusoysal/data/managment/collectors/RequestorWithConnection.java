@@ -18,6 +18,8 @@ import com.microsoft.playwright.options.LoadState;
 import io.github.mathieusoysal.exceptions.ApiRequestFailedRuntimeException;
 import io.github.mathieusoysal.exceptions.CannotBeConnectedError;
 import io.github.mathieusoysal.exceptions.LoginOptionCantBeSelectedError;
+import io.github.mathieusoysal.exceptions.RequestFailedRuntimeException;
+import io.github.mathieusoysal.exceptions.SiteOnMaintenanceException;
 
 class RequestorWithConnection implements Requestor {
 
@@ -54,7 +56,10 @@ class RequestorWithConnection implements Requestor {
             LOGGER.error("Request failed", e);
             context.tracing().stop(new Tracing.StopOptions()
                     .setPath(Paths.get("trace.zip")));
-            throw e;
+            throw new RequestFailedRuntimeException(e);
+        } catch (SiteOnMaintenanceException e) {
+            LOGGER.warning(() -> "Site on maintenance");
+            jsonLogements = "[]";
         } finally {
             page.close();
             context.close();
@@ -65,7 +70,8 @@ class RequestorWithConnection implements Requestor {
         return jsonLogements;
     }
 
-    private void etablishConnectionWithWebsite(Playwright playwright, BrowserContext context, Page page) {
+    private void etablishConnectionWithWebsite(Playwright playwright, BrowserContext context, Page page)
+            throws LoginOptionCantBeSelectedError, CannotBeConnectedError, SiteOnMaintenanceException {
         context.tracing().start(new Tracing.StartOptions()
                 .setScreenshots(true)
                 .setSnapshots(true)
@@ -93,7 +99,8 @@ class RequestorWithConnection implements Requestor {
         page.waitForLoadState();
     }
 
-    private static void selectLoginOption(Playwright playwright, Page page) {
+    static void selectLoginOption(Playwright playwright, Page page)
+            throws LoginOptionCantBeSelectedError, SiteOnMaintenanceException {
         playwright.selectors().setTestIdAttribute("id");
         String currentUrl = page.url();
         LOGGER.info(() -> "Selecting login option");
@@ -109,12 +116,15 @@ class RequestorWithConnection implements Requestor {
             waitForUrlChange(currentUrl, page);
         } catch (TimeoutError e) {
             LOGGER.error(() -> "Login option can't be selected");
+            if (SiteOnMaintenanceException.isSiteOnMaintenance(page.content()))
+                throw new SiteOnMaintenanceException(page.content());
             throw new LoginOptionCantBeSelectedError(e.getMessage(), page.content());
         }
         LOGGER.info(() -> "Login option selected");
     }
 
-    private static void connectToTheCrous(String email, String password, Playwright playwright, Page page) {
+    private static void connectToTheCrous(String email, String password, Playwright playwright, Page page)
+            throws CannotBeConnectedError {
         LOGGER.info(() -> "Connecting to the crous");
         playwright.selectors().setTestIdAttribute("type");
         String currentUrl = page.url();

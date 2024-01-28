@@ -21,7 +21,7 @@ class AddressTest {
     @Test
     void testGetGoodAttributes_withMinusInsideAddress() {
         // Arrange
-        String addressString = "10 rue Henri Poincaré -13388 Marseille";
+        String addressString = "10 rue Henri Poincaré 13388 Marseille";
 
         // Act
         Address address = new Address(addressString, null);

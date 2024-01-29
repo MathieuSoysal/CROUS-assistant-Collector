@@ -18,6 +18,16 @@ jobs:
           PASSWORD : ${{ secrets.TEST_PASSWORD }}
           token: ${{ secrets.GITHUB_TOKEN }}
 
+    rerun-failed-jobs:
+      runs-on: ubuntu-latest
+      needs: creating-archive
+      if: failure()
+      steps:
+        - name: Rerun failed jobs in the current workflow
+          env:
+            GH_TOKEN: ${{ github.token }}
+          run: gh run rerun ${{ github.run_id }} --failed
+
 
           
 

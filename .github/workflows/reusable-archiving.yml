@@ -27,7 +27,7 @@ on:
             description: 'The target folder to deploy the archive to github pages'
             required: false
             type: string
-            default: 'v1/logements-crous/available'
+            default: 'v1/logements-crous'
       
     secrets:
         MAIL:

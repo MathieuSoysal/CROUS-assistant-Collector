@@ -5,7 +5,6 @@ import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import java.io.File;
 import java.io.IOException;
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 import org.junit.jupiter.api.AfterEach;
@@ -28,17 +27,23 @@ class DataSaverTest {
     @Test
     void testCreateArchiveLogements() throws ApiRequestFailedException, IOException {
         List<Logement> logements = DataCollectorFromCrous.getAllLogementsWithoutConnection().stream().limit(2).toList();
-        var file = assertDoesNotThrow(() -> DataSaver.saveForCurrentDay(ArchiveName.HOUR, logements));
-        file.delete();
+        assertDoesNotThrow(() -> ArchivePathBuilder.startPath().endPathAndSaveData(ArchiveName.HOUR, logements));
     }
 
     @Test
     void testCreateArchiveLogementsForDay() throws ApiRequestFailedException, IOException {
-        System.out.println(LocalDate.of(2024, 1, 11).format(DateTimeFormatter.ISO_LOCAL_DATE));
+        LocalDate chosenDate = LocalDate.of(2024, 1, 10);
         var dataCollector = new DataCollectorFromArchive(
                 "https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available/");
-        String data = assertDoesNotThrow(() -> dataCollector.getSumUpOfDay(LocalDate.of(2024, 1, 10)));
-        assertDoesNotThrow(() -> DataSaver.saveForCurrentDay(ArchiveName.DAY_SUM_UP, data));
+        String data = assertDoesNotThrow(() -> 
+            dataCollector.getSumUpOfDay(chosenDate)
+        );
+        assertDoesNotThrow(
+                () -> ArchivePathBuilder
+                        .startPath()
+                        .addPath("available")
+                        .addPath(chosenDate)
+                        .endPathAndSaveData(ArchiveName.DAY_SUM_UP, data));
     }
 
 }

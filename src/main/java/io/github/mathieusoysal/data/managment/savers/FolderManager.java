@@ -32,4 +32,19 @@ class FolderManager {
         }
         return archiveFile;
     }
+
+    static File getOrCreateArchiveFolderWithGivenFolderName(final String name, File file) {
+        LOGGER.info(() -> "Getting archive folder for current date");
+        File archiveFile = new File(file, name);
+        if (!archiveFile.exists()) {
+            archiveFile.mkdir();
+            LOGGER.info(() -> "Archive folder for current date created");
+        }
+        return archiveFile;
+    }
+
+    static File getOrCreateArchiveFolderWithGivenFolderName(final String name) {
+        File archiveFolder = getOrCreateArchiveFolder();
+        return getOrCreateArchiveFolderWithGivenFolderName(name, archiveFolder);
+    }
 }

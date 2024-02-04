@@ -21,7 +21,7 @@ class FileManager {
         return getArchiveFile(archiveFolder, archiveName.getName());
     }
 
-    private static File getArchiveFile(File archiveFolder, String archiveFileName) throws DateTimeException {
+    static File getArchiveFile(File archiveFolder, String archiveFileName) throws DateTimeException {
         LOGGER.info(() -> "Getting archive file");
         Stream.of(archiveFolder.listFiles())
                 .filter(file -> file.getName().equals(archiveFileName))

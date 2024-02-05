@@ -18,7 +18,7 @@ public interface Archiver {
     }
 
     static LocalDate getDayToArchive() {
-        if(Properties.SPECIFIC_DAY.isPresent())
+        if (Properties.SPECIFIC_DAY.isPresent())
             return LocalDate.parse(Properties.SPECIFIC_DAY.getValue());
         else
             return LocalDate.now();

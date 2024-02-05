@@ -12,10 +12,9 @@ public class ArchiverDay implements Archiver {
         var dataCollector = new DataCollectorFromArchive(Archiver.getLinkToArchive());
         var sumUpOfTheDay = dataCollector.getSumUpOfDay(Archiver.getDayToArchive());
         ARCHIVE_SAVER
-        .addPath("available")
-        .addPath(LocalDate.now())
-        .endPathAndSaveData(ArchiveName.DAY_SUM_UP, sumUpOfTheDay);
+                .addPath("available")
+                .addPath(LocalDate.now())
+                .endPathAndSaveData(ArchiveName.DAY_SUM_UP, sumUpOfTheDay);
     }
-
 
 }

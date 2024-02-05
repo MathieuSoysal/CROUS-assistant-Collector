@@ -10,7 +10,6 @@ import com.github.forax.beautifullogger.Logger;
 
 import io.github.mathieusoysal.data.managment.collectors.DataCollectorFromArchive;
 import io.github.mathieusoysal.data.managment.savers.ArchiveName;
-import io.github.mathieusoysal.data.managment.savers.ArchiveSaver;
 import io.github.mathieusoysal.logement.LogementsClassifier;
 
 public class ArchiverAllLogements implements Archiver {
@@ -25,8 +24,7 @@ public class ArchiverAllLogements implements Archiver {
 
     private void updateHashOfAllLogement(File archivedFile) {
         var hash = getHashOfArchivedFile(archivedFile);
-        ArchiveSaver
-                .startPath()
+        ARCHIVE_SAVER
                 .endPathAndSaveData(ArchiveName.HASH_ALL_LOGEMENTS, hash);
     }
 
@@ -35,8 +33,7 @@ public class ArchiverAllLogements implements Archiver {
         var logements = new LogementsClassifier();
         logements.addLogements(dataCollector.getAllLogements());
         logements.addLogements(dataCollector.getConvertedSumUpOfDay(Archiver.getDayToArchive()));
-        return ArchiveSaver
-                .startPath()
+        return ARCHIVE_SAVER
                 .endPathAndSaveData(ArchiveName.ALL_LOGEMENTS, logements.getLogements());
     }
 

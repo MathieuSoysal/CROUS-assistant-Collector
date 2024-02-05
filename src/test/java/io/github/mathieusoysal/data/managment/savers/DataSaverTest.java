@@ -27,7 +27,7 @@ class DataSaverTest {
     @Test
     void testCreateArchiveLogements() throws ApiRequestFailedException, IOException {
         List<Logement> logements = DataCollectorFromCrous.getAllLogementsWithoutConnection().stream().limit(2).toList();
-        assertDoesNotThrow(() -> ArchivePathBuilder.startPath().endPathAndSaveData(ArchiveName.HOUR, logements));
+        assertDoesNotThrow(() -> ArchiveSaver.startPath().endPathAndSaveData(ArchiveName.HOUR, logements));
     }
 
     @Test
@@ -39,7 +39,7 @@ class DataSaverTest {
             dataCollector.getSumUpOfDay(chosenDate)
         );
         assertDoesNotThrow(
-                () -> ArchivePathBuilder
+                () -> ArchiveSaver
                         .startPath()
                         .addPath("available")
                         .addPath(chosenDate)

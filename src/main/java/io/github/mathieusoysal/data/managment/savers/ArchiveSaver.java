@@ -11,28 +11,28 @@ import java.util.Queue;
 import io.github.mathieusoysal.data.managment.convertors.Convertor;
 import io.github.mathieusoysal.logement.Logement;
 
-public class ArchivePathBuilder {
+public class ArchiveSaver {
 
     private Queue<String> folders;
 
-    public static ArchivePathBuilder startPath() {
-        var archivePath = new ArchivePathBuilder();
+    public static ArchiveSaver startPath() {
+        var archivePath = new ArchiveSaver();
         archivePath.folders = new LinkedList<>();
         return archivePath;
     }
 
-    public ArchivePathBuilder addPath(final String name) {
-        var archivePath = new ArchivePathBuilder();
+    public ArchiveSaver addPath(final String name) {
+        var archivePath = new ArchiveSaver();
         archivePath.folders = new LinkedList<>(folders);
         archivePath.folders.add(name);
         return archivePath;
     }
 
-    public ArchivePathBuilder addPath(OffsetDateTime date) {
+    public ArchiveSaver addPath(OffsetDateTime date) {
         return addPath(date.format(DateTimeFormatter.ISO_LOCAL_DATE));
     }
 
-    public ArchivePathBuilder addPath(LocalDate date) {
+    public ArchiveSaver addPath(LocalDate date) {
         return addPath(date.format(DateTimeFormatter.ISO_LOCAL_DATE));
     }
 

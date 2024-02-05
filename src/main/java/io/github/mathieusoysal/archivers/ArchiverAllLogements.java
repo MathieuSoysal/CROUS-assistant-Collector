@@ -5,15 +5,12 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.time.LocalDate;
-import java.time.OffsetDateTime;
 
 import com.github.forax.beautifullogger.Logger;
 
 import io.github.mathieusoysal.data.managment.collectors.DataCollectorFromArchive;
 import io.github.mathieusoysal.data.managment.savers.ArchiveName;
-import io.github.mathieusoysal.data.managment.savers.ArchivePathBuilder;
-import io.github.mathieusoysal.data.managment.savers.DataSaver;
+import io.github.mathieusoysal.data.managment.savers.ArchiveSaver;
 import io.github.mathieusoysal.logement.LogementsClassifier;
 
 public class ArchiverAllLogements implements Archiver {
@@ -28,7 +25,7 @@ public class ArchiverAllLogements implements Archiver {
 
     private void updateHashOfAllLogement(File archivedFile) {
         var hash = getHashOfArchivedFile(archivedFile);
-        ArchivePathBuilder
+        ArchiveSaver
                 .startPath()
                 .endPathAndSaveData(ArchiveName.HASH_ALL_LOGEMENTS, hash);
     }
@@ -38,7 +35,7 @@ public class ArchiverAllLogements implements Archiver {
         var logements = new LogementsClassifier();
         logements.addLogements(dataCollector.getAllLogements());
         logements.addLogements(dataCollector.getConvertedSumUpOfDay(Archiver.getDayToArchive()));
-        return ArchivePathBuilder
+        return ArchiveSaver
                 .startPath()
                 .endPathAndSaveData(ArchiveName.ALL_LOGEMENTS, logements.getLogements());
     }

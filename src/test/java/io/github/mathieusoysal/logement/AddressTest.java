@@ -19,6 +19,19 @@ class AddressTest {
     }
 
     @Test
+    void testGetGoodAttributes_withMinusInsideAddress() {
+        // Arrange
+        String addressString = "10 rue Henri Poincaré 13388 Marseille";
+
+        // Act
+        Address address = new Address(addressString, null);
+        Address address2 = new Address(address.getStreet(), address.getCity(), address.getZipCode(), null);
+
+        // Assert
+        Assertions.assertEquals(address.getFullAddress(), address2.getFullAddress());
+    }
+
+    @Test
     void testGetFullAddressFromAttributes() {
         // Arrange
         String street = "123 Main St";

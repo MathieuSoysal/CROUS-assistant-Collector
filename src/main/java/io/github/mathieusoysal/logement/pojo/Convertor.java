@@ -21,18 +21,30 @@ public class Convertor {
     private Convertor() {
     }
 
-    static List<Item> getItemsFromJsonFile(File file) throws IOException {
-        LOGGER.info(() -> "Reading json file for convertion to java object");
-        ObjectMapper objectMapper = new ObjectMapper();
-        Input results = objectMapper.readValue(file, Input.class);
+    static List<Item> getItemsFromJsonFile(File file) {
+        Input results;
+        try {
+            LOGGER.info(() -> "Reading json file for convertion to java object");
+            ObjectMapper objectMapper = new ObjectMapper();
+            results = objectMapper.readValue(file, Input.class);
+        } catch (IOException e) {
+            LOGGER.error(() -> "Error while reading json file");
+            throw new ConvertorException("Error while reading json file", e);
+        }
         LOGGER.info(() -> "Json file converted to java object");
         return results.getResults().getItems();
     }
 
-    static List<Item> getItemsFromJsonString(String json) throws IOException {
-        LOGGER.info(() -> "Reading json string for convertion to java object");
-        ObjectMapper objectMapper = new ObjectMapper();
-        Input results = objectMapper.readValue(json, Input.class);
+    static List<Item> getItemsFromJsonString(String json) {
+        Input results;
+        try {
+            LOGGER.info(() -> "Reading json string for convertion to java object");
+            ObjectMapper objectMapper = new ObjectMapper();
+            results = objectMapper.readValue(json, Input.class);
+        } catch (IOException e) {
+            LOGGER.error(() -> "Error while reading json file");
+            throw new ConvertorException("Error while reading json file", e);
+        }
         LOGGER.info(() -> "Json string converted to java object");
         return results.getResults().getItems();
     }
@@ -44,14 +56,12 @@ public class Convertor {
         return result;
     }
 
-    public static List<Logement> getLogementsFromBruteJsonFile(File file)
-            throws IOException {
+    public static List<Logement> getLogementsFromBruteJsonFile(File file) {
         List<Item> items = getItemsFromJsonFile(file);
         return convertItemsToLogements(items);
     }
 
-    public static List<Logement> getLogementsFromBruteJsonString(String json)
-            throws IOException {
+    public static List<Logement> getLogementsFromBruteJsonString(String json) {
         List<Item> items = getItemsFromJsonString(json);
         return convertItemsToLogements(items);
     }
@@ -105,6 +115,12 @@ public class Convertor {
                         transport.getDistance(),
                         TransportUnitOfMeasure.fromString(transport.getUnitOfMeasure())))
                 .toList();
+    }
+
+    static class ConvertorException extends RuntimeException {
+        public ConvertorException(String message, Throwable cause) {
+            super(message, cause);
+        }
     }
 
 }

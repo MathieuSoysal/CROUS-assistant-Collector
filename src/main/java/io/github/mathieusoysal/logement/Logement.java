@@ -1,6 +1,9 @@
 package io.github.mathieusoysal.logement;
 
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Logement
@@ -26,13 +29,12 @@ public class Logement {
     private List<Equipment> equipements;
     private double areaMin;
     private double areaMax;
-    private List<OccupationMode> occupationMods;
+    private Set<OccupationMode> occupationMods;
     private List<io.github.mathieusoysal.logement.Transport> transports;
 
-
     // Create constructor
-    public Logement()
-    {}
+    public Logement() {
+    }
 
     /**
      * Constructs a new Logement object with the specified ID.
@@ -56,20 +58,40 @@ public class Logement {
         return result;
     }
 
-    /**
-     * Indicates whether some other object is "equal to" this one.
-     *
-     * @param obj the reference object with which to compare
-     * @return true if this object is the same as the obj argument; false otherwise
-     */
     @Override
     public boolean equals(Object obj) {
-        if (this == obj)
-            return true;
-        if (obj == null || getClass() != obj.getClass())
+        if (obj == null)
+            return false;
+        if (!(obj instanceof Logement))
             return false;
         Logement other = (Logement) obj;
         return id == other.id;
+    }
+
+    /**
+     * Adds the specified Logement object to this Logement object.
+     *
+     * @param logement the Logement object to be added
+     */
+    public void addLogement(Logement logement) {
+        if (logement == null)
+            return;
+        label = logement.getLabel();
+        address = logement.getAddress();
+        bedCount = logement.getBedCount();
+        bedKind = logement.getBedKind();
+        bedroomCount = logement.getBedroomCount();
+        roomCount = logement.getRoomCount();
+        inUnavailabilityPeriod = logement.isInUnavailabilityPeriod();
+        description = logement.getDescription();
+        available = logement.isAvailable();
+        highDemand = logement.isHighDemand();
+        lowStock = logement.isLowStock();
+        equipements = logement.getEquipements();
+        areaMin = logement.getAreaMin();
+        areaMax = logement.getAreaMax();
+        occupationMods.addAll(logement.occupationMods);
+        transports = logement.getTransports();
     }
 
     /**
@@ -214,7 +236,7 @@ public class Logement {
      * @return the list of occupation modifications for this Logement object
      */
     public List<OccupationMode> getOccupationMods() {
-        return occupationMods;
+        return new ArrayList<>(occupationMods);
     }
 
     /**
@@ -297,7 +319,7 @@ public class Logement {
     }
 
     public void setOccupationMods(List<OccupationMode> occupationMods) {
-        this.occupationMods = occupationMods;
+        this.occupationMods = new HashSet<>(occupationMods);
     }
 
     public void setTransports(List<io.github.mathieusoysal.logement.Transport> transports) {

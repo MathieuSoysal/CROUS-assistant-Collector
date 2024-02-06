@@ -30,6 +30,11 @@ class RequestorToGetSumUpOfDay implements Requestor {
 
     @Override
     public String requestWitGet(String url) {
+        var sumUp = getSumUpOfDay(url);
+        return Convertor.convertLogementMatrixToJson(sumUp);
+    }
+
+    public Logement[][] getSumUpOfDay(String url) {
         LOGGER.info(() -> "Creating sum up of the day: " + date);
         String linkToDataForTheDay = url + "/" + date;
         Logement[][] sumUp;
@@ -42,16 +47,21 @@ class RequestorToGetSumUpOfDay implements Requestor {
                     .<Logement[]>map(link -> getFromUrl(link, context))
                     .toArray(Logement[][]::new);
             LOGGER.info(() -> "Logements received");
-        } 
+        }
         LOGGER.info(() -> "profil closed");
-        return Convertor.convertLogementMatrixToJson(sumUp);
+        return sumUp;
     }
 
     private static Logement[] getFromUrl(String url, APIRequestContext context) {
         LOGGER.info(() -> "Getting data from url: " + url);
         var respons = context.get(url);
-        if (!respons.ok())
-            throw new ApiRequestErrorRuntimeException(respons);
+        if (!respons.ok()) {
+            if (respons.status() == 404) {
+                LOGGER.warning(() -> "No data found to url: " + url);
+                return new Logement[0];
+            } else
+                throw new ApiRequestErrorRuntimeException(respons);
+        }
         LOGGER.info(() -> "Data received");
         return Convertor.convertJsonToArrayOfLogements(respons.text());
     }

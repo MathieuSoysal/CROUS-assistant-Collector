@@ -11,21 +11,14 @@ import io.github.mathieusoysal.data.managment.convertors.Convertor;
 import io.github.mathieusoysal.exceptions.ImpossibleWriteRuntimeException;
 import io.github.mathieusoysal.logement.Logement;
 
-public class DataSaver {
+class DataSaver {
     private static final Logger LOGGER = Logger.getLogger();
 
-    public static File save(ArchiveName archiveName, String content) {
-        File archiveFile = FileManager.getOrCreateArchiveFile(archiveName);
-        writeDataInsideArchiveFile(content, archiveFile);
-        return archiveFile;
+    static void writeDataInsideArchiveFile(List<Logement> logementsJson, File archiveFile) {
+        writeDataInsideArchiveFile(Convertor.convertLogementsToJson(logementsJson), archiveFile);
     }
 
-    public static File save(ArchiveName archiveName, List<Logement> logements) {
-        String logementsJson = Convertor.convertLogementsToJson(logements);
-        return save(archiveName, logementsJson);
-    }
-
-    private static void writeDataInsideArchiveFile(String logementsJson, File archiveFile) {
+    static void writeDataInsideArchiveFile(String logementsJson, File archiveFile) {
         LOGGER.info(() -> "Writing logements to file");
         try (FileWriter fileWriter = new FileWriter(archiveFile)) {
             fileWriter.write(logementsJson);

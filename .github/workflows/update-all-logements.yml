@@ -1,4 +1,4 @@
-name: Archiving data for day summary
+name: Update all logements
 
 on:
   schedule:
@@ -17,8 +17,9 @@ jobs:
       if: github.event_name == 'schedule'
       uses: ./.github/workflows/reusable-archiving.yml
       with:
-        ARCHIVE_MODE: DAY_SUM_UP
+        ARCHIVE_MODE: ALL_LOGEMENTS
         LINK_TO_DATA: https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available
+        target-folder: 'v1/logements-crous'
         deploy: true
       secrets:
         token: ${{ secrets.GITHUB_TOKEN }}
@@ -30,13 +31,9 @@ jobs:
       uses: ./.github/workflows/reusable-archiving.yml
       with:
         SPECIFIC_DAY: ${{ github.event.inputs.specific-date }}
-        ARCHIVE_MODE: DAY_SUM_UP
+        ARCHIVE_MODE: ALL_LOGEMENTS
         LINK_TO_DATA: https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available
+        target-folder: 'v1/logements-crous'
         deploy: true
       secrets:
         token: ${{ secrets.GITHUB_TOKEN }}
-
-
-          
-
-    

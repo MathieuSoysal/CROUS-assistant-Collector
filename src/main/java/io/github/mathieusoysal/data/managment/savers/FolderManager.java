@@ -7,7 +7,7 @@ class FolderManager {
     private static final java.util.logging.Logger LOGGER = java.util.logging.Logger
             .getLogger(FolderManager.class.getName());
 
-    static File createArchiveFolder() {
+    static File getOrCreateArchiveFolder() {
         LOGGER.info(() -> "getting archive folder");
         File archiveFolder = new File("archive");
         if (!archiveFolder.exists()) {
@@ -18,14 +18,33 @@ class FolderManager {
     }
 
     static File getOrCreateArchiveFolderWithCurrentDate() {
+        return getOrCreateArchiveFolderWithGivenDate(OffsetDateTime.now());
+    }
+
+    static File getOrCreateArchiveFolderWithGivenDate(OffsetDateTime date) {
         LOGGER.info(() -> "Getting archive folder for current date");
-        File archiveFolder = createArchiveFolder();
-        String archiveFolderName = OffsetDateTime.now().toLocalDate().toString();
+        File archiveFolder = getOrCreateArchiveFolder();
+        String archiveFolderName = date.format(java.time.format.DateTimeFormatter.ISO_LOCAL_DATE);
         File archiveFile = new File(archiveFolder, archiveFolderName);
         if (!archiveFile.exists()) {
             archiveFile.mkdir();
             LOGGER.info(() -> "Archive folder for current date created");
         }
         return archiveFile;
+    }
+
+    static File getOrCreateArchiveFolderWithGivenFolderName(final String name, File file) {
+        LOGGER.info(() -> "Getting archive folder for current date");
+        File archiveFile = new File(file, name);
+        if (!archiveFile.exists()) {
+            archiveFile.mkdir();
+            LOGGER.info(() -> "Archive folder for current date created");
+        }
+        return archiveFile;
+    }
+
+    static File getOrCreateArchiveFolderWithGivenFolderName(final String name) {
+        File archiveFolder = getOrCreateArchiveFolder();
+        return getOrCreateArchiveFolderWithGivenFolderName(name, archiveFolder);
     }
 }

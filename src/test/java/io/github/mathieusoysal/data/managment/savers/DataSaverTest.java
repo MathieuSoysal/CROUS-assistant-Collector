@@ -24,18 +24,26 @@ class DataSaverTest {
             archiveFolder.delete();
     }
 
-
     @Test
     void testCreateArchiveLogements() throws ApiRequestFailedException, IOException {
         List<Logement> logements = DataCollectorFromCrous.getAllLogementsWithoutConnection().stream().limit(2).toList();
-        var file = assertDoesNotThrow(() -> DataSaver.save(ArchiveName.HOUR, logements));
-        file.delete();
+        assertDoesNotThrow(() -> ArchiveSaver.startPath().endPathAndSaveData(ArchiveName.HOUR, logements));
     }
 
     @Test
     void testCreateArchiveLogementsForDay() throws ApiRequestFailedException, IOException {
-        var dataCollector = new DataCollectorFromArchive("https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available/");
-        assertDoesNotThrow(() -> dataCollector.getSumUpOfDay(LocalDate.of(2024, 1, 3)));
+        LocalDate chosenDate = LocalDate.of(2024, 1, 10);
+        var dataCollector = new DataCollectorFromArchive(
+                "https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available/");
+        String data = assertDoesNotThrow(() -> 
+            dataCollector.getSumUpOfDay(chosenDate)
+        );
+        assertDoesNotThrow(
+                () -> ArchiveSaver
+                        .startPath()
+                        .addPath("available")
+                        .addPath(chosenDate)
+                        .endPathAndSaveData(ArchiveName.DAY_SUM_UP, data));
     }
 
 }

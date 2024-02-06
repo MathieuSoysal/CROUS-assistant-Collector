@@ -10,6 +10,7 @@ import java.util.List;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.condition.EnabledIfEnvironmentVariable;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.exc.StreamReadException;
@@ -64,6 +65,7 @@ class DataCollectorTest {
     }
 
     @Test
+    @EnabledIfEnvironmentVariable(named = "CI", matches = "true")
     void testGetLogementsWithConnection_returnsLogements()
             throws StreamReadException, DatabindException, ApiRequestFailedException, IOException,
             InterruptedException {
@@ -91,6 +93,13 @@ class DataCollectorTest {
                 () -> {
                     DataCollectorFromArchive dataCollectorFromArchive = new DataCollectorFromArchive(linkToData);
                     dataCollectorFromArchive.getSumUpOfDay(date);});
+    }
+
+    @Test
+    void testGetAllLogements()
+    {
+        String linkToData = "https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available";
+        assertDoesNotThrow(() -> new DataCollectorFromArchive(linkToData).getAllLogements());
     }
 
 }

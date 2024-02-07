@@ -188,13 +188,13 @@
   "areaMin" : 30.5,
   "areaMax" : 53.4,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
-    "rentMin" : 54059,
-    "rentMax" : 69080
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 54059,
     "rentMax" : 69090
+  }, {
+    "occupationKind" : "COUPLE_ONE_SPACE",
+    "rentMin" : 54059,
+    "rentMax" : 69080
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -340,7 +340,7 @@
   "label" : "Résidence Les Clémentines",
   "address" : {
     "fullAddress" : "13 boulevard d Oxford - 06400 - CANNES",
-    "street" : "13 boulevard d Oxford -",
+    "street" : "13 boulevard d Oxford",
     "city" : "- CANNES",
     "zipCode" : "06400",
     "location" : {
@@ -688,7 +688,7 @@
   "label" : "Résidence les Dolines",
   "address" : {
     "fullAddress" : "2255 route des Dolines - 06560 VALBONNE",
-    "street" : "2255 route des Dolines -",
+    "street" : "2255 route des Dolines",
     "city" : "VALBONNE",
     "zipCode" : "06560",
     "location" : {
@@ -724,9 +724,9 @@
   "label" : "RESIDENCE ALLIX",
   "address" : {
     "fullAddress" : "2 rue soeur Bouvier 69322 LYON Cedex 05",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "05",
+    "street" : "2 rue soeur Bouvier",
+    "city" : "LYON Cedex 05",
+    "zipCode" : "69322",
     "location" : {
       "latitude" : 45.754,
       "longitude" : 4.812
@@ -898,7 +898,7 @@
   "label" : "Résidence les Dolines",
   "address" : {
     "fullAddress" : "2255 route des Dolines - 06560 VALBONNE",
-    "street" : "2255 route des Dolines -",
+    "street" : "2255 route des Dolines",
     "city" : "VALBONNE",
     "zipCode" : "06560",
     "location" : {
@@ -919,13 +919,13 @@
   "areaMin" : 32.0,
   "areaMax" : 32.0,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 23153,
-    "rentMax" : 23153
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 45892,
     "rentMax" : 45892
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 23153,
+    "rentMax" : 23153
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -938,9 +938,9 @@
   "label" : "CITE CANADA",
   "address" : {
     "fullAddress" : "31 rue du Canada - 13395 Marseille cedex10",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "10",
+    "street" : "31 rue du Canada",
+    "city" : "Marseille cedex10",
+    "zipCode" : "13395",
     "location" : {
       "latitude" : 43.286,
       "longitude" : 5.4
@@ -989,9 +989,9 @@
   "label" : "CITE CASTERNEAU",
   "address" : {
     "fullAddress" : "32, Rue des Agenêts - 44042 NANTES CEDEX 1",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "1",
+    "street" : "32, Rue des Agenêts",
+    "city" : "NANTES CEDEX 1",
+    "zipCode" : "44042",
     "location" : {
       "latitude" : 47.229,
       "longitude" : -1.53
@@ -1229,7 +1229,7 @@
   "label" : "RESIDENCE MICHEL FOUCAULT",
   "address" : {
     "fullAddress" : "12 rue Pasteur - 86000 POITIERS",
-    "street" : "12 rue Pasteur -",
+    "street" : "12 rue Pasteur",
     "city" : "POITIERS",
     "zipCode" : "86000",
     "location" : {
@@ -1352,9 +1352,9 @@
   "label" : "CITE CASTERNEAU",
   "address" : {
     "fullAddress" : "32, Rue des Agenêts - 44042 NANTES CEDEX 1",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "1",
+    "street" : "32, Rue des Agenêts",
+    "city" : "NANTES CEDEX 1",
+    "zipCode" : "44042",
     "location" : {
       "latitude" : 47.229,
       "longitude" : -1.53
@@ -1460,11 +1460,11 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 41552,
     "rentMax" : 41552
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 41552,
     "rentMax" : 41552
   } ],
@@ -1494,9 +1494,9 @@
   "label" : "CITE CANADA",
   "address" : {
     "fullAddress" : "31 rue du Canada - 13395 Marseille cedex10",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "10",
+    "street" : "31 rue du Canada",
+    "city" : "Marseille cedex10",
+    "zipCode" : "13395",
     "location" : {
       "latitude" : 43.286,
       "longitude" : 5.4
@@ -1515,13 +1515,13 @@
   "areaMin" : 28.0,
   "areaMax" : 28.0,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 19050,
-    "rentMax" : 19050
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 38100,
     "rentMax" : 38100
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 19050,
+    "rentMax" : 19050
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -1851,9 +1851,9 @@
   "label" : "Résidence le Coudon",
   "address" : {
     "fullAddress" : "CROUS NICE TOULON - Site du Var CS80577 - 83041 TOULON CEDEX 9",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "9",
+    "street" : "CROUS NICE TOULON - Site du Var CS80577",
+    "city" : "TOULON CEDEX 9",
+    "zipCode" : "83041",
     "location" : {
       "latitude" : 43.136,
       "longitude" : 6.017
@@ -2081,7 +2081,7 @@
   "label" : "RESIDENCE MICHEL FOUCAULT",
   "address" : {
     "fullAddress" : "12 rue Pasteur - 86000 POITIERS",
-    "street" : "12 rue Pasteur -",
+    "street" : "12 rue Pasteur",
     "city" : "POITIERS",
     "zipCode" : "86000",
     "location" : {
@@ -2281,9 +2281,9 @@
   "label" : "RESIDENCE BACOT",
   "address" : {
     "fullAddress" : "10 BD MARECHAL JUIN CS 25317 14053 CAEN CEDEX 4",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "4",
+    "street" : "10 BD MARECHAL JUIN CS 25317",
+    "city" : "CAEN CEDEX 4",
+    "zipCode" : "14053",
     "location" : {
       "latitude" : 49.21,
       "longitude" : -0.37
@@ -2532,7 +2532,7 @@
   "label" : "CU MEDREVILLE",
   "address" : {
     "fullAddress" : "28, rue A. Briand - 54520 LAXOU",
-    "street" : "28, rue A. Briand -",
+    "street" : "28, rue A. Briand",
     "city" : "LAXOU",
     "zipCode" : "54520",
     "location" : {
@@ -2583,9 +2583,9 @@
   "label" : "CITE GASTON BERGER",
   "address" : {
     "fullAddress" : "43, rue du 141ème RIA - 13331 Marseille cedex 3",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "3",
+    "street" : "43, rue du 141ème RIA",
+    "city" : "Marseille cedex 3",
+    "zipCode" : "13331",
     "location" : {
       "latitude" : 43.305,
       "longitude" : 5.379
@@ -2624,9 +2624,9 @@
   "label" : "Résidence Le Fenouillet",
   "address" : {
     "fullAddress" : "CROUS NICE TOULON - Site du Var CS80577 - 83041 TOULON CEDEX 9",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "9",
+    "street" : "CROUS NICE TOULON - Site du Var CS80577",
+    "city" : "TOULON CEDEX 9",
+    "zipCode" : "83041",
     "location" : {
       "latitude" : 43.134,
       "longitude" : 6.016
@@ -2798,7 +2798,7 @@
   "label" : "RESIDENCE ALICE CHATENOUD",
   "address" : {
     "fullAddress" : "10 rue Henri Poincaré -13388 Marseille",
-    "street" : "",
+    "street" : "10 rue Henri Poincaré",
     "city" : "Marseille",
     "zipCode" : "13388",
     "location" : {
@@ -2885,9 +2885,9 @@
   "label" : "Résidence Montebello",
   "address" : {
     "fullAddress" : "96, avenue de Valrose - 06106 NICE cedex2",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "2",
+    "street" : "96, avenue de Valrose",
+    "city" : "NICE cedex2",
+    "zipCode" : "06106",
     "location" : {
       "latitude" : 43.719,
       "longitude" : 7.269
@@ -2931,9 +2931,9 @@
   "label" : "CITE LUMINY",
   "address" : {
     "fullAddress" : "171 avenue de Luminy - 13288 Marseille cedex 9",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "9",
+    "street" : "171 avenue de Luminy",
+    "city" : "Marseille cedex 9",
+    "zipCode" : "13288",
     "location" : {
       "latitude" : 43.231,
       "longitude" : 5.44
@@ -3049,9 +3049,9 @@
   "label" : "Résidence Le Fenouillet",
   "address" : {
     "fullAddress" : "CROUS NICE TOULON - Site du Var CS80577 - 83041 TOULON CEDEX 9",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "9",
+    "street" : "CROUS NICE TOULON - Site du Var CS80577",
+    "city" : "TOULON CEDEX 9",
+    "zipCode" : "83041",
     "location" : {
       "latitude" : 43.134,
       "longitude" : 6.016
@@ -3070,6 +3070,10 @@
   "areaMin" : 20.0,
   "areaMax" : 20.0,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 47020,
+    "rentMax" : 47020
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 47020,
     "rentMax" : 47020
@@ -3077,10 +3081,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 23512,
     "rentMax" : 23512
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 47020,
-    "rentMax" : 47020
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -3093,7 +3093,7 @@
   "label" : "CITE ALICE CHATENOUD",
   "address" : {
     "fullAddress" : "10 rue Henri Poincaré -13388 Marseille",
-    "street" : "",
+    "street" : "10 rue Henri Poincaré",
     "city" : "Marseille",
     "zipCode" : "13388",
     "location" : {
@@ -3231,7 +3231,7 @@
   "label" : "RESIDENCE ALICE CHATENOUD",
   "address" : {
     "fullAddress" : "10 rue Henri Poincaré -13388 Marseille",
-    "street" : "",
+    "street" : "10 rue Henri Poincaré",
     "city" : "Marseille",
     "zipCode" : "13388",
     "location" : {
@@ -3451,9 +3451,9 @@
   "label" : "Résidence Montebello",
   "address" : {
     "fullAddress" : "96, avenue de Valrose - 06106 NICE cedex2",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "2",
+    "street" : "96, avenue de Valrose",
+    "city" : "NICE cedex2",
+    "zipCode" : "06106",
     "location" : {
       "latitude" : 43.719,
       "longitude" : 7.269
@@ -3518,6 +3518,10 @@
   "areaMin" : 29.0,
   "areaMax" : 29.0,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 58683,
+    "rentMax" : 58683
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 58683,
     "rentMax" : 58683
@@ -3525,10 +3529,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 29341,
     "rentMax" : 29341
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 58683,
-    "rentMax" : 58683
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -3551,9 +3551,9 @@
   "label" : "Résidence Paul Voivenel 1",
   "address" : {
     "fullAddress" : "35 Rue Maurice Becanne CS 17812 31078 Toulouse Cedex 4",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "4",
+    "street" : "35 Rue Maurice Becanne CS 17812",
+    "city" : "Toulouse Cedex 4",
+    "zipCode" : "31078",
     "location" : {
       "latitude" : 43.564,
       "longitude" : 1.457
@@ -3653,9 +3653,9 @@
   "label" : "CITE LUMINY",
   "address" : {
     "fullAddress" : "171 avenue de Luminy - 13288 Marseille cedex 9",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "9",
+    "street" : "171 avenue de Luminy",
+    "city" : "Marseille cedex 9",
+    "zipCode" : "13288",
     "location" : {
       "latitude" : 43.231,
       "longitude" : 5.44
@@ -3715,6 +3715,10 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 58683,
+    "rentMax" : 58683
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 58683,
     "rentMax" : 58683
@@ -3722,10 +3726,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 29341,
     "rentMax" : 29341
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 58683,
-    "rentMax" : 58683
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -3748,9 +3748,9 @@
   "label" : "Résidence Montebello",
   "address" : {
     "fullAddress" : "96, avenue de Valrose - 06106 NICE cedex2",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "2",
+    "street" : "96, avenue de Valrose",
+    "city" : "NICE cedex2",
+    "zipCode" : "06106",
     "location" : {
       "latitude" : 43.719,
       "longitude" : 7.269
@@ -3794,9 +3794,9 @@
   "label" : "Résidence Paul Voivenel 2",
   "address" : {
     "fullAddress" : "35 Rue Maurice Becanne CS17812 31078 Toulouse Cedex 4",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "4",
+    "street" : "35 Rue Maurice Becanne CS17812",
+    "city" : "Toulouse Cedex 4",
+    "zipCode" : "31078",
     "location" : {
       "latitude" : 43.564,
       "longitude" : 1.457
@@ -3850,9 +3850,9 @@
   "label" : "CITE FRESCHE BLANC",
   "address" : {
     "fullAddress" : "60, rue du Fresche Blanc BP 42221 44322 NANTES CEDEX 3",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "3",
+    "street" : "60, rue du Fresche Blanc BP 42221",
+    "city" : "NANTES CEDEX 3",
+    "zipCode" : "44322",
     "location" : {
       "latitude" : 47.251,
       "longitude" : -1.557
@@ -3906,9 +3906,9 @@
   "label" : "Résidence le Faron",
   "address" : {
     "fullAddress" : "CROUS NICE TOULON - Site du Var CS80577 - 83041 TOULON CEDEX 9",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "9",
+    "street" : "CROUS NICE TOULON - Site du Var CS80577",
+    "city" : "TOULON CEDEX 9",
+    "zipCode" : "83041",
     "location" : {
       "latitude" : 43.135,
       "longitude" : 6.017
@@ -3968,11 +3968,11 @@
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 36049,
     "rentMax" : 36049
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 36049,
     "rentMax" : 36049
   } ],
@@ -3992,9 +3992,9 @@
   "label" : "CITE LA BOURGEONNIERE",
   "address" : {
     "fullAddress" : "5-7 RUE DES RENARDS BP 52222 44322 NANTES CEDEX 3",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "3",
+    "street" : "5-7 RUE DES RENARDS BP 52222",
+    "city" : "NANTES CEDEX 3",
+    "zipCode" : "44322",
     "location" : {
       "latitude" : 47.254,
       "longitude" : -1.564
@@ -4084,9 +4084,9 @@
   "label" : "CITE LES GAZELLES",
   "address" : {
     "fullAddress" : "31, avenue Jules FERRY - 13621 AIX EN PROVENCE CEDEX 1",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "1",
+    "street" : "31, avenue Jules FERRY",
+    "city" : "AIX EN PROVENCE CEDEX 1",
+    "zipCode" : "13621",
     "location" : {
       "latitude" : 43.518,
       "longitude" : 5.45
@@ -4166,7 +4166,7 @@
   "label" : "Résidence Alvéole",
   "address" : {
     "fullAddress" : "1 chemin de Bessi - 06100 NICE",
-    "street" : "1 chemin de Bessi -",
+    "street" : "1 chemin de Bessi",
     "city" : "NICE",
     "zipCode" : "06100",
     "location" : {
@@ -4263,9 +4263,9 @@
   "label" : "Résidence le Faron",
   "address" : {
     "fullAddress" : "CROUS NICE TOULON - Site du Var CS80577 - 83041 TOULON CEDEX 9",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "9",
+    "street" : "CROUS NICE TOULON - Site du Var CS80577",
+    "city" : "TOULON CEDEX 9",
+    "zipCode" : "83041",
     "location" : {
       "latitude" : 43.135,
       "longitude" : 6.017
@@ -4284,6 +4284,10 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 36899,
+    "rentMax" : 36899
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 36899,
     "rentMax" : 36899
@@ -4291,10 +4295,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 19073,
     "rentMax" : 19073
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 36899,
-    "rentMax" : 36899
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -4476,9 +4476,9 @@
   "label" : "CITE LES GAZELLES",
   "address" : {
     "fullAddress" : "31, avenue Jules FERRY - 13621 AIX EN PROVENCE CEDEX 1",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "1",
+    "street" : "31, avenue Jules FERRY",
+    "city" : "AIX EN PROVENCE CEDEX 1",
+    "zipCode" : "13621",
     "location" : {
       "latitude" : 43.518,
       "longitude" : 5.45
@@ -4517,9 +4517,9 @@
   "label" : "CU BRIDOUX",
   "address" : {
     "fullAddress" : "2 rue du Général Delestraint CS 15250 57076 METZ CEDEX 03",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "03",
+    "street" : "2 rue du Général Delestraint CS 15250",
+    "city" : "METZ CEDEX 03",
+    "zipCode" : "57076",
     "location" : {
       "latitude" : 49.115,
       "longitude" : 6.214
@@ -4599,7 +4599,7 @@
   "label" : "RESIDENCE LI PASSEROUN",
   "address" : {
     "fullAddress" : "150, avenue Gaston Berger - 13090 Aix en Provence",
-    "street" : "150, avenue Gaston Berger -",
+    "street" : "150, avenue Gaston Berger",
     "city" : "Aix en Provence",
     "zipCode" : "13090",
     "location" : {
@@ -4661,13 +4661,13 @@
   "areaMin" : 54.0,
   "areaMax" : 54.0,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 21350,
-    "rentMax" : 21350
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 42700,
     "rentMax" : 42700
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 21350,
+    "rentMax" : 21350
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -4731,7 +4731,7 @@
   "label" : "CU MEDREVILLE",
   "address" : {
     "fullAddress" : "28, rue A. Briand - 54520 LAXOU",
-    "street" : "28, rue A. Briand -",
+    "street" : "28, rue A. Briand",
     "city" : "LAXOU",
     "zipCode" : "54520",
     "location" : {
@@ -4782,9 +4782,9 @@
   "label" : "CITE LA BOURGEONNIERE",
   "address" : {
     "fullAddress" : "5-7 RUE DES RENARDS BP 52222 44322 NANTES CEDEX 3",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "3",
+    "street" : "5-7 RUE DES RENARDS BP 52222",
+    "city" : "NANTES CEDEX 3",
+    "zipCode" : "44322",
     "location" : {
       "latitude" : 47.254,
       "longitude" : -1.564
@@ -4838,9 +4838,9 @@
   "label" : "RESIDENCE GEORGE BESSE",
   "address" : {
     "fullAddress" : "100 Rue Georges BESSE 30035 NIMES CEDEX 1",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "1",
+    "street" : "100 Rue Georges BESSE",
+    "city" : "NIMES CEDEX 1",
+    "zipCode" : "30035",
     "location" : {
       "latitude" : 43.821,
       "longitude" : 4.367
@@ -5033,7 +5033,7 @@
   "label" : "Hauts de Lafayette",
   "address" : {
     "fullAddress" : "133 Boulevard Lafayette - 63000 CLERMONT-FERRAND",
-    "street" : "133 Boulevard Lafayette -",
+    "street" : "133 Boulevard Lafayette",
     "city" : "CLERMONT-FERRAND",
     "zipCode" : "63000",
     "location" : {
@@ -5069,9 +5069,9 @@
   "label" : "CITE LA BOURGEONNIERE",
   "address" : {
     "fullAddress" : "5-7 RUE DES RENARDS BP 52222 44322 NANTES CEDEX 3",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "3",
+    "street" : "5-7 RUE DES RENARDS BP 52222",
+    "city" : "NANTES CEDEX 3",
+    "zipCode" : "44322",
     "location" : {
       "latitude" : 47.254,
       "longitude" : -1.564
@@ -5146,6 +5146,10 @@
   "areaMin" : 35.5,
   "areaMax" : 35.5,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 38800,
+    "rentMax" : 38800
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 21650,
     "rentMax" : 21650
@@ -5153,10 +5157,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 21650,
     "rentMax" : 43300
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 38800,
-    "rentMax" : 38800
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -5210,9 +5210,9 @@
   "label" : "CITE LES GAZELLES",
   "address" : {
     "fullAddress" : "31, avenue Jules FERRY - 13621 AIX EN PROVENCE CEDEX 1",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "1",
+    "street" : "31, avenue Jules FERRY",
+    "city" : "AIX EN PROVENCE CEDEX 1",
+    "zipCode" : "13621",
     "location" : {
       "latitude" : 43.518,
       "longitude" : 5.45
@@ -5292,9 +5292,9 @@
   "label" : "CU BRIDOUX",
   "address" : {
     "fullAddress" : "2 rue du Général Delestraint CS 15250 57076 METZ CEDEX 03",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "03",
+    "street" : "2 rue du Général Delestraint CS 15250",
+    "city" : "METZ CEDEX 03",
+    "zipCode" : "57076",
     "location" : {
       "latitude" : 49.115,
       "longitude" : 6.214
@@ -5313,6 +5313,10 @@
   "areaMin" : 50.0,
   "areaMax" : 50.0,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 54046,
+    "rentMax" : 54046
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 54046,
     "rentMax" : 54046
@@ -5320,10 +5324,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 27023,
     "rentMax" : 27023
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 54046,
-    "rentMax" : 54046
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -5382,7 +5382,7 @@
   "label" : "RESIDENCE LI PASSEROUN",
   "address" : {
     "fullAddress" : "150, avenue Gaston Berger - 13090 Aix en Provence",
-    "street" : "150, avenue Gaston Berger -",
+    "street" : "150, avenue Gaston Berger",
     "city" : "Aix en Provence",
     "zipCode" : "13090",
     "location" : {
@@ -5403,13 +5403,13 @@
   "areaMin" : 46.15,
   "areaMax" : 97.0,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 23115,
-    "rentMax" : 25247
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 46230,
     "rentMax" : 50494
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 23115,
+    "rentMax" : 25247
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -5704,11 +5704,11 @@
   "areaMin" : 21.4,
   "areaMax" : 26.2,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 37808,
     "rentMax" : 42298
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 37808,
     "rentMax" : 42298
   } ],
@@ -5769,7 +5769,7 @@
   "label" : "RESIDENCE LES BALUSTRES",
   "address" : {
     "fullAddress" : "1 place du Recteur Jules Blache - 13013 Marseille",
-    "street" : "1 place du Recteur Jules Blache -",
+    "street" : "1 place du Recteur Jules Blache",
     "city" : "Marseille",
     "zipCode" : "13013",
     "location" : {
@@ -5820,9 +5820,9 @@
   "label" : "Résidence Pythagore",
   "address" : {
     "fullAddress" : "118 route de Narbonne CS 17705 31077 Toulouse Cédex 4",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "4",
+    "street" : "118 route de Narbonne CS 17705",
+    "city" : "Toulouse Cédex 4",
+    "zipCode" : "31077",
     "location" : {
       "latitude" : 43.562,
       "longitude" : 1.466
@@ -5973,9 +5973,9 @@
   "label" : "CITE LAUNAY VIOLETTE",
   "address" : {
     "fullAddress" : "Chemin Launay-Violette - BP 12218 44322 NANTES CEDEX 03",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "03",
+    "street" : "Chemin Launay-Violette - BP 12218",
+    "city" : "NANTES CEDEX 03",
+    "zipCode" : "44322",
     "location" : {
       "latitude" : 47.249,
       "longitude" : -1.559
@@ -6101,7 +6101,7 @@
   "label" : "CITE LUCIEN CORNIL",
   "address" : {
     "fullAddress" : "168 rue St Pierre - 13005 MARSEILLE",
-    "street" : "168 rue St Pierre -",
+    "street" : "168 rue St Pierre",
     "city" : "MARSEILLE",
     "zipCode" : "13005",
     "location" : {
@@ -6280,6 +6280,10 @@
   "areaMin" : 19.0,
   "areaMax" : 29.0,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 55455,
+    "rentMax" : 55455
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 55455,
     "rentMax" : 55455
@@ -6287,10 +6291,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 27728,
     "rentMax" : 27728
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 55455,
-    "rentMax" : 55455
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -6313,9 +6313,9 @@
   "label" : "CITE LAUNAY VIOLETTE",
   "address" : {
     "fullAddress" : "Chemin Launay-Violette - BP 12218 44322 NANTES CEDEX 03",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "03",
+    "street" : "Chemin Launay-Violette - BP 12218",
+    "city" : "NANTES CEDEX 03",
+    "zipCode" : "44322",
     "location" : {
       "latitude" : 47.249,
       "longitude" : -1.559
@@ -6804,13 +6804,13 @@
   "areaMin" : 55.0,
   "areaMax" : 55.0,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 31114,
-    "rentMax" : 31114
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 62229,
     "rentMax" : 62229
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 31114,
+    "rentMax" : 31114
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -7012,9 +7012,9 @@
   "label" : "RESIDENCE TRIOLET 2",
   "address" : {
     "fullAddress" : "125 Avenue Augustin Fliche 34096 Montpellier Cedex 5",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "5",
+    "street" : "125 Avenue Augustin Fliche",
+    "city" : "Montpellier Cedex 5",
+    "zipCode" : "34096",
     "location" : {
       "latitude" : 43.629,
       "longitude" : 3.859
@@ -7053,7 +7053,7 @@
   "label" : "Jardins",
   "address" : {
     "fullAddress" : "10 Rue Saint-Rames - 63000 CLERMONT-FERRAND",
-    "street" : "10 Rue Saint-Rames -",
+    "street" : "10 Rue Saint-Rames",
     "city" : "CLERMONT-FERRAND",
     "zipCode" : "63000",
     "location" : {
@@ -7397,11 +7397,11 @@
   "areaMin" : 36.0,
   "areaMax" : 36.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 43822,
     "rentMax" : 43822
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 43822,
     "rentMax" : 43822
   } ],
@@ -7431,9 +7431,9 @@
   "label" : "Résidence Pythagore",
   "address" : {
     "fullAddress" : "118 route de Narbonne CS 17705 31077 Toulouse Cédex 4",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "4",
+    "street" : "118 route de Narbonne CS 17705",
+    "city" : "Toulouse Cédex 4",
+    "zipCode" : "31077",
     "location" : {
       "latitude" : 43.562,
       "longitude" : 1.466
@@ -7697,9 +7697,9 @@
   "label" : "CITE CLAUDE DELORME",
   "address" : {
     "fullAddress" : "10 chemin du Bassin - Le Merlan - 13337 Marseille cedex 14",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "14",
+    "street" : "10 chemin du Bassin - Le Merlan",
+    "city" : "Marseille cedex 14",
+    "zipCode" : "13337",
     "location" : {
       "latitude" : 43.338,
       "longitude" : 5.406
@@ -7764,11 +7764,11 @@
   "areaMin" : 49.0,
   "areaMax" : 49.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 49742,
     "rentMax" : 49742
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 49742,
     "rentMax" : 49742
   } ],
@@ -7916,6 +7916,10 @@
   "areaMin" : 36.0,
   "areaMax" : 36.0,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 53878,
+    "rentMax" : 53878
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 53878,
     "rentMax" : 53878
@@ -7923,10 +7927,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 26939,
     "rentMax" : 26939
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 53878,
-    "rentMax" : 53878
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -8271,7 +8271,7 @@
   "label" : "RESIDENCE CANOLLE",
   "address" : {
     "fullAddress" : "15, Rue Guillaume VII Le Troubadour - 86000 POITIERS",
-    "street" : "15, Rue Guillaume VII Le Troubadour -",
+    "street" : "15, Rue Guillaume VII Le Troubadour",
     "city" : "POITIERS",
     "zipCode" : "86000",
     "location" : {
@@ -8353,7 +8353,7 @@
   "label" : "CITE ALICE CHATENOUD",
   "address" : {
     "fullAddress" : "10 rue Henri Poincaré -13388 Marseille",
-    "street" : "",
+    "street" : "10 rue Henri Poincaré",
     "city" : "Marseille",
     "zipCode" : "13388",
     "location" : {
@@ -8573,7 +8573,7 @@
   "label" : "Residence Baie des Anges",
   "address" : {
     "fullAddress" : "55, chemin Saint-Antoine de Ginestière - 06200 Nice",
-    "street" : "55, chemin Saint-Antoine de Ginestière -",
+    "street" : "55, chemin Saint-Antoine de Ginestière",
     "city" : "Nice",
     "zipCode" : "06200",
     "location" : {
@@ -8839,7 +8839,7 @@
   "label" : "RESIDENCE ALEXANDRIE",
   "address" : {
     "fullAddress" : "ENTREE A - 166 RUE MESSIDOR - 34000 MONTPELLIER",
-    "street" : "ENTREE A - 166 RUE MESSIDOR -",
+    "street" : "ENTREE A - 166 RUE MESSIDOR",
     "city" : "MONTPELLIER",
     "zipCode" : "34000",
     "location" : {
@@ -8916,9 +8916,9 @@
   "label" : "RESIDENCE JACQUES CAVALIER",
   "address" : {
     "fullAddress" : "8, Rue J Koehler 69424 LYON Cedex 03",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "03",
+    "street" : "8, Rue J Koehler",
+    "city" : "LYON Cedex 03",
+    "zipCode" : "69424",
     "location" : {
       "latitude" : 45.746,
       "longitude" : 4.87
@@ -9044,6 +9044,10 @@
   "areaMin" : 29.7,
   "areaMax" : 51.68,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 57816,
+    "rentMax" : 57816
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 57816,
     "rentMax" : 57816
@@ -9051,10 +9055,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 28908,
     "rentMax" : 28908
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 57816,
-    "rentMax" : 57816
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -9082,7 +9082,7 @@
   "label" : "CITE ALICE CHATENOUD",
   "address" : {
     "fullAddress" : "10 rue Henri Poincaré -13388 Marseille",
-    "street" : "",
+    "street" : "10 rue Henri Poincaré",
     "city" : "Marseille",
     "zipCode" : "13388",
     "location" : {
@@ -9179,9 +9179,9 @@
   "label" : "CITE LUMINY",
   "address" : {
     "fullAddress" : "171 avenue de Luminy - 13288 Marseille cedex 9",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "9",
+    "street" : "171 avenue de Luminy",
+    "city" : "Marseille cedex 9",
+    "zipCode" : "13288",
     "location" : {
       "latitude" : 43.231,
       "longitude" : 5.44
@@ -9282,11 +9282,11 @@
   "areaMin" : 30.42,
   "areaMax" : 36.34,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 36069,
     "rentMax" : 39552
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 36069,
     "rentMax" : 39552
   } ],
@@ -9326,7 +9326,7 @@
   "label" : "RESIDENCE AVERROES",
   "address" : {
     "fullAddress" : "145, rue Joseph Diouloufet - 13090 Aix-en-Provence",
-    "street" : "145, rue Joseph Diouloufet -",
+    "street" : "145, rue Joseph Diouloufet",
     "city" : "Aix-en-Provence",
     "zipCode" : "13090",
     "location" : {
@@ -9868,7 +9868,7 @@
   "label" : "RESIDENCE  BARTHOLDI",
   "address" : {
     "fullAddress" : "14 à 24bis AVENUE BARTHOLDI - 72000 LE MANS",
-    "street" : "14 à 24bis AVENUE BARTHOLDI -",
+    "street" : "14 à 24bis AVENUE BARTHOLDI",
     "city" : "LE MANS",
     "zipCode" : "72000",
     "location" : {
@@ -9889,11 +9889,11 @@
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 41896,
     "rentMax" : 41896
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 41896,
     "rentMax" : 41896
   } ],
@@ -9918,7 +9918,7 @@
   "label" : "RESIDENCE  BARTHOLDI",
   "address" : {
     "fullAddress" : "14 à 24bis AVENUE BARTHOLDI - 72000 LE MANS",
-    "street" : "14 à 24bis AVENUE BARTHOLDI -",
+    "street" : "14 à 24bis AVENUE BARTHOLDI",
     "city" : "LE MANS",
     "zipCode" : "72000",
     "location" : {
@@ -9939,11 +9939,11 @@
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 41896,
     "rentMax" : 41896
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 41896,
     "rentMax" : 41896
   } ],
@@ -9989,11 +9989,11 @@
   "areaMin" : 37.1,
   "areaMax" : 37.1,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 57549,
     "rentMax" : 57549
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 57549,
     "rentMax" : 57549
   } ],
@@ -10325,9 +10325,9 @@
   "label" : "CU BRIDOUX",
   "address" : {
     "fullAddress" : "2 rue du Général Delestraint CS 15250 57076 METZ CEDEX 03",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "03",
+    "street" : "2 rue du Général Delestraint CS 15250",
+    "city" : "METZ CEDEX 03",
+    "zipCode" : "57076",
     "location" : {
       "latitude" : 49.115,
       "longitude" : 6.214
@@ -10699,9 +10699,9 @@
   "label" : "CITE TRIOLET",
   "address" : {
     "fullAddress" : "75 Av. Augustin Fliche 34096 Montpellier Cedex 5",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "5",
+    "street" : "75 Av. Augustin Fliche",
+    "city" : "Montpellier Cedex 5",
+    "zipCode" : "34096",
     "location" : {
       "latitude" : 43.629,
       "longitude" : 3.859
@@ -10792,6 +10792,10 @@
   "areaMin" : 20.3,
   "areaMax" : 20.93,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 41564,
+    "rentMax" : 41564
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 41564,
     "rentMax" : 41564
@@ -10799,10 +10803,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 20782,
     "rentMax" : 20782
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 41564,
-    "rentMax" : 41564
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -10963,9 +10963,9 @@
   "label" : "CARDINIERE",
   "address" : {
     "fullAddress" : "58 Chemin de la Cardinière 73 000 CHAMBERY",
-    "street" : "58 Chemin de la Cardinière 73",
+    "street" : "58 Chemin de la Cardinière",
     "city" : "CHAMBERY",
-    "zipCode" : "000",
+    "zipCode" : "73000",
     "location" : {
       "latitude" : 45.562,
       "longitude" : 5.932
@@ -11060,9 +11060,9 @@
   "label" : "CU SAULCY",
   "address" : {
     "fullAddress" : "Ile du Saulcy CS 60587 57010 METZ CEDEX 1",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "1",
+    "street" : "Ile du Saulcy CS 60587",
+    "city" : "METZ CEDEX 1",
+    "zipCode" : "57010",
     "location" : {
       "latitude" : 49.121,
       "longitude" : 6.158
@@ -11178,11 +11178,11 @@
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 56233,
     "rentMax" : 56233
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 56233,
     "rentMax" : 56233
   } ],
@@ -11539,7 +11539,7 @@
   "label" : "Residence Jean Médecin",
   "address" : {
     "fullAddress" : "25 rue Robert Latouche - 06200 NICE",
-    "street" : "25 rue Robert Latouche -",
+    "street" : "25 rue Robert Latouche",
     "city" : "NICE",
     "zipCode" : "06200",
     "location" : {
@@ -11575,7 +11575,7 @@
   "label" : "RESIDENCE CANOLLE",
   "address" : {
     "fullAddress" : "15, Rue Guillaume VII Le Troubadour - 86000 POITIERS",
-    "street" : "15, Rue Guillaume VII Le Troubadour -",
+    "street" : "15, Rue Guillaume VII Le Troubadour",
     "city" : "POITIERS",
     "zipCode" : "86000",
     "location" : {
@@ -11856,7 +11856,7 @@
   "label" : "Studios Cézeaux",
   "address" : {
     "fullAddress" : "Rue Roche Genès - 63170 AUBIERE",
-    "street" : "Rue Roche Genès -",
+    "street" : "Rue Roche Genès",
     "city" : "AUBIERE",
     "zipCode" : "63170",
     "location" : {
@@ -12081,7 +12081,7 @@
   "label" : "RESIDENCE LA VERDIERE",
   "address" : {
     "fullAddress" : "23 bis, Rue de la Verdière ZAC Jas de Bouffan - 13090 Aix-en-Provence",
-    "street" : "23 bis, Rue de la Verdière ZAC Jas de Bouffan -",
+    "street" : "23 bis, Rue de la Verdière ZAC Jas de Bouffan",
     "city" : "Aix-en-Provence",
     "zipCode" : "13090",
     "location" : {
@@ -12122,7 +12122,7 @@
   "label" : "Résidence La Madeleine",
   "address" : {
     "fullAddress" : "150 ,Bd de la Madeleine - 06200 Nice",
-    "street" : "150 ,Bd de la Madeleine -",
+    "street" : "150 ,Bd de la Madeleine",
     "city" : "Nice",
     "zipCode" : "06200",
     "location" : {
@@ -12204,7 +12204,7 @@
   "label" : "Pasteur",
   "address" : {
     "fullAddress" : "29 avenue Blaise Pascal - 63170 AUBIERE",
-    "street" : "29 avenue Blaise Pascal -",
+    "street" : "29 avenue Blaise Pascal",
     "city" : "AUBIERE",
     "zipCode" : "63170",
     "location" : {
@@ -12332,7 +12332,7 @@
   "label" : "RES. HENRI-GEORGES CLOUZOT",
   "address" : {
     "fullAddress" : "7 rue du Galuchet - 79000 NIORT",
-    "street" : "7 rue du Galuchet -",
+    "street" : "7 rue du Galuchet",
     "city" : "NIORT",
     "zipCode" : "79000",
     "location" : {
@@ -12368,7 +12368,7 @@
   "label" : "RESIDENCE CHABRAN",
   "address" : {
     "fullAddress" : "1 Avenue St Jean - 84000 AVIGNON",
-    "street" : "1 Avenue St Jean -",
+    "street" : "1 Avenue St Jean",
     "city" : "AVIGNON",
     "zipCode" : "84000",
     "location" : {
@@ -12501,7 +12501,7 @@
   "label" : "Résidence La Madeleine",
   "address" : {
     "fullAddress" : "150 ,Bd de la Madeleine - 06200 Nice",
-    "street" : "150 ,Bd de la Madeleine -",
+    "street" : "150 ,Bd de la Madeleine",
     "city" : "Nice",
     "zipCode" : "06200",
     "location" : {
@@ -12522,6 +12522,10 @@
   "areaMin" : 51.0,
   "areaMax" : 51.0,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 61176,
+    "rentMax" : 61176
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 61176,
     "rentMax" : 61176
@@ -12529,10 +12533,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 30889,
     "rentMax" : 30889
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 61176,
-    "rentMax" : 61176
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -12770,7 +12770,7 @@
   "label" : "RESIDENCE LE FELIBRE II",
   "address" : {
     "fullAddress" : "17, Avenue de l'Europe - 13100 Aix en Provence",
-    "street" : "17, Avenue de l'Europe -",
+    "street" : "17, Avenue de l'Europe",
     "city" : "Aix en Provence",
     "zipCode" : "13100",
     "location" : {
@@ -13246,9 +13246,9 @@
   "label" : "FEA",
   "address" : {
     "fullAddress" : "Foyer Etudiant des Alpes - 295 Faubourg Montmélian 73 000 CHAMBERY",
-    "street" : "Foyer Etudiant des Alpes - 295 Faubourg Montmélian 73",
+    "street" : "Foyer Etudiant des Alpes - 295 Faubourg Montmélian",
     "city" : "CHAMBERY",
-    "zipCode" : "000",
+    "zipCode" : "73000",
     "location" : {
       "latitude" : 45.566,
       "longitude" : 5.93
@@ -13390,11 +13390,11 @@
   "areaMin" : 79.62,
   "areaMax" : 79.62,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
+    "occupationKind" : "ALONE",
     "rentMin" : 37301,
     "rentMax" : 37301
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 37301,
     "rentMax" : 37301
   } ],
@@ -13809,11 +13809,11 @@
   "areaMin" : 25.96,
   "areaMax" : 28.17,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 55090,
     "rentMax" : 58110
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 55090,
     "rentMax" : 58110
   } ],
@@ -13828,9 +13828,9 @@
   "label" : "CITE L ESTELAN",
   "address" : {
     "fullAddress" : "2 boulevard du Maréchal Leclerc - 13621 Aix-en-Provence cedex 01",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "01",
+    "street" : "2 boulevard du Maréchal Leclerc",
+    "city" : "Aix-en-Provence cedex 01",
+    "zipCode" : "13621",
     "location" : {
       "latitude" : 43.523,
       "longitude" : 5.435
@@ -13874,7 +13874,7 @@
   "label" : "CITE ANTINEA",
   "address" : {
     "fullAddress" : "15, Rue Vaux de Foletier - 17026 LA ROCHELLE CEDEX",
-    "street" : "15, Rue Vaux de Foletier -",
+    "street" : "15, Rue Vaux de Foletier",
     "city" : "LA ROCHELLE CEDEX",
     "zipCode" : "17026",
     "location" : {
@@ -13936,6 +13936,10 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 48096,
+    "rentMax" : 48096
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 48096,
     "rentMax" : 48096
@@ -13943,10 +13947,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 24048,
     "rentMax" : 24048
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 48096,
-    "rentMax" : 48096
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -13964,9 +13964,9 @@
   "label" : "CITE BELLE BEILLE",
   "address" : {
     "fullAddress" : "8 - 10 BD BEAUSSIER 49045 ANGERS CEDEX 01",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "01",
+    "street" : "8 - 10 BD BEAUSSIER",
+    "city" : "ANGERS CEDEX 01",
+    "zipCode" : "49045",
     "location" : {
       "latitude" : 47.479,
       "longitude" : -0.598
@@ -14092,7 +14092,7 @@
   "label" : "RESIDENCE CANOLLE",
   "address" : {
     "fullAddress" : "15, Rue Guillaume VII Le Troubadour - 86000 POITIERS",
-    "street" : "15, Rue Guillaume VII Le Troubadour -",
+    "street" : "15, Rue Guillaume VII Le Troubadour",
     "city" : "POITIERS",
     "zipCode" : "86000",
     "location" : {
@@ -14195,11 +14195,11 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 48096,
     "rentMax" : 48096
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 48096,
     "rentMax" : 48096
   } ],
@@ -14219,7 +14219,7 @@
   "label" : "CITE ANTINEA",
   "address" : {
     "fullAddress" : "15, Rue Vaux de Foletier - 17026 LA ROCHELLE CEDEX",
-    "street" : "15, Rue Vaux de Foletier -",
+    "street" : "15, Rue Vaux de Foletier",
     "city" : "LA ROCHELLE CEDEX",
     "zipCode" : "17026",
     "location" : {
@@ -14301,9 +14301,9 @@
   "label" : "CITE BELLE BEILLE",
   "address" : {
     "fullAddress" : "8 - 10 BD BEAUSSIER 49045 ANGERS CEDEX 01",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "01",
+    "street" : "8 - 10 BD BEAUSSIER",
+    "city" : "ANGERS CEDEX 01",
+    "zipCode" : "49045",
     "location" : {
       "latitude" : 47.479,
       "longitude" : -0.598
@@ -14414,6 +14414,10 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 55529,
+    "rentMax" : 55529
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 55529,
     "rentMax" : 55529
@@ -14421,10 +14425,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 27764,
     "rentMax" : 27764
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 55529,
-    "rentMax" : 55529
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -14534,7 +14534,7 @@
   "label" : "RESIDENCE  BARTHOLDI",
   "address" : {
     "fullAddress" : "14 à 24bis AVENUE BARTHOLDI - 72000 LE MANS",
-    "street" : "14 à 24bis AVENUE BARTHOLDI -",
+    "street" : "14 à 24bis AVENUE BARTHOLDI",
     "city" : "LE MANS",
     "zipCode" : "72000",
     "location" : {
@@ -14580,9 +14580,9 @@
   "label" : "RESIDENCE VERT BOIS",
   "address" : {
     "fullAddress" : "192 rue de la chénaie 34096 Montpellier cedex 5",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "5",
+    "street" : "192 rue de la chénaie",
+    "city" : "Montpellier cedex 5",
+    "zipCode" : "34096",
     "location" : {
       "latitude" : 43.635,
       "longitude" : 3.872
@@ -14673,6 +14673,10 @@
   "areaMin" : 37.0,
   "areaMax" : 37.0,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 58829,
+    "rentMax" : 58829
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 58829,
     "rentMax" : 58829
@@ -14680,10 +14684,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 29414,
     "rentMax" : 29414
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 58829,
-    "rentMax" : 58829
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -14788,9 +14788,9 @@
   "label" : "CITE BELLE BEILLE",
   "address" : {
     "fullAddress" : "8 - 10 BD BEAUSSIER 49045 ANGERS CEDEX 01",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "01",
+    "street" : "8 - 10 BD BEAUSSIER",
+    "city" : "ANGERS CEDEX 01",
+    "zipCode" : "49045",
     "location" : {
       "latitude" : 47.479,
       "longitude" : -0.598
@@ -15382,6 +15382,10 @@
   "areaMin" : 41.69,
   "areaMax" : 43.96,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 67899,
+    "rentMax" : 67899
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 67899,
     "rentMax" : 67899
@@ -15389,10 +15393,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 33949,
     "rentMax" : 33949
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 67899,
-    "rentMax" : 67899
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -15507,7 +15507,7 @@
   "label" : "Montlucon",
   "address" : {
     "fullAddress" : "Allée J.J. Soulier - BP 409 - 03107 MONTLUCON",
-    "street" : "Allée J.J. Soulier - BP 409 -",
+    "street" : "Allée J.J. Soulier - BP 409",
     "city" : "MONTLUCON",
     "zipCode" : "03107",
     "location" : {
@@ -15610,11 +15610,11 @@
   "areaMin" : 26.16,
   "areaMax" : 28.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 42310,
     "rentMax" : 42310
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 42310,
     "rentMax" : 42310
   } ],
@@ -15757,11 +15757,11 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 43841,
     "rentMax" : 43841
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 43841,
     "rentMax" : 43841
   } ],
@@ -15786,7 +15786,7 @@
   "label" : "RESIDENCE JEAN ZAY",
   "address" : {
     "fullAddress" : "420 Rue Baruch de Spinoza - ZAC Agroparc - 84140 Montfavet",
-    "street" : "420 Rue Baruch de Spinoza - ZAC Agroparc -",
+    "street" : "420 Rue Baruch de Spinoza - ZAC Agroparc",
     "city" : "Montfavet",
     "zipCode" : "84140",
     "location" : {
@@ -15924,9 +15924,9 @@
   "label" : "RESIDENCE ALLIX",
   "address" : {
     "fullAddress" : "2 rue soeur Bouvier 69322 LYON Cedex 05",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "05",
+    "street" : "2 rue soeur Bouvier",
+    "city" : "LYON Cedex 05",
+    "zipCode" : "69322",
     "location" : {
       "latitude" : 45.754,
       "longitude" : 4.812
@@ -15975,9 +15975,9 @@
   "label" : "Résidence Colette",
   "address" : {
     "fullAddress" : "7, rue laplace BP 31225 25004 BESANCON CEDEX 3",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "3",
+    "street" : "7, rue laplace BP 31225",
+    "city" : "BESANCON CEDEX 3",
+    "zipCode" : "25004",
     "location" : {
       "latitude" : 47.249,
       "longitude" : 5.986
@@ -16026,7 +16026,7 @@
   "label" : "RESIDENCE JEAN ZAY",
   "address" : {
     "fullAddress" : "420 Rue Baruch de Spinoza - ZAC Agroparc - 84140 Montfavet",
-    "street" : "420 Rue Baruch de Spinoza - ZAC Agroparc -",
+    "street" : "420 Rue Baruch de Spinoza - ZAC Agroparc",
     "city" : "Montfavet",
     "zipCode" : "84140",
     "location" : {
@@ -16251,9 +16251,9 @@
   "label" : "CITE VERT BOIS",
   "address" : {
     "fullAddress" : "192 rue de la Chenaie 34096 MONTPELLIER CEDEX 5",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "5",
+    "street" : "192 rue de la Chenaie",
+    "city" : "MONTPELLIER CEDEX 5",
+    "zipCode" : "34096",
     "location" : {
       "latitude" : 43.635,
       "longitude" : 3.872
@@ -16349,9 +16349,9 @@
   "label" : "Résidence At Ome",
   "address" : {
     "fullAddress" : "35 Rue Maurice Becanne CS 17812 31078 Toulouse Cedex 4",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "4",
+    "street" : "35 Rue Maurice Becanne CS 17812",
+    "city" : "Toulouse Cedex 4",
+    "zipCode" : "31078",
     "location" : {
       "latitude" : 43.564,
       "longitude" : 1.457
@@ -16405,7 +16405,7 @@
   "label" : "RESIDENCE LA GARIDELLE",
   "address" : {
     "fullAddress" : "10, rue St Bernard - 84000 AVIGNON",
-    "street" : "10, rue St Bernard -",
+    "street" : "10, rue St Bernard",
     "city" : "AVIGNON",
     "zipCode" : "84000",
     "location" : {
@@ -16446,7 +16446,7 @@
   "label" : "RESIDENCE AZIYADE",
   "address" : {
     "fullAddress" : "171 rue de Coureilles - 17000 LA ROCHELLE",
-    "street" : "171 rue de Coureilles -",
+    "street" : "171 rue de Coureilles",
     "city" : "LA ROCHELLE",
     "zipCode" : "17000",
     "location" : {
@@ -16492,9 +16492,9 @@
   "label" : "RESIDENCE TRIOLET",
   "address" : {
     "fullAddress" : "75 Av. Augustin Fliche 34096 Montpellier Cedex 5",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "5",
+    "street" : "75 Av. Augustin Fliche",
+    "city" : "Montpellier Cedex 5",
+    "zipCode" : "34096",
     "location" : {
       "latitude" : 43.629,
       "longitude" : 3.859
@@ -16579,9 +16579,9 @@
   "label" : "RESIDENCE JACQUES CAVALIER",
   "address" : {
     "fullAddress" : "8, Rue J Koehler 69424 LYON Cedex 03",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "03",
+    "street" : "8, Rue J Koehler",
+    "city" : "LYON Cedex 03",
+    "zipCode" : "69424",
     "location" : {
       "latitude" : 45.746,
       "longitude" : 4.87
@@ -16783,7 +16783,7 @@
   "label" : "RESIDENCE LA GARIDELLE",
   "address" : {
     "fullAddress" : "10, rue St Bernard - 84000 AVIGNON",
-    "street" : "10, rue St Bernard -",
+    "street" : "10, rue St Bernard",
     "city" : "AVIGNON",
     "zipCode" : "84000",
     "location" : {
@@ -17141,7 +17141,7 @@
   "label" : "RESIDENCE COUREILLES",
   "address" : {
     "fullAddress" : "170 rue de Coureilles - 17000 LA ROCHELLE",
-    "street" : "170 rue de Coureilles -",
+    "street" : "170 rue de Coureilles",
     "city" : "LA ROCHELLE",
     "zipCode" : "17000",
     "location" : {
@@ -17269,9 +17269,9 @@
   "label" : "CU SAULCY",
   "address" : {
     "fullAddress" : "Ile du Saulcy CS 60587 57010 METZ CEDEX 1",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "1",
+    "street" : "Ile du Saulcy CS 60587",
+    "city" : "METZ CEDEX 1",
+    "zipCode" : "57010",
     "location" : {
       "latitude" : 49.121,
       "longitude" : 6.158
@@ -17336,13 +17336,13 @@
   "areaMin" : 27.09,
   "areaMax" : 27.09,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 19000,
-    "rentMax" : 19000
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 38000,
     "rentMax" : 38000
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 19000,
+    "rentMax" : 19000
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -17355,7 +17355,7 @@
   "label" : "RESIDENCE JEAN JOUZEL",
   "address" : {
     "fullAddress" : "172, rue de Coureilles - 17000 LA ROCHELLE",
-    "street" : "172, rue de Coureilles -",
+    "street" : "172, rue de Coureilles",
     "city" : "LA ROCHELLE",
     "zipCode" : "17000",
     "location" : {
@@ -17483,7 +17483,7 @@
   "label" : "Residence Baie des Anges",
   "address" : {
     "fullAddress" : "55, chemin Saint-Antoine de Ginestière - 06200 Nice",
-    "street" : "55, chemin Saint-Antoine de Ginestière -",
+    "street" : "55, chemin Saint-Antoine de Ginestière",
     "city" : "Nice",
     "zipCode" : "06200",
     "location" : {
@@ -17667,7 +17667,7 @@
   "label" : "RESIDENCE LE CARRELET",
   "address" : {
     "fullAddress" : "160 Rue de Coureilles - 17000 LA ROCHELLE",
-    "street" : "160 Rue de Coureilles -",
+    "street" : "160 Rue de Coureilles",
     "city" : "LA ROCHELLE",
     "zipCode" : "17000",
     "location" : {
@@ -17713,7 +17713,7 @@
   "label" : "RESIDENCE LA MIROITERIE",
   "address" : {
     "fullAddress" : "3, Route de Lyon - 84000 AVIGNON",
-    "street" : "3, Route de Lyon -",
+    "street" : "3, Route de Lyon",
     "city" : "AVIGNON",
     "zipCode" : "84000",
     "location" : {
@@ -17924,11 +17924,11 @@
   "areaMin" : 16.7,
   "areaMax" : 28.9,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 52350,
     "rentMax" : 52350
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 52350,
     "rentMax" : 52350
   } ],
@@ -18515,13 +18515,13 @@
   "areaMin" : 25.87,
   "areaMax" : 32.11,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 24500,
-    "rentMax" : 24500
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 41600,
     "rentMax" : 41600
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 24500,
+    "rentMax" : 24500
   } ],
   "transports" : [ {
     "kind" : "TRAIN",
@@ -18631,9 +18631,9 @@
   "label" : "Résidence Montebello",
   "address" : {
     "fullAddress" : "96, avenue de Valrose - 06106 NICE cedex2",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "2",
+    "street" : "96, avenue de Valrose",
+    "city" : "NICE cedex2",
+    "zipCode" : "06106",
     "location" : {
       "latitude" : 43.719,
       "longitude" : 7.269
@@ -18652,6 +18652,10 @@
   "areaMin" : 20.0,
   "areaMax" : 27.86,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 41800,
+    "rentMax" : 41800
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 41800,
     "rentMax" : 41800
@@ -18659,10 +18663,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 25050,
     "rentMax" : 25050
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 41800,
-    "rentMax" : 41800
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -18685,7 +18685,7 @@
   "label" : "RESIDENCE VILLE EN BOIS",
   "address" : {
     "fullAddress" : "Avenue des Amériques - 17000 LA ROCHELLE",
-    "street" : "Avenue des Amériques -",
+    "street" : "Avenue des Amériques",
     "city" : "LA ROCHELLE",
     "zipCode" : "17000",
     "location" : {
@@ -18798,6 +18798,10 @@
   "areaMin" : 27.0,
   "areaMax" : 27.0,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 47258,
+    "rentMax" : 47258
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 47258,
     "rentMax" : 47258
@@ -18805,10 +18809,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 23629,
     "rentMax" : 23629
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 47258,
-    "rentMax" : 47258
   } ],
   "transports" : [ {
     "kind" : "FREE_URBAN_PARKING",
@@ -19434,9 +19434,9 @@
   "label" : "RESIDENCE SAINT CESAIRE",
   "address" : {
     "fullAddress" : "258 Chemin du Moulin à Vent Quartier Saint Cesaire 30 000 Nîmes",
-    "street" : "258 Chemin du Moulin à Vent Quartier Saint Cesaire 30",
+    "street" : "258 Chemin du Moulin à Vent Quartier Saint Cesaire",
     "city" : "Nîmes",
-    "zipCode" : "000",
+    "zipCode" : "30000",
     "location" : {
       "latitude" : 43.819,
       "longitude" : 4.328
@@ -19480,9 +19480,9 @@
   "label" : "RESIDENCE SAINT CESAIRE",
   "address" : {
     "fullAddress" : "258 Chemin du Moulin à Vent Quartier Saint Cesaire 30 000 Nîmes",
-    "street" : "258 Chemin du Moulin à Vent Quartier Saint Cesaire 30",
+    "street" : "258 Chemin du Moulin à Vent Quartier Saint Cesaire",
     "city" : "Nîmes",
-    "zipCode" : "000",
+    "zipCode" : "30000",
     "location" : {
       "latitude" : 43.819,
       "longitude" : 4.328
@@ -19588,13 +19588,13 @@
   "areaMin" : 81.0,
   "areaMax" : 81.0,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 27600,
-    "rentMax" : 27600
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 999900,
     "rentMax" : 999900
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 27600,
+    "rentMax" : 27600
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -19627,7 +19627,7 @@
   "label" : "Résidence La Bastide Rouge",
   "address" : {
     "fullAddress" : "218 Avenue Francis Tonner - 06150 Cannes La Bocca",
-    "street" : "218 Avenue Francis Tonner -",
+    "street" : "218 Avenue Francis Tonner",
     "city" : "Cannes La Bocca",
     "zipCode" : "06150",
     "location" : {
@@ -19949,7 +19949,7 @@
   "label" : "Résidence La Bastide Rouge",
   "address" : {
     "fullAddress" : "218 Avenue Francis Tonner - 06150 Cannes La Bocca",
-    "street" : "218 Avenue Francis Tonner -",
+    "street" : "218 Avenue Francis Tonner",
     "city" : "Cannes La Bocca",
     "zipCode" : "06150",
     "location" : {
@@ -20016,6 +20016,10 @@
   "areaMin" : 24.47,
   "areaMax" : 28.99,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 49976,
+    "rentMax" : 49976
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 49976,
     "rentMax" : 49976
@@ -20023,10 +20027,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 24988,
     "rentMax" : 24988
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 49976,
-    "rentMax" : 49976
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -20121,7 +20121,7 @@
   "label" : "RESIDENCE LAUGIER",
   "address" : {
     "fullAddress" : "100 rue Carretterie - 84000 AVIGNON",
-    "street" : "100 rue Carretterie -",
+    "street" : "100 rue Carretterie",
     "city" : "AVIGNON",
     "zipCode" : "84000",
     "location" : {
@@ -20183,13 +20183,13 @@
   "areaMin" : 69.3,
   "areaMax" : 71.7,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 31100,
-    "rentMax" : 31100
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 93300,
     "rentMax" : 93300
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 31100,
+    "rentMax" : 31100
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -20228,13 +20228,13 @@
   "areaMin" : 81.8,
   "areaMax" : 88.08,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 31100,
-    "rentMax" : 31100
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 124400,
     "rentMax" : 124400
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 31100,
+    "rentMax" : 31100
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -20273,6 +20273,10 @@
   "areaMin" : 23.0,
   "areaMax" : 28.0,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 52010,
+    "rentMax" : 52010
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 52010,
     "rentMax" : 52010
@@ -20280,10 +20284,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 26005,
     "rentMax" : 26005
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 52010,
-    "rentMax" : 52010
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -20301,9 +20301,9 @@
   "label" : "CITE GALINAT",
   "address" : {
     "fullAddress" : "38 Boulevard Jean Moulin - 13392 Marseille cedex 5",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "5",
+    "street" : "38 Boulevard Jean Moulin",
+    "city" : "Marseille cedex 5",
+    "zipCode" : "13392",
     "location" : {
       "latitude" : 43.287,
       "longitude" : 5.399
@@ -20403,7 +20403,7 @@
   "label" : "RESIDENCE ROBERT TATIN",
   "address" : {
     "fullAddress" : "5 place du 7 et 15 juin 1944 - 53000 LAVAL",
-    "street" : "5 place du 7 et 15 juin 1944 -",
+    "street" : "5 place du 7 et 15 juin 1944",
     "city" : "LAVAL",
     "zipCode" : "53000",
     "location" : {
@@ -20720,9 +20720,9 @@
   "label" : "CU SAULCY",
   "address" : {
     "fullAddress" : "Ile du Saulcy CS 60587 57010 METZ CEDEX 1",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "1",
+    "street" : "Ile du Saulcy CS 60587",
+    "city" : "METZ CEDEX 1",
+    "zipCode" : "57010",
     "location" : {
       "latitude" : 49.121,
       "longitude" : 6.158
@@ -20797,7 +20797,7 @@
   "label" : "RESIDENCE LAUGIER",
   "address" : {
     "fullAddress" : "100 rue Carretterie - 84000 AVIGNON",
-    "street" : "100 rue Carretterie -",
+    "street" : "100 rue Carretterie",
     "city" : "AVIGNON",
     "zipCode" : "84000",
     "location" : {
@@ -20838,9 +20838,9 @@
   "label" : "CITE TRIOLET",
   "address" : {
     "fullAddress" : "75 Av. Augustin Fliche 34096 Montpellier Cedex 5",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "5",
+    "street" : "75 Av. Augustin Fliche",
+    "city" : "Montpellier Cedex 5",
+    "zipCode" : "34096",
     "location" : {
       "latitude" : 43.629,
       "longitude" : 3.859
@@ -20966,9 +20966,9 @@
   "label" : "RESIDENCE SAINT CESAIRE",
   "address" : {
     "fullAddress" : "258 Chemin du Moulin à Vent Quartier Saint Cesaire 30 000 Nîmes",
-    "street" : "258 Chemin du Moulin à Vent Quartier Saint Cesaire 30",
+    "street" : "258 Chemin du Moulin à Vent Quartier Saint Cesaire",
     "city" : "Nîmes",
-    "zipCode" : "000",
+    "zipCode" : "30000",
     "location" : {
       "latitude" : 43.819,
       "longitude" : 4.328
@@ -21012,7 +21012,7 @@
   "label" : "CU ARISTIDE BRIAND",
   "address" : {
     "fullAddress" : "24 bis, rue A. Briand - 54520 LAXOU",
-    "street" : "24 bis, rue A. Briand -",
+    "street" : "24 bis, rue A. Briand",
     "city" : "LAXOU",
     "zipCode" : "54520",
     "location" : {
@@ -21104,7 +21104,7 @@
   "label" : "Meuniers",
   "address" : {
     "fullAddress" : "1 avenue Blaise Pascal - Campus des Cézeaux - 63170 AUBIERE",
-    "street" : "1 avenue Blaise Pascal - Campus des Cézeaux -",
+    "street" : "1 avenue Blaise Pascal - Campus des Cézeaux",
     "city" : "AUBIERE",
     "zipCode" : "63170",
     "location" : {
@@ -21314,9 +21314,9 @@
   "label" : "Résidence Daniel Faucher",
   "address" : {
     "fullAddress" : "11 Allée du Professeur Camille Soula CS 47806 31078 Toulouse Cedex 4.",
-    "street" : "",
-    "city" : ".",
-    "zipCode" : "4",
+    "street" : "11 Allée du Professeur Camille Soula CS 47806",
+    "city" : "Toulouse Cedex 4.",
+    "zipCode" : "31078",
     "location" : {
       "latitude" : 43.58,
       "longitude" : 1.434
@@ -21519,6 +21519,10 @@
   "areaMin" : 29.29,
   "areaMax" : 33.64,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 60466,
+    "rentMax" : 60466
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 60466,
     "rentMax" : 60466
@@ -21526,10 +21530,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 30233,
     "rentMax" : 30233
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 60466,
-    "rentMax" : 60466
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -22007,7 +22007,7 @@
   "label" : "CITE DESCARTES",
   "address" : {
     "fullAddress" : "11-13-15 rue Raoul Follereau - 86022 POITIERS CEDEX",
-    "street" : "11-13-15 rue Raoul Follereau -",
+    "street" : "11-13-15 rue Raoul Follereau",
     "city" : "POITIERS CEDEX",
     "zipCode" : "86022",
     "location" : {
@@ -22048,9 +22048,9 @@
   "label" : "CU SAULCY",
   "address" : {
     "fullAddress" : "Ile du Saulcy CS 60587 57010 METZ CEDEX 1",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "1",
+    "street" : "Ile du Saulcy CS 60587",
+    "city" : "METZ CEDEX 1",
+    "zipCode" : "57010",
     "location" : {
       "latitude" : 49.121,
       "longitude" : 6.158
@@ -22192,6 +22192,10 @@
   "areaMin" : 35.76,
   "areaMax" : 37.12,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 66126,
+    "rentMax" : 66126
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 66126,
     "rentMax" : 66126
@@ -22199,10 +22203,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 33063,
     "rentMax" : 33063
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 66126,
-    "rentMax" : 66126
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -22333,7 +22333,7 @@
   "label" : "CITE DESCARTES",
   "address" : {
     "fullAddress" : "11-13-15 rue Raoul Follereau - 86022 POITIERS CEDEX",
-    "street" : "11-13-15 rue Raoul Follereau -",
+    "street" : "11-13-15 rue Raoul Follereau",
     "city" : "POITIERS CEDEX",
     "zipCode" : "86022",
     "location" : {
@@ -22436,11 +22436,11 @@
   "areaMin" : 24.54,
   "areaMax" : 30.85,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 53000,
     "rentMax" : 59500
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 53000,
     "rentMax" : 59500
   } ],
@@ -22604,7 +22604,7 @@
   "label" : "CITE RABELAIS",
   "address" : {
     "fullAddress" : "11 rue de la Devinière - 86000 POITIERS",
-    "street" : "11 rue de la Devinière -",
+    "street" : "11 rue de la Devinière",
     "city" : "POITIERS",
     "zipCode" : "86000",
     "location" : {
@@ -23275,7 +23275,7 @@
   "label" : "CITE JEANNE D'ARC",
   "address" : {
     "fullAddress" : "49, Rue de la Cathédrale - 86000 POITIERS",
-    "street" : "49, Rue de la Cathédrale -",
+    "street" : "49, Rue de la Cathédrale",
     "city" : "POITIERS",
     "zipCode" : "86000",
     "location" : {
@@ -23526,7 +23526,7 @@
   "label" : "Rés Univ Villejean-Ouest",
   "address" : {
     "fullAddress" : "5 / 8 rue du Maine - 35000 RENNES CEDEX",
-    "street" : "5 / 8 rue du Maine -",
+    "street" : "5 / 8 rue du Maine",
     "city" : "RENNES CEDEX",
     "zipCode" : "35000",
     "location" : {
@@ -23547,11 +23547,11 @@
   "areaMin" : 9.0,
   "areaMax" : 9.0,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
+    "occupationKind" : "ALONE",
     "rentMin" : 18185,
     "rentMax" : 18185
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 18185,
     "rentMax" : 18185
   } ],
@@ -23853,7 +23853,7 @@
   "label" : "CITE RABELAIS",
   "address" : {
     "fullAddress" : "11 rue de la Devinière - 86000 POITIERS",
-    "street" : "11 rue de la Devinière -",
+    "street" : "11 rue de la Devinière",
     "city" : "POITIERS",
     "zipCode" : "86000",
     "location" : {
@@ -23991,9 +23991,9 @@
   "label" : "CITE VOIE DOMITIENNE",
   "address" : {
     "fullAddress" : "259 VOIE DOMITIENNE 34096 MONTPELLIER CEDEX 5",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "5",
+    "street" : "259 VOIE DOMITIENNE",
+    "city" : "MONTPELLIER CEDEX 5",
+    "zipCode" : "34096",
     "location" : {
       "latitude" : 43.622,
       "longitude" : 3.858
@@ -24293,7 +24293,7 @@
   "label" : "CITE RABELAIS",
   "address" : {
     "fullAddress" : "11 rue de la Devinière - 86000 POITIERS",
-    "street" : "11 rue de la Devinière -",
+    "street" : "11 rue de la Devinière",
     "city" : "POITIERS",
     "zipCode" : "86000",
     "location" : {
@@ -24395,7 +24395,7 @@
   "label" : "RESIDENCE MADAGASCAR",
   "address" : {
     "fullAddress" : "7, rue de Madagascar - 13006 MARSEILLE",
-    "street" : "7, rue de Madagascar -",
+    "street" : "7, rue de Madagascar",
     "city" : "MARSEILLE",
     "zipCode" : "13006",
     "location" : {
@@ -24436,9 +24436,9 @@
   "label" : "CITE DE CUQUES",
   "address" : {
     "fullAddress" : "rue de Cuques - 13621 Aix en Provence cedex 01",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "01",
+    "street" : "rue de Cuques",
+    "city" : "Aix en Provence cedex 01",
+    "zipCode" : "13621",
     "location" : {
       "latitude" : 43.518,
       "longitude" : 5.455
@@ -24615,7 +24615,7 @@
   "label" : "RESIDENCE CENTRE DE VIE",
   "address" : {
     "fullAddress" : "20 Rue du Belvédère - 86130 JAUNAY CLAN",
-    "street" : "20 Rue du Belvédère -",
+    "street" : "20 Rue du Belvédère",
     "city" : "JAUNAY CLAN",
     "zipCode" : "86130",
     "location" : {
@@ -24774,9 +24774,9 @@
   "label" : "RESIDENCE LUMINY",
   "address" : {
     "fullAddress" : "171 avenue de Luminy - 13288 Marseille cedex 9",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "9",
+    "street" : "171 avenue de Luminy",
+    "city" : "Marseille cedex 9",
+    "zipCode" : "13288",
     "location" : {
       "latitude" : 43.231,
       "longitude" : 5.44
@@ -24907,9 +24907,9 @@
   "label" : "CITE VOIE DOMITIENNE",
   "address" : {
     "fullAddress" : "259 VOIE DOMITIENNE 34096 MONTPELLIER CEDEX 5",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "5",
+    "street" : "259 VOIE DOMITIENNE",
+    "city" : "MONTPELLIER CEDEX 5",
+    "zipCode" : "34096",
     "location" : {
       "latitude" : 43.622,
       "longitude" : 3.858
@@ -25030,11 +25030,11 @@
   "areaMin" : 35.5,
   "areaMax" : 35.5,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 68220,
     "rentMax" : 68220
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 68220,
     "rentMax" : 68220
   } ],
@@ -25105,7 +25105,7 @@
   "label" : "Résidence Jacqueline DE ROMILLY",
   "address" : {
     "fullAddress" : "52, avenue Villeneuve l Etang-78000 VERSAILLES",
-    "street" : "",
+    "street" : "52, avenue Villeneuve l",
     "city" : "VERSAILLES",
     "zipCode" : "78000",
     "location" : {
@@ -25269,9 +25269,9 @@
   "label" : "RESIDENCE LUMINY",
   "address" : {
     "fullAddress" : "171 avenue de Luminy - 13288 Marseille cedex 9",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "9",
+    "street" : "171 avenue de Luminy",
+    "city" : "Marseille cedex 9",
+    "zipCode" : "13288",
     "location" : {
       "latitude" : 43.231,
       "longitude" : 5.44
@@ -25290,13 +25290,13 @@
   "areaMin" : 40.0,
   "areaMax" : 40.0,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 23885,
-    "rentMax" : 25893
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 47770,
     "rentMax" : 51786
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 23885,
+    "rentMax" : 25893
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -25473,7 +25473,7 @@
   "label" : "RESIDENCE SAINTE BAUME",
   "address" : {
     "fullAddress" : "60 rue Sainte Baume - 13010 MARSEILLE",
-    "street" : "60 rue Sainte Baume -",
+    "street" : "60 rue Sainte Baume",
     "city" : "MARSEILLE",
     "zipCode" : "13010",
     "location" : {
@@ -25524,7 +25524,7 @@
   "label" : "RESIDENCE CENTRE DE VIE",
   "address" : {
     "fullAddress" : "20 Rue du Belvédère - 86130 JAUNAY CLAN",
-    "street" : "20 Rue du Belvédère -",
+    "street" : "20 Rue du Belvédère",
     "city" : "JAUNAY CLAN",
     "zipCode" : "86130",
     "location" : {
@@ -25545,13 +25545,13 @@
   "areaMin" : 35.0,
   "areaMax" : 65.0,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 31550,
-    "rentMax" : 31550
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 63100,
     "rentMax" : 63100
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 31550,
+    "rentMax" : 31550
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -25605,7 +25605,7 @@
   "label" : "RESIDENCE FRANCINE POITEVIN",
   "address" : {
     "fullAddress" : "199 avenue du Recteur Pineau - 86000 POITIERS",
-    "street" : "199 avenue du Recteur Pineau -",
+    "street" : "199 avenue du Recteur Pineau",
     "city" : "POITIERS",
     "zipCode" : "86000",
     "location" : {
@@ -25754,11 +25754,11 @@
   "areaMin" : 31.0,
   "areaMax" : 38.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 41029,
     "rentMax" : 41029
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 41029,
     "rentMax" : 41029
   } ],
@@ -25829,7 +25829,7 @@
   "label" : "RESIDENCE LES TROIS CLEFS D OR",
   "address" : {
     "fullAddress" : "1, E Bd Paul Marieton - 84000 Avignon",
-    "street" : "1, E Bd Paul Marieton -",
+    "street" : "1, E Bd Paul Marieton",
     "city" : "Avignon",
     "zipCode" : "84000",
     "location" : {
@@ -25967,7 +25967,7 @@
   "label" : "RESIDENCE LES TROIS CLEFS D OR",
   "address" : {
     "fullAddress" : "1, E Bd Paul Marieton - 84000 Avignon",
-    "street" : "1, E Bd Paul Marieton -",
+    "street" : "1, E Bd Paul Marieton",
     "city" : "Avignon",
     "zipCode" : "84000",
     "location" : {
@@ -26090,7 +26090,7 @@
   "label" : "Résidence OChesneau",
   "address" : {
     "fullAddress" : "22 route de Turin - 06300 NICE",
-    "street" : "22 route de Turin -",
+    "street" : "22 route de Turin",
     "city" : "NICE",
     "zipCode" : "06300",
     "location" : {
@@ -26126,9 +26126,9 @@
   "label" : "Résidence Les Tripodes",
   "address" : {
     "fullAddress" : "118 route de Narbonne CS 17705 31077 Toulouse Cedex 4",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "4",
+    "street" : "118 route de Narbonne CS 17705",
+    "city" : "Toulouse Cedex 4",
+    "zipCode" : "31077",
     "location" : {
       "latitude" : 43.562,
       "longitude" : 1.466
@@ -26233,7 +26233,7 @@
   "label" : "Résidence Jacqueline AURIOL",
   "address" : {
     "fullAddress" : "64, avenue Gaston BOISSIER-78220 VIROFLAY",
-    "street" : "",
+    "street" : "64, avenue Gaston",
     "city" : "VIROFLAY",
     "zipCode" : "78220",
     "location" : {
@@ -26320,9 +26320,9 @@
   "label" : "Résidence Olympe de Gouges",
   "address" : {
     "fullAddress" : "35 Rue Maurice Bécanne CS 17812 31078 Toulouse Cedex 4",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "4",
+    "street" : "35 Rue Maurice Bécanne CS 17812",
+    "city" : "Toulouse Cedex 4",
+    "zipCode" : "31078",
     "location" : {
       "latitude" : 43.564,
       "longitude" : 1.457
@@ -26647,7 +26647,7 @@
   "label" : "Résidence Les Collinettes",
   "address" : {
     "fullAddress" : "3, avenue Robert Schuman - 06000 Nice",
-    "street" : "3, avenue Robert Schuman -",
+    "street" : "3, avenue Robert Schuman",
     "city" : "Nice",
     "zipCode" : "06000",
     "location" : {
@@ -26770,7 +26770,7 @@
   "label" : "RESIDENCE GEMINI",
   "address" : {
     "fullAddress" : "Téléport 2 - 8 avenue Blaise Pascal - 86360 CHASSENEUIL DU POITOU",
-    "street" : "Téléport 2 - 8 avenue Blaise Pascal -",
+    "street" : "Téléport 2 - 8 avenue Blaise Pascal",
     "city" : "CHASSENEUIL DU POITOU",
     "zipCode" : "86360",
     "location" : {
@@ -26801,9 +26801,9 @@
   "label" : "Résidence Les Tripodes",
   "address" : {
     "fullAddress" : "118 route de Narbonne CS 17705 31077 Toulouse Cedex 4",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "4",
+    "street" : "118 route de Narbonne CS 17705",
+    "city" : "Toulouse Cedex 4",
+    "zipCode" : "31077",
     "location" : {
       "latitude" : 43.562,
       "longitude" : 1.466
@@ -26857,9 +26857,9 @@
   "label" : "Résidence Colette",
   "address" : {
     "fullAddress" : "7, rue laplace BP 31225 25004 BESANCON CEDEX 3",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "3",
+    "street" : "7, rue laplace BP 31225",
+    "city" : "BESANCON CEDEX 3",
+    "zipCode" : "25004",
     "location" : {
       "latitude" : 47.249,
       "longitude" : 5.986
@@ -26908,9 +26908,9 @@
   "label" : "Résidence Colette",
   "address" : {
     "fullAddress" : "7, rue laplace BP 31225 25004 BESANCON CEDEX 3",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "3",
+    "street" : "7, rue laplace BP 31225",
+    "city" : "BESANCON CEDEX 3",
+    "zipCode" : "25004",
     "location" : {
       "latitude" : 47.249,
       "longitude" : 5.986
@@ -26959,9 +26959,9 @@
   "label" : "CITE INTERNATIONALE",
   "address" : {
     "fullAddress" : "Rue de Cuques - 13621 AIX EN PROVENCE cedex 01",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "01",
+    "street" : "Rue de Cuques",
+    "city" : "AIX EN PROVENCE cedex 01",
+    "zipCode" : "13621",
     "location" : {
       "latitude" : 43.518,
       "longitude" : 5.455
@@ -27000,7 +27000,7 @@
   "label" : "RESIDENCE SAINT-ELOI",
   "address" : {
     "fullAddress" : "19-21 Avenue Le Pelletier - 86000 POITIERS",
-    "street" : "19-21 Avenue Le Pelletier -",
+    "street" : "19-21 Avenue Le Pelletier",
     "city" : "POITIERS",
     "zipCode" : "86000",
     "location" : {
@@ -27092,9 +27092,9 @@
   "label" : "Résidence Les Tripodes",
   "address" : {
     "fullAddress" : "118 route de Narbonne CS 17705 31077 Toulouse Cedex 4",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "4",
+    "street" : "118 route de Narbonne CS 17705",
+    "city" : "Toulouse Cedex 4",
+    "zipCode" : "31077",
     "location" : {
       "latitude" : 43.562,
       "longitude" : 1.466
@@ -27271,7 +27271,7 @@
   "label" : "RESIDENCE LUCIEN CORNIL",
   "address" : {
     "fullAddress" : "168 avenue St Pierre - 13005 MARSEILLE",
-    "street" : "168 avenue St Pierre -",
+    "street" : "168 avenue St Pierre",
     "city" : "MARSEILLE",
     "zipCode" : "13005",
     "location" : {
@@ -27404,7 +27404,7 @@
   "label" : "RESIDENCE SAINT-ELOI",
   "address" : {
     "fullAddress" : "19-21 Avenue Le Pelletier - 86000 POITIERS",
-    "street" : "19-21 Avenue Le Pelletier -",
+    "street" : "19-21 Avenue Le Pelletier",
     "city" : "POITIERS",
     "zipCode" : "86000",
     "location" : {
@@ -27491,9 +27491,9 @@
   "label" : "Résidence Les Tripodes",
   "address" : {
     "fullAddress" : "118 route de Narbonne CS 17705 31077 Toulouse Cedex 4",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "4",
+    "street" : "118 route de Narbonne CS 17705",
+    "city" : "Toulouse Cedex 4",
+    "zipCode" : "31077",
     "location" : {
       "latitude" : 43.562,
       "longitude" : 1.466
@@ -27838,9 +27838,9 @@
   "label" : "Résidence Colette",
   "address" : {
     "fullAddress" : "7, rue laplace BP 31225 25004 BESANCON CEDEX 3",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "3",
+    "street" : "7, rue laplace BP 31225",
+    "city" : "BESANCON CEDEX 3",
+    "zipCode" : "25004",
     "location" : {
       "latitude" : 47.249,
       "longitude" : 5.986
@@ -27859,6 +27859,10 @@
   "areaMin" : 30.06,
   "areaMax" : 31.32,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 40680,
+    "rentMax" : 40680
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 46860,
     "rentMax" : 46860
@@ -27866,10 +27870,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 23430,
     "rentMax" : 23430
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 40680,
-    "rentMax" : 40680
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -27959,13 +27959,13 @@
   "areaMin" : 30.31,
   "areaMax" : 31.69,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 30700,
-    "rentMax" : 30700
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 49600,
     "rentMax" : 49600
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 30700,
+    "rentMax" : 30700
   } ],
   "transports" : [ {
     "kind" : "TRAIN",
@@ -27988,9 +27988,9 @@
   "label" : "Résidence Colette",
   "address" : {
     "fullAddress" : "7, rue laplace BP 31225 25004 BESANCON CEDEX 3",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "3",
+    "street" : "7, rue laplace BP 31225",
+    "city" : "BESANCON CEDEX 3",
+    "zipCode" : "25004",
     "location" : {
       "latitude" : 47.249,
       "longitude" : 5.986
@@ -28039,9 +28039,9 @@
   "label" : "RESIDENCE LA METARE",
   "address" : {
     "fullAddress" : "25 Boulevard Paul Michelon 42023 SAINT-ETIENNE CEDEX 2",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "2",
+    "street" : "25 Boulevard Paul Michelon",
+    "city" : "SAINT-ETIENNE CEDEX 2",
+    "zipCode" : "42023",
     "location" : {
       "latitude" : 45.423,
       "longitude" : 4.425
@@ -28080,9 +28080,9 @@
   "label" : "Résidence Colette",
   "address" : {
     "fullAddress" : "7, rue laplace BP 31225 25004 BESANCON CEDEX 3",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "3",
+    "street" : "7, rue laplace BP 31225",
+    "city" : "BESANCON CEDEX 3",
+    "zipCode" : "25004",
     "location" : {
       "latitude" : 47.249,
       "longitude" : 5.986
@@ -28131,9 +28131,9 @@
   "label" : "Résidence Colette",
   "address" : {
     "fullAddress" : "7, rue laplace BP 31225 25004 BESANCON CEDEX 3",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "3",
+    "street" : "7, rue laplace BP 31225",
+    "city" : "BESANCON CEDEX 3",
+    "zipCode" : "25004",
     "location" : {
       "latitude" : 47.249,
       "longitude" : 5.986
@@ -28239,13 +28239,13 @@
   "areaMin" : 52.0,
   "areaMax" : 53.87,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 31600,
-    "rentMax" : 31600
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 51100,
     "rentMax" : 51100
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 31600,
+    "rentMax" : 31600
   } ],
   "transports" : [ {
     "kind" : "TRAIN",
@@ -28432,9 +28432,9 @@
   "label" : "RESIDENCE LA METARE",
   "address" : {
     "fullAddress" : "25 Boulevard Paul Michelon 42023 SAINT-ETIENNE CEDEX 2",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "2",
+    "street" : "25 Boulevard Paul Michelon",
+    "city" : "SAINT-ETIENNE CEDEX 2",
+    "zipCode" : "42023",
     "location" : {
       "latitude" : 45.423,
       "longitude" : 4.425
@@ -28606,9 +28606,9 @@
   "label" : "Résidence At Ome",
   "address" : {
     "fullAddress" : "35 Rue Maurice Becanne CS 17812 31078 Toulouse Cedex 4",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "4",
+    "street" : "35 Rue Maurice Becanne CS 17812",
+    "city" : "Toulouse Cedex 4",
+    "zipCode" : "31078",
     "location" : {
       "latitude" : 43.564,
       "longitude" : 1.457
@@ -28683,6 +28683,10 @@
   "areaMin" : 46.62,
   "areaMax" : 46.62,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 52940,
+    "rentMax" : 55440
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 52940,
     "rentMax" : 55440
@@ -28690,10 +28694,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 26470,
     "rentMax" : 27720
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 52940,
-    "rentMax" : 55440
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -28773,6 +28773,10 @@
   "areaMin" : 60.92,
   "areaMax" : 60.92,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 67690,
+    "rentMax" : 67690
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 67690,
     "rentMax" : 67690
@@ -28780,10 +28784,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 22563,
     "rentMax" : 22563
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 67690,
-    "rentMax" : 67690
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -28975,9 +28975,9 @@
   "label" : "Résidence Clément Ader",
   "address" : {
     "fullAddress" : "118 Route de Narbonne CS 17705 31077 Toulouse Cedex 4",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "4",
+    "street" : "118 Route de Narbonne CS 17705",
+    "city" : "Toulouse Cedex 4",
+    "zipCode" : "31077",
     "location" : {
       "latitude" : 43.562,
       "longitude" : 1.466
@@ -29031,7 +29031,7 @@
   "label" : "Residence Duvillard",
   "address" : {
     "fullAddress" : "2 rue Ernest Duvillard - BP 80523 - 90016 BELFORT CEDEX",
-    "street" : "2 rue Ernest Duvillard - BP 80523 -",
+    "street" : "2 rue Ernest Duvillard - BP 80523",
     "city" : "BELFORT CEDEX",
     "zipCode" : "90016",
     "location" : {
@@ -29072,7 +29072,7 @@
   "label" : "RESIDENCE LE CARRELET",
   "address" : {
     "fullAddress" : "160 Rue de Coureilles - 17000 LA ROCHELLE",
-    "street" : "160 Rue de Coureilles -",
+    "street" : "160 Rue de Coureilles",
     "city" : "LA ROCHELLE",
     "zipCode" : "17000",
     "location" : {
@@ -29118,9 +29118,9 @@
   "label" : "CITE LUMINY",
   "address" : {
     "fullAddress" : "171 avenue de Luminy - 13288 Marseille cedex 9",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "9",
+    "street" : "171 avenue de Luminy",
+    "city" : "Marseille cedex 9",
+    "zipCode" : "13288",
     "location" : {
       "latitude" : 43.231,
       "longitude" : 5.44
@@ -29180,13 +29180,13 @@
   "areaMin" : 42.0,
   "areaMax" : 42.0,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 21000,
-    "rentMax" : 21000
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 42000,
     "rentMax" : 42000
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 21000,
+    "rentMax" : 21000
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -29199,9 +29199,9 @@
   "label" : "CU SAULCY",
   "address" : {
     "fullAddress" : "Ile du Saulcy CS 60587 57010 METZ CEDEX 1",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "1",
+    "street" : "Ile du Saulcy CS 60587",
+    "city" : "METZ CEDEX 1",
+    "zipCode" : "57010",
     "location" : {
       "latitude" : 49.121,
       "longitude" : 6.158
@@ -29424,13 +29424,13 @@
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 30800,
-    "rentMax" : 30800
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 47900,
     "rentMax" : 47900
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 30800,
+    "rentMax" : 30800
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -29458,7 +29458,7 @@
   "label" : "Residence J.P. Sartre",
   "address" : {
     "fullAddress" : "1, rue Gaston DEFERRE - 90000 BELFORT -",
-    "street" : "1, rue Gaston DEFERRE -",
+    "street" : "1, rue Gaston DEFERRE",
     "city" : "BELFORT -",
     "zipCode" : "90000",
     "location" : {
@@ -29586,13 +29586,13 @@
   "areaMin" : 36.0,
   "areaMax" : 36.0,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 33900,
-    "rentMax" : 33900
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 53700,
     "rentMax" : 53700
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 33900,
+    "rentMax" : 33900
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -29927,7 +29927,7 @@
   "label" : "RESIDENCE ROCHER DES DOMS",
   "address" : {
     "fullAddress" : "15, rue Sainte Catherine - 84000 AVIGNON",
-    "street" : "15, rue Sainte Catherine -",
+    "street" : "15, rue Sainte Catherine",
     "city" : "AVIGNON",
     "zipCode" : "84000",
     "location" : {
@@ -30060,7 +30060,7 @@
   "label" : "CU MONBOIS",
   "address" : {
     "fullAddress" : "2, rue Ludovic Beauchet - 54052 NANCY CEDEX",
-    "street" : "2, rue Ludovic Beauchet -",
+    "street" : "2, rue Ludovic Beauchet",
     "city" : "NANCY CEDEX",
     "zipCode" : "54052",
     "location" : {
@@ -30106,9 +30106,9 @@
   "label" : "CITE TRIOLET",
   "address" : {
     "fullAddress" : "75 Av. Augustin Fliche 34096 Montpellier Cedex 5",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "5",
+    "street" : "75 Av. Augustin Fliche",
+    "city" : "Montpellier Cedex 5",
+    "zipCode" : "34096",
     "location" : {
       "latitude" : 43.629,
       "longitude" : 3.859
@@ -30470,9 +30470,9 @@
   "label" : "Résidence Daniel Faucher",
   "address" : {
     "fullAddress" : "11 Allée du Professeur Camille Soula CS 47806 31078 Toulouse Cedex 4.",
-    "street" : "",
-    "city" : ".",
-    "zipCode" : "4",
+    "street" : "11 Allée du Professeur Camille Soula CS 47806",
+    "city" : "Toulouse Cedex 4.",
+    "zipCode" : "31078",
     "location" : {
       "latitude" : 43.58,
       "longitude" : 1.434
@@ -31156,7 +31156,7 @@
   "label" : "Résidence Portes du Jura",
   "address" : {
     "fullAddress" : "23, rue Maurice RAVEL - 25200 MONTBELIARD",
-    "street" : "23, rue Maurice RAVEL -",
+    "street" : "23, rue Maurice RAVEL",
     "city" : "MONTBELIARD",
     "zipCode" : "25200",
     "location" : {
@@ -31238,9 +31238,9 @@
   "label" : "CITE VERT BOIS",
   "address" : {
     "fullAddress" : "192 rue de la Chenaie 34096 MONTPELLIER CEDEX 5",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "5",
+    "street" : "192 rue de la Chenaie",
+    "city" : "MONTPELLIER CEDEX 5",
+    "zipCode" : "34096",
     "location" : {
       "latitude" : 43.635,
       "longitude" : 3.872
@@ -31274,7 +31274,7 @@
   "label" : "Residence René THOM",
   "address" : {
     "fullAddress" : "37 avenue clemenceau - 25200 MONTBELIARD",
-    "street" : "37 avenue clemenceau -",
+    "street" : "37 avenue clemenceau",
     "city" : "MONTBELIARD",
     "zipCode" : "25200",
     "location" : {
@@ -31545,7 +31545,7 @@
   "label" : "Residence René THOM",
   "address" : {
     "fullAddress" : "37 avenue clemenceau - 25200 MONTBELIARD",
-    "street" : "37 avenue clemenceau -",
+    "street" : "37 avenue clemenceau",
     "city" : "MONTBELIARD",
     "zipCode" : "25200",
     "location" : {
@@ -31586,7 +31586,7 @@
   "label" : "Residence René THOM",
   "address" : {
     "fullAddress" : "37 avenue clemenceau - 25200 MONTBELIARD",
-    "street" : "37 avenue clemenceau -",
+    "street" : "37 avenue clemenceau",
     "city" : "MONTBELIARD",
     "zipCode" : "25200",
     "location" : {
@@ -31903,7 +31903,7 @@
   "label" : "RESIDENCE MINERVE",
   "address" : {
     "fullAddress" : "Cours Alfred Wegener - Av. Paul Parguel - 34090 Montpellier",
-    "street" : "Cours Alfred Wegener - Av. Paul Parguel -",
+    "street" : "Cours Alfred Wegener - Av. Paul Parguel",
     "city" : "Montpellier",
     "zipCode" : "34090",
     "location" : {
@@ -32349,9 +32349,9 @@
   "label" : "Résidence Daniel Faucher",
   "address" : {
     "fullAddress" : "11 Allée du Professeur Camille Soula CS 47806 31078 Toulouse Cedex 4.",
-    "street" : "",
-    "city" : ".",
-    "zipCode" : "4",
+    "street" : "11 Allée du Professeur Camille Soula CS 47806",
+    "city" : "Toulouse Cedex 4.",
+    "zipCode" : "31078",
     "location" : {
       "latitude" : 43.58,
       "longitude" : 1.434
@@ -32543,7 +32543,7 @@
   "label" : "Résidence Portalis",
   "address" : {
     "fullAddress" : "Rue Baudin - 83000 TOULON",
-    "street" : "Rue Baudin -",
+    "street" : "Rue Baudin",
     "city" : "TOULON",
     "zipCode" : "83000",
     "location" : {
@@ -32754,11 +32754,11 @@
   "areaMin" : 40.0,
   "areaMax" : 40.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 42359,
     "rentMax" : 42359
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 42359,
     "rentMax" : 42359
   } ],
@@ -32783,7 +32783,7 @@
   "label" : "Résidence Portalis",
   "address" : {
     "fullAddress" : "Rue Baudin - 83000 TOULON",
-    "street" : "Rue Baudin -",
+    "street" : "Rue Baudin",
     "city" : "TOULON",
     "zipCode" : "83000",
     "location" : {
@@ -32804,6 +32804,10 @@
   "areaMin" : 20.65,
   "areaMax" : 27.9,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 37621,
+    "rentMax" : 37621
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 37621,
     "rentMax" : 37621
@@ -32811,10 +32815,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 18810,
     "rentMax" : 18810
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 37621,
-    "rentMax" : 37621
   } ],
   "transports" : [ ]
 }, {
@@ -32955,7 +32955,7 @@
   "label" : "CITE MARIE CURIE",
   "address" : {
     "fullAddress" : "19/21 Rue Jean Richard Bloch - 86022 POITIERS CEDEX",
-    "street" : "19/21 Rue Jean Richard Bloch -",
+    "street" : "19/21 Rue Jean Richard Bloch",
     "city" : "POITIERS CEDEX",
     "zipCode" : "86022",
     "location" : {
@@ -33058,11 +33058,11 @@
   "areaMin" : 20.0,
   "areaMax" : 25.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 43430,
     "rentMax" : 43430
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 43430,
     "rentMax" : 43430
   } ],
@@ -33134,6 +33134,10 @@
   "areaMin" : 50.0,
   "areaMax" : 50.0,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 43900,
+    "rentMax" : 43900
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 55400,
     "rentMax" : 55400
@@ -33141,10 +33145,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 27670,
     "rentMax" : 27670
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 43900,
-    "rentMax" : 43900
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -33305,9 +33305,9 @@
   "label" : "RESIDENCE BACOT",
   "address" : {
     "fullAddress" : "10 BD MARECHAL JUIN CS 25317 14053 CAEN CEDEX 4",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "4",
+    "street" : "10 BD MARECHAL JUIN CS 25317",
+    "city" : "CAEN CEDEX 4",
+    "zipCode" : "14053",
     "location" : {
       "latitude" : 49.21,
       "longitude" : -0.37
@@ -33326,6 +33326,10 @@
   "areaMin" : 30.0,
   "areaMax" : 38.0,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 39654,
+    "rentMax" : 39654
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 39654,
     "rentMax" : 39654
@@ -33333,10 +33337,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 19827,
     "rentMax" : 19827
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 39654,
-    "rentMax" : 39654
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -33354,9 +33354,9 @@
   "label" : "RESIDENCE BACOT",
   "address" : {
     "fullAddress" : "10 BD MARECHAL JUIN CS 25317 14053 CAEN CEDEX 4",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "4",
+    "street" : "10 BD MARECHAL JUIN CS 25317",
+    "city" : "CAEN CEDEX 4",
+    "zipCode" : "14053",
     "location" : {
       "latitude" : 49.21,
       "longitude" : -0.37
@@ -33420,6 +33420,10 @@
   "areaMin" : 25.0,
   "areaMax" : 25.0,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 37450,
+    "rentMax" : 37450
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 37450,
     "rentMax" : 37450
@@ -33427,10 +33431,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 18730,
     "rentMax" : 18730
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 37450,
-    "rentMax" : 37450
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -33469,6 +33469,10 @@
   "areaMin" : 18.0,
   "areaMax" : 18.0,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 41070,
+    "rentMax" : 41070
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 41070,
     "rentMax" : 41070
@@ -33476,10 +33480,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 20535,
     "rentMax" : 20535
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 41070,
-    "rentMax" : 41070
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -33589,7 +33589,7 @@
   "label" : "CITE MARIE CURIE",
   "address" : {
     "fullAddress" : "19/21 Rue Jean Richard Bloch - 86022 POITIERS CEDEX",
-    "street" : "19/21 Rue Jean Richard Bloch -",
+    "street" : "19/21 Rue Jean Richard Bloch",
     "city" : "POITIERS CEDEX",
     "zipCode" : "86022",
     "location" : {
@@ -33732,6 +33732,10 @@
   "areaMin" : 49.0,
   "areaMax" : 52.0,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 45470,
+    "rentMax" : 45470
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 53950,
     "rentMax" : 53950
@@ -33739,10 +33743,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 26650,
     "rentMax" : 26650
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 45470,
-    "rentMax" : 45470
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -33852,7 +33852,7 @@
   "label" : "Residence Saint Antoine",
   "address" : {
     "fullAddress" : "69, Route de Saint-Antoine de Ginestière - 06200 NICE",
-    "street" : "69, Route de Saint-Antoine de Ginestière -",
+    "street" : "69, Route de Saint-Antoine de Ginestière",
     "city" : "NICE",
     "zipCode" : "06200",
     "location" : {
@@ -34261,11 +34261,11 @@
   "areaMin" : 30.0,
   "areaMax" : 32.8,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 40801,
     "rentMax" : 45124
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 40801,
     "rentMax" : 45124
   } ],
@@ -34341,7 +34341,7 @@
   "label" : "Rés. Univ. de Quimper",
   "address" : {
     "fullAddress" : "4, rue de l Université BP 1722 - 29107 QUIMPER CEDEX",
-    "street" : "4, rue de l Université BP 1722 -",
+    "street" : "4, rue de l Université BP 1722",
     "city" : "QUIMPER CEDEX",
     "zipCode" : "29107",
     "location" : {
@@ -34572,9 +34572,9 @@
   "label" : "CITE ARC DE MEYRAN",
   "address" : {
     "fullAddress" : "564, avenue Gaston Berger - 13621 AIX-en-PROVENCE CEDEX 1",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "1",
+    "street" : "564, avenue Gaston Berger",
+    "city" : "AIX-en-PROVENCE CEDEX 1",
+    "zipCode" : "13621",
     "location" : {
       "latitude" : 43.513,
       "longitude" : 5.453
@@ -34634,13 +34634,13 @@
   "areaMin" : 50.0,
   "areaMax" : 50.0,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 26400,
-    "rentMax" : 26400
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 52800,
     "rentMax" : 52800
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 26400,
+    "rentMax" : 26400
   } ],
   "transports" : [ ]
 }, {
@@ -35206,13 +35206,13 @@
   "areaMin" : 16.0,
   "areaMax" : 16.0,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 19865,
-    "rentMax" : 19865
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 39730,
     "rentMax" : 39730
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 19865,
+    "rentMax" : 19865
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -35424,9 +35424,9 @@
   "label" : "RESIDENCE TOUR MAGNE",
   "address" : {
     "fullAddress" : "45 bis, rue Ménard 30021 NIMES Cédex 1",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "1",
+    "street" : "45 bis, rue Ménard",
+    "city" : "NIMES Cédex 1",
+    "zipCode" : "30021",
     "location" : {
       "latitude" : 43.845,
       "longitude" : 4.353
@@ -35553,13 +35553,13 @@
   "areaMin" : 32.0,
   "areaMax" : 32.0,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 23300,
-    "rentMax" : 23300
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 37900,
     "rentMax" : 37900
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 23300,
+    "rentMax" : 23300
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -35986,7 +35986,7 @@
   "label" : "RESIDENCE  BARTHOLDI",
   "address" : {
     "fullAddress" : "14 à 24bis AVENUE BARTHOLDI - 72000 LE MANS",
-    "street" : "14 à 24bis AVENUE BARTHOLDI -",
+    "street" : "14 à 24bis AVENUE BARTHOLDI",
     "city" : "LE MANS",
     "zipCode" : "72000",
     "location" : {
@@ -36007,11 +36007,11 @@
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 41896,
     "rentMax" : 41896
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 41896,
     "rentMax" : 41896
   } ],
@@ -36273,13 +36273,13 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 29800,
-    "rentMax" : 29800
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 47200,
     "rentMax" : 47200
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 29800,
+    "rentMax" : 29800
   } ],
   "transports" : [ {
     "kind" : "FREE_URBAN_PARKING",
@@ -36364,13 +36364,13 @@
   "areaMin" : 25.0,
   "areaMax" : 25.0,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 22410,
-    "rentMax" : 22410
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 35890,
     "rentMax" : 35890
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 22410,
+    "rentMax" : 22410
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -36767,7 +36767,7 @@
   "label" : "CITE JEANNE D'ARC",
   "address" : {
     "fullAddress" : "49, Rue de la Cathédrale - 86000 POITIERS",
-    "street" : "49, Rue de la Cathédrale -",
+    "street" : "49, Rue de la Cathédrale",
     "city" : "POITIERS",
     "zipCode" : "86000",
     "location" : {
@@ -36890,7 +36890,7 @@
   "label" : "RESIDENCE LES PALMES",
   "address" : {
     "fullAddress" : "Parc Scientifique Georges Besse - 30, Allée Norbert Wiener - 30000 Nîmes",
-    "street" : "Parc Scientifique Georges Besse - 30, Allée Norbert Wiener -",
+    "street" : "Parc Scientifique Georges Besse - 30, Allée Norbert Wiener",
     "city" : "Nîmes",
     "zipCode" : "30000",
     "location" : {
@@ -36921,7 +36921,7 @@
   "label" : "Résidence Newton",
   "address" : {
     "fullAddress" : "2400 route des Dolines - 06560 VALBONNE",
-    "street" : "2400 route des Dolines -",
+    "street" : "2400 route des Dolines",
     "city" : "VALBONNE",
     "zipCode" : "06560",
     "location" : {
@@ -36957,7 +36957,7 @@
   "label" : "RESIDENCE OPALE",
   "address" : {
     "fullAddress" : "24, rue du 141ème RIA - 13003 Marseille",
-    "street" : "24, rue du 141ème RIA -",
+    "street" : "24, rue du 141ème RIA",
     "city" : "Marseille",
     "zipCode" : "13003",
     "location" : {
@@ -37162,7 +37162,7 @@
   "label" : "Résidence Newton",
   "address" : {
     "fullAddress" : "2400 route des Dolines - 06560 VALBONNE",
-    "street" : "2400 route des Dolines -",
+    "street" : "2400 route des Dolines",
     "city" : "VALBONNE",
     "zipCode" : "06560",
     "location" : {
@@ -37607,7 +37607,7 @@
   "label" : "Hauts de Lafayette",
   "address" : {
     "fullAddress" : "133 Boulevard Lafayette - 63000 CLERMONT-FERRAND",
-    "street" : "133 Boulevard Lafayette -",
+    "street" : "133 Boulevard Lafayette",
     "city" : "CLERMONT-FERRAND",
     "zipCode" : "63000",
     "location" : {
@@ -37643,7 +37643,7 @@
   "label" : "RESIDENCE OPALE",
   "address" : {
     "fullAddress" : "24, rue du 141ème RIA - 13003 Marseille",
-    "street" : "24, rue du 141ème RIA -",
+    "street" : "24, rue du 141ème RIA",
     "city" : "Marseille",
     "zipCode" : "13003",
     "location" : {
@@ -37664,13 +37664,13 @@
   "areaMin" : 27.68,
   "areaMax" : 29.06,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 26427,
-    "rentMax" : 26427
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 52853,
     "rentMax" : 52853
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 26427,
+    "rentMax" : 26427
   } ],
   "transports" : [ {
     "kind" : "METRO",
@@ -37765,7 +37765,7 @@
   "label" : "Residence Jean Médecin",
   "address" : {
     "fullAddress" : "25 rue Robert Latouche - 06200 NICE",
-    "street" : "25 rue Robert Latouche -",
+    "street" : "25 rue Robert Latouche",
     "city" : "NICE",
     "zipCode" : "06200",
     "location" : {
@@ -37801,7 +37801,7 @@
   "label" : "Residence Jean Médecin",
   "address" : {
     "fullAddress" : "25 rue Robert Latouche - 06200 NICE",
-    "street" : "25 rue Robert Latouche -",
+    "street" : "25 rue Robert Latouche",
     "city" : "NICE",
     "zipCode" : "06200",
     "location" : {
@@ -37873,7 +37873,7 @@
   "label" : "Residence Jean Médecin",
   "address" : {
     "fullAddress" : "25 rue Robert Latouche - 06200 NICE",
-    "street" : "25 rue Robert Latouche -",
+    "street" : "25 rue Robert Latouche",
     "city" : "NICE",
     "zipCode" : "06200",
     "location" : {
@@ -38236,7 +38236,7 @@
   "label" : "Lauréats",
   "address" : {
     "fullAddress" : "13 rue des hauts de Chanturgues - 63100 Clermont-Ferrand",
-    "street" : "13 rue des hauts de Chanturgues -",
+    "street" : "13 rue des hauts de Chanturgues",
     "city" : "Clermont-Ferrand",
     "zipCode" : "63100",
     "location" : {
@@ -38620,9 +38620,9 @@
   "label" : "RESIDENCE ARC DE MEYRAN",
   "address" : {
     "fullAddress" : "590, chemin du coton rouge - 13621 AIX-en-PROVENCE CEDEX 1",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "1",
+    "street" : "590, chemin du coton rouge",
+    "city" : "AIX-en-PROVENCE CEDEX 1",
+    "zipCode" : "13621",
     "location" : {
       "latitude" : 43.513,
       "longitude" : 5.455
@@ -38682,11 +38682,11 @@
   "areaMin" : 35.0,
   "areaMax" : 39.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 42348,
     "rentMax" : 42348
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 42348,
     "rentMax" : 42348
   } ],
@@ -38952,9 +38952,9 @@
   "label" : "Résidence Les Humanités 1",
   "address" : {
     "fullAddress" : "5 Allée Antonio Machado BP 34776 31047 Toulouse Cedex 1",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "1",
+    "street" : "5 Allée Antonio Machado BP 34776",
+    "city" : "Toulouse Cedex 1",
+    "zipCode" : "31047",
     "location" : {
       "latitude" : 43.58,
       "longitude" : 1.403
@@ -39029,11 +39029,11 @@
   "areaMin" : 36.6,
   "areaMax" : 36.6,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 37927,
     "rentMax" : 37927
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 37927,
     "rentMax" : 37927
   } ],
@@ -39074,13 +39074,13 @@
   "areaMin" : 18.0,
   "areaMax" : 18.0,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 18300,
-    "rentMax" : 18300
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 36600,
     "rentMax" : 36600
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 18300,
+    "rentMax" : 18300
   } ],
   "transports" : [ ]
 }, {
@@ -39313,9 +39313,9 @@
   "label" : "RESIDENCE ARC EN CIEL",
   "address" : {
     "fullAddress" : "564, avenue Gaston Berger- 13621 Aix-en-Provence Cedex 01",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "01",
+    "street" : "564, avenue Gaston",
+    "city" : "Aix-en-Provence Cedex 01",
+    "zipCode" : "13621",
     "location" : {
       "latitude" : 43.513,
       "longitude" : 5.453
@@ -39452,11 +39452,11 @@
   "areaMin" : 50.0,
   "areaMax" : 50.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 49436,
     "rentMax" : 49636
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 49436,
     "rentMax" : 49636
   } ],
@@ -39579,13 +39579,13 @@
   "areaMin" : 35.0,
   "areaMax" : 35.0,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 27800,
-    "rentMax" : 27800
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 47000,
     "rentMax" : 47000
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 27800,
+    "rentMax" : 27800
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -39613,7 +39613,7 @@
   "label" : "CU ARISTIDE BRIAND",
   "address" : {
     "fullAddress" : "24 bis, rue A. Briand - 54520 LAXOU",
-    "street" : "24 bis, rue A. Briand -",
+    "street" : "24 bis, rue A. Briand",
     "city" : "LAXOU",
     "zipCode" : "54520",
     "location" : {
@@ -39664,7 +39664,7 @@
   "label" : "Cézeaux",
   "address" : {
     "fullAddress" : "35 Rue Roche Genès - 63170 AUBIERE",
-    "street" : "35 Rue Roche Genès -",
+    "street" : "35 Rue Roche Genès",
     "city" : "AUBIERE",
     "zipCode" : "63170",
     "location" : {
@@ -40063,9 +40063,9 @@
   "label" : "Résidence Les Intégrales",
   "address" : {
     "fullAddress" : "118 route de Narbonne CS 17705 31077 TOULOUSE Cédex 4",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "4",
+    "street" : "118 route de Narbonne CS 17705",
+    "city" : "TOULOUSE Cédex 4",
+    "zipCode" : "31077",
     "location" : {
       "latitude" : 43.562,
       "longitude" : 1.466
@@ -40160,7 +40160,7 @@
   "label" : "Résidence Bagneux",
   "address" : {
     "fullAddress" : "2 rue Abraham Lincoln - 92220 Bagneux -",
-    "street" : "2 rue Abraham Lincoln -",
+    "street" : "2 rue Abraham Lincoln",
     "city" : "Bagneux -",
     "zipCode" : "92220",
     "location" : {
@@ -40201,7 +40201,7 @@
   "label" : "Clos St Jacques",
   "address" : {
     "fullAddress" : "25 Rue Etienne Dolet - 63000 CLERMONT-FD",
-    "street" : "25 Rue Etienne Dolet -",
+    "street" : "25 Rue Etienne Dolet",
     "city" : "CLERMONT-FD",
     "zipCode" : "63000",
     "location" : {
@@ -40329,9 +40329,9 @@
   "label" : "RESIDENCE TOUR MAGNE",
   "address" : {
     "fullAddress" : "45 bis, rue Ménard 30021 NIMES Cédex 1",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "1",
+    "street" : "45 bis, rue Ménard",
+    "city" : "NIMES Cédex 1",
+    "zipCode" : "30021",
     "location" : {
       "latitude" : 43.845,
       "longitude" : 4.353
@@ -40350,13 +40350,13 @@
   "areaMin" : 28.0,
   "areaMax" : 54.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 17316,
-    "rentMax" : 51431
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 34400,
     "rentMax" : 38400
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 17316,
+    "rentMax" : 51431
   } ],
   "transports" : [ ]
 }, {
@@ -40385,11 +40385,11 @@
   "areaMin" : 26.0,
   "areaMax" : 26.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 39561,
     "rentMax" : 39561
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 39561,
     "rentMax" : 39561
   } ],
@@ -40450,9 +40450,9 @@
   "label" : "Résidence Les Intégrales",
   "address" : {
     "fullAddress" : "118 route de Narbonne CS 17705 31077 TOULOUSE Cédex 4",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "4",
+    "street" : "118 route de Narbonne CS 17705",
+    "city" : "TOULOUSE Cédex 4",
+    "zipCode" : "31077",
     "location" : {
       "latitude" : 43.562,
       "longitude" : 1.466
@@ -40547,7 +40547,7 @@
   "label" : "CITE MARIE CURIE",
   "address" : {
     "fullAddress" : "19/21 Rue Jean Richard Bloch - 86022 POITIERS CEDEX",
-    "street" : "19/21 Rue Jean Richard Bloch -",
+    "street" : "19/21 Rue Jean Richard Bloch",
     "city" : "POITIERS CEDEX",
     "zipCode" : "86022",
     "location" : {
@@ -40598,7 +40598,7 @@
   "label" : "Résidence Romain Gary",
   "address" : {
     "fullAddress" : "35, avenue François Mitterrand - 06300 NICE",
-    "street" : "35, avenue François Mitterrand -",
+    "street" : "35, avenue François Mitterrand",
     "city" : "NICE",
     "zipCode" : "06300",
     "location" : {
@@ -40685,7 +40685,7 @@
   "label" : "Résidence Romain Gary",
   "address" : {
     "fullAddress" : "35, avenue François Mitterrand - 06300 NICE",
-    "street" : "35, avenue François Mitterrand -",
+    "street" : "35, avenue François Mitterrand",
     "city" : "NICE",
     "zipCode" : "06300",
     "location" : {
@@ -40721,9 +40721,9 @@
   "label" : "Résidence Daniel Faucher",
   "address" : {
     "fullAddress" : "11 Allée du Professeur Camille Soula CS 47806 31078 Toulouse Cedex 4.",
-    "street" : "",
-    "city" : ".",
-    "zipCode" : "4",
+    "street" : "11 Allée du Professeur Camille Soula CS 47806",
+    "city" : "Toulouse Cedex 4.",
+    "zipCode" : "31078",
     "location" : {
       "latitude" : 43.58,
       "longitude" : 1.434
@@ -40782,7 +40782,7 @@
   "label" : "Rés Univ Villejean-Ouest",
   "address" : {
     "fullAddress" : "5 / 8 rue du Maine - 35000 RENNES CEDEX",
-    "street" : "5 / 8 rue du Maine -",
+    "street" : "5 / 8 rue du Maine",
     "city" : "RENNES CEDEX",
     "zipCode" : "35000",
     "location" : {
@@ -40828,7 +40828,7 @@
   "label" : "Résidence Romain Gary",
   "address" : {
     "fullAddress" : "35, avenue François Mitterrand - 06300 NICE",
-    "street" : "35, avenue François Mitterrand -",
+    "street" : "35, avenue François Mitterrand",
     "city" : "NICE",
     "zipCode" : "06300",
     "location" : {
@@ -40849,6 +40849,10 @@
   "areaMin" : 40.0,
   "areaMax" : 40.0,
   "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 53694,
+    "rentMax" : 53694
+  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 53694,
     "rentMax" : 53694
@@ -40856,10 +40860,6 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 27054,
     "rentMax" : 27054
-  }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 53694,
-    "rentMax" : 53694
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -40913,9 +40913,9 @@
   "label" : "CITE LUMINY",
   "address" : {
     "fullAddress" : "171 avenue de Luminy - 13288 Marseille cedex 9",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "9",
+    "street" : "171 avenue de Luminy",
+    "city" : "Marseille cedex 9",
+    "zipCode" : "13288",
     "location" : {
       "latitude" : 43.231,
       "longitude" : 5.44
@@ -41067,7 +41067,7 @@
   "label" : "CITE ROCHE D'ARGENT",
   "address" : {
     "fullAddress" : "1, Rue Roche d'Argent - 86022 POITIERS Cedex",
-    "street" : "1, Rue Roche d'Argent -",
+    "street" : "1, Rue Roche d'Argent",
     "city" : "POITIERS Cedex",
     "zipCode" : "86022",
     "location" : {
@@ -41242,13 +41242,13 @@
   "areaMin" : 95.0,
   "areaMax" : 95.0,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 31210,
-    "rentMax" : 31210
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 93630,
     "rentMax" : 93630
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 31210,
+    "rentMax" : 31210
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -41302,7 +41302,7 @@
   "label" : "Rés Univ Villejean-Alsace",
   "address" : {
     "fullAddress" : "2, rue d Alsace - 35000 RENNES",
-    "street" : "2, rue d Alsace -",
+    "street" : "2, rue d Alsace",
     "city" : "RENNES",
     "zipCode" : "35000",
     "location" : {
@@ -41507,9 +41507,9 @@
   "label" : "Résidence Maryse Bastié",
   "address" : {
     "fullAddress" : "118 route de Narbonne CS 17705 31077 Toulouse Cedex 4",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "4",
+    "street" : "118 route de Narbonne CS 17705",
+    "city" : "Toulouse Cedex 4",
+    "zipCode" : "31077",
     "location" : {
       "latitude" : 43.562,
       "longitude" : 1.466
@@ -41645,9 +41645,9 @@
   "label" : "RESIDENCE BACOT",
   "address" : {
     "fullAddress" : "10 BD MARECHAL JUIN CS 25317 14053 CAEN CEDEX 4",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "4",
+    "street" : "10 BD MARECHAL JUIN CS 25317",
+    "city" : "CAEN CEDEX 4",
+    "zipCode" : "14053",
     "location" : {
       "latitude" : 49.21,
       "longitude" : -0.37
@@ -41686,9 +41686,9 @@
   "label" : "RESIDENCE FENOUILLERES",
   "address" : {
     "fullAddress" : "255 Avenue Gaston Berger - 13621 AIX EN PROVENCE Cedex 1",
-    "street" : "",
-    "city" : "",
-    "zipCode" : "1",
+    "street" : "255 Avenue Gaston Berger",
+    "city" : "AIX EN PROVENCE Cedex 1",
+    "zipCode" : "13621",
     "location" : {
       "latitude" : 43.514,
       "longitude" : 5.449
@@ -41727,7 +41727,7 @@
   "label" : "CITE ROCHE D'ARGENT",
   "address" : {
     "fullAddress" : "1, Rue Roche d'Argent - 86022 POITIERS Cedex",
-    "street" : "1, Rue Roche d'Argent -",
+    "street" : "1, Rue Roche d'Argent",
     "city" : "POITIERS Cedex",
     "zipCode" : "86022",
     "location" : {

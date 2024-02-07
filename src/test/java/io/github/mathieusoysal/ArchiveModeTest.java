@@ -19,12 +19,6 @@ class ArchiveModeTest {
         assertEquals(ArchiveMode.DAY_SUM_UP, archiveMode);
     }
 
-    @Test
-    void testGetArchiveMod_shouldReturnWeek_whenArchiveModIsWeek() {
-        ArchiveMode archiveMode = ArchiveMode.getArchiveMode("ALL_LOGEMENTS");
-        assertEquals(ArchiveMode.ALL_LOGEMENTS, archiveMode);
-    }
-
   
     @Test
     void testGetArchiveMod_shouldLogErrorAndExit_whenArchiveModIsInvalid() {

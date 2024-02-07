@@ -42,7 +42,7 @@ public class ArchiveSaver {
         return archiveFile;
     }
 
-    public File endPathAndSaveData(final ArchiveName name, final List<Logement> logements) {
+    public <T> File endPathAndSaveData(final ArchiveName name, final List<T> logements) {
         return endPathAndSaveData(name, Convertor.convertLogementsToJson(logements));
     }
 

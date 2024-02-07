@@ -12,7 +12,6 @@ import com.microsoft.playwright.Playwright;
 
 import io.github.mathieusoysal.data.managment.convertors.Convertor;
 import io.github.mathieusoysal.exceptions.ApiRequestErrorRuntimeException;
-import io.github.mathieusoysal.logement.Logement;
 
 class RequestorToGetSumUpOfDay implements Requestor {
     private static final Logger LOGGER = Logger.getLogger();
@@ -31,39 +30,39 @@ class RequestorToGetSumUpOfDay implements Requestor {
     @Override
     public String requestWitGet(String url) {
         var sumUp = getSumUpOfDay(url);
-        return Convertor.convertLogementMatrixToJson(sumUp);
+        return Convertor.convertIdMatrixToJson(sumUp);
     }
 
-    public Logement[][] getSumUpOfDay(String url) {
+    public Integer[][] getSumUpOfDay(String url) {
         LOGGER.info(() -> "Creating sum up of the day: " + date);
         String linkToDataForTheDay = url + "/" + date;
-        Logement[][] sumUp;
+        Integer[][] sumUp;
         LOGGER.info(() -> "Creating profil to request logements");
         try (Playwright playwright = Playwright.create()) {
             LOGGER.info(() -> "profil created");
             var context = playwright.request().newContext();
             sumUp = IntStream.range(0, 24)
                     .<String>mapToObj(hour -> linkToDataForTheDay + "/" + NUMBER_FORMAT.format(hour))
-                    .<Logement[]>map(link -> getFromUrl(link, context))
-                    .toArray(Logement[][]::new);
+                    .<Integer[]>map(link -> getFromUrl(link, context))
+                    .toArray(Integer[][]::new);
             LOGGER.info(() -> "Logements received");
         }
         LOGGER.info(() -> "profil closed");
         return sumUp;
     }
 
-    private static Logement[] getFromUrl(String url, APIRequestContext context) {
+    private static Integer[] getFromUrl(String url, APIRequestContext context) {
         LOGGER.info(() -> "Getting data from url: " + url);
         var respons = context.get(url);
         if (!respons.ok()) {
             if (respons.status() == 404) {
                 LOGGER.warning(() -> "No data found to url: " + url);
-                return new Logement[0];
+                return new Integer[0];
             } else
                 throw new ApiRequestErrorRuntimeException(respons);
         }
         LOGGER.info(() -> "Data received");
-        return Convertor.convertJsonToArrayOfLogements(respons.text());
+        return Convertor.convertJsonToArrayOfIds(respons.text());
     }
 
 }

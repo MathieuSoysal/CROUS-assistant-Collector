@@ -1,4 +1,4 @@
-package io.github.mathieusoysal.logement;
+package io.github.mathieusoysal.archivers;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -8,18 +8,28 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class LogementsClassifier {
+import io.github.mathieusoysal.data.managment.collectors.DataCollectorFromArchive;
+import io.github.mathieusoysal.logement.Logement;
+
+class ArchivedLogements {
 
     private Map<Integer, Logement> logements;
 
-    public LogementsClassifier(Set<Logement> logements) {
+    public ArchivedLogements(Set<Logement> logements) {
         this.logements = logements
                 .stream()
                 .collect(Collectors.toMap(Logement::getId, logement -> logement));
     }
 
-    public LogementsClassifier() {
+    public ArchivedLogements() {
         this.logements = new HashMap<>();
+    }
+
+    public static ArchivedLogements generateArchivedLogementsFromLinkArchive(final String linkToArchive) {
+        var dataCollector = new DataCollectorFromArchive(linkToArchive);
+        var logements = new ArchivedLogements();
+        logements.addLogements(dataCollector.getAllLogements());
+        return logements;
     }
 
     public void addLogement(Logement logement) {

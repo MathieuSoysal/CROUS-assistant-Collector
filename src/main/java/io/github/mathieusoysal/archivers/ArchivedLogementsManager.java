@@ -5,39 +5,37 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.util.List;
 
 import com.github.forax.beautifullogger.Logger;
 
-import io.github.mathieusoysal.data.managment.collectors.DataCollectorFromArchive;
 import io.github.mathieusoysal.data.managment.savers.ArchiveName;
-import io.github.mathieusoysal.logement.LogementsClassifier;
+import io.github.mathieusoysal.logement.Logement;
 
-public class ArchiverAllLogements implements Archiver {
+class ArchivedLogementsManager {
 
     private static final Logger LOGGER = Logger.getLogger();
 
-    @Override
-    public void archive() {
-        var archivedFile = archiveAllLogements();
+    static void updateArchiveOfAllLogements(List<Logement> collectedLogements) {
+        var archivedFile = getArchivedFile(collectedLogements);
         updateHashOfAllLogement(archivedFile);
     }
 
-    private void updateHashOfAllLogement(File archivedFile) {
+    private static File getArchivedFile(List<Logement> collectedLogements) {
+        var archivedLogements = ArchivedLogements.generateArchivedLogementsFromLinkArchive(Archiver.getLinkToArchive());
+        archivedLogements.addLogements(collectedLogements);
+        var archivedFile = Archiver.ARCHIVE_SAVER
+                .endPathAndSaveData(ArchiveName.ALL_LOGEMENTS, archivedLogements.getLogements());
+        return archivedFile;
+    }
+
+    private static void updateHashOfAllLogement(File archivedFile) {
         var hash = getHashOfArchivedFile(archivedFile);
-        ARCHIVE_SAVER
+        Archiver.ARCHIVE_SAVER
                 .endPathAndSaveData(ArchiveName.HASH_ALL_LOGEMENTS, hash);
     }
 
-    private File archiveAllLogements() {
-        var dataCollector = new DataCollectorFromArchive(Archiver.getLinkToArchive());
-        var logements = new LogementsClassifier();
-        logements.addLogements(dataCollector.getAllLogements());
-        logements.addLogements(dataCollector.getConvertedSumUpOfDay(Archiver.getDayToArchive()));
-        return ARCHIVE_SAVER
-                .endPathAndSaveData(ArchiveName.ALL_LOGEMENTS, logements.getLogements());
-    }
-
-    String getHashOfArchivedFile(File archivedFile) {
+    static String getHashOfArchivedFile(File archivedFile) {
         String result = "";
         try {
             byte[] digest = getHashedBytesFrom(archivedFile);
@@ -52,17 +50,16 @@ public class ArchiverAllLogements implements Archiver {
         return result;
     }
 
-    private String convertBytesToString(byte[] digest) {
+    private static String convertBytesToString(byte[] digest) {
         StringBuilder sb = new StringBuilder();
         for (byte b : digest)
             sb.append(String.format("%02x", b));
         return sb.toString();
     }
 
-    private byte[] getHashedBytesFrom(File archivedFile) throws NoSuchAlgorithmException, IOException {
+    private static byte[] getHashedBytesFrom(File archivedFile) throws NoSuchAlgorithmException, IOException {
         MessageDigest md = MessageDigest.getInstance("MD5");
         md.update(Files.readAllBytes(archivedFile.toPath()));
         return md.digest();
     }
-
 }

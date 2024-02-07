@@ -22,7 +22,7 @@ public class DataCollectorFromArchive {
         return new RequestorToGetSumUpOfDay(day).requestWitGet(archiveUrl);
     }
 
-    public Logement[][] getConvertedSumUpOfDay(LocalDate day) {
+    public Integer[][] getConvertedSumUpOfDay(LocalDate day) {
         return new RequestorToGetSumUpOfDay(day).getSumUpOfDay(archiveUrl);
     }
     

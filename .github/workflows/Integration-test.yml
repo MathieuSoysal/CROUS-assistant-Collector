@@ -45,11 +45,3 @@ jobs:
         ARCHIVE_MODE: DAY_SUM_UP
         SPECIFIC_DAY: "2024-01-03"
         LINK_TO_DATA: https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available
-
-    creating-archive-all-logement:
-      needs: unit-test
-      uses: ./.github/workflows/reusable-archiving.yml
-      with:
-        ARCHIVE_MODE: ALL_LOGEMENTS
-        SPECIFIC_DAY: "2024-01-03"
-        LINK_TO_DATA: https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available

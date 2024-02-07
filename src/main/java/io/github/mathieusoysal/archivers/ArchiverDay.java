@@ -1,7 +1,5 @@
 package io.github.mathieusoysal.archivers;
 
-import java.time.LocalDate;
-
 import io.github.mathieusoysal.data.managment.collectors.DataCollectorFromArchive;
 import io.github.mathieusoysal.data.managment.savers.ArchiveName;
 
@@ -13,7 +11,7 @@ public class ArchiverDay implements Archiver {
         var sumUpOfTheDay = dataCollector.getSumUpOfDay(Archiver.getDayToArchive());
         ARCHIVE_SAVER
                 .addPath("available")
-                .addPath(LocalDate.now())
+                .addPath(Archiver.getDayToArchive())
                 .endPathAndSaveData(ArchiveName.DAY_SUM_UP, sumUpOfTheDay);
     }
 

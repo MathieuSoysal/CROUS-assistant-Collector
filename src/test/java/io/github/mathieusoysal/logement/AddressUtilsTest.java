@@ -9,6 +9,7 @@ class AddressUtilsTest {
 
     @ParameterizedTest
     @CsvSource(value = {
+            "Toulouse Cedex 4.;11 Allée du Professeur Camille Soula CS 47806 31078 Toulouse Cedex 4.",
             "Toulouse Cedex 4;118 Route de Narbonne CS 17705 31077 Toulouse Cedex 4",
             "NICE cedex2;96, avenue de Valrose - 06106 NICE cedex2",
             "Marseille;10 rue Henri Poincaré -13388 Marseille",
@@ -24,6 +25,8 @@ class AddressUtilsTest {
 
     @ParameterizedTest
     @CsvSource(value = {
+            "Foyer Etudiant des Alpes - 295 Faubourg Montmélian 73 000 CHAMBERY;Foyer Etudiant des Alpes - 295 Faubourg Montmélian",
+            "11 Allée du Professeur Camille Soula CS 47806 31078 Toulouse Cedex 4.;11 Allée du Professeur Camille Soula CS 47806",
             "118 Route de Narbonne CS 17705 31077 Toulouse Cedex 4;118 Route de Narbonne CS 17705",
             "96, avenue de Valrose - 06106 NICE cedex2;96, avenue de Valrose",
             "10 rue Henri Poincaré -13388 Marseille;10 rue Henri Poincaré",
@@ -39,6 +42,9 @@ class AddressUtilsTest {
 
     @ParameterizedTest
     @CsvSource(value = {
+            "11 Allée du Professeur Camille Soula CS 47806 31078 Toulouse Cedex 4.;31078",
+            "258 Chemin du Moulin à Vent Quartier Saint Cesaire 30 000 Nîmes;30000",
+            "58 Chemin de la Cardinière 73 000 CHAMBERY;73000",
             "118 Route de Narbonne CS 17705 31077 Toulouse Cedex 4;31077",
             "96, avenue de Valrose - 06106 NICE cedex2;06106",
             "10 rue Henri Poincaré -13388 Marseille;13388",

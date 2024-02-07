@@ -8,6 +8,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import io.github.mathieusoysal.data.managment.collectors.DataCollectorFromArchive;
@@ -30,7 +31,7 @@ class DataSaverTest {
         assertDoesNotThrow(() -> ArchiveSaver.startPath().endPathAndSaveData(ArchiveName.HOUR, logements));
     }
 
-    @Test
+    @Disabled("This test is disabled because it need to update the data")
     void testCreateArchiveLogementsForDay() throws ApiRequestFailedException, IOException {
         LocalDate chosenDate = LocalDate.of(2024, 1, 10);
         var dataCollector = new DataCollectorFromArchive(

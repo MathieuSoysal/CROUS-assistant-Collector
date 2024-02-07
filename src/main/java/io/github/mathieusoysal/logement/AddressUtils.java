@@ -9,7 +9,7 @@ class AddressUtils {
             "( \\d{2} )?[\\d]+(?=[a-zA-Z]*[^\\d]*[\\d\\. ]*$)",
             Pattern.MULTILINE);
     private static final Pattern PATTERN_REGEX_STREET = Pattern.compile(
-            "^.*[^ \\-](?= +[a-zA-Z]*[- ]*[\\d]{4,} +[^\\d]*[\\d ]*$)",
+            "^.*[^ \\-](?= +[a-zA-Z]*[- ]*\\d{2} ?\\d{3,} +[^\\d]*[\\d\\. ]*$)",
             Pattern.MULTILINE);
 
     private AddressUtils() {

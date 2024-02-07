@@ -31,11 +31,11 @@ class DataSaverTest {
         assertDoesNotThrow(() -> ArchiveSaver.startPath().endPathAndSaveData(ArchiveName.HOUR, logements));
     }
 
-    @Disabled("This test is disabled because it need to update the data")
+    @Test
     void testCreateArchiveLogementsForDay() throws ApiRequestFailedException, IOException {
         LocalDate chosenDate = LocalDate.of(2024, 1, 10);
         var dataCollector = new DataCollectorFromArchive(
-                "https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available/");
+                "https://mathieusoysal.github.io/CROUS-assistant-Collector/v2/logements-crous/available/");
         String data = assertDoesNotThrow(() -> 
             dataCollector.getSumUpOfDay(chosenDate)
         );

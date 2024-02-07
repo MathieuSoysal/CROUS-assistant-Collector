@@ -7,7 +7,7 @@ import io.github.mathieusoysal.data.managment.savers.ArchiveSaver;
 
 @FunctionalInterface
 public interface Archiver {
-    public static final String DEFAULT_LINK_TO_ARCHIVE = "https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available";
+    public static final String DEFAULT_LINK_TO_ARCHIVE = "https://mathieusoysal.github.io/CROUS-assistant-Collector/v2/logements-crous/available";
     static final ArchiveSaver ARCHIVE_SAVER = ArchiveSaver.startPath();
 
     static String getLinkToArchive() {

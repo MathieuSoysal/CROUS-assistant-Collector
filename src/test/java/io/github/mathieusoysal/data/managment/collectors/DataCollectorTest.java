@@ -86,9 +86,9 @@ class DataCollectorTest {
                 result.size());
     }
 
-    @Disabled("This test is not reliable, need to update the data")
+    @Test
     void testCreateSumUpOfTheDay() throws JsonProcessingException {
-        String linkToData = "https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available";
+        String linkToData = "https://mathieusoysal.github.io/CROUS-assistant-Collector/v2/logements-crous/available";
         LocalDate date = LocalDate.parse("2024-01-02", DateTimeFormatter.ISO_LOCAL_DATE);
         assertDoesNotThrow(
                 () -> {

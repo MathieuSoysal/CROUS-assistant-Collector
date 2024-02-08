@@ -12,7 +12,7 @@ class ArchiverDay implements Archiver {
         var sumUpOfTheDay = dataCollector.getConvertedSumUpOfDay(Archiver.getDayToArchive());
         String sumUpOfTheDayAsString = Convertor.convertIdMatrixToJson(sumUpOfTheDay);
         ARCHIVE_SAVER
-                .addPath("available")
+                .addPath("available-residences-id")
                 .addPath(Archiver.getDayToArchive())
                 .endPathAndSaveData(ArchiveName.DAY_SUM_UP, sumUpOfTheDayAsString);
     }

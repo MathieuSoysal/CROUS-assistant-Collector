@@ -9,7 +9,6 @@ import java.util.List;
 import java.util.Queue;
 
 import io.github.mathieusoysal.data.managment.convertors.Convertor;
-import io.github.mathieusoysal.logement.Logement;
 
 public class ArchiveSaver {
 
@@ -53,5 +52,4 @@ public class ArchiveSaver {
         var archiveFile =  FileManager.getArchiveFile(folderAmbed, name.getName());
         return archiveFile;
     }
-
 }

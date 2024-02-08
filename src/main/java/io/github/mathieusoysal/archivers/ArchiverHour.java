@@ -21,7 +21,7 @@ class ArchiverHour implements Archiver {
                 Properties.PASSWORD.getValue());
         var ids = logements.stream().map(Logement::getId).toList();
         ARCHIVE_SAVER
-                .addPath("available")
+                .addPath("available-residences-id")
                 .addPath(LocalDate.now())
                 .endPathAndSaveData(ArchiveName.HOUR, ids);
         return logements;

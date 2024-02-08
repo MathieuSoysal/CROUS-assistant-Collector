@@ -9,7 +9,6 @@ import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.condition.EnabledIfEnvironmentVariable;
 
@@ -88,7 +87,7 @@ class DataCollectorTest {
 
     @Test
     void testCreateSumUpOfTheDay() throws JsonProcessingException {
-        String linkToData = "https://mathieusoysal.github.io/CROUS-assistant-Collector/v2/logements-crous/available";
+        String linkToData = "https://mathieusoysal.github.io/CROUS-assistant-Collector/v2";
         LocalDate date = LocalDate.parse("2024-01-02", DateTimeFormatter.ISO_LOCAL_DATE);
         assertDoesNotThrow(
                 () -> {
@@ -99,7 +98,7 @@ class DataCollectorTest {
     @Test
     void testGetAllLogements()
     {
-        String linkToData = "https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available";
+        String linkToData = "https://mathieusoysal.github.io/CROUS-assistant-Collector/v2";
         assertDoesNotThrow(() -> new DataCollectorFromArchive(linkToData).getAllLogements());
     }
 

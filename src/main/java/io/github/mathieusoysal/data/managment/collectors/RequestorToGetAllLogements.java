@@ -3,10 +3,11 @@ package io.github.mathieusoysal.data.managment.collectors;
 import com.github.forax.beautifullogger.Logger;
 import com.microsoft.playwright.Playwright;
 
+import io.github.mathieusoysal.data.managment.savers.ArchiveName;
 import io.github.mathieusoysal.exceptions.ApiRequestFailedRuntimeException;
 
 class RequestorToGetAllLogements implements Requestor {
-    private static final String ALL_LOGEMENTS = "/all_logements";
+    private static final String ALL_LOGEMENTS = "/"+ ArchiveName.ALL_LOGEMENTS.getName();
     private static final Logger LOGGER = Logger.getLogger();
 
     @Override

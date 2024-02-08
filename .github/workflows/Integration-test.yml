@@ -44,4 +44,4 @@ jobs:
       with:
         ARCHIVE_MODE: DAY_SUM_UP
         SPECIFIC_DAY: "2024-01-03"
-        LINK_TO_DATA: https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available
+        LINK_TO_DATA: https://mathieusoysal.github.io/CROUS-assistant-Collector/v2

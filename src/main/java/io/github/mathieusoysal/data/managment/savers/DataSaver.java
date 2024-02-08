@@ -9,24 +9,24 @@ import com.github.forax.beautifullogger.Logger;
 
 import io.github.mathieusoysal.data.managment.convertors.Convertor;
 import io.github.mathieusoysal.exceptions.ImpossibleWriteRuntimeException;
-import io.github.mathieusoysal.logement.Logement;
+import io.github.mathieusoysal.residence.Residence;
 
 class DataSaver {
     private static final Logger LOGGER = Logger.getLogger();
 
-    static void writeDataInsideArchiveFile(List<Logement> logementsJson, File archiveFile) {
-        writeDataInsideArchiveFile(Convertor.convertLogementsToJson(logementsJson), archiveFile);
+    static void writeDataInsideArchiveFile(List<Residence> residencesJson, File archiveFile) {
+        writeDataInsideArchiveFile(Convertor.convertResidencesToJson(residencesJson), archiveFile);
     }
 
-    static void writeDataInsideArchiveFile(String logementsJson, File archiveFile) {
-        LOGGER.info(() -> "Writing logements to file");
+    static void writeDataInsideArchiveFile(String residencesJson, File archiveFile) {
+        LOGGER.info(() -> "Writing residences to file");
         try (FileWriter fileWriter = new FileWriter(archiveFile)) {
-            fileWriter.write(logementsJson);
+            fileWriter.write(residencesJson);
         } catch (IOException e) {
-            LOGGER.error("Error while writing logements to file", e);
-            throw new ImpossibleWriteRuntimeException("Error while writing logements to file", e);
+            LOGGER.error("Error while writing residences to file", e);
+            throw new ImpossibleWriteRuntimeException("Error while writing residences to file", e);
         }
-        LOGGER.info(() -> "Logements written to file");
+        LOGGER.info(() -> "Residences written to file");
     }
 
 }

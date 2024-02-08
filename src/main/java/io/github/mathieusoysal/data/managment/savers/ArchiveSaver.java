@@ -41,8 +41,8 @@ public class ArchiveSaver {
         return archiveFile;
     }
 
-    public <T> File endPathAndSaveData(final ArchiveName name, final List<T> logements) {
-        return endPathAndSaveData(name, Convertor.convertLogementsToJson(logements));
+    public <T> File endPathAndSaveData(final ArchiveName name, final List<T> residences) {
+        return endPathAndSaveData(name, Convertor.convertResidencesToJson(residences));
     }
 
     private File generateArchiveFile(final ArchiveName name) {

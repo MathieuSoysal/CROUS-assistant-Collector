@@ -33,16 +33,16 @@ class RequestorWithConnection implements Requestor {
 
     @Override
     public String requestWitGet(String url) {
-        LOGGER.info(() -> "Getting available logements");
-        LOGGER.info(() -> "Creating profil to request logements");
+        LOGGER.info(() -> "Getting available residences");
+        LOGGER.info(() -> "Creating profil to request residences");
         Playwright playwright = Playwright.create();
         Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions());
         BrowserContext context = browser.newContext(new NewContextOptions().setScreenSize(1920, 1080));
         Page page = context.newPage();
-        String jsonLogements;
+        String jsonResidences;
         try {
             etablishConnectionWithWebsite(playwright, context, page);
-            LOGGER.info(() -> "Requesting logements from " + url);
+            LOGGER.info(() -> "Requesting residences from " + url);
             var respons = page.request()
                     .head(url,
                             REQUEST_TO_GET_LOGEMENTS);
@@ -50,8 +50,8 @@ class RequestorWithConnection implements Requestor {
                 LOGGER.error(() -> "Request failed");
                 throw new ApiRequestFailedRuntimeException(respons);
             }
-            LOGGER.info(() -> "Logements received");
-            jsonLogements = respons.text();
+            LOGGER.info(() -> "Residences received");
+            jsonResidences = respons.text();
         } catch (TimeoutError | LoginOptionCantBeSelectedError | CannotBeConnectedError e) {
             LOGGER.error("Request failed", e);
             context.tracing().stop(new Tracing.StopOptions()
@@ -59,7 +59,7 @@ class RequestorWithConnection implements Requestor {
             throw new RequestFailedRuntimeException(e);
         } catch (SiteOnMaintenanceException e) {
             LOGGER.warning(() -> "Site on maintenance");
-            jsonLogements = "[]";
+            jsonResidences = "[]";
         } finally {
             page.close();
             context.close();
@@ -67,7 +67,7 @@ class RequestorWithConnection implements Requestor {
             playwright.close();
             LOGGER.info(() -> "profil closed");
         }
-        return jsonLogements;
+        return jsonResidences;
     }
 
     private void etablishConnectionWithWebsite(Playwright playwright, BrowserContext context, Page page)
@@ -84,7 +84,7 @@ class RequestorWithConnection implements Requestor {
             selectLoginOption(playwright, page);
         }
         connectToTheCrous(email, password, playwright, page);
-        LOGGER.info(() -> "Going to logements page");
+        LOGGER.info(() -> "Going to residences page");
         page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Lancer une recherche"))
                 .click();
         page.waitForLoadState();

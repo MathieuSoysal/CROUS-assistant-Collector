@@ -8,13 +8,12 @@ import java.time.LocalDate;
 import java.util.List;
 
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import io.github.mathieusoysal.data.managment.collectors.DataCollectorFromArchive;
 import io.github.mathieusoysal.data.managment.collectors.DataCollectorFromCrous;
 import io.github.mathieusoysal.exceptions.ApiRequestFailedException;
-import io.github.mathieusoysal.logement.Logement;
+import io.github.mathieusoysal.residence.Residence;
 
 class DataSaverTest {
 
@@ -26,16 +25,16 @@ class DataSaverTest {
     }
 
     @Test
-    void testCreateArchiveLogements() throws ApiRequestFailedException, IOException {
-        List<Logement> logements = DataCollectorFromCrous.getAllLogementsWithoutConnection().stream().limit(2).toList();
-        assertDoesNotThrow(() -> ArchiveSaver.startPath().endPathAndSaveData(ArchiveName.HOUR, logements));
+    void testCreateArchiveResidences() throws ApiRequestFailedException, IOException {
+        List<Residence> residences = DataCollectorFromCrous.getAllResidencesWithoutConnection().stream().limit(2).toList();
+        assertDoesNotThrow(() -> ArchiveSaver.startPath().endPathAndSaveData(ArchiveName.HOUR, residences));
     }
 
     @Test
-    void testCreateArchiveLogementsForDay() throws ApiRequestFailedException, IOException {
+    void testCreateArchiveResidencesForDay() throws ApiRequestFailedException, IOException {
         LocalDate chosenDate = LocalDate.of(2024, 1, 10);
         var dataCollector = new DataCollectorFromArchive(
-                "https://mathieusoysal.github.io/CROUS-assistant-Collector/v2/logements-crous/available/");
+                "https://mathieusoysal.github.io/CROUS-assistant-Collector/v2/residences-crous/available/");
         String data = assertDoesNotThrow(() -> 
             dataCollector.getSumUpOfDay(chosenDate)
         );

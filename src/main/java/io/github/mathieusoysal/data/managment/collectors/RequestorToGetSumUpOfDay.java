@@ -37,7 +37,7 @@ class RequestorToGetSumUpOfDay implements Requestor {
         LOGGER.info(() -> "Creating sum up of the day: " + date);
         String linkToDataForTheDay = url + "/" + date;
         Integer[][] sumUp;
-        LOGGER.info(() -> "Creating profil to request logements");
+        LOGGER.info(() -> "Creating profil to request residences");
         try (Playwright playwright = Playwright.create()) {
             LOGGER.info(() -> "profil created");
             var context = playwright.request().newContext();
@@ -45,7 +45,7 @@ class RequestorToGetSumUpOfDay implements Requestor {
                     .<String>mapToObj(hour -> linkToDataForTheDay + "/" + NUMBER_FORMAT.format(hour))
                     .<Integer[]>map(link -> getFromUrl(link, context))
                     .toArray(Integer[][]::new);
-            LOGGER.info(() -> "Logements received");
+            LOGGER.info(() -> "Residences received");
         }
         LOGGER.info(() -> "profil closed");
         return sumUp;

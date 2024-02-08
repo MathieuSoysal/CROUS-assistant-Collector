@@ -18,29 +18,29 @@ import com.fasterxml.jackson.databind.DatabindException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import io.github.mathieusoysal.exceptions.ApiRequestFailedException;
-import io.github.mathieusoysal.logement.Logement;
+import io.github.mathieusoysal.residence.Residence;
 
 class DataCollectorTest {
 
     @Test
-    void testGetLogementsWithoutConnection_returnsEmptyList()
+    void testGetResidencesWithoutConnection_returnsEmptyList()
             throws StreamReadException, DatabindException, ApiRequestFailedException, IOException {
         // Arrange
 
         // Act
-        List<Logement> result = DataCollectorFromCrous.getAvailableLogementsWithoutConnection();
+        List<Residence> result = DataCollectorFromCrous.getAvailableResidencesWithoutConnection();
 
         // Assert
         Assertions.assertNotEquals(0, result.size());
     }
 
     @Test
-    void testGetAllLogementsWithoutConnection_returnsLogements()
+    void testGetAllResidencesWithoutConnection_returnsResidences()
             throws StreamReadException, DatabindException, ApiRequestFailedException, IOException {
         // Arrange
 
         // Act
-        List<Logement> result = DataCollectorFromCrous.getAllLogementsWithoutConnection();
+        List<Residence> result = DataCollectorFromCrous.getAllResidencesWithoutConnection();
 
         // Assert
         Assertions.assertNotEquals(0, result.size());
@@ -48,7 +48,7 @@ class DataCollectorTest {
 
     @Test
     void testConvertion() throws StreamReadException, DatabindException, ApiRequestFailedException, IOException {
-        List<Logement> result = DataCollectorFromCrous.getAllLogementsWithoutConnection();
+        List<Residence> result = DataCollectorFromCrous.getAllResidencesWithoutConnection();
 
         assertNotNull(result);
 
@@ -60,13 +60,13 @@ class DataCollectorTest {
 
 
         assertDoesNotThrow(() -> objectMapper.readValue(json,
-                new com.fasterxml.jackson.core.type.TypeReference<List<Logement>>() {
+                new com.fasterxml.jackson.core.type.TypeReference<List<Residence>>() {
                 }));
     }
 
     @Test
     @EnabledIfEnvironmentVariable(named = "CI", matches = "true")
-    void testGetLogementsWithConnection_returnsLogements()
+    void testGetResidencesWithConnection_returnsResidences()
             throws StreamReadException, DatabindException, ApiRequestFailedException, IOException,
             InterruptedException {
         // Arrange
@@ -76,12 +76,12 @@ class DataCollectorTest {
         // Act
         assertNotNull(email, "Please set TEST_MAIL environment variable");
         assertNotNull(password, "Please set TEST_PASSWORD environment variable");
-        List<Logement> result = DataCollectorFromCrous.getAvailableLogementsWithConnection(
+        List<Residence> result = DataCollectorFromCrous.getAvailableResidencesWithConnection(
                 email,
                 password);
 
         // Assert
-        Assertions.assertNotEquals(DataCollectorFromCrous.getAvailableLogementsWithoutConnection().size(),
+        Assertions.assertNotEquals(DataCollectorFromCrous.getAvailableResidencesWithoutConnection().size(),
                 result.size());
     }
 
@@ -96,10 +96,10 @@ class DataCollectorTest {
     }
 
     @Test
-    void testGetAllLogements()
+    void testGetAllResidences()
     {
         String linkToData = "https://mathieusoysal.github.io/CROUS-assistant-Collector/v2";
-        assertDoesNotThrow(() -> new DataCollectorFromArchive(linkToData).getAllLogements());
+        assertDoesNotThrow(() -> new DataCollectorFromArchive(linkToData).getAllResidences());
     }
 
 }

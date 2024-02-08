@@ -3,9 +3,6 @@ package io.github.mathieusoysal.residence;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import io.github.mathieusoysal.residence.Address;
-import io.github.mathieusoysal.residence.Location;
-
 class AddressTest {
 
     @Test

@@ -1,7 +1,8 @@
 package io.github.mathieusoysal.archivers;
 
 public enum Archivers implements Archiver {
-    ARCHIVER_DAY(new ArchiverDay()), ARCHIVER_HOUR(new ArchiverHour());
+    ARCHIVER_DAY(new ArchiverDay()), 
+    ARCHIVER_HOUR(new ArchiverHour());
 
     private Archiver archiver;
 

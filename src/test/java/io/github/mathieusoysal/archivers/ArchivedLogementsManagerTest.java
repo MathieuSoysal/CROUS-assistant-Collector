@@ -15,15 +15,15 @@ class ArchivedResidencesManagerTest {
 
     @Test
     void testGetHashOfArchivedFile_shouldBeEqual_IfContentIsEquals() throws NoSuchAlgorithmException, IOException {
-        String hash1 = ArchivedResidencesManager.getHashOfArchivedFile(jsonTestFile3);
-        String hash2 = ArchivedResidencesManager.getHashOfArchivedFile(jsonTestFile2);
+        String hash1 = ArchiverAllResidences.getHashOfArchivedFile(jsonTestFile3);
+        String hash2 = ArchiverAllResidences.getHashOfArchivedFile(jsonTestFile2);
         assertEquals(hash1, hash2);
     }
 
     @Test
     void testGetHashOfArchivedFile_shouldBeDifferent_IfContentIsDifferent() throws NoSuchAlgorithmException, IOException {
-        String hash1 = ArchivedResidencesManager.getHashOfArchivedFile(jsonTestFile1);
-        String hash2 = ArchivedResidencesManager.getHashOfArchivedFile(jsonTestFile2);
+        String hash1 = ArchiverAllResidences.getHashOfArchivedFile(jsonTestFile1);
+        String hash2 = ArchiverAllResidences.getHashOfArchivedFile(jsonTestFile2);
         assertEquals(false, hash1.equals(hash2));
     }
 }

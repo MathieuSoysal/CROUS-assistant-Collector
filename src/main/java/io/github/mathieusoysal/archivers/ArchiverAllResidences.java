@@ -12,16 +12,16 @@ import com.github.forax.beautifullogger.Logger;
 import io.github.mathieusoysal.data.managment.savers.ArchiveName;
 import io.github.mathieusoysal.residence.Residence;
 
-class ArchivedResidencesManager {
+class ArchiverAllResidences {
 
     private static final Logger LOGGER = Logger.getLogger();
 
     static void updateArchiveOfAllResidences(List<Residence> collectedResidences) {
-        var archivedFile = getArchivedFile(collectedResidences);
+        var archivedFile = updateArchivedFile(collectedResidences);
         updateHashOfAllResidence(archivedFile);
     }
 
-    private static File getArchivedFile(List<Residence> collectedResidences) {
+    private static File updateArchivedFile(List<Residence> collectedResidences) {
         var archivedResidences = ArchivedResidences.generateArchivedResidencesFromLinkArchive(Archiver.getLinkToArchive());
         archivedResidences.addResidences(collectedResidences);
         var archivedFile = Archiver.ARCHIVE_SAVER

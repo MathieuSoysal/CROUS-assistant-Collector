@@ -4,6 +4,9 @@ import java.util.List;
 
 import com.github.forax.beautifullogger.Logger;
 
+import io.github.mathieusoysal.data.managment.collectors.requestors.Requestor;
+import io.github.mathieusoysal.data.managment.collectors.requestors.RequestorWithConnection;
+import io.github.mathieusoysal.data.managment.collectors.requestors.RequestorWithoutConnection;
 import io.github.mathieusoysal.residence.Residence;
 import io.github.mathieusoysal.residence.pojo.Convertor;
 

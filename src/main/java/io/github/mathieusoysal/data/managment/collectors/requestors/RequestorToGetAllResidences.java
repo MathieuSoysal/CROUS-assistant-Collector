@@ -1,13 +1,13 @@
-package io.github.mathieusoysal.data.managment.collectors;
+package io.github.mathieusoysal.data.managment.collectors.requestors;
 
 import com.github.forax.beautifullogger.Logger;
 import com.microsoft.playwright.Playwright;
 
 import io.github.mathieusoysal.data.managment.savers.ArchiveName;
-import io.github.mathieusoysal.exceptions.ApiRequestFailedRuntimeException;
+import io.github.mathieusoysal.exceptions.requests.ApiRequestFailedRuntimeException;
 
-class RequestorToGetAllResidences implements Requestor {
-    private static final String ALL_LOGEMENTS = "/"+ ArchiveName.ALL_LOGEMENTS.getName();
+public class RequestorToGetAllResidences implements Requestor {
+    private static final String ALL_LOGEMENTS = "/" + ArchiveName.ALL_LOGEMENTS.getName();
     private static final Logger LOGGER = Logger.getLogger();
 
     @Override

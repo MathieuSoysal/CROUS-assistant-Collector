@@ -3,8 +3,6 @@ package io.github.mathieusoysal.residence;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import io.github.mathieusoysal.residence.OccupationKind;
-
 class OccupationKindTest {
 
     @Test

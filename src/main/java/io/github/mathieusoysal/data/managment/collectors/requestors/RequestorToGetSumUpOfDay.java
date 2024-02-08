@@ -1,4 +1,4 @@
-package io.github.mathieusoysal.data.managment.collectors;
+package io.github.mathieusoysal.data.managment.collectors.requestors;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
@@ -11,9 +11,9 @@ import com.microsoft.playwright.APIRequestContext;
 import com.microsoft.playwright.Playwright;
 
 import io.github.mathieusoysal.data.managment.convertors.Convertor;
-import io.github.mathieusoysal.exceptions.ApiRequestErrorRuntimeException;
+import io.github.mathieusoysal.exceptions.requests.ApiRequestErrorRuntimeException;
 
-class RequestorToGetSumUpOfDay implements Requestor {
+public class RequestorToGetSumUpOfDay implements Requestor {
     private static final Logger LOGGER = Logger.getLogger();
     private static final NumberFormat NUMBER_FORMAT = new DecimalFormat("00");
 

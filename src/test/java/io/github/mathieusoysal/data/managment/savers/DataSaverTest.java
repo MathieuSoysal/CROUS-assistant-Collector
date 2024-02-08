@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
 
 import io.github.mathieusoysal.data.managment.collectors.DataCollectorFromArchive;
 import io.github.mathieusoysal.data.managment.collectors.DataCollectorFromCrous;
-import io.github.mathieusoysal.exceptions.ApiRequestFailedException;
+import io.github.mathieusoysal.exceptions.requests.ApiRequestFailedException;
 import io.github.mathieusoysal.residence.Residence;
 
 class DataSaverTest {

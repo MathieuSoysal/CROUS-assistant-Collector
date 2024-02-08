@@ -8,7 +8,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.github.forax.beautifullogger.Logger;
 
-import io.github.mathieusoysal.exceptions.ConvertionErrorRuntimeException;
+import io.github.mathieusoysal.exceptions.ConvertionRuntimeException;
 import io.github.mathieusoysal.residence.Residence;
 
 public class Convertor {
@@ -22,7 +22,7 @@ public class Convertor {
             result = ow.writeValueAsString(residences);
         } catch (JsonProcessingException e) {
             LOGGER.error("Error while converting residences to json", e);
-            throw new ConvertionErrorRuntimeException("Error while converting residences to json", e);
+            throw new ConvertionRuntimeException("Error while converting residences to json", e);
         }
         LOGGER.info(() -> "Residences converted to json");
         return result;
@@ -36,7 +36,7 @@ public class Convertor {
             });
         } catch (JsonProcessingException e) {
             LOGGER.error("Error while converting json to List of residences", e);
-            throw new ConvertionErrorRuntimeException("Error while converting json to List of residences", e);
+            throw new ConvertionRuntimeException("Error while converting json to List of residences", e);
         }
         LOGGER.info(() -> "Json converted to residences");
         return residences;
@@ -49,7 +49,7 @@ public class Convertor {
             residences = new ObjectMapper().readValue(jsonResidences, Residence[].class);
         } catch (JsonProcessingException e) {
             LOGGER.error("Error while converting json to Array of residences", e);
-            throw new ConvertionErrorRuntimeException("Error while converting json to Array of residences", e);
+            throw new ConvertionRuntimeException("Error while converting json to Array of residences", e);
         }
         LOGGER.info(() -> "Json converted to residences");
         return residences;
@@ -62,7 +62,7 @@ public class Convertor {
             residences = new ObjectMapper().readValue(jsonResidences, Integer[].class);
         } catch (JsonProcessingException e) {
             LOGGER.error("Error while converting json to Array of Id", e);
-            throw new ConvertionErrorRuntimeException("Error while converting json to Array of Ids", e);
+            throw new ConvertionRuntimeException("Error while converting json to Array of Ids", e);
         }
         LOGGER.info(() -> "Json converted to Ids");
         return residences;
@@ -76,7 +76,7 @@ public class Convertor {
             result = objectMapper.writeValueAsString(residences);
         } catch (JsonProcessingException e) {
             LOGGER.error("Error while converting Matrix of residences to json", e);
-            throw new ConvertionErrorRuntimeException("Error while converting Matrix of residences to json", e);
+            throw new ConvertionRuntimeException("Error while converting Matrix of residences to json", e);
         }
         LOGGER.info(() -> "Residences converted to json");
         return result;
@@ -90,7 +90,7 @@ public class Convertor {
             result = objectMapper.writeValueAsString(idResidences);
         } catch (JsonProcessingException e) {
             LOGGER.error("Error while converting Matrix of id residences to json", e);
-            throw new ConvertionErrorRuntimeException("Error while converting Matrix of id residences to json", e);
+            throw new ConvertionRuntimeException("Error while converting Matrix of id residences to json", e);
         }
         LOGGER.info(() -> "Id residences converted to json");
         return result;

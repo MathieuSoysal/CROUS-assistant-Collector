@@ -1,4 +1,4 @@
-package io.github.mathieusoysal.data.managment.collectors;
+package io.github.mathieusoysal.data.managment.collectors.requestors;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.ArgumentMatchers.any;
@@ -15,7 +15,7 @@ import com.microsoft.playwright.Playwright;
 import com.microsoft.playwright.Selectors;
 import com.microsoft.playwright.TimeoutError;
 
-import io.github.mathieusoysal.exceptions.SiteOnMaintenanceException;
+import io.github.mathieusoysal.exceptions.requests.SiteOnMaintenanceException;
 
 public class RequestorWithConnectionTest {
 

@@ -1,4 +1,4 @@
-package io.github.mathieusoysal.exceptions;
+package io.github.mathieusoysal.exceptions.requests;
 
 import com.microsoft.playwright.APIResponse;
 

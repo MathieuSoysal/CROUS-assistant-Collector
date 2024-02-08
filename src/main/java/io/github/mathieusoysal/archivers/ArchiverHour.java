@@ -13,7 +13,7 @@ class ArchiverHour implements Archiver {
     @Override
     public void archive() {
         var residences = archiveHour();
-        ArchivedResidencesManager.updateArchiveOfAllResidences(residences);
+        ArchiverAllResidences.updateArchiveOfAllResidences(residences);
     }
 
     private List<Residence> archiveHour() {

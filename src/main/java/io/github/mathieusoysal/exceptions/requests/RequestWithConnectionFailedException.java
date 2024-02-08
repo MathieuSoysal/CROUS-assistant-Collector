@@ -1,4 +1,4 @@
-package io.github.mathieusoysal.exceptions;
+package io.github.mathieusoysal.exceptions.requests;
 
 public class RequestWithConnectionFailedException extends Exception {
 

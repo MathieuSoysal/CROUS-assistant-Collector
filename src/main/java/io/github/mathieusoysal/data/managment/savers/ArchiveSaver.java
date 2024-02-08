@@ -49,7 +49,7 @@ public class ArchiveSaver {
         var folderAmbed = FolderManager.getOrCreateArchiveFolder();
         for (String folderName : folders)
             folderAmbed = FolderManager.getOrCreateArchiveFolderWithGivenFolderName(folderName, folderAmbed);
-        var archiveFile =  FileManager.getArchiveFile(folderAmbed, name.getName());
+        var archiveFile = FileManager.getArchiveFile(folderAmbed, name.getName());
         return archiveFile;
     }
 }

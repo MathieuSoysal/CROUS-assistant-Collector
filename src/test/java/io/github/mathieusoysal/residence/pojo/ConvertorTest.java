@@ -12,12 +12,10 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import io.github.mathieusoysal.residence.BedKind;
-import io.github.mathieusoysal.residence.Residence;
 import io.github.mathieusoysal.residence.OccupationKind;
+import io.github.mathieusoysal.residence.Residence;
 import io.github.mathieusoysal.residence.TransportKind;
 import io.github.mathieusoysal.residence.TransportUnitOfMeasure;
-import io.github.mathieusoysal.residence.pojo.Convertor;
-import io.github.mathieusoysal.residence.pojo.Item;
 
 class ConvertorTest {
     private static File jsonTestFile = new File("src/test/java/io/github/mathieusoysal/resources/test.json");
@@ -103,7 +101,5 @@ class ConvertorTest {
         assertEquals(26780, residence.getOccupationMods().get(0).getRentMin());
         assertEquals(26780, residence.getOccupationMods().get(0).getRentMax());
     }
-
-    
 
 }

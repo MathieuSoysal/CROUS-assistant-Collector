@@ -17,7 +17,7 @@ import com.fasterxml.jackson.core.exc.StreamReadException;
 import com.fasterxml.jackson.databind.DatabindException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import io.github.mathieusoysal.exceptions.ApiRequestFailedException;
+import io.github.mathieusoysal.exceptions.requests.ApiRequestFailedException;
 import io.github.mathieusoysal.residence.Residence;
 
 class DataCollectorTest {

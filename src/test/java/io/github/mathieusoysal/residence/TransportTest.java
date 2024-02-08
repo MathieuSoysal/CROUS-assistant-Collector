@@ -5,10 +5,6 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 import org.junit.jupiter.api.Test;
 
-import io.github.mathieusoysal.residence.Transport;
-import io.github.mathieusoysal.residence.TransportKind;
-import io.github.mathieusoysal.residence.TransportUnitOfMeasure;
-
 class TransportTest {
 
     @Test

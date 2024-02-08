@@ -1,9 +1,9 @@
-package io.github.mathieusoysal.data.managment.collectors;
+package io.github.mathieusoysal.data.managment.collectors.requestors;
 
 import com.github.forax.beautifullogger.Logger;
 import com.microsoft.playwright.Playwright;
 
-import io.github.mathieusoysal.exceptions.ApiRequestFailedRuntimeException;
+import io.github.mathieusoysal.exceptions.requests.ApiRequestFailedRuntimeException;
 
 public class RequestorWithoutConnection implements Requestor {
 

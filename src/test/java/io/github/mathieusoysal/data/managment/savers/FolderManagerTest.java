@@ -6,9 +6,17 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import java.io.File;
 import java.time.OffsetDateTime;
 
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 
 class FolderManagerTest {
+
+    @AfterEach
+    void tearDown() {
+        File archiveFolder = new File("archive");
+        if (archiveFolder.exists())
+            archiveFolder.delete();
+    }
 
     @Test
     void testCreateArchiveFolder() {
@@ -17,7 +25,6 @@ class FolderManagerTest {
         assertTrue(archiveFolder.exists());
         assertTrue(archiveFolder.isDirectory());
         assertEquals("archive", archiveFolder.getName());
-        archiveFolder.delete();
     }
 
     @Test

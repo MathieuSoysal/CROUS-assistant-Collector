@@ -188,13 +188,13 @@
   "areaMin" : 30.5,
   "areaMax" : 53.4,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
-    "rentMin" : 54059,
-    "rentMax" : 69080
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 54059,
     "rentMax" : 69090
+  }, {
+    "occupationKind" : "COUPLE_ONE_SPACE",
+    "rentMin" : 54059,
+    "rentMax" : 69080
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -462,6 +462,47 @@
     "description" : "Ligne 43 / F2<br />\r\nArrêt : Mont aux malades",
     "distance" : 10,
     "unitOfMeasure" : "METRE"
+  } ]
+}, {
+  "id" : 21,
+  "label" : "HOME",
+  "address" : {
+    "fullAddress" : "2 avenue Général Champon 38000 GRENOBLE",
+    "street" : "2 avenue Général Champon",
+    "city" : "GRENOBLE",
+    "zipCode" : "38000",
+    "location" : {
+      "latitude" : 45.183,
+      "longitude" : 5.731
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 2,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>1 Logement pour 4 personnes compos&eacute;:</p>\r\n\r\n<p>d&#39;un espace de vie &agrave; partager entre tous les colocataires, comprenant un coin cuisine &eacute;quip&eacute; d&#39;un &eacute;vier, d&#39;un r&eacute;frig&eacute;rateur et de plaques &eacute;lectriques.</p>\r\n\r\n<ul>\r\n\t<li>de 2 chambres de 9m&sup2; (286 &euro;),</li>\r\n\t<li>d&#39;une chambre de 17m&sup2; (342 &euro;) et</li>\r\n\t<li>d&#39;une chambre de 22 m&sup2; (383 &euro;) toutes &eacute;quip&eacute;es d&#39;un lit UNE place&nbsp;</li>\r\n\t<li>d&#39;un espace de vie et d&#39;un cabinet de toilette &agrave; partager entre tous les colocataires.</li>\r\n</ul>\r\n\r\n<p>Vaisselle et linges ne sont pas fournis. Chaque &eacute;tudiant doit pr&eacute;voir draps et couvertures pour lit UNE place.</p>\r\n\r\n<p>Le loyer indiqu&eacute; s&#39;entend toutes charges comprises, par &eacute;tudiant.</p>\r\n\r\n<p>Le logement ouvre droit &agrave; l&#39;aide au logement social (CAF)</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Pour effectuer une demande de colocation, compl&eacute;ter le formulaire de colocation &agrave; demander par courriel &agrave; : &nbsp; logement@crous-grenoble.fr </strong></p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "LIVING_ROOM", "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 9.0,
+  "areaMax" : 22.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 28600,
+    "rentMax" : 38300
+  } ],
+  "transports" : [ {
+    "kind" : "TRAMWAY",
+    "description" : "Lignes A et C - Arrêt Chavant",
+    "distance" : 2,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "PAYING_URBAN_PARKING",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
   } ]
 }, {
   "id" : 2070,
@@ -1542,11 +1583,11 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 41552,
     "rentMax" : 41552
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 41552,
     "rentMax" : 41552
   } ],
@@ -2394,7 +2435,7 @@
   "areaMin" : 29.17,
   "areaMax" : 35.84,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 58260,
     "rentMax" : 58260
   }, {
@@ -2402,7 +2443,7 @@
     "rentMin" : 29130,
     "rentMax" : 29130
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 58260,
     "rentMax" : 58260
   } ],
@@ -3186,6 +3227,62 @@
     "unitOfMeasure" : "ON_FOOT"
   } ]
 }, {
+  "id" : 116,
+  "label" : "Cité Albert Châtelet",
+  "address" : {
+    "fullAddress" : "Rue Frédéric Combemale 59000 LILLE",
+    "street" : "Rue Frédéric Combemale",
+    "city" : "LILLE",
+    "zipCode" : "59000",
+    "location" : {
+      "latitude" : 50.614,
+      "longitude" : 3.035
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "MOBILE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Chambre pour 2 personnes disposant de 2 lits simples, de sanitaires privatifs (douche, WC, lavabo), d&#39;une kitchenette (&eacute;vier, r&eacute;frig&eacute;rateur, plaques de cuisson), d&#39;une prise t&eacute;l&eacute;phonique.</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 17.45,
+  "areaMax" : 19.9,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 37340,
+    "rentMax" : 37340
+  } ],
+  "transports" : [ {
+    "kind" : "METRO",
+    "description" : "Ligne 1 station CHU-Centre O. Lambret",
+    "distance" : 400,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "BUS",
+    "description" : "Arrêt Chasseurs De Driant",
+    "distance" : 15,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "TRAIN",
+    "description" : "Gare SNCF de Lille CHR",
+    "distance" : 500,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "NONE",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "BIKE",
+    "description" : "",
+    "distance" : 17,
+    "unitOfMeasure" : "ON_FOOT"
+  } ]
+}, {
   "id" : 117,
   "label" : "Résidence Montebello",
   "address" : {
@@ -3375,10 +3472,6 @@
   "areaMin" : 20.0,
   "areaMax" : 20.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 47020,
-    "rentMax" : 47020
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 47020,
     "rentMax" : 47020
@@ -3386,6 +3479,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 23512,
     "rentMax" : 23512
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 47020,
+    "rentMax" : 47020
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -3823,10 +3920,6 @@
   "areaMin" : 29.0,
   "areaMax" : 29.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 58683,
-    "rentMax" : 58683
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 58683,
     "rentMax" : 58683
@@ -3834,6 +3927,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 29341,
     "rentMax" : 29341
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 58683,
+    "rentMax" : 58683
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -4020,10 +4117,6 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 58683,
-    "rentMax" : 58683
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 58683,
     "rentMax" : 58683
@@ -4031,6 +4124,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 29341,
     "rentMax" : 29341
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 58683,
+    "rentMax" : 58683
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -4273,11 +4370,11 @@
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 36049,
     "rentMax" : 36049
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 36049,
     "rentMax" : 36049
   } ],
@@ -4635,10 +4732,6 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 36899,
-    "rentMax" : 36899
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 36899,
     "rentMax" : 36899
@@ -4646,6 +4739,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 19073,
     "rentMax" : 19073
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 36899,
+    "rentMax" : 36899
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -5538,10 +5635,6 @@
   "areaMin" : 35.5,
   "areaMax" : 35.5,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 21650,
-    "rentMax" : 21650
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 38800,
     "rentMax" : 38800
@@ -5549,6 +5642,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 21650,
     "rentMax" : 43300
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 21650,
+    "rentMax" : 21650
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -5642,6 +5739,57 @@
     "description" : "Arrêt : gare SNCF",
     "distance" : 5,
     "unitOfMeasure" : "ON_FOOT"
+  } ]
+}, {
+  "id" : 2257,
+  "label" : "Résidence Pierre Garrigues",
+  "address" : {
+    "fullAddress" : "77 rue Saint-Jean 31130 Balma",
+    "street" : "77 rue Saint-Jean",
+    "city" : "Balma",
+    "zipCode" : "31130",
+    "location" : {
+      "latitude" : 43.627,
+      "longitude" : 1.484
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : null,
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 16.4,
+  "areaMax" : 19.8,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 35980,
+    "rentMax" : 39180
+  } ],
+  "transports" : [ {
+    "kind" : "METRO",
+    "description" : "Ligne A - Station Balma-Gramont",
+    "distance" : 3,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "BUS",
+    "description" : "Lignes 20, 35, 51, 72, 74, 77, 83, 84 et 106",
+    "distance" : 3,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "TRAIN",
+    "description" : "",
+    "distance" : 4000,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "FREE_URBAN_PARKING",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
   } ]
 }, {
   "id" : 2259,
@@ -5792,10 +5940,6 @@
   "areaMin" : 50.0,
   "areaMax" : 50.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 54046,
-    "rentMax" : 54046
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 54046,
     "rentMax" : 54046
@@ -5803,6 +5947,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 27023,
     "rentMax" : 27023
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 54046,
+    "rentMax" : 54046
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -6040,6 +6188,57 @@
     "unitOfMeasure" : "NONE"
   } ]
 }, {
+  "id" : 2271,
+  "label" : "Résidence Moulins-Parc Centre",
+  "address" : {
+    "fullAddress" : "91 rue d'Arras 59000 Lille",
+    "street" : "91 rue d'Arras",
+    "city" : "Lille",
+    "zipCode" : "59000",
+    "location" : {
+      "latitude" : 50.622,
+      "longitude" : 3.067
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Studio comprenant une salle de bains et une cuisinette.</p>\r\n\r\n<p>La fourniture de l&#39;eau et l&#39;abonnement internet sont compris dans les charges mais <strong>le locataire doit ouvrir un abonnement aupr&egrave;s du fournisseur d&#39;&eacute;lectricit&eacute; de son choix</strong>.</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 18.0,
+  "areaMax" : 18.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 27770,
+    "rentMax" : 27770
+  } ],
+  "transports" : [ {
+    "kind" : "METRO",
+    "description" : "Métro M2 : la station Grand Palais",
+    "distance" : 900,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "BUS",
+    "description" : "Arrêt Douai-Arras",
+    "distance" : 100,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "TRAIN",
+    "description" : "Gare Lille Flandres",
+    "distance" : 24,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "BIKE",
+    "description" : "",
+    "distance" : 100,
+    "unitOfMeasure" : "METRE"
+  } ]
+}, {
   "id" : 224,
   "label" : "BOETIE",
   "address" : {
@@ -6183,11 +6382,11 @@
   "areaMin" : 21.4,
   "areaMax" : 26.2,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 37808,
     "rentMax" : 42298
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 37808,
     "rentMax" : 42298
   } ],
@@ -6856,10 +7055,6 @@
   "areaMin" : 19.0,
   "areaMax" : 29.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 55455,
-    "rentMax" : 55455
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 55455,
     "rentMax" : 55455
@@ -6867,6 +7062,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 27728,
     "rentMax" : 27728
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 55455,
+    "rentMax" : 55455
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -7083,6 +7282,37 @@
     "distance" : 0,
     "unitOfMeasure" : "NONE"
   } ]
+}, {
+  "id" : 2301,
+  "label" : "RESIDENCE ST QUENTIN",
+  "address" : {
+    "fullAddress" : "23 rue des Béguinages 02100 ST QUENTIN",
+    "street" : "23 rue des Béguinages",
+    "city" : "ST QUENTIN",
+    "zipCode" : "02100",
+    "location" : {
+      "latitude" : 49.849,
+      "longitude" : 3.301
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">Logement en colocation situ&eacute; dans la r&eacute;sidence du NAIN d&#39;ALSACE, rue Quentin Barr&eacute; &agrave; Saint Quentin: r&eacute;sidence sur 2 niveaux, 3 chambres par niveau.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">chambre et SDB individuelles: superficie 14.5 m2, cuisine commune</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Le montant de la r&eacute;servation correspond &agrave; une avance sur loyer de 100&euro;.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Le montant du loyer que vous aurez &agrave; payer est calcul&eacute; en fonction de la surface du logement qui vous est attribu&eacute;.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Vous aurez &agrave; r&eacute;gler &agrave; la remise des cl&eacute;s le montant du d&eacute;pot de garantie (correspondant &agrave; un mois de loyer) et la diff&eacute;rence entre le montant du loyer et l&#39;avance.</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "FRIDGE" ],
+  "areaMin" : 14.5,
+  "areaMax" : 14.5,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 27038,
+    "rentMax" : 27038
+  } ],
+  "transports" : [ ]
 }, {
   "id" : 2302,
   "label" : "RESIDENCE DU PARC",
@@ -8080,11 +8310,11 @@
   "areaMin" : 36.0,
   "areaMax" : 36.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 43822,
     "rentMax" : 43822
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 43822,
     "rentMax" : 43822
   } ],
@@ -8447,11 +8677,11 @@
   "areaMin" : 49.0,
   "areaMax" : 49.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 49742,
     "rentMax" : 49742
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 49742,
     "rentMax" : 49742
   } ],
@@ -8599,10 +8829,6 @@
   "areaMin" : 36.0,
   "areaMax" : 36.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 53878,
-    "rentMax" : 53878
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 53878,
     "rentMax" : 53878
@@ -8610,6 +8836,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 26939,
     "rentMax" : 26939
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 53878,
+    "rentMax" : 53878
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -9204,6 +9434,52 @@
     "description" : "Tram B - arrêt Unitec",
     "distance" : 6,
     "unitOfMeasure" : "ON_FOOT"
+  } ]
+}, {
+  "id" : 2378,
+  "label" : "CITE VAUROUZE",
+  "address" : {
+    "fullAddress" : "16 BD CHARLES NICOLLE 72000 LE MANS",
+    "street" : "16 BD CHARLES NICOLLE",
+    "city" : "LE MANS",
+    "zipCode" : "72000",
+    "location" : {
+      "latitude" : 48.016,
+      "longitude" : 0.166
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p><strong>31</strong> logements sont tous &eacute;quip&eacute;s de : lit, table, chaise, bureau, meuble de rangement, r&eacute;frig&eacute;rateur. Chambres r&eacute;nov&eacute;es avec cabine douche-sanitaire, cuisine collective</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "FRIDGE" ],
+  "areaMin" : 18.0,
+  "areaMax" : 18.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 29000,
+    "rentMax" : 29000
+  } ],
+  "transports" : [ {
+    "kind" : "TRAMWAY",
+    "description" : "ligne A",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "BUS",
+    "description" : "ligne 18",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "FREE_URBAN_PARKING",
+    "description" : "au sein de la cité",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
   } ]
 }, {
   "id" : 333,
@@ -9855,10 +10131,6 @@
   "areaMin" : 29.7,
   "areaMax" : 51.68,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 57816,
-    "rentMax" : 57816
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 57816,
     "rentMax" : 57816
@@ -9866,6 +10138,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 28908,
     "rentMax" : 28908
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 57816,
+    "rentMax" : 57816
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -10134,11 +10410,11 @@
   "areaMin" : 30.42,
   "areaMax" : 36.34,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 36069,
     "rentMax" : 39552
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 36069,
     "rentMax" : 39552
   } ],
@@ -10741,11 +11017,11 @@
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 41896,
     "rentMax" : 41896
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 41896,
     "rentMax" : 41896
   } ],
@@ -10791,11 +11067,11 @@
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 41896,
     "rentMax" : 41896
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 41896,
     "rentMax" : 41896
   } ],
@@ -10841,11 +11117,11 @@
   "areaMin" : 37.1,
   "areaMax" : 37.1,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 57549,
     "rentMax" : 57549
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 57549,
     "rentMax" : 57549
   } ],
@@ -11644,10 +11920,6 @@
   "areaMin" : 20.3,
   "areaMax" : 20.93,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 41564,
-    "rentMax" : 41564
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 41564,
     "rentMax" : 41564
@@ -11655,6 +11927,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 20782,
     "rentMax" : 20782
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 41564,
+    "rentMax" : 41564
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -12030,11 +12306,11 @@
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 56233,
     "rentMax" : 56233
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 56233,
     "rentMax" : 56233
   } ],
@@ -12602,52 +12878,6 @@
     "unitOfMeasure" : "NONE"
   } ]
 }, {
-  "id" : 2494,
-  "label" : "RESIDENCE ESTELAN-LES ABEILLES",
-  "address" : {
-    "fullAddress" : "2 boulevard du Maréchal Leclerc - 13621 Aix-en-Provence cedex 01",
-    "street" : "2 boulevard du Maréchal Leclerc",
-    "city" : "Aix-en-Provence cedex 01",
-    "zipCode" : "13621",
-    "location" : {
-      "latitude" : 43.522,
-      "longitude" : 5.434
-    }
-  },
-  "bedCount" : 1,
-  "bedKind" : "SIMPLE",
-  "bedroomCount" : 1,
-  "roomCount" : 1,
-  "inUnavailabilityPeriod" : false,
-  "description" : "<p>41 T1 neufs meubl&eacute;s et &eacute;quip&eacute;s de cuisine et d&#39;une salle d&#39;eau avec des toilettes.<br />\r\nSurface de 15,20m2 &agrave; 30,5m2</p>\r\n\r\n<p><strong>Les studios sont accessibles exclusivement aux &eacute;tudiants inscrits en niveau master et doctorat.</strong><br />\r\n<em><strong>Attention,</strong></em> une v&eacute;rification de votre niveau d&#39;&eacute;tudes sera effectu&eacute;e avant votre entr&eacute;e dans les lieux, une pr&eacute;sentation de votre certificat de scolarit&eacute; ou une preuve d&#39;inscription pour l&#39;ann&eacute;e universitaire &agrave; venir sera exig&eacute;e.<br />\r\nSi vous n&#39;avez pas le niveau d&#39;&eacute;tudes requis vous n&#39;aurez pas acc&egrave;s &agrave; ce logement.</p>\r\n\r\n<p><strong>Attention : les charges sont donn&eacute;es &agrave; titre indicatif avec leur valeur pour l&rsquo;ann&eacute;e 2022-2023, et sont susceptibles d&rsquo;&eacute;voluer pour l&rsquo;ann&eacute;e 2023-2024 en fonction des d&eacute;lib&eacute;rations qui pourront &ecirc;tre adopt&eacute;es par le conseil d&rsquo;administration.</strong></p>",
-  "available" : true,
-  "highDemand" : false,
-  "lowStock" : false,
-  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
-  "areaMin" : 16.03,
-  "areaMax" : 30.361,
-  "occupationMods" : [ {
-    "occupationKind" : "ALONE",
-    "rentMin" : 30220,
-    "rentMax" : 40435
-  } ],
-  "transports" : [ {
-    "kind" : "BUS",
-    "description" : "",
-    "distance" : 200,
-    "unitOfMeasure" : "METRE"
-  }, {
-    "kind" : "BUS",
-    "description" : "",
-    "distance" : 200,
-    "unitOfMeasure" : "METRE"
-  }, {
-    "kind" : "FREE_URBAN_PARKING",
-    "description" : "",
-    "distance" : 0,
-    "unitOfMeasure" : "NONE"
-  } ]
-}, {
   "id" : 446,
   "label" : "RESIDENCE LONGCHAMP",
   "address" : {
@@ -12702,6 +12932,52 @@
     "description" : "",
     "distance" : 600,
     "unitOfMeasure" : "METRE"
+  } ]
+}, {
+  "id" : 2494,
+  "label" : "RESIDENCE ESTELAN-LES ABEILLES",
+  "address" : {
+    "fullAddress" : "2 boulevard du Maréchal Leclerc - 13621 Aix-en-Provence cedex 01",
+    "street" : "2 boulevard du Maréchal Leclerc",
+    "city" : "Aix-en-Provence cedex 01",
+    "zipCode" : "13621",
+    "location" : {
+      "latitude" : 43.522,
+      "longitude" : 5.434
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>41 T1 neufs meubl&eacute;s et &eacute;quip&eacute;s de cuisine et d&#39;une salle d&#39;eau avec des toilettes.<br />\r\nSurface de 15,20m2 &agrave; 30,5m2</p>\r\n\r\n<p><strong>Les studios sont accessibles exclusivement aux &eacute;tudiants inscrits en niveau master et doctorat.</strong><br />\r\n<em><strong>Attention,</strong></em> une v&eacute;rification de votre niveau d&#39;&eacute;tudes sera effectu&eacute;e avant votre entr&eacute;e dans les lieux, une pr&eacute;sentation de votre certificat de scolarit&eacute; ou une preuve d&#39;inscription pour l&#39;ann&eacute;e universitaire &agrave; venir sera exig&eacute;e.<br />\r\nSi vous n&#39;avez pas le niveau d&#39;&eacute;tudes requis vous n&#39;aurez pas acc&egrave;s &agrave; ce logement.</p>\r\n\r\n<p><strong>Attention : les charges sont donn&eacute;es &agrave; titre indicatif avec leur valeur pour l&rsquo;ann&eacute;e 2022-2023, et sont susceptibles d&rsquo;&eacute;voluer pour l&rsquo;ann&eacute;e 2023-2024 en fonction des d&eacute;lib&eacute;rations qui pourront &ecirc;tre adopt&eacute;es par le conseil d&rsquo;administration.</strong></p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 16.03,
+  "areaMax" : 30.361,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 30220,
+    "rentMax" : 40435
+  } ],
+  "transports" : [ {
+    "kind" : "BUS",
+    "description" : "",
+    "distance" : 200,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "BUS",
+    "description" : "",
+    "distance" : 200,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "FREE_URBAN_PARKING",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
   } ]
 }, {
   "id" : 447,
@@ -13670,10 +13946,6 @@
   "areaMin" : 51.0,
   "areaMax" : 51.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 61176,
-    "rentMax" : 61176
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 61176,
     "rentMax" : 61176
@@ -13681,6 +13953,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 30889,
     "rentMax" : 30889
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 61176,
+    "rentMax" : 61176
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -14706,7 +14982,7 @@
   "areaMin" : 24.5,
   "areaMax" : 27.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 53441,
     "rentMax" : 53441
   }, {
@@ -14714,7 +14990,7 @@
     "rentMin" : 26720,
     "rentMax" : 26720
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 53441,
     "rentMax" : 53441
   } ],
@@ -15016,11 +15292,11 @@
   "areaMin" : 25.96,
   "areaMax" : 28.17,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 55090,
     "rentMax" : 58110
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 55090,
     "rentMax" : 58110
   } ],
@@ -15073,57 +15349,6 @@
   }, {
     "kind" : "FREE_URBAN_PARKING",
     "description" : "",
-    "distance" : 0,
-    "unitOfMeasure" : "NONE"
-  } ]
-}, {
-  "id" : 527,
-  "label" : "CITE UNIVERSITAIRE ROBERTSAU",
-  "address" : {
-    "fullAddress" : "14 route de la Wantzenau 67085 STRASBOURG CEDEX",
-    "street" : "14 route de la Wantzenau",
-    "city" : "STRASBOURG CEDEX",
-    "zipCode" : "67085",
-    "location" : {
-      "latitude" : 48.603,
-      "longitude" : 7.776
-    }
-  },
-  "bedCount" : 1,
-  "bedKind" : "SIMPLE",
-  "bedroomCount" : 1,
-  "roomCount" : 1,
-  "inUnavailabilityPeriod" : false,
-  "description" : "<p>Chambre &eacute;quip&eacute;e d&#39;un lavabo et d&#39;un frigo ; sanitaires communs (toilettes, douches) ; cuisines collectives</p>",
-  "available" : true,
-  "highDemand" : false,
-  "lowStock" : false,
-  "equipements" : [ "FRIDGE" ],
-  "areaMin" : 9.75,
-  "areaMax" : 9.75,
-  "occupationMods" : [ {
-    "occupationKind" : "ALONE",
-    "rentMin" : 19098,
-    "rentMax" : 19098
-  } ],
-  "transports" : [ {
-    "kind" : "TRAMWAY",
-    "description" : "E (arrêt  Boecklin)",
-    "distance" : 10,
-    "unitOfMeasure" : "ON_FOOT"
-  }, {
-    "kind" : "BUS",
-    "description" : "30 et N1 (arrêt Cité Universitaire)",
-    "distance" : 2,
-    "unitOfMeasure" : "ON_FOOT"
-  }, {
-    "kind" : "BUS",
-    "description" : "15 ; 72 ; l6 (arrêt Robertsau Eglise)",
-    "distance" : 10,
-    "unitOfMeasure" : "ON_FOOT"
-  }, {
-    "kind" : "PRIVATE_PARKING",
-    "description" : "Parking disponible et garage à vélo",
     "distance" : 0,
     "unitOfMeasure" : "NONE"
   } ]
@@ -15194,10 +15419,6 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 48096,
-    "rentMax" : 48096
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 48096,
     "rentMax" : 48096
@@ -15205,6 +15426,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 24048,
     "rentMax" : 24048
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 48096,
+    "rentMax" : 48096
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -15494,11 +15719,11 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 48096,
     "rentMax" : 48096
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 48096,
     "rentMax" : 48096
   } ],
@@ -15713,10 +15938,6 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 55529,
-    "rentMax" : 55529
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 55529,
     "rentMax" : 55529
@@ -15724,6 +15945,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 27764,
     "rentMax" : 27764
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 55529,
+    "rentMax" : 55529
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -15972,10 +16197,6 @@
   "areaMin" : 37.0,
   "areaMax" : 37.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 58829,
-    "rentMax" : 58829
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 58829,
     "rentMax" : 58829
@@ -15983,6 +16204,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 29414,
     "rentMax" : 29414
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 58829,
+    "rentMax" : 58829
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -16722,10 +16947,6 @@
   "areaMin" : 41.69,
   "areaMax" : 43.96,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 67899,
-    "rentMax" : 67899
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 67899,
     "rentMax" : 67899
@@ -16733,6 +16954,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 33949,
     "rentMax" : 33949
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 67899,
+    "rentMax" : 67899
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -16996,11 +17221,11 @@
   "areaMin" : 26.16,
   "areaMax" : 28.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 42310,
     "rentMax" : 42310
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 42310,
     "rentMax" : 42310
   } ],
@@ -17143,11 +17368,11 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 43841,
     "rentMax" : 43841
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 43841,
     "rentMax" : 43841
   } ],
@@ -17501,6 +17726,51 @@
   }, {
     "kind" : "BIKE",
     "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
+  "id" : 2646,
+  "label" : "Rés. Univ. Jean Ferrat",
+  "address" : {
+    "fullAddress" : "23, av. du Prof. Charles Foulon 35700 RENNES",
+    "street" : "23, av. du Prof. Charles Foulon",
+    "city" : "RENNES",
+    "zipCode" : "35700",
+    "location" : {
+      "latitude" : 48.12,
+      "longitude" : -1.645
+    }
+  },
+  "bedCount" : 2,
+  "bedKind" : "MOBILE",
+  "bedroomCount" : 1,
+  "roomCount" : 2,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">11 Logements - <strong>Attribution prioritaire aux couples - </strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>FAIBLE DISPONIBILITE ET FORTE DEMANDE !! N&#39;HESITEZ PAS A FORMULER D&#39;AUTRES </strong><strong>VOEUX DE LOGEMENT SUR CETTE VILLE</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Appartements meubl&eacute;s de 35 m&sup2; &eacute;quip&eacute;s d&rsquo;une kitchenette, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Non adapt&eacute;s pour les personnes &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable jusqu&rsquo;en ao&ucirc;t 2024. Logements ouvrant droit aux APL.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Logements r&eacute;serv&eacute;s aux couples ou colocataires.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Montant du d&eacute;p&ocirc;t de garantie&nbsp;: 292,00 &euro;</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "LIVING_ROOM", "WC", "SHOWER", "UNKNOWN", "FRIDGE", "MICROWAVE" ],
+  "areaMin" : 30.0,
+  "areaMax" : 30.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 44540,
+    "rentMax" : 44540
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 44540,
+    "rentMax" : 44540
+  } ],
+  "transports" : [ {
+    "kind" : "BUS",
+    "description" : "Lignes : C1-10-14",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "METRO",
+    "description" : "Ligne B station Beaulieu-Université",
     "distance" : 0,
     "unitOfMeasure" : "NONE"
   } ]
@@ -17903,6 +18173,42 @@
     "description" : "",
     "distance" : 0,
     "unitOfMeasure" : "NONE"
+  } ]
+}, {
+  "id" : 2667,
+  "label" : "CITE MOULIN A VENT",
+  "address" : {
+    "fullAddress" : "26 AVENUE ALFRED SAUVY 66870 PERPIGNAN CEDEX",
+    "street" : "26 AVENUE ALFRED SAUVY",
+    "city" : "PERPIGNAN CEDEX",
+    "zipCode" : "66870",
+    "location" : {
+      "latitude" : 42.68,
+      "longitude" : 2.899
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Chambre r&eacute;nov&eacute;e de 10 m&sup2; avec mobilier int&eacute;gr&eacute; lit, bureau, chaise, espace de rangement, niche pour int&eacute;grer un micro-onde, &eacute;clairage chevet et bureau, lavabo, r&eacute;frig&eacute;rateur, connexion internet WIFI et filaire. Cuisine collective &agrave; tous les &eacute;tages comportant 2 plaques vitroc&eacute;ramiques, hottes, 2 &eacute;viers, mange debout avec chaises hautes.</p>\r\n\r\n<p>Ce logement peut ouvrir droit &agrave; des prestations de la Caisse d&#39;Allocation Familiale. Pour plus de renseignements, se rendre sur : https://www.caf.fr/.</p>\r\n\r\n<p><em><strong>Les montants sont donn&eacute;s &agrave; titre indicatif</strong></em><em><strong>. Ils sont susceptibles d&rsquo;&eacute;voluer sur d&eacute;cision du conseil d&rsquo;administration du Crous.</strong></em></p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "FRIDGE" ],
+  "areaMin" : 9.5,
+  "areaMax" : 9.5,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 17900,
+    "rentMax" : 17900
+  } ],
+  "transports" : [ {
+    "kind" : "BUS",
+    "description" : "Bus 8 arrêt cité universitaire",
+    "distance" : 2,
+    "unitOfMeasure" : "ON_FOOT"
   } ]
 }, {
   "id" : 620,
@@ -19382,11 +19688,11 @@
   "areaMin" : 16.7,
   "areaMax" : 28.9,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 52350,
     "rentMax" : 52350
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 52350,
     "rentMax" : 52350
   } ],
@@ -20090,57 +20396,6 @@
     "unitOfMeasure" : "NONE"
   } ]
 }, {
-  "id" : 684,
-  "label" : "AMARYLLIS",
-  "address" : {
-    "fullAddress" : "68 boulevard Lahitolle 18000 BOURGES",
-    "street" : "68 boulevard Lahitolle",
-    "city" : "BOURGES",
-    "zipCode" : "18000",
-    "location" : {
-      "latitude" : 47.082,
-      "longitude" : 2.414
-    }
-  },
-  "bedCount" : 1,
-  "bedKind" : "SIMPLE",
-  "bedroomCount" : 1,
-  "roomCount" : 1,
-  "inUnavailabilityPeriod" : false,
-  "description" : "<p>Logement &eacute;quip&eacute; d&rsquo;une armoire, d&#39;un lit avec table de nuit, d&#39;un bureau avec chaise. Kitchenette &eacute;quip&eacute;e d&rsquo;un meuble sous &eacute;vier, d&rsquo;une &eacute;tag&egrave;re, d&rsquo;un frigo et de plaques. Lavabo, douche et WC individuels. Le loyer comprend les charges d&#39;&eacute;lectricit&eacute;.</p>",
-  "available" : true,
-  "highDemand" : false,
-  "lowStock" : false,
-  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
-  "areaMin" : 16.67,
-  "areaMax" : 27.56,
-  "occupationMods" : [ {
-    "occupationKind" : "ALONE",
-    "rentMin" : 36900,
-    "rentMax" : 36900
-  } ],
-  "transports" : [ {
-    "kind" : "BUS",
-    "description" : "Lignes 4 et 18 (arrêts Catherinot ou Pignoux).",
-    "distance" : 0,
-    "unitOfMeasure" : "NONE"
-  }, {
-    "kind" : "FREE_URBAN_PARKING",
-    "description" : "",
-    "distance" : 0,
-    "unitOfMeasure" : "NONE"
-  }, {
-    "kind" : "PAYING_URBAN_PARKING",
-    "description" : "Un parking privé (10 €/mois) est disponible.",
-    "distance" : 0,
-    "unitOfMeasure" : "NONE"
-  }, {
-    "kind" : "NONE",
-    "description" : "",
-    "distance" : 0,
-    "unitOfMeasure" : "NONE"
-  } ]
-}, {
   "id" : 2733,
   "label" : "Rés. Univ. La Gare",
   "address" : {
@@ -20212,10 +20467,6 @@
   "areaMin" : 20.0,
   "areaMax" : 27.86,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 41800,
-    "rentMax" : 41800
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 41800,
     "rentMax" : 41800
@@ -20223,6 +20474,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 25050,
     "rentMax" : 25050
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 41800,
+    "rentMax" : 41800
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -20358,10 +20613,6 @@
   "areaMin" : 27.0,
   "areaMax" : 27.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 47258,
-    "rentMax" : 47258
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 47258,
     "rentMax" : 47258
@@ -20369,6 +20620,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 23629,
     "rentMax" : 23629
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 47258,
+    "rentMax" : 47258
   } ],
   "transports" : [ {
     "kind" : "FREE_URBAN_PARKING",
@@ -20607,6 +20862,47 @@
     "unitOfMeasure" : "NONE"
   }, {
     "kind" : "NONE",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
+  "id" : 694,
+  "label" : "Résidence Galois Village",
+  "address" : {
+    "fullAddress" : "Cité Scientifique Avenue Paul Langevin 59650 VILLENEUVE D'ASCQ",
+    "street" : "Cité Scientifique Avenue Paul Langevin",
+    "city" : "VILLENEUVE D'ASCQ",
+    "zipCode" : "59650",
+    "location" : {
+      "latitude" : 50.609,
+      "longitude" : 3.149
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Studio pour 1 personne &eacute;quip&eacute; d&#39;une salle de bains et d&#39;une kitchenette, d&#39;un lit simple.</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 14.7,
+  "areaMax" : 16.5,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 31930,
+    "rentMax" : 31930
+  } ],
+  "transports" : [ {
+    "kind" : "METRO",
+    "description" : "Ligne1 - Station Cite Scientifique ou 4 Cantons",
+    "distance" : 10,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "FREE_URBAN_PARKING",
     "description" : "",
     "distance" : 0,
     "unitOfMeasure" : "NONE"
@@ -21617,10 +21913,6 @@
   "areaMin" : 24.47,
   "areaMax" : 28.99,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 49976,
-    "rentMax" : 49976
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 49976,
     "rentMax" : 49976
@@ -21628,6 +21920,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 24988,
     "rentMax" : 24988
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 49976,
+    "rentMax" : 49976
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -21874,10 +22170,6 @@
   "areaMin" : 23.0,
   "areaMax" : 28.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 52010,
-    "rentMax" : 52010
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 52010,
     "rentMax" : 52010
@@ -21885,6 +22177,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 26005,
     "rentMax" : 26005
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 52010,
+    "rentMax" : 52010
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -22041,6 +22337,52 @@
     "unitOfMeasure" : "NONE"
   } ]
 }, {
+  "id" : 726,
+  "label" : "Cité Gaston Bachelard",
+  "address" : {
+    "fullAddress" : "Cité Scientifique Avenue Paul Langevin 59650 VILLENEUVE D ASCQ",
+    "street" : "Cité Scientifique Avenue Paul Langevin",
+    "city" : "VILLENEUVE D ASCQ",
+    "zipCode" : "59650",
+    "location" : {
+      "latitude" : 50.632,
+      "longitude" : 3.153
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Chambre disposant de sanitaires privatifs (douche, WC, lavabo), d&#39;une kitchenette (&eacute;vier, r&eacute;frig&eacute;rateur, plaques de cuisson). Les b&acirc;timents ont &eacute;t&eacute; enti&eacute;rement r&eacute;habilit&eacute;s en 2020 et 2021.&nbsp;</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 12.5,
+  "areaMax" : 12.8,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 26800,
+    "rentMax" : 26800
+  } ],
+  "transports" : [ {
+    "kind" : "METRO",
+    "description" : "Métro M1 : la station Cte Scientifique",
+    "distance" : 500,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "BUS",
+    "description" : "Arrêt Collège Triolo",
+    "distance" : 800,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "BIKE",
+    "description" : "",
+    "distance" : 14,
+    "unitOfMeasure" : "ON_FOOT"
+  } ]
+}, {
   "id" : 2776,
   "label" : "RESIDENCE MADGE SYERS",
   "address" : {
@@ -22107,11 +22449,11 @@
   "areaMin" : 44.3,
   "areaMax" : 47.9,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 76359,
     "rentMax" : 76359
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 76359,
     "rentMax" : 76359
   } ],
@@ -22203,11 +22545,11 @@
   "areaMin" : 31.6,
   "areaMax" : 36.9,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 60469,
     "rentMax" : 60469
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 60469,
     "rentMax" : 60469
   } ],
@@ -22523,6 +22865,52 @@
     "description" : "",
     "distance" : 0,
     "unitOfMeasure" : "NONE"
+  } ]
+}, {
+  "id" : 743,
+  "label" : "Résidence Grande Rue",
+  "address" : {
+    "fullAddress" : "4-12 Grande Rue 59100 ROUBAIX",
+    "street" : "4-12 Grande Rue",
+    "city" : "ROUBAIX",
+    "zipCode" : "59100",
+    "location" : {
+      "latitude" : 50.692,
+      "longitude" : 3.175
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Studio pour 1 personne &eacute;quip&eacute; d&#39;une salle de bains et d&#39;une kitchenette, d&#39;un lit simple.</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 17.36,
+  "areaMax" : 18.12,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 34270,
+    "rentMax" : 34270
+  } ],
+  "transports" : [ {
+    "kind" : "METRO",
+    "description" : "Métro M2 : la station Euroteleport",
+    "distance" : 500,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "BUS",
+    "description" : "Arrêt Nations Unies",
+    "distance" : 200,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "BIKE",
+    "description" : "",
+    "distance" : 200,
+    "unitOfMeasure" : "METRE"
   } ]
 }, {
   "id" : 744,
@@ -22960,42 +23348,6 @@
     "unitOfMeasure" : "NONE"
   } ]
 }, {
-  "id" : 761,
-  "label" : "Cergy-Les Linandes Mauves",
-  "address" : {
-    "fullAddress" : "1, place des Linandes Mauves 95000 CERGY",
-    "street" : "1, place des Linandes Mauves",
-    "city" : "CERGY",
-    "zipCode" : "95000",
-    "location" : {
-      "latitude" : 49.043,
-      "longitude" : 2.071
-    }
-  },
-  "bedCount" : 1,
-  "bedKind" : "SIMPLE",
-  "bedroomCount" : 1,
-  "roomCount" : 1,
-  "inUnavailabilityPeriod" : false,
-  "description" : "<p>- Studette / Colocation : Non&nbsp;<br />\r\n- Aides disponibles : ALS&nbsp;<br />\r\n- Accessibilit&eacute; PMR : Oui&nbsp;<br />\r\n- Chauffage collectif : Oui&nbsp;<br />\r\n- Espace collectif : Laverie</p>",
-  "available" : true,
-  "highDemand" : false,
-  "lowStock" : false,
-  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
-  "areaMin" : 19.0,
-  "areaMax" : 19.0,
-  "occupationMods" : [ {
-    "occupationKind" : "ALONE",
-    "rentMin" : 40300,
-    "rentMax" : 40300
-  } ],
-  "transports" : [ {
-    "kind" : "RER",
-    "description" : "Gare : Cergy-Préfecture (RER A).",
-    "distance" : 0,
-    "unitOfMeasure" : "NONE"
-  } ]
-}, {
   "id" : 763,
   "label" : "Nanterre",
   "address" : {
@@ -23246,10 +23598,6 @@
   "areaMin" : 29.29,
   "areaMax" : 33.64,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 60466,
-    "rentMax" : 60466
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 60466,
     "rentMax" : 60466
@@ -23257,6 +23605,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 30233,
     "rentMax" : 30233
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 60466,
+    "rentMax" : 60466
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -23965,10 +24317,6 @@
   "areaMin" : 35.76,
   "areaMax" : 37.12,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 66126,
-    "rentMax" : 66126
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 66126,
     "rentMax" : 66126
@@ -23976,6 +24324,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 33063,
     "rentMax" : 33063
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 66126,
+    "rentMax" : 66126
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -24209,11 +24561,11 @@
   "areaMin" : 24.54,
   "areaMax" : 30.85,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 53000,
     "rentMax" : 59500
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 53000,
     "rentMax" : 59500
   } ],
@@ -24503,6 +24855,62 @@
     "kind" : "BIKE",
     "description" : "",
     "distance" : 5,
+    "unitOfMeasure" : "ON_FOOT"
+  } ]
+}, {
+  "id" : 2871,
+  "label" : "Résidence INSA",
+  "address" : {
+    "fullAddress" : "7 - 9 allée des sciences appliquées 31400 Toulouse",
+    "street" : "7 - 9 allée des sciences appliquées",
+    "city" : "Toulouse",
+    "zipCode" : "31400",
+    "location" : {
+      "latitude" : 43.571,
+      "longitude" : 1.469
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Pour la rentr&eacute;e 2023-2024, cette r&eacute;sidence r&eacute;serv&eacute;e aux &eacute;tudiants de l&#39;INSA est exceptionnellement ouverte aux &eacute;tudiants d&#39;autres &eacute;tablissements. Attention, si vous &ecirc;tes dans ce cas, vous ne pourrez en aucun cas &ecirc;tre renouvel&eacute; en 2024-2025 dans cette r&eacute;sidence et vous devrez obligatoirement formuler une demande de renouvellement sur une autre r&eacute;sidence du Crous (le Crous reviendra vers vous &agrave; ce sujet en temps utiles).</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 15.0,
+  "areaMax" : 15.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 38000,
+    "rentMax" : 38000
+  } ],
+  "transports" : [ {
+    "kind" : "METRO",
+    "description" : "Ligne B - Station Faculté de Pharmacie",
+    "distance" : 10,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "BUS",
+    "description" : "Lignes 23 et 80",
+    "distance" : 1,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "TRAIN",
+    "description" : "",
+    "distance" : 7000,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "FREE_URBAN_PARKING",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "BIKE",
+    "description" : "",
+    "distance" : 10,
     "unitOfMeasure" : "ON_FOOT"
   } ]
 }, {
@@ -26803,11 +27211,11 @@
   "areaMin" : 35.5,
   "areaMax" : 35.5,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 68220,
     "rentMax" : 68220
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 68220,
     "rentMax" : 68220
   } ],
@@ -27338,6 +27746,52 @@
     "unitOfMeasure" : "NONE"
   } ]
 }, {
+  "id" : 916,
+  "label" : "CHRISTOPHE COLOMB",
+  "address" : {
+    "fullAddress" : "21, rue Christophe Colomb 37000 TOURS",
+    "street" : "21, rue Christophe Colomb",
+    "city" : "TOURS",
+    "zipCode" : "37000",
+    "location" : {
+      "latitude" : 47.379,
+      "longitude" : 0.701
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Entr&eacute;e avec placard (penderie et &eacute;tag&egrave;re). Cuisine une table sur tr&eacute;teaux, une chaise, un r&eacute;frig&eacute;rateur, 2 plaques &eacute;lectriques , un &eacute;vier et un meuble sous l&rsquo;&eacute;vier. Chambre un lit simple, un bureau, une chaise, une table de nuit, une armoire, une biblioth&egrave;que. Salle de bain une cabine de douche, un WC, un lavabo. Le loyer comprend les charges d&#39;&eacute;lectricit&eacute;.</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 32.0,
+  "areaMax" : 32.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 42400,
+    "rentMax" : 42400
+  } ],
+  "transports" : [ {
+    "kind" : "BUS",
+    "description" : "Arrêt saint Paul - ligne 4.",
+    "distance" : 8,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "FREE_URBAN_PARKING",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "BIKE",
+    "description" : "",
+    "distance" : 20,
+    "unitOfMeasure" : "ON_FOOT"
+  } ]
+}, {
   "id" : 917,
   "label" : "RESIDENCE BEFFROI",
   "address" : {
@@ -27578,11 +28032,11 @@
   "areaMin" : 31.0,
   "areaMax" : 38.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 41029,
     "rentMax" : 41029
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 41029,
     "rentMax" : 41029
   } ],
@@ -29413,6 +29867,47 @@
     "unitOfMeasure" : "NONE"
   } ]
 }, {
+  "id" : 1038,
+  "label" : "Cité Jules Mousseron",
+  "address" : {
+    "fullAddress" : "Rue du Chemin Vert 59300 AULNOY-LES-VALENCIENNES",
+    "street" : "Rue du Chemin Vert",
+    "city" : "AULNOY-LES-VALENCIENNES",
+    "zipCode" : "59300",
+    "location" : {
+      "latitude" : 50.331,
+      "longitude" : 3.515
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Chambre disposant de sanitaires privatifs (douche, WC, lavabo), d&#39;une kitchenette (&eacute;vier, r&eacute;frig&eacute;rateur, plaques de cuisson), d&#39;une prise t&eacute;l&eacute;phonique.</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 10.8,
+  "areaMax" : 10.8,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 26780,
+    "rentMax" : 26780
+  } ],
+  "transports" : [ {
+    "kind" : "TRAMWAY",
+    "description" : "Station Chemin Vert",
+    "distance" : 1,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "BUS",
+    "description" : "Arrêt Chemin vert",
+    "distance" : 2,
+    "unitOfMeasure" : "ON_FOOT"
+  } ]
+}, {
   "id" : 1047,
   "label" : "DR DESFRAY",
   "address" : {
@@ -29719,10 +30214,6 @@
   "areaMin" : 30.06,
   "areaMax" : 31.32,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 46860,
-    "rentMax" : 46860
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 40680,
     "rentMax" : 40680
@@ -29730,6 +30221,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 23430,
     "rentMax" : 23430
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 46860,
+    "rentMax" : 46860
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -30604,10 +31099,6 @@
   "areaMin" : 46.62,
   "areaMax" : 46.62,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 52940,
-    "rentMax" : 55440
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 52940,
     "rentMax" : 55440
@@ -30615,6 +31106,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 26470,
     "rentMax" : 27720
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 52940,
+    "rentMax" : 55440
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -30694,10 +31189,6 @@
   "areaMin" : 60.92,
   "areaMax" : 60.92,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 67690,
-    "rentMax" : 67690
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 67690,
     "rentMax" : 67690
@@ -30705,6 +31196,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 22563,
     "rentMax" : 22563
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 67690,
+    "rentMax" : 67690
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -30945,6 +31440,57 @@
     "kind" : "BIKE",
     "description" : "",
     "distance" : 3,
+    "unitOfMeasure" : "ON_FOOT"
+  } ]
+}, {
+  "id" : 1152,
+  "label" : "EUROPA",
+  "address" : {
+    "fullAddress" : "Allée thierry d'Argenlieu 37000 TOURS",
+    "street" : "Allée thierry d'Argenlieu",
+    "city" : "TOURS",
+    "zipCode" : "37000",
+    "location" : {
+      "latitude" : 47.381,
+      "longitude" : 0.696
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Logement meubl&eacute; et &eacute;quip&eacute; d&rsquo;un lit simple, une table de nuit, un bureau, une chaise, une &eacute;tag&egrave;re au mur et placard encastr&eacute; (penderie et &eacute;tag&egrave;re). Cuisine : 2 plaques &eacute;lectriques, un r&eacute;frig&eacute;rateur, un &eacute;vier, un meuble sous &eacute;vier. Salle de bain une douche, un lavabo et un WC. Le loyer comprend les charges d&#39;&eacute;lectricit&eacute;.</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 18.0,
+  "areaMax" : 18.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 39900,
+    "rentMax" : 39900
+  } ],
+  "transports" : [ {
+    "kind" : "TRAMWAY",
+    "description" : "Ligne A arrêt \"St Paul\"",
+    "distance" : 1,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "BUS",
+    "description" : "Ligne 4 arrêt \"St Paul\"",
+    "distance" : 1,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "FREE_URBAN_PARKING",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "BIKE",
+    "description" : "",
+    "distance" : 11,
     "unitOfMeasure" : "ON_FOOT"
   } ]
 }, {
@@ -31507,13 +32053,13 @@
   "areaMin" : 51.0,
   "areaMax" : 51.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 59375,
-    "rentMax" : 59375
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 51125,
     "rentMax" : 51125
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 59375,
+    "rentMax" : 59375
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -32027,47 +32573,51 @@
     "unitOfMeasure" : "METRE"
   } ]
 }, {
-  "id" : 1238,
-  "label" : "RESIDENCE LES BALUSTRES",
+  "id" : 1236,
+  "label" : "RESIDENCE JEAN TUSQUES",
   "address" : {
-    "fullAddress" : "1 place du Recteur Jules Blache - 13013 Marseille",
-    "street" : "1 place du Recteur Jules Blache",
-    "city" : "Marseille",
-    "zipCode" : "13013",
+    "fullAddress" : "3 RUE DES EPINETTES 44300 NANTES",
+    "street" : "3 RUE DES EPINETTES",
+    "city" : "NANTES",
+    "zipCode" : "44300",
     "location" : {
-      "latitude" : 43.338,
-      "longitude" : 5.421
+      "latitude" : 47.227,
+      "longitude" : -1.52
     }
   },
-  "bedCount" : 2,
-  "bedKind" : "MOBILE",
+  "bedCount" : 1,
+  "bedKind" : "DOUBLE",
   "bedroomCount" : 1,
   "roomCount" : 2,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p>Appartements de 55 m&sup2;, meubl&eacute;s et &eacute;quip&eacute;s (sauf frigo),<br />\r\nAbonnement + conso (&eacute;lectricit&eacute; /gaz/Internet) non compris</p>\r\n\r\n<p>Peut-&ecirc;tre lou&eacute; en colocation ou couple (tous niveaux) ou <strong>seul (&agrave; partir du niveau minimun L2).</strong></p>\r\n\r\n<p>Pour faire une demande sur ce type de logement, au moins un des &eacute;tudiants doit &ecirc;tre boursier.<br />\r\nLes couples ou fratrie sont prioritaires mais tous les colocataires doivent avoir le statut d&rsquo;&eacute;tudiant.</p>\r\n\r\n<p><br />\r\nA savoir (colocation ou couple) : pour pouvoir vous affecter, dans la mesure o&ugrave; n&rsquo;y a pas de colocation choisie dans le cadre du couple ou de la fratrie, vous devez :<br />\r\n-&nbsp;&nbsp; &nbsp;compl&eacute;ter obligatoirement :<a href=\"http://info-colocation.crous-aix-marseille.fr/\"> FORMULAIRE DE COLOCATION</a><br />\r\n-&nbsp;&nbsp; &nbsp;r&eacute;aliser 2 demandes individuelles en mode colocation</p>\r\n\r\n<p><strong>Attention : les charges sont donn&eacute;es &agrave; titre indicatif avec leur valeur pour l&rsquo;ann&eacute;e 2022-2023, et sont susceptibles d&rsquo;&eacute;voluer pour l&rsquo;ann&eacute;e 2023-2024 en fonction des d&eacute;lib&eacute;rations qui pourront &ecirc;tre adopt&eacute;es par le conseil d&rsquo;administration.</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>",
+  "description" : "<p>8 logements r&eacute;serv&eacute;s en priorit&eacute; aux couples &eacute;tudiants. Envoyer &agrave; logement@crous-nantes.fr le nom, pr&eacute;nom et INE de la personne avec qui vous souhaitez occuper le logement.</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ "LIVING_ROOM", "WC", "SHOWER", "UNKNOWN", "BALCONY" ],
-  "areaMin" : 55.0,
-  "areaMax" : 55.0,
+  "equipements" : [ "LIVING_ROOM", "WC", "SHOWER", "UNKNOWN", "FRIDGE", "DUPLEX", "BALCONY" ],
+  "areaMin" : 31.0,
+  "areaMax" : 31.0,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 20000,
-    "rentMax" : 20000
+    "occupationKind" : "ALONE",
+    "rentMin" : 34697,
+    "rentMax" : 34697
+  }, {
+    "occupationKind" : "COUPLE_ONE_SPACE",
+    "rentMin" : 34697,
+    "rentMax" : 34697
   } ],
   "transports" : [ {
-    "kind" : "BUS",
-    "description" : "Ligne 3 arrêt à 2 mn",
+    "kind" : "TRAMWAY",
+    "description" : "Ligne 1 (Mairie de Doulon)",
     "distance" : 100,
     "unitOfMeasure" : "METRE"
   }, {
-    "kind" : "METRO",
-    "description" : "Ligne 1 station La Rose puis Bus Ligne 3",
-    "distance" : 0,
-    "unitOfMeasure" : "NONE"
+    "kind" : "BUS",
+    "description" : "Lignes 12 et 87 (Mairie de Doulon)",
+    "distance" : 100,
+    "unitOfMeasure" : "METRE"
   }, {
-    "kind" : "FREE_URBAN_PARKING",
+    "kind" : "PAYING_URBAN_PARKING",
     "description" : "",
     "distance" : 0,
     "unitOfMeasure" : "NONE"
@@ -34858,11 +35408,11 @@
   "areaMin" : 40.0,
   "areaMax" : 40.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 42359,
     "rentMax" : 42359
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 42359,
     "rentMax" : 42359
   } ],
@@ -34908,10 +35458,6 @@
   "areaMin" : 20.65,
   "areaMax" : 27.9,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 37621,
-    "rentMax" : 37621
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 37621,
     "rentMax" : 37621
@@ -34919,6 +35465,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 18810,
     "rentMax" : 18810
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 37621,
+    "rentMax" : 37621
   } ],
   "transports" : [ ]
 }, {
@@ -35162,11 +35712,11 @@
   "areaMin" : 20.0,
   "areaMax" : 25.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 43430,
     "rentMax" : 43430
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 43430,
     "rentMax" : 43430
   } ],
@@ -35238,10 +35788,6 @@
   "areaMin" : 50.0,
   "areaMax" : 50.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 55400,
-    "rentMax" : 55400
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 43900,
     "rentMax" : 43900
@@ -35249,6 +35795,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 27670,
     "rentMax" : 27670
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 55400,
+    "rentMax" : 55400
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -35430,10 +35980,6 @@
   "areaMin" : 30.0,
   "areaMax" : 38.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 39654,
-    "rentMax" : 39654
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 39654,
     "rentMax" : 39654
@@ -35441,6 +35987,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 19827,
     "rentMax" : 19827
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 39654,
+    "rentMax" : 39654
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -35479,13 +36029,13 @@
   "areaMin" : 51.6,
   "areaMax" : 52.1,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 47626,
-    "rentMax" : 47626
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 23813,
     "rentMax" : 23813
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 47626,
+    "rentMax" : 47626
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -35555,10 +36105,6 @@
   "areaMin" : 25.0,
   "areaMax" : 25.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 37450,
-    "rentMax" : 37450
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 37450,
     "rentMax" : 37450
@@ -35566,6 +36112,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 18730,
     "rentMax" : 18730
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 37450,
+    "rentMax" : 37450
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -35604,10 +36154,6 @@
   "areaMin" : 18.0,
   "areaMax" : 18.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 41070,
-    "rentMax" : 41070
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 41070,
     "rentMax" : 41070
@@ -35615,6 +36161,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 20535,
     "rentMax" : 20535
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 41070,
+    "rentMax" : 41070
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -35827,13 +36377,13 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 38000,
-    "rentMax" : 38000
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 18700,
     "rentMax" : 18700
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 38000,
+    "rentMax" : 38000
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -35867,10 +36417,6 @@
   "areaMin" : 49.0,
   "areaMax" : 52.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 53950,
-    "rentMax" : 53950
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 45470,
     "rentMax" : 45470
@@ -35878,6 +36424,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 26650,
     "rentMax" : 26650
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 53950,
+    "rentMax" : 53950
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -36432,11 +36982,11 @@
   "areaMin" : 30.0,
   "areaMax" : 32.8,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 40801,
     "rentMax" : 45124
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 40801,
     "rentMax" : 45124
   } ],
@@ -37132,13 +37682,13 @@
   "areaMin" : 34.44,
   "areaMax" : 38.76,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 57558,
-    "rentMax" : 57558
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 28779,
     "rentMax" : 28779
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 57558,
+    "rentMax" : 57558
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -38178,11 +38728,11 @@
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 41896,
     "rentMax" : 41896
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 41896,
     "rentMax" : 41896
   } ],
@@ -40367,6 +40917,42 @@
     "unitOfMeasure" : "NONE"
   } ]
 }, {
+  "id" : 1767,
+  "label" : "CITE OUVRARD",
+  "address" : {
+    "fullAddress" : "12 Rue Pasteur - 86000 POITIERS",
+    "street" : "12 Rue Pasteur",
+    "city" : "POITIERS",
+    "zipCode" : "86000",
+    "location" : {
+      "latitude" : 46.576,
+      "longitude" : 0.352
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p><strong>T1</strong> de 18 &agrave; 24 m&sup2; meubl&eacute; (lit d&rsquo;une personne, un bureau, une chaise, une armoire) et &eacute;quip&eacute; de kitchenette (&eacute;vier, plaque et frigo) et de sanitaire individuel.</p>\r\n\r\n<p>&nbsp;</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 17.0,
+  "areaMax" : 26.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 37300,
+    "rentMax" : 37300
+  } ],
+  "transports" : [ {
+    "kind" : "BUS",
+    "description" : "Arrêt de bus : Pasteur, Pont Neuf, Pont St Cyprien, Anatole France",
+    "distance" : 10,
+    "unitOfMeasure" : "ON_FOOT"
+  } ]
+}, {
   "id" : 1771,
   "label" : "Résidence du Vivier",
   "address" : {
@@ -40899,11 +41485,11 @@
   "areaMin" : 35.0,
   "areaMax" : 39.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 42348,
     "rentMax" : 42348
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 42348,
     "rentMax" : 42348
   } ],
@@ -41282,11 +41868,11 @@
   "areaMin" : 36.6,
   "areaMax" : 36.6,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 37927,
     "rentMax" : 37927
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 37927,
     "rentMax" : 37927
   } ],
@@ -41797,11 +42383,11 @@
   "areaMin" : 50.0,
   "areaMax" : 50.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 49436,
     "rentMax" : 49636
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 49436,
     "rentMax" : 49636
   } ],
@@ -42746,13 +43332,13 @@
   "areaMin" : 28.0,
   "areaMax" : 54.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 17316,
-    "rentMax" : 51431
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 34400,
     "rentMax" : 38400
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 17316,
+    "rentMax" : 51431
   } ],
   "transports" : [ ]
 }, {
@@ -42781,11 +43367,11 @@
   "areaMin" : 26.0,
   "areaMax" : 26.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 39561,
     "rentMax" : 39561
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 39561,
     "rentMax" : 39561
   } ],
@@ -42936,42 +43522,6 @@
     "kind" : "TRAMWAY",
     "description" : "Lignes A-B<br />\r\nArrêt : Université",
     "distance" : 110,
-    "unitOfMeasure" : "METRE"
-  } ]
-}, {
-  "id" : 1958,
-  "label" : "CITE A DOCKS",
-  "address" : {
-    "fullAddress" : "37 Rue des chargeurs réunis 76600 LE HAVRE",
-    "street" : "37 Rue des chargeurs réunis",
-    "city" : "LE HAVRE",
-    "zipCode" : "76600",
-    "location" : {
-      "latitude" : 49.483,
-      "longitude" : 0.138
-    }
-  },
-  "bedCount" : 1,
-  "bedKind" : "SIMPLE",
-  "bedroomCount" : 1,
-  "roomCount" : 1,
-  "inUnavailabilityPeriod" : false,
-  "description" : "<p>&Eacute;quipement : cuisine &eacute;quip&eacute;e / &eacute;vier / r&eacute;frig&eacute;rateur / plaques de cuisson / rangement sous &eacute;vier et au dessus /1 table / 2 chaises Sanitaires : lavabo / douche / WC /cumulus 30 L Mobilier : lit 1 place avec 1 coin &eacute;tag&egrave;re / 1 bureau / 1 chaise /1 penderie / rangement Installations : prise t&eacute;l&eacute;phone, prise TV, acc&egrave;s r&eacute;seau internet par wifi</p>\r\n\r\n<p>Le loyer est indiqu&eacute; toutes charges comprises et ouvre droit &agrave; l&rsquo;APL.</p>\r\n\r\n<p>Photos non contractuelles.</p>\r\n\r\n<p><a href=\"https://www.youtube.com/watch?v=yj9Cy64UjF0\" onclick=\"window.open(this.href, '', 'resizable=yes,status=no,location=no,toolbar=no,menubar=no,fullscreen=no,scrollbars=no,dependent=no,width=500,height=350'); return false;\">Visite Virtuelle</a></p>",
-  "available" : true,
-  "highDemand" : false,
-  "lowStock" : false,
-  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
-  "areaMin" : 24.0,
-  "areaMax" : 24.0,
-  "occupationMods" : [ {
-    "occupationKind" : "ALONE",
-    "rentMin" : 37670,
-    "rentMax" : 37670
-  } ],
-  "transports" : [ {
-    "kind" : "BUS",
-    "description" : "Bus 8 / 41 / 51<br />\r\nArrêt : L.Nolent",
-    "distance" : 40,
     "unitOfMeasure" : "METRE"
   } ]
 }, {
@@ -43281,10 +43831,6 @@
   "areaMin" : 40.0,
   "areaMax" : 40.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 53694,
-    "rentMax" : 53694
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 53694,
     "rentMax" : 53694
@@ -43292,6 +43838,10 @@
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 27054,
     "rentMax" : 27054
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 53694,
+    "rentMax" : 53694
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",

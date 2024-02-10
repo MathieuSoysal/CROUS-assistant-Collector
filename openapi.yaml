@@ -1,0 +1,102 @@
+openapi: 3.1.0
+info:
+  title: CROUS Assistant | Residence - OpenAPI 3.1
+  description: |-
+    This is a sample API to expose the residences of the CROUS. 
+
+    Some useful links:
+    - [CROUS Assistant Collector](https://github.com/MathieuSoysal/CROUS-assistant-Collector)
+
+  termsOfService: http://swagger.io/terms/
+  contact:
+    email: Mathieu.soysal@outlook.fr
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.11
+servers:
+  - url: https://mathieusoysal.github.io/CROUS-assistant-Collector/v2
+tags:
+  - name: residence
+    description: Access to informations of each CROUS Residence
+  - name: available-residences-id
+    description: Access to available residences id to a specific date
+paths:
+  /residences:
+    get:
+      tags:
+        - residence
+      summary: Get all residence
+      description: To get all residence available residence and not available residence.
+      operationId: getAllResidence
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+  /hash-residences:
+    get:
+      tags:
+        - residence
+      summary: Get hash code of all residences file
+      description: This hash is usefull if we know if new residence has been added
+      operationId: getHashResidences
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/text:
+              example: ssq4d864sqd86qs4
+  /available-residences-id/{date}/{hour}:
+    get:
+      tags:
+        - available-residences-id
+      summary: Get available residences id
+      description: Returns a list of residence ids that was available for a specific date time.
+      operationId: getAvailableResidenceIdsForHour
+      parameters:
+        - name: date
+          in: path
+          description: Date to get available residence ids
+          required: true
+          schema:
+            type: string
+            format: yyyy-mm-dd
+        - name: hour
+          in: path
+          description: Hour to get available residence ids 
+          required: true
+          schema:
+            type: string
+            format: hh
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema: 
+                type: array
+  /available-residences-id/{date}/sum-up:
+    get:
+      tags:
+        - available-residences-id
+      summary: Updates a pet in the store with form data
+      description: ''
+      operationId: updatePetWithForm
+      parameters:
+        - name: date
+          in: path
+          description: Date to get available residence ids
+          required: true
+          schema:
+            type: string
+            format: yyyy-mm-dd
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema: 
+                type: array

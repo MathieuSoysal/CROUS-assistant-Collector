@@ -1,4 +1,4 @@
-openapi: 3.1.0
+openapi: 3.0.0
 info:
   title: CROUS Assistant | Residence - OpenAPI 3.1
   description: |-
@@ -36,6 +36,7 @@ paths:
             application/json:
               schema:
                 type: array
+                $ref: '#/components/schemas/Residence'
   /hash-residences:
     get:
       tags:
@@ -78,6 +79,8 @@ paths:
             application/json:
               schema: 
                 type: array
+                items:
+                  type: integer
   /available-residences-id/{date}/sum-up:
     get:
       tags:
@@ -100,3 +103,134 @@ paths:
             application/json:
               schema: 
                 type: array
+                items:
+                  type: integer
+components:
+  schemas:
+    Residence:
+      type: object
+      properties: 
+        id: 
+          type: integer
+          format: int32
+        label: 
+          type: string
+        address: 
+          $ref: '#/components/schemas/Address'
+        bedCount: 
+          type: integer
+          format: int32
+        bedKind: 
+          type: string
+        bedroomCount: 
+          type: integer
+          format: int32
+        roomCount: 
+          type: integer
+          format: int32
+        inUnavailabilityPeriod: 
+          type: boolean
+        description: 
+          type: string
+          format: nullable
+        available: 
+          type: boolean
+        highDemand: 
+          type: boolean
+        lowStock: 
+          type: boolean
+        equipements: 
+          type: array
+          items:
+            $ref: '#/components/schemas/Equipement'
+        areaMin: 
+          type: integer
+          format: int32
+        areaMax: 
+          type: integer
+          format: int32
+        occupationMods: 
+          type: array
+          items: 
+            $ref: '#/components/schemas/OccupationMode'
+        transports: 
+          type: array
+          items: 
+            $ref: '#/components/schemas/Transport'
+    Address: 
+      type: object
+      properties: 
+        fullAddress: 
+          type: string
+        street: 
+          type: string
+        city: 
+          type: string
+        zipCode: 
+          type: string
+        location: 
+          $ref: '#/components/schemas/Location' 
+    Location: 
+      type: object
+      properties: 
+        latitude: 
+          type: number
+        longitude: 
+          type: number
+    Equipement: 
+      type: string
+      enum:
+        - WC
+        - FRIDGE
+        - SHOWER
+        - SINK_AND_HOB
+        - LIVING_ROOM
+        - BALCONY
+        - MICROWAVE
+        - DUPLEX
+        - NONE
+        - UNKNOWN
+    OccupationMode:
+      type: object
+      properties: 
+        occupationKind: 
+          type: string
+        rentMin: 
+          type: integer
+          format: int32
+        rentMax: 
+          type: integer
+          format: int32
+    Transport:
+      type: object
+      properties: 
+        kind: 
+          $ref: '#/components/schemas/TransportKind'
+        description: 
+          type: string
+        distance: 
+          type: integer
+          format: int32
+        unitOfMeasure: 
+          $ref: '#/components/schemas/TransportUnitOfMeasure'
+    TransportKind:
+      type: string
+      enum:
+        - PAYING_URBAN_PARKING
+        - FREE_URBAN_PARKING
+        - BUS
+        - TRAMWAY
+        - PRIVATE_PARKING
+        - TRAIN
+        - BIKE
+        - RER
+        - METRO
+        - NONE
+        - UNKNOWN
+    TransportUnitOfMeasure:
+      type: string
+      enum:
+       - METRE
+       - ON_FOOT
+       - NONE
+       - UNKNOWN

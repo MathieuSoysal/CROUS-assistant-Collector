@@ -16,6 +16,7 @@ import io.github.mathieusoysal.exceptions.requests.ApiRequestErrorRuntimeExcepti
 public class RequestorToGetSumUpOfDay implements Requestor {
     private static final Logger LOGGER = Logger.getLogger();
     private static final NumberFormat NUMBER_FORMAT = new DecimalFormat("00");
+    private static final String PATH_TO_DAY_SUM_UP = "/available-residences-id/";
 
     private final String date;
 
@@ -35,7 +36,7 @@ public class RequestorToGetSumUpOfDay implements Requestor {
 
     public Integer[][] getSumUpOfDay(String url) {
         LOGGER.info(() -> "Creating sum up of the day: " + date);
-        String linkToDataForTheDay = url + "/" + date;
+        String linkToDataForTheDay = url + PATH_TO_DAY_SUM_UP + date;
         Integer[][] sumUp;
         LOGGER.info(() -> "Creating profil to request residences");
         try (Playwright playwright = Playwright.create()) {

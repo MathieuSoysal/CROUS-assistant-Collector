@@ -11,7 +11,7 @@
 
 
     <name>CROUS-Assistant-Collector</name>
-    <description>Program to collect available logement CROUS.</description>
+    <description>Program to collect available residence CROUS.</description>
     <url>https://github.com/MathieuSoysal/CROUS-assistant-Collector</url>
 
     <properties>

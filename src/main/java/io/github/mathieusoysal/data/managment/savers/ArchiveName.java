@@ -5,8 +5,8 @@ import java.time.format.DateTimeFormatter;
 import java.util.function.Supplier;
 
 public enum ArchiveName {
-    ALL_LOGEMENTS(() -> "all_logements"),
-    HASH_ALL_LOGEMENTS(() -> "hash_all_logements"),
+    ALL_LOGEMENTS(() -> "residences"),
+    HASH_ALL_LOGEMENTS(() -> "hash_residences"),
     DAY_SUM_UP(() -> "sum-up"),
     HOUR(() -> OffsetDateTime.now().format(DateTimeFormatter.ofPattern("HH")));
 

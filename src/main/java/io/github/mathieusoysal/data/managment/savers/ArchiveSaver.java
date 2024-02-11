@@ -9,7 +9,6 @@ import java.util.List;
 import java.util.Queue;
 
 import io.github.mathieusoysal.data.managment.convertors.Convertor;
-import io.github.mathieusoysal.logement.Logement;
 
 public class ArchiveSaver {
 
@@ -42,16 +41,15 @@ public class ArchiveSaver {
         return archiveFile;
     }
 
-    public File endPathAndSaveData(final ArchiveName name, final List<Logement> logements) {
-        return endPathAndSaveData(name, Convertor.convertLogementsToJson(logements));
+    public <T> File endPathAndSaveData(final ArchiveName name, final List<T> residences) {
+        return endPathAndSaveData(name, Convertor.convertResidencesToJson(residences));
     }
 
     private File generateArchiveFile(final ArchiveName name) {
         var folderAmbed = FolderManager.getOrCreateArchiveFolder();
         for (String folderName : folders)
             folderAmbed = FolderManager.getOrCreateArchiveFolderWithGivenFolderName(folderName, folderAmbed);
-        var archiveFile =  FileManager.getArchiveFile(folderAmbed, name.getName());
+        var archiveFile = FileManager.getArchiveFile(folderAmbed, name.getName());
         return archiveFile;
     }
-
 }

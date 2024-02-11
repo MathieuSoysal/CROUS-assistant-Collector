@@ -23,16 +23,23 @@ public enum Properties {
     }
 
     public boolean isPresent() {
-        return System.getenv(name) != null;
+        return getValueWithProperties() != null;
     }
 
     public String getValue() {
         LOGGER.info(() -> "Getting " + name + " from environment variables");
-        String propertie = System.getenv(name);
+        String propertie = getValueWithProperties();
         if (propertie == null) {
             LOGGER.error(() -> name + " not found in environment variables");
             throw new PropertiesNotFoundRuntimeException(name);
         }
         return propertie;
+    }
+
+    private String getValueWithProperties() {
+        String result = System.getenv(name);
+        if (result == null)
+            return System.getProperty(name);
+        return result;
     }
 }

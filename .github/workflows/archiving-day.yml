@@ -18,7 +18,7 @@ jobs:
       uses: ./.github/workflows/reusable-archiving.yml
       with:
         ARCHIVE_MODE: DAY_SUM_UP
-        LINK_TO_DATA: https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available
+        LINK_TO_DATA: https://mathieusoysal.github.io/CROUS-assistant-Collector/v2
         deploy: true
       secrets:
         token: ${{ secrets.GITHUB_TOKEN }}
@@ -31,7 +31,7 @@ jobs:
       with:
         SPECIFIC_DAY: ${{ github.event.inputs.specific-date }}
         ARCHIVE_MODE: DAY_SUM_UP
-        LINK_TO_DATA: https://mathieusoysal.github.io/CROUS-assistant-Collector/v1/logements-crous/available
+        LINK_TO_DATA: https://mathieusoysal.github.io/CROUS-assistant-Collector/v2
         deploy: true
       secrets:
         token: ${{ secrets.GITHUB_TOKEN }}

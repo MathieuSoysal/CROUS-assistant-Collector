@@ -6,44 +6,38 @@
 [![Javadoc](https://img.shields.io/badge/JavaDoc-Online-green)](https://mathieusoysal.github.io/Java-Maven-library-template/javadoc/)
 
 
-# <img src="https://cdn.iconscout.com/icon/free/png-512/java-43-569305.png" width="100"> Java Maven Library Template [![GitHub](https://img.shields.io/badge/license-Apache%202.0%20License-green)](LICENSE)
+# <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Logo_Crous_vectoris%C3%A9.svg" width="100"> CROUS Assistant - Collector [![GitHub](https://img.shields.io/badge/license-Apache%202.0%20License-green)](LICENSE)
 
-Template to easily create a Java Maven library and publish it automatically on GitHub Package and Maven Central, the publication is automated via the repo versions.
+Programme permettant de collecter des informations sur les logements du CROUS, et de les exposer via une API REST static.
 
-## Use template
+## Comment l'utiliser ?
 
-To use this template, you just need to click on "Use this template" at the top of the main page of this repository, or you can copy/paste this repository.
+Tout a était simplifié pour que vous puissiez récupérer les logements disponibles en un rien de temps. Voici le lien redirigeant vers la documentation de l'API REST : [CROUS Assistant - Collector API](https://mathieusoysal.github.io/CROUS-assistant-Collector/docs/)
 
-## Requirements
-- [ ] [Create an account on Sonatype](https://issues.sonatype.org/secure/Signup!default.jspa)
-- [ ] [Create a JIRA ticket on Sonatype to approve your groupId (io.github.YOUR-GITHUB-USERNAME)](https://issues.sonatype.org/secure/CreateIssue.jspa?issuetype=21&pid=10134)
-- [ ] [Generate a gpg key and distribute the public key to a keyserver](https://central.sonatype.org/publish/requirements/gpg/)
 
-## Template configurations :
+## Comment contribuer ?
 
-- [ ] **Fix pom.xml**
-  - *To guide you, a FIXME tag has been added to all lines to be edited.*
-- [ ] **Config SonarCloud**
-  - To configure SonarCloud for your project you must go to https://sonarcloud.io
-  - Replace the file at [/.github/workflows/sonar.yml](.github/workflows/sonar.yml) with your own yaml file at https://sonarcloud.io and if your Java project is not on Java 11 edit that yaml file.
-- [ ] **Create your GitHub secrets on your repository**
-  - *NEXUS_USERNAME* with your username used on Sonatype
-  - *NEXUS_PASSWORD* with your password used on Sonatype
-  - *GPG_PRIVATE_KEY* with the private key of your generated pgp key
-  - *GPG_PASSPHRASE* with the passphrase of your gpg key
-- [ ] **Activate the JavaDoc GitHub page**
-  - To enable the JavaDoc GitHub Page, you need to enable the GitHub page in your repository settings for the *javadoc* branch.
+Pour contribuer, il suffit de suivre les étapes suivantes :
+- Créer une issue pour expliquer le problème ou la fonctionnalité que vous souhaitez ajouter. [Lien vers les issues](https://github.com/MathieuSoysal/CROUS-assistant-Collector/issues)
+- Il vous suffit de cliquer sur ce lien : [Ouvrir GitHub CodeSpaces](https://codespaces.new/MathieuSoysal/CROUS-assistant-Collector?quickstart=1), et de commencer à coder. *(Ce lien permet de directement avoir l'environnement de développement necessaire)*
 
-## Badges
+### Comment lancer les tests ?
 
-Don't forget to add your own SonarCloud badges to your readme 😉
- - to get your maven-central badge : https://shields.io/category/platform-support
- - to get your JavaDoc Badge : 
-```Markdown
-  [![Javadoc](https://img.shields.io/badge/JavaDoc-Online-green)](https://<github-username>.github.io/<github-repo>/javadoc/)
+Pour lancer les tests, il suffit de lancer la commande suivante :
+```shell
+mvn clean test
 ```
-On the link of JavaDoc badge, replace  `<github-username>` by your GitHub username, `<github-repo>` by the name of your GitHub repository.
 
-## Contact
+## Vous avez une question ?
 
-If you have any problems setting up CI, CD or other, do not hesitate to contact me at Mathieu.Soysal@etu.umontpellier.fr
+Si vous avez une question, n'hésitez pas à ouvrir une issue pour que je puisse vous aider. [Lien vers les issues](https://github.com/MathieuSoysal/CROUS-assistant-Collector/issues), ou discuter via l'onglet discussions du repo, ou encore me contacter directement par mail : hsoysal@student.42.fr 
+
+## Licence
+
+Ce projet est sous licence Apache 2.0. Pour plus d'informations, veuillez consulter le fichier [LICENSE](LICENSE).
+
+> **Remarque :** Ce projet est un projet personel, et n'est en aucun cas affilié au CROUS. Il a été créé dans le but de simplifier la recherche de logements étudiants.
+
+
+
+> ⭐ : Si ce projet vous plu ou vous a été utile, n'hésitez pas à laisser une étoile sur le repo ⭐ , ou à me contacter pour me faire part de vos retours. 

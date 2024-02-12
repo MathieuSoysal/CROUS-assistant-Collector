@@ -1,6 +1,7 @@
 package io.github.mathieusoysal.residence;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -236,7 +237,9 @@ public class Residence {
      * @return the list of occupation modifications for this Residence object
      */
     public List<OccupationMode> getOccupationMods() {
-        return new ArrayList<>(occupationMods);
+        var result = new ArrayList<>(occupationMods);
+        Collections.sort(result, (o1, o2) -> o1.hashCode() - o2.hashCode());
+        return result;
     }
 
     /**

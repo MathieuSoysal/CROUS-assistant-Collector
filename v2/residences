@@ -188,13 +188,13 @@
   "areaMin" : 30.5,
   "areaMax" : 53.4,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
-    "rentMin" : 54059,
-    "rentMax" : 69090
-  }, {
     "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 54059,
     "rentMax" : 69080
+  }, {
+    "occupationKind" : "ALONE",
+    "rentMin" : 54059,
+    "rentMax" : 69090
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -1583,11 +1583,11 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 41552,
     "rentMax" : 41552
   }, {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 41552,
     "rentMax" : 41552
   } ],
@@ -4005,6 +4005,57 @@
     "unitOfMeasure" : "ON_FOOT"
   } ]
 }, {
+  "id" : 146,
+  "label" : "RESIDENCE JEAN TUSQUES",
+  "address" : {
+    "fullAddress" : "3 RUE DES EPINETTES 44300 NANTES",
+    "street" : "3 RUE DES EPINETTES",
+    "city" : "NANTES",
+    "zipCode" : "44300",
+    "location" : {
+      "latitude" : 47.227,
+      "longitude" : -1.52
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "DOUBLE",
+  "bedroomCount" : 1,
+  "roomCount" : 2,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Les logements sont tous &eacute;quip&eacute;s de WIFI et : lit, table, chaise, bureau, meuble de rangement.</p>\r\n\r\n<p>R&eacute;serv&eacute;s en priorit&eacute; aux couples &eacute;tudiants. Envoyer &agrave; logement@crous-nantes.fr le nom, pr&eacute;nom et INE de la personne avec qui vous souhaitez occuper le logement.</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "LIVING_ROOM", "WC", "SHOWER", "UNKNOWN", "FRIDGE", "DUPLEX", "BALCONY" ],
+  "areaMin" : 51.0,
+  "areaMax" : 51.0,
+  "occupationMods" : [ {
+    "occupationKind" : "COUPLE_ONE_SPACE",
+    "rentMin" : 46515,
+    "rentMax" : 46515
+  } ],
+  "transports" : [ {
+    "kind" : "TRAMWAY",
+    "description" : "Ligne 1 (Mairie de Doulon)",
+    "distance" : 100,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "BUS",
+    "description" : "Lignes 12 et 87 (Mairie de Doulon)",
+    "distance" : 100,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "PAYING_URBAN_PARKING",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "NONE",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
   "id" : 2202,
   "label" : "Résidence Paul Voivenel 1",
   "address" : {
@@ -4426,11 +4477,11 @@
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 36049,
     "rentMax" : 36049
   }, {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 36049,
     "rentMax" : 36049
   } ],
@@ -5478,7 +5529,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>LOGEMENT DISPONIBLE AU 01/02/2024 ou AU 16/02/2024 ou AU 01/03/2024</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Important - Pour une demande de logement sur le secteur Bordeaux-M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide</strong> ;</p>\r\n\r\n<p>- les &eacute;tudiants internationaux en mobilit&eacute; individuelle <strong>inscrits en Doctorat et Master</strong>. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; dans l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement. En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement :</em></p>\r\n\r\n<ul>\r\n\t<li><em>Le logement dispose d&#39;un bureau, d&#39;une table, d&#39;une armoire (&eacute;tag&egrave;re + penderie) et d&#39;un lit (sommier + matelas) de 200x90cm.</em></li>\r\n\t<li><em>A chaque &eacute;tage est dispos&eacute;e une cuisine collective avec &eacute;vier et table de cuisson.</em></li>\r\n\t<li><em>Le b&acirc;timent comporte 4 &eacute;tages et ne dispose pas d&#39;ascenseur.</em></li>\r\n</ul>",
+  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>LOGEMENT DISPONIBLE AU 01/02/2024 ou AU 16/02/2024 ou AU 01/03/2024</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Important - Pour une demande de logement sur le secteur Bordeaux-M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide</strong> ;</p>\r\n\r\n<p>- les &eacute;tudiants internationaux en mobilit&eacute; individuelle <strong>inscrits en Doctorat et Master</strong>. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; dans l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement. En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement :</em></p>\r\n\r\n<ul>\r\n\t<li><em>Le logement dispose d&#39;un bureau, d&#39;une table, d&#39;une armoire (&eacute;tag&egrave;re + penderie) et d&#39;un lit (sommier + matelas) de 190x90cm.</em></li>\r\n\t<li><em>A chaque &eacute;tage est dispos&eacute;e une cuisine collective avec &eacute;vier et table de cuisson.</em></li>\r\n\t<li><em>Le b&acirc;timent comporte 4 &eacute;tages et ne dispose pas d&#39;ascenseur.</em></li>\r\n</ul>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -6392,11 +6443,11 @@
   "areaMin" : 21.4,
   "areaMax" : 26.2,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 37808,
     "rentMax" : 42298
   }, {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 37808,
     "rentMax" : 42298
   } ],
@@ -8274,11 +8325,11 @@
   "areaMin" : 36.0,
   "areaMax" : 36.0,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 43822,
     "rentMax" : 43822
   }, {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 43822,
     "rentMax" : 43822
   } ],
@@ -8641,11 +8692,11 @@
   "areaMin" : 49.0,
   "areaMax" : 49.0,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 49742,
     "rentMax" : 49742
   }, {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 49742,
     "rentMax" : 49742
   } ],
@@ -10415,11 +10466,11 @@
   "areaMin" : 30.42,
   "areaMax" : 36.34,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 36069,
     "rentMax" : 39552
   }, {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 36069,
     "rentMax" : 39552
   } ],
@@ -11022,11 +11073,11 @@
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 41896,
     "rentMax" : 41896
   }, {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 41896,
     "rentMax" : 41896
   } ],
@@ -11072,11 +11123,11 @@
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 41896,
     "rentMax" : 41896
   }, {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 41896,
     "rentMax" : 41896
   } ],
@@ -11122,11 +11173,11 @@
   "areaMin" : 37.1,
   "areaMax" : 37.1,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 57549,
     "rentMax" : 57549
   }, {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 57549,
     "rentMax" : 57549
   } ],
@@ -12311,11 +12362,11 @@
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 56233,
     "rentMax" : 56233
   }, {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 56233,
     "rentMax" : 56233
   } ],
@@ -13915,11 +13966,11 @@
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 56233,
     "rentMax" : 56233
   }, {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 56233,
     "rentMax" : 56233
   } ],
@@ -15321,11 +15372,11 @@
   "areaMin" : 25.96,
   "areaMax" : 28.17,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 55090,
     "rentMax" : 58110
   }, {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 55090,
     "rentMax" : 58110
   } ],
@@ -15748,11 +15799,11 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 48096,
     "rentMax" : 48096
   }, {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 48096,
     "rentMax" : 48096
   } ],
@@ -17250,11 +17301,11 @@
   "areaMin" : 26.16,
   "areaMax" : 28.0,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 42310,
     "rentMax" : 42310
   }, {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 42310,
     "rentMax" : 42310
   } ],
@@ -19717,11 +19768,11 @@
   "areaMin" : 16.7,
   "areaMax" : 28.9,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 52350,
     "rentMax" : 52350
   }, {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 52350,
     "rentMax" : 52350
   } ],
@@ -22488,11 +22539,11 @@
   "areaMin" : 44.3,
   "areaMax" : 47.9,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 76359,
     "rentMax" : 76359
   }, {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 76359,
     "rentMax" : 76359
   } ],
@@ -22584,11 +22635,11 @@
   "areaMin" : 31.6,
   "areaMax" : 36.9,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 60469,
     "rentMax" : 60469
   }, {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 60469,
     "rentMax" : 60469
   } ],
@@ -24651,11 +24702,11 @@
   "areaMin" : 24.54,
   "areaMax" : 30.85,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 53000,
     "rentMax" : 59500
   }, {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 53000,
     "rentMax" : 59500
   } ],
@@ -27342,13 +27393,63 @@
   "areaMin" : 35.5,
   "areaMax" : 35.5,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
-    "rentMin" : 68220,
-    "rentMax" : 68220
-  }, {
     "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 68220,
     "rentMax" : 68220
+  }, {
+    "occupationKind" : "ALONE",
+    "rentMin" : 68220,
+    "rentMax" : 68220
+  } ],
+  "transports" : [ {
+    "kind" : "METRO",
+    "description" : "",
+    "distance" : 5,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "BUS",
+    "description" : "",
+    "distance" : 5,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "FREE_URBAN_PARKING",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
+  "id" : 2938,
+  "label" : "Résidence Kromos'Home",
+  "address" : {
+    "fullAddress" : "Avenue Paul Langevin 59650 Villeneuve d'Ascq",
+    "street" : "Avenue Paul Langevin",
+    "city" : "Villeneuve d'Ascq",
+    "zipCode" : "59650",
+    "location" : {
+      "latitude" : 50.609,
+      "longitude" : 3.149
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "DOUBLE",
+  "bedroomCount" : 1,
+  "roomCount" : 2,
+  "inUnavailabilityPeriod" : false,
+  "description" : null,
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "LIVING_ROOM", "WC", "SHOWER", "UNKNOWN", "FRIDGE", "MICROWAVE" ],
+  "areaMin" : 33.4,
+  "areaMax" : 33.4,
+  "occupationMods" : [ {
+    "occupationKind" : "COUPLE_ONE_SPACE",
+    "rentMin" : 65720,
+    "rentMax" : 65720
+  }, {
+    "occupationKind" : "ALONE",
+    "rentMin" : 65720,
+    "rentMax" : 65720
   } ],
   "transports" : [ {
     "kind" : "METRO",
@@ -28163,11 +28264,11 @@
   "areaMin" : 31.0,
   "areaMax" : 38.0,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 41029,
     "rentMax" : 41029
   }, {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 41029,
     "rentMax" : 41029
   } ],
@@ -32809,11 +32910,11 @@
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 34697,
     "rentMax" : 34697
   }, {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 34697,
     "rentMax" : 34697
   } ],
@@ -39021,11 +39122,11 @@
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 41896,
     "rentMax" : 41896
   }, {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 41896,
     "rentMax" : 41896
   } ],
@@ -42676,11 +42777,11 @@
   "areaMin" : 50.0,
   "areaMax" : 50.0,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 49436,
     "rentMax" : 49636
   }, {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 49436,
     "rentMax" : 49636
   } ],

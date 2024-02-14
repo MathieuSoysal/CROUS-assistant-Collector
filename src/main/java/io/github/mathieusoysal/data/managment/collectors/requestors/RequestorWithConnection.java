@@ -1,7 +1,5 @@
 package io.github.mathieusoysal.data.managment.collectors.requestors;
 
-import java.nio.file.Paths;
-
 import com.github.forax.beautifullogger.Logger;
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.Browser.NewContextOptions;
@@ -11,7 +9,6 @@ import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 import com.microsoft.playwright.TimeoutError;
-import com.microsoft.playwright.Tracing;
 import com.microsoft.playwright.options.AriaRole;
 import com.microsoft.playwright.options.LoadState;
 
@@ -35,12 +32,13 @@ public class RequestorWithConnection implements Requestor {
     public String requestWitGet(String url) {
         LOGGER.info(() -> "Getting available residences");
         LOGGER.info(() -> "Creating profil to request residences");
-        Playwright playwright = Playwright.create();
-        Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions());
-        BrowserContext context = browser.newContext(new NewContextOptions().setScreenSize(1920, 1080));
-        Page page = context.newPage();
+
         String jsonResidences;
-        try {
+        try (
+                Playwright playwright = Playwright.create();
+                Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions());
+                BrowserContext context = browser.newContext(new NewContextOptions().setScreenSize(1920, 1080));
+                Page page = context.newPage();) {
             etablishConnectionWithWebsite(playwright, context, page);
             LOGGER.info(() -> "Requesting residences from " + url);
             var respons = page.request()
@@ -54,17 +52,11 @@ public class RequestorWithConnection implements Requestor {
             jsonResidences = respons.text();
         } catch (TimeoutError | LoginOptionCantBeSelectedException | CannotBeConnectedException e) {
             LOGGER.error("Request failed", e);
-            context.tracing().stop(new Tracing.StopOptions()
-                    .setPath(Paths.get("trace.zip")));
             throw new RequestFailedRuntimeException(e);
         } catch (SiteOnMaintenanceException e) {
             LOGGER.warning(() -> "Site on maintenance");
             jsonResidences = "[]";
         } finally {
-            page.close();
-            context.close();
-            browser.close();
-            playwright.close();
             LOGGER.info(() -> "profil closed");
         }
         return jsonResidences;
@@ -72,10 +64,6 @@ public class RequestorWithConnection implements Requestor {
 
     private void etablishConnectionWithWebsite(Playwright playwright, BrowserContext context, Page page)
             throws LoginOptionCantBeSelectedException, CannotBeConnectedException, SiteOnMaintenanceException {
-        context.tracing().start(new Tracing.StartOptions()
-                .setScreenshots(true)
-                .setSnapshots(true)
-                .setSources(true));
         goToLoginPage(page);
         try {
             selectLoginOption(playwright, page);

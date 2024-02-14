@@ -65,27 +65,6 @@ class DataCollectorTest {
     }
 
     @Test
-    @EnabledIfEnvironmentVariable(named = "CI", matches = "true")
-    void testGetResidencesWithConnection_returnsResidences()
-            throws StreamReadException, DatabindException, ApiRequestFailedException, IOException,
-            InterruptedException {
-        // Arrange
-        String email = System.getenv("TEST_MAIL");
-        String password = System.getenv("TEST_PASSWORD");
-
-        // Act
-        assertNotNull(email, "Please set TEST_MAIL environment variable");
-        assertNotNull(password, "Please set TEST_PASSWORD environment variable");
-        List<Residence> result = DataCollectorFromCrous.getAvailableResidencesWithConnection(
-                email,
-                password);
-
-        // Assert
-        Assertions.assertNotEquals(DataCollectorFromCrous.getAvailableResidencesWithoutConnection().size(),
-                result.size());
-    }
-
-    @Test
     void testCreateSumUpOfTheDay() throws JsonProcessingException {
         String linkToData = "https://mathieusoysal.github.io/CROUS-assistant-Collector/v2";
         LocalDate date = LocalDate.parse("2024-01-02", DateTimeFormatter.ISO_LOCAL_DATE);

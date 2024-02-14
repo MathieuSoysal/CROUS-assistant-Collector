@@ -5,6 +5,8 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.SortedSet;
+import java.util.TreeSet;
 
 /**
  * Residence
@@ -30,7 +32,7 @@ public class Residence {
     private List<Equipment> equipements;
     private double areaMin;
     private double areaMax;
-    private Set<OccupationMode> occupationMods;
+    private SortedSet<OccupationMode> occupationMods;
     private List<io.github.mathieusoysal.residence.Transport> transports;
 
     // Create constructor
@@ -322,7 +324,7 @@ public class Residence {
     }
 
     public void setOccupationMods(List<OccupationMode> occupationMods) {
-        this.occupationMods = new HashSet<>(occupationMods);
+        this.occupationMods = new TreeSet<>(occupationMods);
     }
 
     public void setTransports(List<io.github.mathieusoysal.residence.Transport> transports) {

@@ -1,9 +1,11 @@
 package io.github.mathieusoysal.residence;
 
+import java.util.Comparator;
+
 /**
  * This class represents a modification of the occupation of a housing unit.
  */
-public class OccupationMode {
+public class OccupationMode implements Comparable<OccupationMode> {
     /**
      * The new kind of occupation.
      */
@@ -18,17 +20,17 @@ public class OccupationMode {
      * The new maximum rent.
      */
     private int rentMax;
-    
 
     public OccupationMode() {
     }
 
     /**
-     * Constructs a new OccupationMod object with the specified occupation kind, minimum rent, and maximum rent.
+     * Constructs a new OccupationMod object with the specified occupation kind,
+     * minimum rent, and maximum rent.
      * 
      * @param occupationKind the new kind of occupation
-     * @param rentMin the new minimum rent
-     * @param rentMax the new maximum rent
+     * @param rentMin        the new minimum rent
+     * @param rentMax        the new maximum rent
      */
     public OccupationMode(OccupationKind occupationKind, int rentMin, int rentMax) {
         this.occupationKind = occupationKind;
@@ -83,5 +85,11 @@ public class OccupationMode {
         return occupationKind == other.occupationKind;
     }
 
+    @Override
+    public int compareTo(OccupationMode o) {
+        return Comparator
+                .comparingInt(OccupationMode::hashCode)
+                .compare(this, o);
+    }
 
 }

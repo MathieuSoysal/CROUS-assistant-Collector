@@ -35293,8 +35293,8 @@
   "id" : 1336,
   "label" : "Rés. Univ. de Kergoat",
   "address" : {
-    "fullAddress" : "2 et 4, rue des Archives 29200 BREST",
-    "street" : "2 et 4, rue des Archives",
+    "fullAddress" : "2 et 4,Rue Matthieu Gallou 29200 BREST",
+    "street" : "2 et 4,Rue Matthieu Gallou",
     "city" : "BREST",
     "zipCode" : "29200",
     "location" : {
@@ -35846,8 +35846,8 @@
   "id" : 1370,
   "label" : "Rés. Univ. de Kergoat",
   "address" : {
-    "fullAddress" : "2 et 4, rue des Archives 29200 BREST",
-    "street" : "2 et 4, rue des Archives",
+    "fullAddress" : "2 et 4,Rue Matthieu Gallou 29200 BREST",
+    "street" : "2 et 4,Rue Matthieu Gallou",
     "city" : "BREST",
     "zipCode" : "29200",
     "location" : {

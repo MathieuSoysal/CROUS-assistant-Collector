@@ -20454,6 +20454,72 @@
     "unitOfMeasure" : "NONE"
   } ]
 }, {
+  "id" : 2721,
+  "label" : "RESIDENCE PARC BLANDAN",
+  "address" : {
+    "fullAddress" : "4 ruelle du Grand Casernement 69007 LYON",
+    "street" : "4 ruelle du Grand Casernement",
+    "city" : "LYON",
+    "zipCode" : "69007",
+    "location" : {
+      "latitude" : 45.746,
+      "longitude" : 4.851
+    }
+  },
+  "bedCount" : 3,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 3,
+  "roomCount" : 4,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>appartement&nbsp; pour 3 personnes en colocation : chambre individuelle fermant &agrave; cl&eacute; &eacute;quip&eacute;e d&#39;un lit 1 place 80x200 et&nbsp; d&#39;un lavabo. Cuisine avec plaque vitroc&eacute;ramique et frigo, sdb et wc sont partag&eacute;s. Pensez bien &agrave; pr&eacute;voir vos draps en fonction de la taille du lit et vos po&ecirc;les, casseroles et produits d&rsquo;entretien selon le type de plaques dans votre logement. Un service de lingerie est &eacute;galement disponible pour une location de draps, oreiller, couette et 2 lavages: renseignez-vous &agrave; l&rsquo;accueil de la r&eacute;sidence.</p>\r\n\r\n<p><a href=\"http://www.crous-lyon.fr/logements/faire-demande-de-logement/colocations-couple/\">http://www.crous-lyon.fr/logements/faire-demande-de-logement/colocations-couple/</a></p>\r\n\r\n<p>&nbsp;</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "LIVING_ROOM", "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 60.0,
+  "areaMax" : 65.0,
+  "occupationMods" : [ {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 31500,
+    "rentMax" : 31500
+  } ],
+  "transports" : [ {
+    "kind" : "TRAMWAY",
+    "description" : "T2 arrêt Garibaldi/Berthelot",
+    "distance" : 5,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "BUS",
+    "description" : "C7/C12/35 arrêt Lamothe/Madeleine",
+    "distance" : 3,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "METRO",
+    "description" : "Métro D station Garibaldi<br />\r\nMétro B station Jean Macé",
+    "distance" : 10,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "TRAIN",
+    "description" : "Gare Jean Macé",
+    "distance" : 10,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "PAYING_URBAN_PARKING",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "NONE",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "BIKE",
+    "description" : "",
+    "distance" : 2,
+    "unitOfMeasure" : "ON_FOOT"
+  } ]
+}, {
   "id" : 2722,
   "label" : "RESIDENCE SAINT-EXUPERY",
   "address" : {
@@ -24886,6 +24952,62 @@
     "description" : "",
     "distance" : 0,
     "unitOfMeasure" : "NONE"
+  } ]
+}, {
+  "id" : 2845,
+  "label" : "RESIDENCE BUGEAUD",
+  "address" : {
+    "fullAddress" : "119 Rue Bugeaud 69006 Lyon",
+    "street" : "119 Rue Bugeaud",
+    "city" : "Lyon",
+    "zipCode" : "69006",
+    "location" : {
+      "latitude" : 45.767,
+      "longitude" : 4.854
+    }
+  },
+  "bedCount" : 4,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 4,
+  "roomCount" : 5,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Appartement partag&eacute; en colocation de 4 personnes, avec 1 cuisine/pi&egrave;ce de vie commune, 2 salles de bain et 2 wc. Chambres individuelles fermant &agrave; cl&eacute;s. Plus de renseignements sur la colocation sur www.crous-lyon.fr Pensez bien &agrave; pr&eacute;voir vos draps en fonction de la taille du lit ; et vos po&ecirc;les, casseroles et produits d&rsquo;entretien selon le type de plaques dans votre logement.</p>\r\n\r\n<p><a href=\"http://www.crous-lyon.fr/logements/faire-demande-de-logement/colocations-couple/\">http://www.crous-lyon.fr/logements/faire-demande-de-logement/colocations-couple/</a></p>\r\n\r\n<p>&nbsp;</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "LIVING_ROOM", "WC", "SHOWER", "UNKNOWN", "FRIDGE", "MICROWAVE" ],
+  "areaMin" : 61.0,
+  "areaMax" : 61.0,
+  "occupationMods" : [ {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 33100,
+    "rentMax" : 33100
+  } ],
+  "transports" : [ {
+    "kind" : "METRO",
+    "description" : "Métro ligne B arrêt Brotteaux",
+    "distance" : 5,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "METRO",
+    "description" : "Métro ligne A arrêt Masséna",
+    "distance" : 5,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "TRAIN",
+    "description" : "Gare Part Dieu",
+    "distance" : 15,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "PAYING_URBAN_PARKING",
+    "description" : "Possibilité de louer un parking au sein de la résidence.",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "BIKE",
+    "description" : "",
+    "distance" : 3,
+    "unitOfMeasure" : "ON_FOOT"
   } ]
 }, {
   "id" : 798,
@@ -38797,6 +38919,37 @@
     "distance" : 0,
     "unitOfMeasure" : "NONE"
   } ]
+}, {
+  "id" : 1545,
+  "label" : "RESIDENCE VOLTAIRE",
+  "address" : {
+    "fullAddress" : "67 rue Voltaire 69003 Lyon",
+    "street" : "67 rue Voltaire",
+    "city" : "Lyon",
+    "zipCode" : "69003",
+    "location" : {
+      "latitude" : 45.756,
+      "longitude" : 4.849
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Des T1 meubl&eacute;s, avec sanitaire, kitchenette, r&eacute;frig&eacute;rateur, plaques &eacute;lectriques et lit 1 place de 90 x 200 cm.</p>\r\n\r\n<p>&nbsp;</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 18.0,
+  "areaMax" : 26.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 39700,
+    "rentMax" : 39700
+  } ],
+  "transports" : [ ]
 }, {
   "id" : 1547,
   "label" : "Rés. Univ. Jean Ferrat",

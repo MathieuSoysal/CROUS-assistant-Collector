@@ -9202,6 +9202,52 @@
     "unitOfMeasure" : "NONE"
   } ]
 }, {
+  "id" : 312,
+  "label" : "RESIDENCE LES HOUBLONNIERES",
+  "address" : {
+    "fullAddress" : "5 rue Saint Charles 67300 SCHILTIGHEIM cu.robertsau@crous-strasbourg.fr",
+    "street" : "5 rue Saint Charles",
+    "city" : "SCHILTIGHEIM cu.robertsau@crous-strasbourg.fr",
+    "zipCode" : "67300",
+    "location" : {
+      "latitude" : 48.605,
+      "longitude" : 7.746
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Studio meubl&eacute; &eacute;quip&eacute; d&#39;une kitchenette (plaque + frigo) et d&#39;une salle de bain (toilettes, lavabo et douche)</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 20.04,
+  "areaMax" : 22.8,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 40390,
+    "rentMax" : 44590
+  } ],
+  "transports" : [ {
+    "kind" : "BUS",
+    "description" : "50 ; 60 ; L3 et N1 (arrêt Schiltigheim mairie)",
+    "distance" : 2,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "FREE_URBAN_PARKING",
+    "description" : "Garage à vélo",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "NONE",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
   "id" : 314,
   "label" : "RESIDENCE LANDES 1 & 2",
   "address" : {
@@ -15671,6 +15717,57 @@
   }, {
     "kind" : "FREE_URBAN_PARKING",
     "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
+  "id" : 527,
+  "label" : "CITE UNIVERSITAIRE ROBERTSAU",
+  "address" : {
+    "fullAddress" : "14 route de la Wantzenau 67085 STRASBOURG CEDEX",
+    "street" : "14 route de la Wantzenau",
+    "city" : "STRASBOURG CEDEX",
+    "zipCode" : "67085",
+    "location" : {
+      "latitude" : 48.603,
+      "longitude" : 7.776
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Chambre &eacute;quip&eacute;e d&#39;un lavabo et d&#39;un frigo ; sanitaires communs (toilettes, douches) ; cuisines collectives</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "FRIDGE" ],
+  "areaMin" : 9.75,
+  "areaMax" : 9.75,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 19098,
+    "rentMax" : 19098
+  } ],
+  "transports" : [ {
+    "kind" : "TRAMWAY",
+    "description" : "E (arrêt  Boecklin)",
+    "distance" : 10,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "BUS",
+    "description" : "30 et N1 (arrêt Cité Universitaire)",
+    "distance" : 2,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "BUS",
+    "description" : "15 ; 72 ; l6 (arrêt Robertsau Eglise)",
+    "distance" : 10,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "PRIVATE_PARKING",
+    "description" : "Parking disponible et garage à vélo",
     "distance" : 0,
     "unitOfMeasure" : "NONE"
   } ]
@@ -25393,6 +25490,37 @@
     "unitOfMeasure" : "ON_FOOT"
   } ]
 }, {
+  "id" : 827,
+  "label" : "ORMES",
+  "address" : {
+    "fullAddress" : "2 rue de Montargis 45100 ORLEANS",
+    "street" : "2 rue de Montargis",
+    "city" : "ORLEANS",
+    "zipCode" : "45100",
+    "location" : {
+      "latitude" : 47.839,
+      "longitude" : 1.937
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Logement &eacute;quip&eacute; d&rsquo;une penderie avec tablette, d&#39;un lit, d&#39;un bureau avec chaise, d&rsquo;un frigo, d&#39;une douche et de WC individuels. Le loyer comprend les charges d&#39;&eacute;lectricit&eacute;.</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "FRIDGE" ],
+  "areaMin" : 10.0,
+  "areaMax" : 10.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 25800,
+    "rentMax" : 25800
+  } ],
+  "transports" : [ ]
+}, {
   "id" : 2878,
   "label" : "Cité Gaston Bachelard",
   "address" : {
@@ -29840,6 +29968,52 @@
   }, {
     "kind" : "PAYING_URBAN_PARKING",
     "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
+  "id" : 1009,
+  "label" : "DESSAUX",
+  "address" : {
+    "fullAddress" : "2 rue de la Folie 45000 ORLEANS",
+    "street" : "2 rue de la Folie",
+    "city" : "ORLEANS",
+    "zipCode" : "45000",
+    "location" : {
+      "latitude" : 47.899,
+      "longitude" : 1.912
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Logement &eacute;quip&eacute; d&rsquo;une penderie avec tablette, d&#39;un lit et d&#39;un bureau avec chaise. Kitchenette &eacute;quip&eacute;e d&rsquo;un meuble sous &eacute;vier, d&rsquo;un frigo et de plaques. Lavabo, douche et WC individuels. Le loyer comprend les charges d&#39;&eacute;lectricit&eacute;.</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 27.0,
+  "areaMax" : 27.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 42600,
+    "rentMax" : 42600
+  } ],
+  "transports" : [ {
+    "kind" : "TRAMWAY",
+    "description" : "Ligne A  - arrêt Châtelet",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "BUS",
+    "description" : "Bus : lignes 2 et 5 - arrêt Aristide Briand + ligne O - arrêt<br />\r\nTourneuve",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "PAYING_URBAN_PARKING",
+    "description" : "Parking de la résidence (faire une demande) : places en sous-sol au tarif mensuel révisable de<br />\r\n10 €.",
     "distance" : 0,
     "unitOfMeasure" : "NONE"
   } ]
@@ -40432,6 +40606,56 @@
   }, {
     "kind" : "FREE_URBAN_PARKING",
     "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
+  "id" : 1676,
+  "label" : "MAGNOLIAS",
+  "address" : {
+    "fullAddress" : "1 rue de Vendôme 45100 ORLEANS",
+    "street" : "1 rue de Vendôme",
+    "city" : "ORLEANS",
+    "zipCode" : "45100",
+    "location" : {
+      "latitude" : 47.845,
+      "longitude" : 1.929
+    }
+  },
+  "bedCount" : 2,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Logement d&#39;une pi&egrave;ce &eacute;quip&eacute; de deux lits, penderies/&eacute;tag&egrave;res et de deux bureaux avec chaises. Kitchenette &eacute;quip&eacute;e d&rsquo;un meuble sous &eacute;vier, d&rsquo;un frigo et de plaques en commun. Lavabo, douche et WC en commun. Le loyer comprend les charges d&#39;&eacute;lectricit&eacute;.</p>\r\n\r\n<p>Dans le cadre du logement voulu seul, le tarif sera de 445&euro;/mois.</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 31.0,
+  "areaMax" : 31.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 44800,
+    "rentMax" : 44800
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 34600,
+    "rentMax" : 34600
+  } ],
+  "transports" : [ {
+    "kind" : "TRAMWAY",
+    "description" : "Ligne A - arrêt Université-Château",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "BUS",
+    "description" : "Ligne 7 - arrêt Université-Château",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "FREE_URBAN_PARKING",
+    "description" : "Stationnement gratuit sur le parking extérieur de la résidence.",
     "distance" : 0,
     "unitOfMeasure" : "NONE"
   } ]

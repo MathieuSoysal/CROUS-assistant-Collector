@@ -23,7 +23,7 @@ class ArchiverAllResidences {
 
     private static File updateArchivedFile(List<Residence> collectedResidences) {
         var archivedResidences = ArchivedResidences.generateArchivedResidencesFromLinkArchive(Archiver.getLinkToArchive());
-        archivedResidences.addResidences(collectedResidences);
+        archivedResidences.addAllResidences(collectedResidences);
         var archivedFile = Archiver.ARCHIVE_SAVER
                 .endPathAndSaveData(ArchiveName.ALL_LOGEMENTS, archivedResidences.getResidences());
         return archivedFile;

@@ -38,7 +38,7 @@ class ArchivedResidencesManagerTest {
         String expectedJsonString = Convertor.convertResidencesToJson(residences.getResidences());
 
         var newResidences = new DataCollectorFromArchive(Archiver.DEFAULT_LINK_TO_ARCHIVE).getAllResidences();
-        residences.addResidences(newResidences);
+        residences.addAllResidences(newResidences);
         String actualJsonString = Convertor.convertResidencesToJson(residences.getResidences());
 
         assertEquals(expectedJsonString, actualJsonString);

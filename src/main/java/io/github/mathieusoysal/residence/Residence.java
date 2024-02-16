@@ -2,11 +2,7 @@ package io.github.mathieusoysal.residence;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
-import java.util.SortedSet;
-import java.util.TreeSet;
 
 /**
  * Residence
@@ -32,7 +28,7 @@ public class Residence {
     private List<Equipment> equipements;
     private double areaMin;
     private double areaMax;
-    private SortedSet<OccupationMode> occupationMods;
+    private List<OccupationMode> occupationMods;
     private List<io.github.mathieusoysal.residence.Transport> transports;
 
     // Create constructor
@@ -76,7 +72,7 @@ public class Residence {
      *
      * @param residence the Residence object to be added
      */
-    public void addResidence(Residence residence) {
+    public void combineWith(Residence residence) {
         if (residence == null)
             return;
         label = residence.getLabel();
@@ -93,7 +89,9 @@ public class Residence {
         equipements = residence.getEquipements();
         areaMin = residence.getAreaMin();
         areaMax = residence.getAreaMax();
-        occupationMods.addAll(residence.occupationMods);
+        residence.occupationMods.stream()
+                .filter(occupationMode -> !occupationMods.contains(occupationMode))
+                .forEach(occupationMods::add);
         transports = residence.getTransports();
     }
 
@@ -324,7 +322,7 @@ public class Residence {
     }
 
     public void setOccupationMods(List<OccupationMode> occupationMods) {
-        this.occupationMods = new TreeSet<>(occupationMods);
+        this.occupationMods = occupationMods;
     }
 
     public void setTransports(List<io.github.mathieusoysal.residence.Transport> transports) {

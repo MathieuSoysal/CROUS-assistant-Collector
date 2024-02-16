@@ -28,7 +28,7 @@ class ArchivedResidences {
     public static ArchivedResidences generateArchivedResidencesFromLinkArchive(final String linkToArchive) {
         var dataCollector = new DataCollectorFromArchive(linkToArchive);
         var residences = new ArchivedResidences();
-        residences.addResidences(dataCollector.getAllResidences());
+        residences.addAllResidences(dataCollector.getAllResidences());
         return residences;
     }
 
@@ -37,15 +37,15 @@ class ArchivedResidences {
             residences.put(residence.getId(), residence);
         else {
             Residence existingResidence = residences.get(residence.getId());
-            existingResidence.addResidence(residence);
+            existingResidence.combineWith(residence);
         }
     }
 
-    public void addResidences(Collection<Residence> residences) {
+    public void addAllResidences(Collection<Residence> residences) {
         residences.forEach(this::addResidence);
     }
 
-    public void addResidences(Residence[][] residences) {
+    public void addAllResidences(Residence[][] residences) {
         for (Residence[] residences2 : residences)
             for (Residence residence : residences2)
                 addResidence(residence);

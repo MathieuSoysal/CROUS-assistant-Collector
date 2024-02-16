@@ -93,7 +93,9 @@ public class Residence {
         equipements = residence.getEquipements();
         areaMin = residence.getAreaMin();
         areaMax = residence.getAreaMax();
-        occupationMods.addAll(residence.occupationMods);
+        residence.occupationMods.stream()
+                .filter(occupationMode -> !occupationMods.contains(occupationMode))
+                .forEach(occupationMods::add);
         transports = residence.getTransports();
     }
 
@@ -324,7 +326,7 @@ public class Residence {
     }
 
     public void setOccupationMods(List<OccupationMode> occupationMods) {
-        this.occupationMods = new TreeSet<>(occupationMods);
+        this.occupationMods = occupationMods;
     }
 
     public void setTransports(List<io.github.mathieusoysal.residence.Transport> transports) {

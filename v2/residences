@@ -493,13 +493,13 @@
     "rentMin" : 53618,
     "rentMax" : 53618
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 26809,
-    "rentMax" : 26809
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 53618,
     "rentMax" : 53618
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 26809,
+    "rentMax" : 26809
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -2712,13 +2712,13 @@
     "rentMin" : 58260,
     "rentMax" : 58260
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 29130,
-    "rentMax" : 29130
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 58260,
     "rentMax" : 58260
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 29130,
+    "rentMax" : 29130
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -3901,13 +3901,13 @@
     "rentMin" : 47020,
     "rentMax" : 47020
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 23512,
-    "rentMax" : 23512
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 47020,
     "rentMax" : 47020
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 23512,
+    "rentMax" : 23512
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -4349,13 +4349,13 @@
     "rentMin" : 58683,
     "rentMax" : 58683
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 29341,
-    "rentMax" : 29341
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 58683,
     "rentMax" : 58683
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 29341,
+    "rentMax" : 29341
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -4597,13 +4597,13 @@
     "rentMin" : 58683,
     "rentMax" : 58683
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 29341,
-    "rentMax" : 29341
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 58683,
     "rentMax" : 58683
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 29341,
+    "rentMax" : 29341
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -5248,13 +5248,13 @@
     "rentMin" : 36899,
     "rentMax" : 36899
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 19073,
-    "rentMax" : 19073
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 36899,
     "rentMax" : 36899
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 19073,
+    "rentMax" : 19073
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -6202,13 +6202,13 @@
     "rentMin" : 38800,
     "rentMax" : 38800
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 21650,
-    "rentMax" : 43300
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 21650,
     "rentMax" : 21650
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 21650,
+    "rentMax" : 43300
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -6461,13 +6461,13 @@
     "rentMin" : 54046,
     "rentMax" : 54046
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 27023,
-    "rentMax" : 27023
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 54046,
     "rentMax" : 54046
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 27023,
+    "rentMax" : 27023
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -7232,7 +7232,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p>&nbsp;</p>\r\n\r\n<p><strong>LOGEMENT DISPONIBLE AU 01/03/2024 ET AU 18/03/2024</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Important - Pour une demande de logement sur le secteur Bordeaux-M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide</strong> ;</p>\r\n\r\n<p>- les &eacute;tudiants internationaux en mobilit&eacute; individuelle <strong>inscrits en Doctorat et Master</strong>. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; dans l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement. En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement :</em></p>\r\n\r\n<ul>\r\n\t<li><em>Le logement dispose d&#39;un bureau, d&#39;une table, d&#39;une armoire ( &eacute;tag&egrave;re + penderie) et d&#39;un lit ( sommier + matelas) de 190x90cm.</em></li>\r\n</ul>",
+  "description" : "<p>&nbsp;</p>\r\n\r\n<p><strong>LOGEMENT DISPONIBLE AU 18/03/2024</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Important - Pour une demande de logement sur le secteur Bordeaux-M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide</strong> ;</p>\r\n\r\n<p>- les &eacute;tudiants internationaux en mobilit&eacute; individuelle <strong>inscrits en Doctorat et Master</strong>. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; dans l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement. En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement :</em></p>\r\n\r\n<ul>\r\n\t<li><em>Le logement dispose d&#39;un bureau, d&#39;une table, d&#39;une armoire ( &eacute;tag&egrave;re + penderie) et d&#39;un lit ( sommier + matelas) de 190x90cm.</em></li>\r\n</ul>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -7530,13 +7530,13 @@
     "rentMin" : 55455,
     "rentMax" : 55455
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 27728,
-    "rentMax" : 27728
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 55455,
     "rentMax" : 55455
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 27728,
+    "rentMax" : 27728
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -9304,13 +9304,13 @@
     "rentMin" : 53878,
     "rentMax" : 53878
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 26939,
-    "rentMax" : 26939
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 53878,
     "rentMax" : 53878
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 26939,
+    "rentMax" : 26939
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -10703,13 +10703,13 @@
     "rentMin" : 57816,
     "rentMax" : 57816
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 28908,
-    "rentMax" : 28908
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 57816,
     "rentMax" : 57816
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 28908,
+    "rentMax" : 28908
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -12564,13 +12564,13 @@
     "rentMin" : 41564,
     "rentMax" : 41564
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 20782,
-    "rentMax" : 20782
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 41564,
     "rentMax" : 41564
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 20782,
+    "rentMax" : 20782
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -14813,13 +14813,13 @@
     "rentMin" : 61176,
     "rentMax" : 61176
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 30889,
-    "rentMax" : 30889
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 61176,
     "rentMax" : 61176
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 30889,
+    "rentMax" : 30889
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -15885,13 +15885,13 @@
     "rentMin" : 53441,
     "rentMax" : 53441
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 26720,
-    "rentMax" : 26720
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 53441,
     "rentMax" : 53441
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 26720,
+    "rentMax" : 26720
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -16434,13 +16434,13 @@
     "rentMin" : 48096,
     "rentMax" : 48096
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 24048,
-    "rentMax" : 24048
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 48096,
     "rentMax" : 48096
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 24048,
+    "rentMax" : 24048
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -16953,13 +16953,13 @@
     "rentMin" : 55529,
     "rentMax" : 55529
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 27764,
-    "rentMax" : 27764
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 55529,
     "rentMax" : 55529
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 27764,
+    "rentMax" : 27764
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -17212,13 +17212,13 @@
     "rentMin" : 58829,
     "rentMax" : 58829
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 29414,
-    "rentMax" : 29414
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 58829,
     "rentMax" : 58829
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 29414,
+    "rentMax" : 29414
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -18008,13 +18008,13 @@
     "rentMin" : 67899,
     "rentMax" : 67899
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 33949,
-    "rentMax" : 33949
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 67899,
     "rentMax" : 67899
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 33949,
+    "rentMax" : 33949
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -21778,13 +21778,13 @@
     "rentMin" : 41800,
     "rentMax" : 41800
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 25050,
-    "rentMax" : 25050
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 41800,
     "rentMax" : 41800
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 25050,
+    "rentMax" : 25050
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -21924,13 +21924,13 @@
     "rentMin" : 47258,
     "rentMax" : 47258
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 23629,
-    "rentMax" : 23629
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 47258,
     "rentMax" : 47258
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 23629,
+    "rentMax" : 23629
   } ],
   "transports" : [ {
     "kind" : "FREE_URBAN_PARKING",
@@ -23289,13 +23289,13 @@
     "rentMin" : 49976,
     "rentMax" : 49976
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 24988,
-    "rentMax" : 24988
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 49976,
     "rentMax" : 49976
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 24988,
+    "rentMax" : 24988
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -23546,13 +23546,13 @@
     "rentMin" : 52010,
     "rentMax" : 52010
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 26005,
-    "rentMax" : 26005
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 52010,
     "rentMax" : 52010
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 26005,
+    "rentMax" : 26005
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -25020,13 +25020,13 @@
     "rentMin" : 60466,
     "rentMax" : 60466
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 30233,
-    "rentMax" : 30233
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 60466,
     "rentMax" : 60466
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 30233,
+    "rentMax" : 30233
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -25846,13 +25846,13 @@
     "rentMin" : 66126,
     "rentMax" : 66126
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 33063,
-    "rentMax" : 33063
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 66126,
     "rentMax" : 66126
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 33063,
+    "rentMax" : 33063
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -31983,13 +31983,13 @@
     "rentMin" : 40680,
     "rentMax" : 40680
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 23430,
-    "rentMax" : 23430
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 46860,
     "rentMax" : 46860
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 23430,
+    "rentMax" : 23430
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -32052,6 +32052,65 @@
     "description" : "",
     "distance" : 0,
     "unitOfMeasure" : "NONE"
+  } ]
+}, {
+  "id" : 1075,
+  "label" : "Résidence Colette",
+  "address" : {
+    "fullAddress" : "7, rue laplace BP 31225 25004 BESANCON CEDEX 3",
+    "street" : "7, rue laplace BP 31225",
+    "city" : "BESANCON CEDEX 3",
+    "zipCode" : "25004",
+    "location" : {
+      "latitude" : 47.249,
+      "longitude" : 5.986
+    }
+  },
+  "bedCount" : 2,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Appartement meubl&eacute; (lit bureau placards) - acc&egrave;s internet- Tarif mensuel toutes charges comprises sauf location compteur &eacute;lectrique et consommation- Possibilit&eacute; d&rsquo;aides CAF (APL) Pr&eacute;avis d&rsquo;un mois &agrave; donner avant d&eacute;part et &eacute;tat des lieux obligatoires avant d&eacute;part</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 30.06,
+  "areaMax" : 34.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 39565,
+    "rentMax" : 39565
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 46265,
+    "rentMax" : 46265
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 23133,
+    "rentMax" : 23133
+  } ],
+  "transports" : [ {
+    "kind" : "BUS",
+    "description" : "Ligne 3  arrêt \"crous université\"",
+    "distance" : 10,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "TRAIN",
+    "description" : "bus n° 3",
+    "distance" : 3000,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "FREE_URBAN_PARKING",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "BIKE",
+    "description" : "",
+    "distance" : 10,
+    "unitOfMeasure" : "ON_FOOT"
   } ]
 }, {
   "id" : 1079,
@@ -32464,13 +32523,13 @@
     "rentMin" : 49975,
     "rentMax" : 49975
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 28750,
-    "rentMax" : 28750
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 57500,
     "rentMax" : 57500
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 28750,
+    "rentMax" : 28750
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -32917,13 +32976,13 @@
     "rentMin" : 52940,
     "rentMax" : 55440
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 26470,
-    "rentMax" : 27720
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 52940,
     "rentMax" : 55440
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 26470,
+    "rentMax" : 27720
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -33007,13 +33066,13 @@
     "rentMin" : 67690,
     "rentMax" : 67690
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 22563,
-    "rentMax" : 22563
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 67690,
     "rentMax" : 67690
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 22563,
+    "rentMax" : 22563
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -36635,7 +36694,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>LOGEMENT DISPONIBLE AU 01/03/2024 ET AU 18/03/2024</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Important - Pour une demande de logement sur le secteur Bordeaux-M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide</strong> ;</p>\r\n\r\n<p>- les &eacute;tudiants internationaux en mobilit&eacute; individuelle <strong>inscrits en Doctorat et Master</strong>. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; dans l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement. En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement :</em></p>\r\n\r\n<ul>\r\n\t<li><em>Le logement dispose d&#39;un bureau, de deux chaises, d&#39;un fauteuil, d&#39;une armoire (&eacute;tag&egrave;re + penderie) et d&#39;un lit (sommier + matelas) de 200x90cm.</em></li>\r\n</ul>",
+  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>LOGEMENT DISPONIBLE AU 18/03/2024</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Important - Pour une demande de logement sur le secteur Bordeaux-M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide</strong> ;</p>\r\n\r\n<p>- les &eacute;tudiants internationaux en mobilit&eacute; individuelle <strong>inscrits en Doctorat et Master</strong>. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; dans l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement. En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement :</em></p>\r\n\r\n<ul>\r\n\t<li><em>Le logement dispose d&#39;un bureau, de deux chaises, d&#39;un fauteuil, d&#39;une armoire (&eacute;tag&egrave;re + penderie) et d&#39;un lit (sommier + matelas) de 200x90cm.</em></li>\r\n</ul>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -37414,13 +37473,13 @@
     "rentMin" : 37621,
     "rentMax" : 37621
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 18810,
-    "rentMax" : 18810
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 37621,
     "rentMax" : 37621
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 18810,
+    "rentMax" : 18810
   } ],
   "transports" : [ ]
 }, {
@@ -37744,13 +37803,13 @@
     "rentMin" : 43900,
     "rentMax" : 43900
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 27670,
-    "rentMax" : 27670
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 55400,
     "rentMax" : 55400
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 27670,
+    "rentMax" : 27670
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -37936,13 +37995,13 @@
     "rentMin" : 39654,
     "rentMax" : 39654
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 19827,
-    "rentMax" : 19827
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 39654,
     "rentMax" : 39654
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 19827,
+    "rentMax" : 19827
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -37981,13 +38040,13 @@
   "areaMin" : 51.6,
   "areaMax" : 52.1,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 23813,
-    "rentMax" : 23813
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 47626,
     "rentMax" : 47626
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 23813,
+    "rentMax" : 23813
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -38061,13 +38120,13 @@
     "rentMin" : 37450,
     "rentMax" : 37450
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 18730,
-    "rentMax" : 18730
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 37450,
     "rentMax" : 37450
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 18730,
+    "rentMax" : 18730
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -38110,13 +38169,13 @@
     "rentMin" : 41070,
     "rentMax" : 41070
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 20535,
-    "rentMax" : 20535
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 41070,
     "rentMax" : 41070
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 20535,
+    "rentMax" : 20535
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -38329,13 +38388,13 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 18700,
-    "rentMax" : 18700
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 38000,
     "rentMax" : 38000
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 18700,
+    "rentMax" : 18700
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -38373,13 +38432,13 @@
     "rentMin" : 45470,
     "rentMax" : 45470
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 26650,
-    "rentMax" : 26650
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 53950,
     "rentMax" : 53950
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 26650,
+    "rentMax" : 26650
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -39737,13 +39796,13 @@
   "areaMin" : 34.44,
   "areaMax" : 38.76,
   "occupationMods" : [ {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 28779,
-    "rentMax" : 28779
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 57558,
     "rentMax" : 57558
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 28779,
+    "rentMax" : 28779
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -46067,13 +46126,13 @@
     "rentMin" : 53694,
     "rentMax" : 53694
   }, {
-    "occupationKind" : "HOUSE_SHARING",
-    "rentMin" : 27054,
-    "rentMax" : 27054
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 53694,
     "rentMax" : 53694
+  }, {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 27054,
+    "rentMax" : 27054
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -47043,5 +47102,46 @@
     "description" : "Arrêt de bus : Pont Neuf, Bajon, Anatole France, Baptistère St Jean, Ste Croix",
     "distance" : 10,
     "unitOfMeasure" : "ON_FOOT"
+  } ]
+}, {
+  "id" : 2042,
+  "label" : "Ulis",
+  "address" : {
+    "fullAddress" : "15, rue le Bosquet 91940 les ULIS",
+    "street" : "15, rue le Bosquet",
+    "city" : "les ULIS",
+    "zipCode" : "91940",
+    "location" : {
+      "latitude" : 48.68,
+      "longitude" : 2.165
+    }
+  },
+  "bedCount" : 4,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 4,
+  "roomCount" : 5,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>- Colocation 4 places<br />\r\n- Parties communes : Cuisine, WC, douche<br />\r\n- Aides disponibles : ALS<br />\r\n- Accessibilit&eacute; PMR : Non<br />\r\n- Chauffage collectif : Oui<br />\r\n- Espace collectif : Laverie</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "LIVING_ROOM", "WC", "SHOWER", "UNKNOWN", "FRIDGE", "MICROWAVE" ],
+  "areaMin" : 57.1,
+  "areaMax" : 57.1,
+  "occupationMods" : [ {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 16900,
+    "rentMax" : 16900
+  } ],
+  "transports" : [ {
+    "kind" : "RER",
+    "description" : "Gare : Orsay-ville (RER B)",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "BUS",
+    "description" : "Bus ligne 23 direction Centre commercial Ulis 2, arrêt Thomas",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
   } ]
 } ]

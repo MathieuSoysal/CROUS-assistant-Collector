@@ -23,10 +23,12 @@ jobs:
       needs: creating-archive
       if: failure()
       steps:
+        - name: Checkout
+          uses:  actions/checkout@v4
         - name: Rerun failed jobs in the current workflow
-          env:
-            GH_TOKEN: ${{ github.token }}
-          run: gh run rerun ${{ github.run_id }} --failed
+          env: 
+            GH_TOKEN: ${{ secrets.RERUN_TOKEN }}
+          run: gh run rerun ${{ github.run_id }} --failed --repo ${{ github.repository }}
 
 
           

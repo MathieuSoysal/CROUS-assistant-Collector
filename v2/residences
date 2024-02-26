@@ -4471,6 +4471,47 @@
     "unitOfMeasure" : "NONE"
   } ]
 }, {
+  "id" : 2194,
+  "label" : "Gare",
+  "address" : {
+    "fullAddress" : "58 Avenue de l Union Soviétique - 63000 CLERMONT-FERRAND",
+    "street" : "58 Avenue de l Union Soviétique",
+    "city" : "CLERMONT-FERRAND",
+    "zipCode" : "63000",
+    "location" : {
+      "latitude" : 45.78,
+      "longitude" : 3.103
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p><strong><em>A titre d&#39;information, le loyer brut total pour 2023-24&nbsp;s&#39;&eacute;l&egrave;ve &agrave; 321.00&nbsp;&euro;&nbsp;(frais d&#39;acc&egrave;s Internet inclus)</em></strong></p>\r\n\r\n<p><em>(L&#39;&eacute;lectricit&eacute; pour l&#39;usage courant, le chauffage et la production d&#39;eau chaude sont &agrave; la charge du locataire)</em></p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 20.0,
+  "areaMax" : 20.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 32100,
+    "rentMax" : 32100
+  } ],
+  "transports" : [ {
+    "kind" : "TRAIN",
+    "description" : "gare de Clermont-Ferrand",
+    "distance" : 3,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "BUS",
+    "description" : "Bus B, 4, 8, 3, 35 et 36 arrêt gare SNCF",
+    "distance" : 3,
+    "unitOfMeasure" : "ON_FOOT"
+  } ]
+}, {
   "id" : 2202,
   "label" : "Résidence Paul Voivenel 1",
   "address" : {
@@ -16418,7 +16459,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\"><strong>LOGEMENT DISPONIBLE AU 01/03/2024 ET AU 18/03/2024</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Pour toute demande en colocation ou en couple,</strong> vous pouvez prendre connaissance des modalit&eacute;s et compl&eacute;ter le formulaire ci-apr&egrave;s&nbsp;:&nbsp;<a href=\"https://forms.office.com/pages/responsepage.aspx?id=KWKm1lVdtkqjd-ymPo2oE4wc2QTKILtOtI1-B1So74VUNEFFM0lHVkRKNjRJNVY4WDFUVkNGRlhVSy4u\" style=\"color:#0563c1; text-decoration:underline\">Formulaire demande de logement &agrave; partager </a>&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Pour une demande sur le secteur Bordeaux M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide </strong>;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants internationaux en mobilit&eacute; individuelle inscrits en Doctorat et Master. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.&nbsp;</p>\r\n\r\n<p style=\"margin-left:40px; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement </em>:</p>\r\n\r\n<ul>\r\n\t<li><em><strong>T1BIS </strong></em> avec une u<em>nit&eacute; de vie : &eacute;vier, r&eacute;frig&eacute;rateur, plaques de cuisson, placards</em> <em>, </em> <em>et un coin nuit dans la m&ecirc;me pi&egrave;ce </em><em>avec </em> <em>un <strong>lit double </strong>(140cm)</em></li>\r\n\t<li><em>2 bureaux + chaises, placards</em></li>\r\n\t<li><em>Salle de bain : baignoire, lavabo, wc&nbsp;</em></li>\r\n</ul>",
+  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\"><strong>LOGEMENT DISPONIBLE AU 01/03/2024</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Pour toute demande en colocation ou en couple,</strong> vous pouvez prendre connaissance des modalit&eacute;s et compl&eacute;ter le formulaire ci-apr&egrave;s&nbsp;:&nbsp;<a href=\"https://forms.office.com/pages/responsepage.aspx?id=KWKm1lVdtkqjd-ymPo2oE4wc2QTKILtOtI1-B1So74VUNEFFM0lHVkRKNjRJNVY4WDFUVkNGRlhVSy4u\" style=\"color:#0563c1; text-decoration:underline\">Formulaire demande de logement &agrave; partager </a>&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Pour une demande sur le secteur Bordeaux M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide </strong>;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants internationaux en mobilit&eacute; individuelle inscrits en Doctorat et Master. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.&nbsp;</p>\r\n\r\n<p style=\"margin-left:40px; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement </em>:</p>\r\n\r\n<ul>\r\n\t<li><em><strong>T1BIS </strong></em> avec une u<em>nit&eacute; de vie : &eacute;vier, r&eacute;frig&eacute;rateur, plaques de cuisson, placards</em> <em>, </em> <em>et un coin nuit dans la m&ecirc;me pi&egrave;ce </em><em>avec </em> <em>un <strong>lit double </strong>(140cm)</em></li>\r\n\t<li><em>2 bureaux + chaises, placards</em></li>\r\n\t<li><em>Salle de bain : baignoire, lavabo, wc&nbsp;</em></li>\r\n</ul>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,

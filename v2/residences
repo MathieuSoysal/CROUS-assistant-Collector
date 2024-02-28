@@ -30007,7 +30007,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p>Les logements adapt&eacute;s aux personnes &agrave; mobilit&eacute; r&eacute;duite sont tous &eacute;quip&eacute;s de : lit, table, chaise, bureau, meuble de rangement, r&eacute;frig&eacute;rateur. Studios avec cabine douche-sanitaire et kitchenette individuelle</p>\r\n\r\n<p>Loyer toutes charges comprises.</p>",
+  "description" : "<p>Les logements adapt&eacute;s aux personnes &agrave; mobilit&eacute; r&eacute;duite (PMR) sont tous &eacute;quip&eacute;s de : lit, table, chaise, bureau, meuble de rangement, r&eacute;frig&eacute;rateur. Studios avec cabine douche-sanitaire et kitchenette individuelle</p>\r\n\r\n<p>Loyer toutes charges comprises.</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,

@@ -4441,6 +4441,57 @@
     "unitOfMeasure" : "NONE"
   } ]
 }, {
+  "id" : 2184,
+  "label" : "RESIDENCE LE BRUCKHOF",
+  "address" : {
+    "fullAddress" : "130 avenue du Rhin 67100 STRASBOURG",
+    "street" : "130 avenue du Rhin",
+    "city" : "STRASBOURG",
+    "zipCode" : "67100",
+    "location" : {
+      "latitude" : 48.57,
+      "longitude" : 7.777
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Studio meubl&eacute; &eacute;quip&eacute; d&#39;une kitchenette (plaque + frigo) et d&#39;une salle de bain (toilettes, lavabo et douche)<br />\r\n<br />\r\n/!\\ Les tarifs des studios vont de 357&euro;/mois &agrave; 473&euro;/mois pour les T1 selon la surface</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 17.6,
+  "areaMax" : 27.85,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 36211,
+    "rentMax" : 47965
+  } ],
+  "transports" : [ {
+    "kind" : "TRAMWAY",
+    "description" : "D (arrêt Aristide Briand)",
+    "distance" : 3,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "TRAMWAY",
+    "description" : "C (arrêt Jean Jaurès)",
+    "distance" : 8,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "BUS",
+    "description" : "31 et N2 (arrêt Aristide Briand)",
+    "distance" : 3,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "PRIVATE_PARKING",
+    "description" : "Garage à vélo",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
   "id" : 2185,
   "label" : "Résidence Georges Lefèvre",
   "address" : {
@@ -14588,6 +14639,62 @@
     "unitOfMeasure" : "ON_FOOT"
   } ]
 }, {
+  "id" : 453,
+  "label" : "CITE UNIVERSITAIRE ALFRED WEISS 2",
+  "address" : {
+    "fullAddress" : "4 rue du Vieil Armand 67100 STRASBOURG",
+    "street" : "4 rue du Vieil Armand",
+    "city" : "STRASBOURG",
+    "zipCode" : "67100",
+    "location" : {
+      "latitude" : 48.567,
+      "longitude" : 7.777
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Studio meubl&eacute; &eacute;quip&eacute; d&#39;une kitchenette (plaque + frigo) et d&#39;une cabine trifonction (toilettes, lavabo et douche)</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 18.0,
+  "areaMax" : 18.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 41532,
+    "rentMax" : 41532
+  } ],
+  "transports" : [ {
+    "kind" : "BUS",
+    "description" : "30 et 31 (arrêt Soultz)",
+    "distance" : 2,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "TRAMWAY",
+    "description" : "D (arrêt Aristide Briand)",
+    "distance" : 5,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "TRAMWAY",
+    "description" : "C  (arrêt Jean Jaurès)",
+    "distance" : 9,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "PRIVATE_PARKING",
+    "description" : "parking privé",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "BIKE",
+    "description" : "",
+    "distance" : 9,
+    "unitOfMeasure" : "ON_FOOT"
+  } ]
+}, {
   "id" : 2502,
   "label" : "CLACTON",
   "address" : {
@@ -15532,6 +15639,52 @@
     "unitOfMeasure" : "METRE"
   }, {
     "kind" : "FREE_URBAN_PARKING",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
+  "id" : 476,
+  "label" : "CITE UNIVERSITAIRE GALLIA",
+  "address" : {
+    "fullAddress" : "1 boulevard de la Victoire 67000 STRASBOURG",
+    "street" : "1 boulevard de la Victoire",
+    "city" : "STRASBOURG",
+    "zipCode" : "67000",
+    "location" : {
+      "latitude" : 48.584,
+      "longitude" : 7.76
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Chambre &eacute;quip&eacute;e d&#39;une salle de bain (douche, lavabo, toilettes) et d&#39;un frigo ; cuisines collectives</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "FRIDGE" ],
+  "areaMin" : 12.01,
+  "areaMax" : 22.4,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 35368,
+    "rentMax" : 35368
+  } ],
+  "transports" : [ {
+    "kind" : "TRAMWAY",
+    "description" : "C ; E ; F (arrêt Gallia)",
+    "distance" : 2,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "BUS",
+    "description" : "30 et 10 (arrêt Gallia)",
+    "distance" : 2,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "PAYING_URBAN_PARKING",
     "description" : "",
     "distance" : 0,
     "unitOfMeasure" : "NONE"

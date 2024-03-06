@@ -288,13 +288,13 @@
   "areaMin" : 30.5,
   "areaMax" : 53.4,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
-    "rentMin" : 54059,
-    "rentMax" : 69080
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 54059,
     "rentMax" : 69090
+  }, {
+    "occupationKind" : "COUPLE_ONE_SPACE",
+    "rentMin" : 54059,
+    "rentMax" : 69080
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -1879,11 +1879,11 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 41552,
     "rentMax" : 41552
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 41552,
     "rentMax" : 41552
   } ],
@@ -3464,11 +3464,11 @@
   "areaMin" : 34.0,
   "areaMax" : 34.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 38615,
     "rentMax" : 38615
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 38615,
     "rentMax" : 38615
   } ],
@@ -4359,6 +4359,51 @@
     "unitOfMeasure" : "NONE"
   } ]
 }, {
+  "id" : 2176,
+  "label" : "RESIDENCE O-SLOW",
+  "address" : {
+    "fullAddress" : "42 Boulevard Gustave Roch 44000 NANTES",
+    "street" : "42 Boulevard Gustave Roch",
+    "city" : "NANTES",
+    "zipCode" : "44000",
+    "location" : {
+      "latitude" : 47.203,
+      "longitude" : -1.553
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "DOUBLE",
+  "bedroomCount" : 1,
+  "roomCount" : 2,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Logement r&eacute;serv&eacute;, en priorit&eacute;,&nbsp; pour un couple &eacute;tudiant, veuillez envoyer &agrave; logement@crous-nantes.fr , le nom, pr&eacute;nom, INE et le certificat de votre partenaire</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "LIVING_ROOM", "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 33.9,
+  "areaMax" : 36.9,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 57549,
+    "rentMax" : 57549
+  }, {
+    "occupationKind" : "COUPLE_ONE_SPACE",
+    "rentMin" : 57549,
+    "rentMax" : 57549
+  } ],
+  "transports" : [ {
+    "kind" : "TRAMWAY",
+    "description" : "Lignes 2 et 3, arrêts Vincent Gâche ou Wattignies",
+    "distance" : 10,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "BUS",
+    "description" : "ligne 26 - C5  arrêt Min",
+    "distance" : 5,
+    "unitOfMeasure" : "ON_FOOT"
+  } ]
+}, {
   "id" : 2179,
   "label" : "RESIDENCE ALICE CHATENOUD",
   "address" : {
@@ -5243,11 +5288,11 @@
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 36049,
     "rentMax" : 36049
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 36049,
     "rentMax" : 36049
   } ],
@@ -6781,11 +6826,11 @@
   "areaMin" : 28.33,
   "areaMax" : 36.28,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 43659,
     "rentMax" : 43659
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 43659,
     "rentMax" : 43659
   } ],
@@ -7498,11 +7543,11 @@
   "areaMin" : 21.4,
   "areaMax" : 26.2,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 37808,
     "rentMax" : 42298
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 37808,
     "rentMax" : 42298
   } ],
@@ -8893,6 +8938,37 @@
     "unitOfMeasure" : "NONE"
   } ]
 }, {
+  "id" : 270,
+  "label" : "Résidence Olympie",
+  "address" : {
+    "fullAddress" : "Avenue Descartes 62219 LONGUENESSE",
+    "street" : "Avenue Descartes",
+    "city" : "LONGUENESSE",
+    "zipCode" : "62219",
+    "location" : {
+      "latitude" : 50.739,
+      "longitude" : 2.26
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Studio pour 1 personne &eacute;quip&eacute; d&#39;une salle de bains et d&#39;une kitchenette, d&#39;un lit simple.</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 25.0,
+  "areaMax" : 25.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 42510,
+    "rentMax" : 42510
+  } ],
+  "transports" : [ ]
+}, {
   "id" : 271,
   "label" : "GALILEE",
   "address" : {
@@ -9507,11 +9583,11 @@
   "areaMin" : 36.0,
   "areaMax" : 36.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 43822,
     "rentMax" : 43822
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 43822,
     "rentMax" : 43822
   } ],
@@ -9920,11 +9996,11 @@
   "areaMin" : 49.0,
   "areaMax" : 49.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 49742,
     "rentMax" : 49742
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 49742,
     "rentMax" : 49742
   } ],
@@ -11919,11 +11995,11 @@
   "areaMin" : 30.42,
   "areaMax" : 36.34,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 36069,
     "rentMax" : 39552
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 36069,
     "rentMax" : 39552
   } ],
@@ -12526,11 +12602,11 @@
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 41896,
     "rentMax" : 41896
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 41896,
     "rentMax" : 41896
   } ],
@@ -12576,11 +12652,11 @@
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 41896,
     "rentMax" : 41896
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 41896,
     "rentMax" : 41896
   } ],
@@ -12626,11 +12702,11 @@
   "areaMin" : 37.1,
   "areaMax" : 37.1,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 57549,
     "rentMax" : 57549
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 57549,
     "rentMax" : 57549
   } ],
@@ -13892,11 +13968,11 @@
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 56233,
     "rentMax" : 56233
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 56233,
     "rentMax" : 56233
   } ],
@@ -15848,11 +15924,11 @@
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 56233,
     "rentMax" : 56233
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 56233,
     "rentMax" : 56233
   } ],
@@ -17529,11 +17605,11 @@
   "areaMin" : 25.96,
   "areaMax" : 28.17,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 55090,
     "rentMax" : 58110
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 55090,
     "rentMax" : 58110
   } ],
@@ -18007,11 +18083,11 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 48096,
     "rentMax" : 48096
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 48096,
     "rentMax" : 48096
   } ],
@@ -19682,11 +19758,11 @@
   "areaMin" : 26.16,
   "areaMax" : 28.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 42310,
     "rentMax" : 42310
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 42310,
     "rentMax" : 42310
   } ],
@@ -22425,11 +22501,11 @@
   "areaMin" : 16.7,
   "areaMax" : 28.9,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 52350,
     "rentMax" : 52350
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 52350,
     "rentMax" : 52350
   } ],
@@ -25489,6 +25565,47 @@
     "unitOfMeasure" : "ON_FOOT"
   } ]
 }, {
+  "id" : 2775,
+  "label" : "RESIDENCE MADGE SYERS",
+  "address" : {
+    "fullAddress" : "1 Allée du Président Chirac 49100 ANGERS",
+    "street" : "1 Allée du Président Chirac",
+    "city" : "ANGERS",
+    "zipCode" : "49100",
+    "location" : {
+      "latitude" : 47.48,
+      "longitude" : -0.548
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>7 T1 r&eacute;serv&eacute;s en priorit&eacute; aux personnes &agrave; mobilit&eacute; r&eacute;duite.</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 17.4,
+  "areaMax" : 18.7,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 34685,
+    "rentMax" : 34685
+  } ],
+  "transports" : [ {
+    "kind" : "BUS",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "PAYING_URBAN_PARKING",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
   "id" : 2776,
   "label" : "RESIDENCE MADGE SYERS",
   "address" : {
@@ -25555,11 +25672,11 @@
   "areaMin" : 44.3,
   "areaMax" : 47.9,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 76359,
     "rentMax" : 76359
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 76359,
     "rentMax" : 76359
   } ],
@@ -25651,11 +25768,11 @@
   "areaMin" : 31.6,
   "areaMax" : 36.9,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 60469,
     "rentMax" : 60469
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 60469,
     "rentMax" : 60469
   } ],
@@ -28086,11 +28203,11 @@
   "areaMin" : 24.54,
   "areaMax" : 30.85,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 53000,
     "rentMax" : 59500
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 53000,
     "rentMax" : 59500
   } ],
@@ -31002,11 +31119,11 @@
   "areaMin" : 35.5,
   "areaMax" : 35.5,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 68220,
     "rentMax" : 68220
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 68220,
     "rentMax" : 68220
   } ],
@@ -31052,11 +31169,11 @@
   "areaMin" : 33.4,
   "areaMax" : 33.4,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 65720,
     "rentMax" : 65720
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 65720,
     "rentMax" : 65720
   } ],
@@ -31914,11 +32031,11 @@
   "areaMin" : 31.0,
   "areaMax" : 38.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 41029,
     "rentMax" : 41029
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 41029,
     "rentMax" : 41029
   } ],
@@ -37199,11 +37316,11 @@
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 34697,
     "rentMax" : 34697
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 34697,
     "rentMax" : 34697
   } ],
@@ -43851,11 +43968,11 @@
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 41896,
     "rentMax" : 41896
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 41896,
     "rentMax" : 41896
   } ],
@@ -47846,11 +47963,11 @@
   "areaMin" : 50.0,
   "areaMax" : 50.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_ONE_SPACE",
+    "occupationKind" : "ALONE",
     "rentMin" : 49436,
     "rentMax" : 49636
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_ONE_SPACE",
     "rentMin" : 49436,
     "rentMax" : 49636
   } ],

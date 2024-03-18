@@ -156,11 +156,11 @@
     "rentMin" : 25919,
     "rentMax" : 25919
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 51838,
     "rentMax" : 51838
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 51838,
     "rentMax" : 51838
   } ],
@@ -581,7 +581,7 @@
   "bedroomCount" : 2,
   "roomCount" : 3,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>LOGEMENT DISPONIBLE A COMPTER DU 18/03/2024</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Pour toute demande en colocation ou en couple,</strong> vous pouvez prendre connaissance des modalit&eacute;s et compl&eacute;ter le formulaire ci-apr&egrave;s&nbsp;:&nbsp;<a href=\"https://forms.office.com/pages/responsepage.aspx?id=KWKm1lVdtkqjd-ymPo2oE4wc2QTKILtOtI1-B1So74VUNEFFM0lHVkRKNjRJNVY4WDFUVkNGRlhVSy4u\" style=\"color:#0563c1; text-decoration:underline\">Formulaire demande de logement &agrave; partager </a>&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Pour une demande sur le secteur Bordeaux M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide</strong> ;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants internationaux en mobilit&eacute; individuelle inscrits en Doctorat et Master. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement </em>:</p>\r\n\r\n<ul>\r\n\t<li><em><strong>T3 </strong>avec pi&egrave;ce &agrave; vivre, </em> <em>kitchenette et salle de bain (douche, lavabo, W.C) et deux chambres avec </em><strong><em>lit individuel</em></strong><em>.</em></li>\r\n</ul>",
+  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>LOGEMENT DISPONIBLE A COMPTER DU 18/03/2024 ou AU 16/04/2024</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Pour toute demande en colocation ou en couple,</strong> vous pouvez prendre connaissance des modalit&eacute;s et compl&eacute;ter le formulaire ci-apr&egrave;s&nbsp;:&nbsp;<a href=\"https://forms.office.com/pages/responsepage.aspx?id=KWKm1lVdtkqjd-ymPo2oE4wc2QTKILtOtI1-B1So74VUNEFFM0lHVkRKNjRJNVY4WDFUVkNGRlhVSy4u\" style=\"color:#0563c1; text-decoration:underline\">Formulaire demande de logement &agrave; partager </a>&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Pour une demande sur le secteur Bordeaux M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide</strong> ;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants internationaux en mobilit&eacute; individuelle inscrits en Doctorat et Master. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement </em>:</p>\r\n\r\n<ul>\r\n\t<li><em><strong>T3 </strong>avec pi&egrave;ce &agrave; vivre, </em> <em>kitchenette et salle de bain (douche, lavabo, W.C) et deux chambres avec </em><strong><em>lit individuel</em></strong><em>.</em></li>\r\n</ul>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -593,11 +593,11 @@
     "rentMin" : 26809,
     "rentMax" : 26809
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 53618,
     "rentMax" : 53618
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 53618,
     "rentMax" : 53618
   } ],
@@ -3022,11 +3022,11 @@
     "rentMin" : 29130,
     "rentMax" : 29130
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 58260,
     "rentMax" : 58260
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 58260,
     "rentMax" : 58260
   } ],
@@ -3240,11 +3240,11 @@
     "rentMin" : 20072,
     "rentMax" : 20072
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 40145,
     "rentMax" : 40145
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 40145,
     "rentMax" : 40145
   } ],
@@ -3999,11 +3999,11 @@
     "rentMin" : 24984,
     "rentMax" : 24984
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 49968,
     "rentMax" : 49968
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 49968,
     "rentMax" : 49968
   } ],
@@ -4319,11 +4319,11 @@
     "rentMin" : 23512,
     "rentMax" : 23512
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 47020,
     "rentMax" : 47020
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 47020,
     "rentMax" : 47020
   } ],
@@ -4908,11 +4908,11 @@
     "rentMin" : 29341,
     "rentMax" : 29341
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 58683,
     "rentMax" : 58683
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 58683,
     "rentMax" : 58683
   } ],
@@ -5197,11 +5197,11 @@
     "rentMin" : 29341,
     "rentMax" : 29341
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 58683,
     "rentMax" : 58683
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 58683,
     "rentMax" : 58683
   } ],
@@ -5898,11 +5898,11 @@
     "rentMin" : 19073,
     "rentMax" : 19073
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 36899,
     "rentMax" : 36899
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 36899,
     "rentMax" : 36899
   } ],
@@ -6903,13 +6903,13 @@
     "rentMin" : 21650,
     "rentMax" : 43300
   }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 38800,
-    "rentMax" : 38800
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 21650,
     "rentMax" : 21650
+  }, {
+    "occupationKind" : "ALONE",
+    "rentMin" : 38800,
+    "rentMax" : 38800
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -7263,11 +7263,11 @@
     "rentMin" : 27023,
     "rentMax" : 27023
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 54046,
     "rentMax" : 54046
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 54046,
     "rentMax" : 54046
   } ],
@@ -8332,11 +8332,11 @@
     "rentMin" : 24675,
     "rentMax" : 24675
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 49350,
     "rentMax" : 49350
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 49350,
     "rentMax" : 49350
   } ],
@@ -8381,11 +8381,11 @@
     "rentMin" : 27728,
     "rentMax" : 27728
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 55455,
     "rentMax" : 55455
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 55455,
     "rentMax" : 55455
   } ],
@@ -10406,11 +10406,11 @@
     "rentMin" : 26939,
     "rentMax" : 26939
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 53878,
     "rentMax" : 53878
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 53878,
     "rentMax" : 53878
   } ],
@@ -11942,11 +11942,11 @@
     "rentMin" : 28908,
     "rentMax" : 28908
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 57816,
     "rentMax" : 57816
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 57816,
     "rentMax" : 57816
   } ],
@@ -13707,6 +13707,65 @@
     "unitOfMeasure" : "NONE"
   } ]
 }, {
+  "id" : 407,
+  "label" : "MAISON DES SCIENTIFIQUES",
+  "address" : {
+    "fullAddress" : "Avenue des Facultés 33400 TALENCE",
+    "street" : "Avenue des Facultés",
+    "city" : "TALENCE",
+    "zipCode" : "33400",
+    "location" : {
+      "latitude" : 44.806,
+      "longitude" : -0.604
+    }
+  },
+  "bedCount" : 2,
+  "bedKind" : "MOBILE",
+  "bedroomCount" : 1,
+  "roomCount" : 2,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>LOGEMENT DISPONIBLE AU 16/04/2024</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Pour toute demande en colocation ou en couple,</strong> vous pouvez prendre connaissance des modalit&eacute;s et compl&eacute;ter le formulaire ci-apr&egrave;s&nbsp;:&nbsp;<a href=\"https://forms.office.com/pages/responsepage.aspx?id=KWKm1lVdtkqjd-ymPo2oE4wc2QTKILtOtI1-B1So74VUNEFFM0lHVkRKNjRJNVY4WDFUVkNGRlhVSy4u\" style=\"color:#0563c1; text-decoration:underline\">Formulaire demande de logement &agrave; partager </a>&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Pour une demande sur le secteur Bordeaux M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide </strong>;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants internationaux en mobilit&eacute; individuelle inscrits en Doctorat et Master. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.&nbsp;</p>\r\n\r\n<p style=\"margin-left:40px; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement </em>:</p>\r\n\r\n<ul>\r\n\t<li><em><strong>T2 </strong>avec une unit&eacute; de vie : &eacute;vier, r&eacute;frig&eacute;rateur, plaques de cuisson, placards, et une chambre avec <strong>deux lits simples rapprochables </strong>(possibilit&eacute; de mettre un lit dans la chambre et un dans la pi&egrave;ce de vie ou les deux dans la chambre rappoch&eacute;s ou non)</em></li>\r\n\t<li><em>SDE: douche, lavabo, wc</em></li>\r\n\t<li><em>2 bureaux avec chaises, table de repas, placards</em></li>\r\n</ul>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "LIVING_ROOM", "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 33.0,
+  "areaMax" : 33.0,
+  "occupationMods" : [ {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 30062,
+    "rentMax" : 30062
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 60123,
+    "rentMax" : 60123
+  }, {
+    "occupationKind" : "ALONE",
+    "rentMin" : 60123,
+    "rentMax" : 60123
+  } ],
+  "transports" : [ {
+    "kind" : "TRAMWAY",
+    "description" : "Tram B Arrêt \"Arts et Métiers\"",
+    "distance" : 1,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "BUS",
+    "description" : "Ligne 87 et Corol 34 Arrêt \"Village 1\"<br />\r\nLigne 8 Arrêt \"Arts et Métiers\"",
+    "distance" : 3,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "FREE_URBAN_PARKING",
+    "description" : "Parking avec contrôle d'accès réservé aux résidents",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "BIKE",
+    "description" : "",
+    "distance" : 1,
+    "unitOfMeasure" : "ON_FOOT"
+  } ]
+}, {
   "id" : 408,
   "label" : "CU DU CHARMOIS",
   "address" : {
@@ -13960,7 +14019,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p>&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>LOGEMENT DISPONIBLE AU 16/02/2024</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Pour toute demande en colocation ou en couple,</strong> vous pouvez prendre connaissance des modalit&eacute;s et compl&eacute;ter le formulaire ci-apr&egrave;s&nbsp;:&nbsp;<a href=\"https://forms.office.com/pages/responsepage.aspx?id=KWKm1lVdtkqjd-ymPo2oE4wc2QTKILtOtI1-B1So74VUNEFFM0lHVkRKNjRJNVY4WDFUVkNGRlhVSy4u\" style=\"color:#0563c1; text-decoration:underline\">Formulaire demande de logement &agrave; partager </a>&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Pour une demande sur le secteur Bordeaux M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide </strong>;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants internationaux en mobilit&eacute; individuelle inscrits en Doctorat et Master. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.&nbsp;</p>\r\n\r\n<p style=\"margin-left:40px; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement </em>:</p>\r\n\r\n<ul>\r\n\t<li><em><strong>T1BIS </strong>avec une grande pi&egrave;ce &agrave; vivre comprenant un <strong>lit double</strong>, deux bureaux et un coin cuisine.</em></li>\r\n\t<li><em>Salle d&#39;eau et WC s&eacute;par&eacute;s.</em></li>\r\n</ul>",
+  "description" : "<p>&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>LOGEMENT DISPONIBLE AU 16/04/2024</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Pour toute demande en colocation ou en couple,</strong> vous pouvez prendre connaissance des modalit&eacute;s et compl&eacute;ter le formulaire ci-apr&egrave;s&nbsp;:&nbsp;<a href=\"https://forms.office.com/pages/responsepage.aspx?id=KWKm1lVdtkqjd-ymPo2oE4wc2QTKILtOtI1-B1So74VUNEFFM0lHVkRKNjRJNVY4WDFUVkNGRlhVSy4u\" style=\"color:#0563c1; text-decoration:underline\">Formulaire demande de logement &agrave; partager </a>&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Pour une demande sur le secteur Bordeaux M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide </strong>;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants internationaux en mobilit&eacute; individuelle inscrits en Doctorat et Master. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.&nbsp;</p>\r\n\r\n<p style=\"margin-left:40px; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement </em>:</p>\r\n\r\n<ul>\r\n\t<li><em><strong>T1BIS </strong>avec une grande pi&egrave;ce &agrave; vivre comprenant un <strong>lit double</strong>, deux bureaux et un coin cuisine.</em></li>\r\n\t<li><em>Salle d&#39;eau et WC s&eacute;par&eacute;s.</em></li>\r\n</ul>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -13972,11 +14031,11 @@
     "rentMin" : 20782,
     "rentMax" : 20782
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 41564,
     "rentMax" : 41564
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 41564,
     "rentMax" : 41564
   } ],
@@ -16421,11 +16480,11 @@
   "areaMin" : 37.9,
   "areaMax" : 37.9,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 46484,
     "rentMax" : 49018
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 46484,
     "rentMax" : 49018
   } ],
@@ -16516,11 +16575,11 @@
     "rentMin" : 30889,
     "rentMax" : 30889
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 61176,
     "rentMax" : 61176
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 61176,
     "rentMax" : 61176
   } ],
@@ -17675,11 +17734,11 @@
     "rentMin" : 26720,
     "rentMax" : 26720
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 53441,
     "rentMax" : 53441
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 53441,
     "rentMax" : 53441
   } ],
@@ -18224,11 +18283,11 @@
     "rentMin" : 24048,
     "rentMax" : 24048
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 48096,
     "rentMax" : 48096
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 48096,
     "rentMax" : 48096
   } ],
@@ -18365,11 +18424,11 @@
     "rentMin" : 33954,
     "rentMax" : 33954
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 67909,
     "rentMax" : 67909
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 67909,
     "rentMax" : 67909
   } ],
@@ -18873,11 +18932,11 @@
     "rentMin" : 27764,
     "rentMax" : 27764
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 55529,
     "rentMax" : 55529
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 55529,
     "rentMax" : 55529
   } ],
@@ -19132,11 +19191,11 @@
     "rentMin" : 29414,
     "rentMax" : 29414
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 58829,
     "rentMax" : 58829
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 58829,
     "rentMax" : 58829
   } ],
@@ -19979,11 +20038,11 @@
     "rentMin" : 33949,
     "rentMax" : 33949
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 67899,
     "rentMax" : 67899
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 67899,
     "rentMax" : 67899
   } ],
@@ -20396,11 +20455,11 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 43841,
     "rentMax" : 43841
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 43841,
     "rentMax" : 43841
   } ],
@@ -20829,11 +20888,11 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 44540,
     "rentMax" : 44540
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 44540,
     "rentMax" : 44540
   } ],
@@ -22692,7 +22751,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>LOGEMENT DISPONIBLE AU 02/04/2024</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Important - Pour une demande de logement sur le secteur Bordeaux-M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide</strong> ;</p>\r\n\r\n<p>- les &eacute;tudiants internationaux en mobilit&eacute; individuelle <strong>inscrits en Doctorat et Master</strong>. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; dans l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement. En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement :</em></p>\r\n\r\n<ul>\r\n\t<li><em>Chambre r&eacute;nov&eacute;e &eacute;quip&eacute;e d&#39;une salle de bain individuelle (douche, lavabo, W.C), lit 90, bureau, placard, prise TV, kitchenette (&eacute;vier, frigo, plaques de cuisson).</em></li>\r\n\t<li><em>Charges comprises (sans r&eacute;gularisation annuelle) : eau, &eacute;lectricit&eacute;, chauffage, connexion internet.</em></li>\r\n\t<li><em>Pas de taxe d&#39;habitation ou taxe fonci&egrave;re sur les ordures m&eacute;nag&egrave;res.</em></li>\r\n\t<li><em>Veilleur de nuit et num&eacute;ro d&#39;appel 24/24 pour les probl&egrave;mes techniques urgents.</em></li>\r\n\t<li><em>&Eacute;ligible cautionnement&nbsp;Visale (Action Logement).</em></li>\r\n\t<li><em>Superficie : environ 14m&sup2;</em></li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>",
+  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>LOGEMENT DISPONIBLE AU 02/04/2024 ou AU 16/04/2024</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Important - Pour une demande de logement sur le secteur Bordeaux-M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide</strong> ;</p>\r\n\r\n<p>- les &eacute;tudiants internationaux en mobilit&eacute; individuelle <strong>inscrits en Doctorat et Master</strong>. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; dans l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement. En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement :</em></p>\r\n\r\n<ul>\r\n\t<li><em>Chambre r&eacute;nov&eacute;e &eacute;quip&eacute;e d&#39;une salle de bain individuelle (douche, lavabo, W.C), lit 90, bureau, placard, prise TV, kitchenette (&eacute;vier, frigo, plaques de cuisson).</em></li>\r\n\t<li><em>Charges comprises (sans r&eacute;gularisation annuelle) : eau, &eacute;lectricit&eacute;, chauffage, connexion internet.</em></li>\r\n\t<li><em>Pas de taxe d&#39;habitation ou taxe fonci&egrave;re sur les ordures m&eacute;nag&egrave;res.</em></li>\r\n\t<li><em>Veilleur de nuit et num&eacute;ro d&#39;appel 24/24 pour les probl&egrave;mes techniques urgents.</em></li>\r\n\t<li><em>&Eacute;ligible cautionnement&nbsp;Visale (Action Logement).</em></li>\r\n\t<li><em>Superficie : environ 14m&sup2;</em></li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -24122,11 +24181,11 @@
     "rentMin" : 25050,
     "rentMax" : 25050
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 41800,
     "rentMax" : 41800
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 41800,
     "rentMax" : 41800
   } ],
@@ -24268,11 +24327,11 @@
     "rentMin" : 23629,
     "rentMax" : 23629
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 47258,
     "rentMax" : 47258
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 47258,
     "rentMax" : 47258
   } ],
@@ -24308,11 +24367,11 @@
   "areaMin" : 26.0,
   "areaMax" : 26.0,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 39390,
     "rentMax" : 39390
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 39390,
     "rentMax" : 39390
   } ],
@@ -24444,11 +24503,11 @@
     "rentMin" : 20782,
     "rentMax" : 20782
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 41564,
     "rentMax" : 41564
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 41564,
     "rentMax" : 41564
   } ],
@@ -24762,7 +24821,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>LOGEMENT DISPONIBLE AU 18/03/2024</strong><strong> </strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Important - Pour une demande de logement sur le secteur Bordeaux-M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide</strong> ;</p>\r\n\r\n<p>- les &eacute;tudiants internationaux en mobilit&eacute; individuelle <strong>inscrits en Doctorat et Master</strong>. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; dans l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement. En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement : <strong>IMPORTANT LOGEMENT A PARTAGER A 5 ETUDIANTS (cuisine)</strong></em></p>\r\n\r\n<ul>\r\n\t<li><em><strong>Au sein d&#39;une colocation</strong>, chambre r&eacute;nov&eacute;e &eacute;quip&eacute;e d&#39;une salle de bain individuelle (douche, lavabo, W.C), lit 90, bureau, placard, kitchenette commune dans pi&egrave;ce &agrave; vivre (&eacute;vier, frigo, plaques de cuisson).</em></li>\r\n\t<li><em>Charges comprises (sans r&eacute;gularisation annuelle) : eau, &eacute;lectricit&eacute;, chauffage, connexion internet.</em></li>\r\n\t<li><em>Pas de taxe d&#39;habitation ou taxe fonci&egrave;re sur les ordures m&eacute;nag&egrave;res.</em></li>\r\n\t<li><em>Veilleur de nuit et num&eacute;ro d&#39;appel 24/24 pour les probl&egrave;mes techniques urgents.</em></li>\r\n\t<li><em>&Eacute;ligible cautionnement&nbsp;Visale (Action Logement).</em></li>\r\n\t<li><em>Superficie : entre 11 et 12m&sup2; </em></li>\r\n</ul>",
+  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>LOGEMENT DISPONIBLE AU 18/03/2024 ou AU 16/04/2024</strong><strong> </strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Important - Pour une demande de logement sur le secteur Bordeaux-M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide</strong> ;</p>\r\n\r\n<p>- les &eacute;tudiants internationaux en mobilit&eacute; individuelle <strong>inscrits en Doctorat et Master</strong>. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; dans l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement. En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement : <strong>IMPORTANT LOGEMENT A PARTAGER A 5 ETUDIANTS (cuisine)</strong></em></p>\r\n\r\n<ul>\r\n\t<li><em><strong>Au sein d&#39;une colocation</strong>, chambre r&eacute;nov&eacute;e &eacute;quip&eacute;e d&#39;une salle de bain individuelle (douche, lavabo, W.C), lit 90, bureau, placard, kitchenette commune dans pi&egrave;ce &agrave; vivre (&eacute;vier, frigo, plaques de cuisson).</em></li>\r\n\t<li><em>Charges comprises (sans r&eacute;gularisation annuelle) : eau, &eacute;lectricit&eacute;, chauffage, connexion internet.</em></li>\r\n\t<li><em>Pas de taxe d&#39;habitation ou taxe fonci&egrave;re sur les ordures m&eacute;nag&egrave;res.</em></li>\r\n\t<li><em>Veilleur de nuit et num&eacute;ro d&#39;appel 24/24 pour les probl&egrave;mes techniques urgents.</em></li>\r\n\t<li><em>&Eacute;ligible cautionnement&nbsp;Visale (Action Logement).</em></li>\r\n\t<li><em>Superficie : entre 11 et 12m&sup2; </em></li>\r\n</ul>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -25733,11 +25792,11 @@
     "rentMin" : 24988,
     "rentMax" : 24988
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 49976,
     "rentMax" : 49976
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 49976,
     "rentMax" : 49976
   } ],
@@ -25990,11 +26049,11 @@
     "rentMin" : 26005,
     "rentMax" : 26005
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 52010,
     "rentMax" : 52010
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 52010,
     "rentMax" : 52010
   } ],
@@ -27766,11 +27825,11 @@
     "rentMin" : 30233,
     "rentMax" : 30233
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 60466,
     "rentMax" : 60466
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 60466,
     "rentMax" : 60466
   } ],
@@ -28735,11 +28794,11 @@
     "rentMin" : 33063,
     "rentMax" : 33063
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 66126,
     "rentMax" : 66126
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 66126,
     "rentMax" : 66126
   } ],
@@ -34328,13 +34387,13 @@
     "rentMin" : 24730,
     "rentMax" : 24730
   }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 43280,
-    "rentMax" : 43280
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 49460,
     "rentMax" : 49460
+  }, {
+    "occupationKind" : "ALONE",
+    "rentMin" : 43280,
+    "rentMax" : 43280
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -35491,13 +35550,13 @@
     "rentMin" : 23430,
     "rentMax" : 23430
   }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 40680,
-    "rentMax" : 40680
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 46860,
     "rentMax" : 46860
+  }, {
+    "occupationKind" : "ALONE",
+    "rentMin" : 40680,
+    "rentMax" : 40680
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -35591,13 +35650,13 @@
     "rentMin" : 23133,
     "rentMax" : 23133
   }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 39565,
-    "rentMax" : 39565
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 46265,
     "rentMax" : 46265
+  }, {
+    "occupationKind" : "ALONE",
+    "rentMin" : 39565,
+    "rentMax" : 39565
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -36031,13 +36090,13 @@
     "rentMin" : 28750,
     "rentMax" : 28750
   }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 49975,
-    "rentMax" : 49975
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 57500,
     "rentMax" : 57500
+  }, {
+    "occupationKind" : "ALONE",
+    "rentMin" : 49975,
+    "rentMax" : 49975
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -36591,11 +36650,11 @@
     "rentMin" : 26470,
     "rentMax" : 27720
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 52940,
     "rentMax" : 55440
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 52940,
     "rentMax" : 55440
   } ],
@@ -36681,11 +36740,11 @@
     "rentMin" : 22563,
     "rentMax" : 22563
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 67690,
     "rentMax" : 67690
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 67690,
     "rentMax" : 67690
   } ],
@@ -37475,13 +37534,13 @@
     "rentMin" : 21058,
     "rentMax" : 21058
   }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 36455,
-    "rentMax" : 36455
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 42115,
     "rentMax" : 42115
+  }, {
+    "occupationKind" : "ALONE",
+    "rentMin" : 36455,
+    "rentMax" : 36455
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -37733,13 +37792,13 @@
   "areaMin" : 51.0,
   "areaMax" : 51.0,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
-    "rentMin" : 51125,
-    "rentMax" : 51125
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 59375,
     "rentMax" : 59375
+  }, {
+    "occupationKind" : "ALONE",
+    "rentMin" : 51125,
+    "rentMax" : 51125
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -41354,11 +41413,11 @@
   "areaMin" : 40.0,
   "areaMax" : 40.0,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 42359,
     "rentMax" : 42359
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 42359,
     "rentMax" : 42359
   } ],
@@ -41408,11 +41467,11 @@
     "rentMin" : 18810,
     "rentMax" : 18810
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 37621,
     "rentMax" : 37621
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 37621,
     "rentMax" : 37621
   } ],
@@ -41704,11 +41763,11 @@
   "areaMin" : 20.0,
   "areaMax" : 25.0,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 43430,
     "rentMax" : 43430
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 43430,
     "rentMax" : 43430
   } ],
@@ -41784,13 +41843,13 @@
     "rentMin" : 27670,
     "rentMax" : 27670
   }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 43900,
-    "rentMax" : 43900
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 55400,
     "rentMax" : 55400
+  }, {
+    "occupationKind" : "ALONE",
+    "rentMin" : 43900,
+    "rentMax" : 43900
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -41976,11 +42035,11 @@
     "rentMin" : 19827,
     "rentMax" : 19827
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 39654,
     "rentMax" : 39654
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 39654,
     "rentMax" : 39654
   } ],
@@ -42101,11 +42160,11 @@
     "rentMin" : 18730,
     "rentMax" : 18730
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 37450,
     "rentMax" : 37450
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 37450,
     "rentMax" : 37450
   } ],
@@ -42201,11 +42260,11 @@
     "rentMin" : 20535,
     "rentMax" : 20535
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 41070,
     "rentMax" : 41070
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 41070,
     "rentMax" : 41070
   } ],
@@ -42464,13 +42523,13 @@
     "rentMin" : 26650,
     "rentMax" : 26650
   }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 45470,
-    "rentMax" : 45470
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 53950,
     "rentMax" : 53950
+  }, {
+    "occupationKind" : "ALONE",
+    "rentMin" : 45470,
+    "rentMax" : 45470
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -43204,11 +43263,11 @@
   "areaMin" : 30.0,
   "areaMax" : 32.8,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 40801,
     "rentMax" : 45124
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 40801,
     "rentMax" : 45124
   } ],
@@ -44852,11 +44911,11 @@
     "rentMin" : 23351,
     "rentMax" : 23351
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 46702,
     "rentMax" : 46702
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 46702,
     "rentMax" : 46702
   } ],
@@ -45063,7 +45122,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p>&nbsp;</p>\r\n\r\n<p><strong>LOGEMENT DISPONIBLE AU 02/04/2024</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Important - Pour une demande de logement sur le secteur Bordeaux-M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide</strong> ;</p>\r\n\r\n<p>- les &eacute;tudiants internationaux en mobilit&eacute; individuelle <strong>inscrits en Doctorat et Master</strong>. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; dans l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement. En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><br />\r\n<em>Descriptif du logement :</em></p>\r\n\r\n<ul>\r\n\t<li><em>Une pi&egrave;ce comprenant un petit lit, un bureau, une table, des &eacute;tag&egrave;res, un placard et un coin cuisine.</em></li>\r\n\t<li><em>Salle de bain avec baignoire.</em></li>\r\n\t<li><em>WC dans la salle de bain.</em></li>\r\n</ul>",
+  "description" : "<p>&nbsp;</p>\r\n\r\n<p><strong>LOGEMENT DISPONIBLE AU 02/04/2024 ou AU 16/04/2024</strong></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><strong>Important - Pour une demande de logement sur le secteur Bordeaux-M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide</strong> ;</p>\r\n\r\n<p>- les &eacute;tudiants internationaux en mobilit&eacute; individuelle <strong>inscrits en Doctorat et Master</strong>. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; dans l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement. En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><br />\r\n<em>Descriptif du logement :</em></p>\r\n\r\n<ul>\r\n\t<li><em>Une pi&egrave;ce comprenant un petit lit, un bureau, une table, des &eacute;tag&egrave;res, un placard et un coin cuisine.</em></li>\r\n\t<li><em>Salle de bain avec baignoire.</em></li>\r\n\t<li><em>WC dans la salle de bain.</em></li>\r\n</ul>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -46627,7 +46686,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>LOGEMENT DISPONIBLE AU 02/04/2024</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Important - Pour une demande de logement sur le secteur Bordeaux-M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide</strong> ;</p>\r\n\r\n<p>- les &eacute;tudiants internationaux en mobilit&eacute; individuelle <strong>inscrits en Doctorat et Master</strong>. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; dans l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement. En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement :</em></p>\r\n\r\n<ul>\r\n\t<li><em>Logement 1 seul occupant avec unit&eacute; de vie (&eacute;vier, plaques de cuisson, r&eacute;frig&eacute;rateur et placards), 1 cabine de douche avec wc, 1 lit simple, 1 bureau, deux chaises</em></li>\r\n</ul>",
+  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>LOGEMENT DISPONIBLE AU 02/04/2024 ou AU 16/04/2024</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Important - Pour une demande de logement sur le secteur Bordeaux-M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide</strong> ;</p>\r\n\r\n<p>- les &eacute;tudiants internationaux en mobilit&eacute; individuelle <strong>inscrits en Doctorat et Master</strong>. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; dans l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement. En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement :</em></p>\r\n\r\n<ul>\r\n\t<li><em>Logement 1 seul occupant avec unit&eacute; de vie (&eacute;vier, plaques de cuisson, r&eacute;frig&eacute;rateur et placards), 1 cabine de douche avec wc, 1 lit simple, 1 bureau, deux chaises</em></li>\r\n</ul>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -46957,11 +47016,11 @@
   "areaMin" : 30.15,
   "areaMax" : 30.5,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 42223,
     "rentMax" : 42223
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 42223,
     "rentMax" : 42223
   } ],
@@ -48215,11 +48274,11 @@
   "areaMin" : 35.0,
   "areaMax" : 39.0,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 42348,
     "rentMax" : 42348
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 42348,
     "rentMax" : 42348
   } ],
@@ -48670,11 +48729,11 @@
   "areaMin" : 36.6,
   "areaMax" : 36.6,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 37927,
     "rentMax" : 37927
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 37927,
     "rentMax" : 37927
   } ],
@@ -49190,11 +49249,11 @@
   "areaMin" : 42.32,
   "areaMax" : 44.58,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 56482,
     "rentMax" : 56482
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 56482,
     "rentMax" : 56482
   } ],
@@ -49859,7 +49918,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>LOGEMENT DISPONIBLE AU 18/03/2024 OU AU 02/04/2024</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Important - Pour une demande de logement sur le secteur Bordeaux-M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide</strong> ;</p>\r\n\r\n<p>- les &eacute;tudiants internationaux en mobilit&eacute; individuelle <strong>inscrits en Doctorat et Master</strong>. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; dans l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement. En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p style=\"margin-left:40px\">&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement :</em></p>\r\n\r\n<ul>\r\n\t<li><em>T1 &eacute;quip&eacute; d&#39;une salle de bain individuelle (douche, lavabo, W.C), lit 90, bureau, placard, prise TV, kitchenette (&eacute;vier, frigo, plaques de cuisson).</em></li>\r\n\t<li><em>Charges comprises (sans r&eacute;gularisation annuelle) : eau, &eacute;lectricit&eacute;, chauffage, connexion internet filaire.</em></li>\r\n\t<li><em>Pas de taxe d&#39;habitation ou taxe fonci&egrave;re sur les ordures m&eacute;nag&egrave;res.</em></li>\r\n\t<li><em>Veilleur de nuit et num&eacute;ro d&#39;appel 24/24 pour les probl&egrave;mes techniques urgents.</em></li>\r\n\t<li><em>&Eacute;ligible cautionnement&nbsp;Visale (Action Logement).</em></li>\r\n\t<li><em>Superficie : environ 18m&sup2;</em></li>\r\n</ul>",
+  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>LOGEMENT DISPONIBLE AU 18/03/2024 OU AU 02/04/2024 OU AU 16/04/2024</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">&nbsp;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Important - Pour une demande de logement sur le secteur Bordeaux-M&eacute;tropole, affectation uniquement pour :</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">- les &eacute;tudiants d&eacute;pendant du Dossier Social Etudiant (DSE) en formation initiale ou en alternance, avec <strong>DSE valide</strong> ;</p>\r\n\r\n<p>- les &eacute;tudiants internationaux en mobilit&eacute; individuelle <strong>inscrits en Doctorat et Master</strong>. Joignez &agrave; votre demande, <strong>dans un seul document format PDF</strong>, une justification de vos ressources, copie de votre passeport en cours de validit&eacute; et votre certificat de scolarit&eacute;/attestation d&rsquo;inscription d&eacute;livr&eacute; par un &Eacute;tablissement d&#39;Enseignement Sup&eacute;rieur habilit&eacute; dans l&rsquo;Acad&eacute;mie de Bordeaux de l&rsquo;ann&eacute;e universitaire concern&eacute;e par la demande de logement. En l&#39;absence de ces justificatifs, votre demande sera automatiquement refus&eacute;e.&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p style=\"margin-left:40px\">&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><em>Descriptif du logement :</em></p>\r\n\r\n<ul>\r\n\t<li><em>T1 &eacute;quip&eacute; d&#39;une salle de bain individuelle (douche, lavabo, W.C), lit 90, bureau, placard, prise TV, kitchenette (&eacute;vier, frigo, plaques de cuisson).</em></li>\r\n\t<li><em>Charges comprises (sans r&eacute;gularisation annuelle) : eau, &eacute;lectricit&eacute;, chauffage, connexion internet filaire.</em></li>\r\n\t<li><em>Pas de taxe d&#39;habitation ou taxe fonci&egrave;re sur les ordures m&eacute;nag&egrave;res.</em></li>\r\n\t<li><em>Veilleur de nuit et num&eacute;ro d&#39;appel 24/24 pour les probl&egrave;mes techniques urgents.</em></li>\r\n\t<li><em>&Eacute;ligible cautionnement&nbsp;Visale (Action Logement).</em></li>\r\n\t<li><em>Superficie : environ 18m&sup2;</em></li>\r\n</ul>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -50315,13 +50374,13 @@
     "rentMin" : 17200,
     "rentMax" : 19200
   }, {
-    "occupationKind" : "ALONE",
-    "rentMin" : 34400,
-    "rentMax" : 38400
-  }, {
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 17316,
     "rentMax" : 51431
+  }, {
+    "occupationKind" : "ALONE",
+    "rentMin" : 34400,
+    "rentMax" : 38400
   } ],
   "transports" : [ ]
 }, {
@@ -50350,11 +50409,11 @@
   "areaMin" : 26.0,
   "areaMax" : 26.0,
   "occupationMods" : [ {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 39561,
     "rentMax" : 39561
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 39561,
     "rentMax" : 39561
   } ],
@@ -50936,11 +50995,11 @@
     "rentMin" : 27054,
     "rentMax" : 27054
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 53694,
     "rentMax" : 53694
   }, {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 53694,
     "rentMax" : 53694
   } ],

@@ -20,7 +20,7 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <maven.compiler.release>${java.version}</maven.compiler.release>
-        <junit>5.8.2</junit>
+        <junit>5.9.0</junit>
 
         <!-- Plugin versions -->
         <maven.shade>3.2.2</maven.shade>
@@ -125,7 +125,7 @@
                     <plugin>
                         <groupId>org.jacoco</groupId>
                         <artifactId>jacoco-maven-plugin</artifactId>
-                        <version>0.8.7</version>
+                        <version>0.8.10</version>
                         <executions>
                             <execution>
                                 <id>prepare-agent</id>
@@ -168,25 +168,61 @@
 
     <build>
         <plugins>
-            <plugin>
-                <artifactId>maven-clean-plugin</artifactId>
-                <version>3.1.0</version>
-            </plugin>
+        <plugin>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.0.0</version>
+        </plugin>
+        <plugin>
+            <artifactId>maven-project-info-reports-plugin</artifactId>
+            <version>3.4.3</version>
+        </plugin>
+        <plugin>
+            <artifactId>maven-clean-plugin</artifactId>
+            <version>3.1.0</version>
+        </plugin>
+        <plugin>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.11.0</version>
+        </plugin>
+        <plugin>
+            <artifactId>maven-jar-plugin</artifactId>
+            <version>3.0.2</version>
+        </plugin>
+        <plugin>
+            <groupId>org.jacoco</groupId>
+            <artifactId>jacoco-maven-plugin</artifactId>
+            <version>0.8.10</version>
+            <executions>
+                <execution>
+                    <goals>
+                        <goal>prepare-agent</goal>
+                    </goals>
+                </execution>
+                <execution>
+                    <id>jacoco-initialize</id>
+                    <goals>
+                        <goal>prepare-agent</goal>
+                    </goals>
+                </execution>
+                <execution>
+                    <id>jacoco-site</id>
+                    <phase>package</phase>
+                    <goals>
+                        <goal>report</goal>
+                    </goals>
+                </execution>
+                <execution>
+                    <id>report</id>
+                    <phase>prepare-package</phase>
+                    <goals>
+                        <goal>report</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
             <plugin>
                 <artifactId>maven-resources-plugin</artifactId>
                 <version>3.1.0</version>
-            </plugin>
-            <plugin>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
-            </plugin>
-            <plugin>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M4</version>
-            </plugin>
-            <plugin>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.2.0</version>
             </plugin>
             <plugin>
                 <artifactId>maven-install-plugin</artifactId>

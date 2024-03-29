@@ -16202,6 +16202,47 @@
     "unitOfMeasure" : "ON_FOOT"
   } ]
 }, {
+  "id" : 2507,
+  "label" : "DUGUAY TROUIN",
+  "address" : {
+    "fullAddress" : "23, Rue Duguay Trouin 76600 LE HAVRE",
+    "street" : "23, Rue Duguay Trouin",
+    "city" : "LE HAVRE",
+    "zipCode" : "76600",
+    "location" : {
+      "latitude" : 49.498,
+      "longitude" : 0.13
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : null,
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 26.0,
+  "areaMax" : 26.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 40990,
+    "rentMax" : 40990
+  } ],
+  "transports" : [ {
+    "kind" : "BUS",
+    "description" : "Bus 9<br />\r\nArrêt : Université",
+    "distance" : 140,
+    "unitOfMeasure" : "METRE"
+  }, {
+    "kind" : "TRAMWAY",
+    "description" : "Lignes B-A <br />\r\nArrêt : Rond-Point",
+    "distance" : 160,
+    "unitOfMeasure" : "METRE"
+  } ]
+}, {
   "id" : 2508,
   "label" : "CLACTON",
   "address" : {

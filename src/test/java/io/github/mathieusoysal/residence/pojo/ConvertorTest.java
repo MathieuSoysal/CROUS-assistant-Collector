@@ -35,7 +35,7 @@ class ConvertorTest {
         List<Item> items = Convertor.getItemsFromJsonFile(jsonTestFile);
 
         // Assert
-        Assertions.assertEquals(227, items.get(0).getId());
+        Assertions.assertEquals(109, items.get(0).getId());
     }
 
     @Test
@@ -64,7 +64,7 @@ class ConvertorTest {
         // Assert
         assertEquals(1, residences.size());
         Residence residence = residences.get(0);
-        assertEquals(227, residence.getId());
+        assertEquals(109, residence.getId());
         assertEquals("Cité Jules Mousseron", residence.getLabel());
         assertEquals("Rue du Chemin Vert 59300 AULNOY-LES-VALENCIENNES",
                 residence.getAddress().getFullAddress());

@@ -23,8 +23,6 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 @Generated("jsonschema2pojo")
 class Results {
 
-    @JsonProperty("total")
-    private Integer total;
     @JsonProperty("page")
     private Integer page;
     @JsonProperty("pageSize")
@@ -33,21 +31,6 @@ class Results {
     private List<Item> items = new ArrayList<Item>();
     @JsonIgnore
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
-
-    @JsonProperty("total")
-    public Integer getTotal() {
-        return total;
-    }
-
-    @JsonProperty("total")
-    public void setTotal(Integer total) {
-        this.total = total;
-    }
-
-    public Results withTotal(Integer total) {
-        this.total = total;
-        return this;
-    }
 
     @JsonProperty("page")
     public Integer getPage() {
@@ -115,8 +98,6 @@ class Results {
         sb.append(Results.class.getName()).append('@').append(Integer.toHexString(System.identityHashCode(this)))
                 .append('[');
         sb.append("total");
-        sb.append('=');
-        sb.append(((this.total == null) ? "<null>" : this.total));
         sb.append(',');
         sb.append("page");
         sb.append('=');
@@ -146,7 +127,6 @@ class Results {
     public int hashCode() {
         int result = 1;
         result = ((result * 31) + ((this.pageSize == null) ? 0 : this.pageSize.hashCode()));
-        result = ((result * 31) + ((this.total == null) ? 0 : this.total.hashCode()));
         result = ((result * 31) + ((this.page == null) ? 0 : this.page.hashCode()));
         result = ((result * 31) + ((this.additionalProperties == null) ? 0 : this.additionalProperties.hashCode()));
         result = ((result * 31) + ((this.items == null) ? 0 : this.items.hashCode()));
@@ -162,8 +142,7 @@ class Results {
             return false;
         }
         Results rhs = ((Results) other);
-        return ((((((this.pageSize == rhs.pageSize) || ((this.pageSize != null) && this.pageSize.equals(rhs.pageSize)))
-                && ((this.total == rhs.total) || ((this.total != null) && this.total.equals(rhs.total))))
+        return (((((this.pageSize == rhs.pageSize) || ((this.pageSize != null) && this.pageSize.equals(rhs.pageSize)))
                 && ((this.page == rhs.page) || ((this.page != null) && this.page.equals(rhs.page))))
                 && ((this.additionalProperties == rhs.additionalProperties) || ((this.additionalProperties != null)
                         && this.additionalProperties.equals(rhs.additionalProperties))))

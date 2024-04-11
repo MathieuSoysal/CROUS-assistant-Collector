@@ -65,41 +65,37 @@ class ConvertorTest {
         assertEquals(1, residences.size());
         Residence residence = residences.get(0);
         assertEquals(109, residence.getId());
-        assertEquals("Cité Jules Mousseron", residence.getLabel());
-        assertEquals("Rue du Chemin Vert 59300 AULNOY-LES-VALENCIENNES",
+        assertEquals("Résidence Le Fenouillet", residence.getLabel());
+        assertEquals("CROUS NICE TOULON - Site du Var CS80577 - 83041 TOULON CEDEX 9",
                 residence.getAddress().getFullAddress());
-        assertEquals(50.331, residence.getAddress().getLocation().latitude());
-        assertEquals(3.515, residence.getAddress().getLocation().longitude());
+        assertEquals(43.134, residence.getAddress().getLocation().latitude());
+        assertEquals(6.016, residence.getAddress().getLocation().longitude());
         assertEquals(1, residence.getBedCount());
         assertEquals(BedKind.SIMPLE, residence.getBedKind());
         assertEquals(1, residence.getBedroomCount());
         assertEquals(1, residence.getRoomCount());
         assertFalse(residence.isInUnavailabilityPeriod());
-        assertEquals("<p>Chambre disposant de sanitaires privatifs (douche, WC, lavabo). Cuisine collecitve</p>",
+        assertEquals("<p>Type de logement : T1 de 16 m2 - 1 pers &Eacute;quipement : kitchenette, &eacute;vier, r&eacute;frig&eacute;rateur | Sanitaires : lavabo, douche, WC | Mobilier : lit une place, bureau, chaise ou tabouret, placard, possibilit&eacute; de location d&rsquo;un kit linge (draps et couvertures) | Installations : acc&egrave;s internet wifi inclus</p>",
                 residence.getDescription());
         assertTrue(residence.isAvailable());
         assertFalse(residence.isHighDemand());
         assertFalse(residence.isLowStock());
-        assertEquals(2, residence.getTransports().size());
-        assertEquals(TransportKind.TRAMWAY, residence.getTransports().get(0).getKind());
+        assertEquals(1, residence.getTransports().size());
+        assertEquals(TransportKind.BUS, residence.getTransports().get(0).getKind());
         assertEquals(TransportUnitOfMeasure.ON_FOOT, residence.getTransports().get(0).getUnitOfMeasure());
-        assertEquals(1, residence.getTransports().get(0).getDistance());
-        assertEquals("Station Chemin Vert", residence.getTransports().get(0).getDescription());
-        assertEquals(TransportKind.BUS, residence.getTransports().get(1).getKind());
-        assertEquals(TransportUnitOfMeasure.ON_FOOT, residence.getTransports().get(1).getUnitOfMeasure());
-        assertEquals(2, residence.getTransports().get(1).getDistance());
-        assertEquals("Arrêt Chemin vert", residence.getTransports().get(1).getDescription());
-        assertEquals(12.5, residence.getAreaMin());
-        assertEquals(12.5, residence.getAreaMax());
-        assertEquals(2, residence.getEquipements().size());
+        assertEquals(10, residence.getTransports().get(0).getDistance());
+        assertEquals("dessertes régulières de bus vers Toulon", residence.getTransports().get(0).getDescription());
+        assertEquals(16, residence.getAreaMin());
+        assertEquals(16, residence.getAreaMax());
+        assertEquals(4, residence.getEquipements().size());
         assertEquals(io.github.mathieusoysal.residence.Equipment.WC,
                 residence.getEquipements().get(0));
         assertEquals(io.github.mathieusoysal.residence.Equipment.SHOWER,
                 residence.getEquipements().get(1));
         assertEquals(1, residence.getOccupationMods().size());
         assertEquals(OccupationKind.ALONE, residence.getOccupationMods().get(0).getOccupationKind());
-        assertEquals(26780, residence.getOccupationMods().get(0).getRentMin());
-        assertEquals(26780, residence.getOccupationMods().get(0).getRentMax());
+        assertEquals(33334, residence.getOccupationMods().get(0).getRentMin());
+        assertEquals(33334, residence.getOccupationMods().get(0).getRentMax());
     }
 
 }

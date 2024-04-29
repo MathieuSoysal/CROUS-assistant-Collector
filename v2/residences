@@ -24828,7 +24828,7 @@
   "lowStock" : false,
   "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 16.9,
-  "areaMax" : 28.65,
+  "areaMax" : 26.35,
   "occupationMods" : [ {
     "occupationKind" : "ALONE",
     "rentMin" : 34669,
@@ -48347,6 +48347,47 @@
     "description" : "",
     "distance" : 5,
     "unitOfMeasure" : "ON_FOOT"
+  } ]
+}, {
+  "id" : 1614,
+  "label" : "RESIDENCE ST LEU",
+  "address" : {
+    "fullAddress" : "19, Rue TAGAULT 80000 AMIENS",
+    "street" : "19, Rue TAGAULT",
+    "city" : "AMIENS",
+    "zipCode" : "80000",
+    "location" : {
+      "latitude" : 49.898,
+      "longitude" : 2.3
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">Les tarifs sont vot&eacute;s en conseil d&#39;administration et fix&eacute;s en fonction du statut et de la dur&eacute;e d&#39;occupation.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Le montant de la r&eacute;servation correspond &agrave; une avance sur loyer de 100&euro;.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Vous aurez &agrave; r&eacute;gler &agrave; la remise des cl&eacute;s le montant du d&eacute;pot de garantie (correspondant &agrave; un mois de loyer) et la diff&eacute;rence entre le montant du loyer et l&#39;avance.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Majoration de 20% du montant du loyer en cas de s&eacute;jour inf&eacute;rieur &agrave; 4 mois.</strong></p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 20.0,
+  "areaMax" : 20.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 35348,
+    "rentMax" : 35348
+  } ],
+  "transports" : [ {
+    "kind" : "BUS",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "PAYING_URBAN_PARKING",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
   } ]
 }, {
   "id" : 1623,

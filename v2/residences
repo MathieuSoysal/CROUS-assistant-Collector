@@ -46152,7 +46152,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">169 Logements</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Studios meubl&eacute;s de 17.85 &agrave; 20 m&sup2; &eacute;quip&eacute;s d&rsquo;un lit 90x190, d&rsquo;une table, d&rsquo;un bureau, de deux chaises, d&rsquo;un placard ou &eacute;tag&egrave;res, d&rsquo;une kitchenette, d&rsquo;une salle de bain avec douche et WC. Ballon d&rsquo;eau chaude et chauffage &eacute;lectrique individuels.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable jusqu&rsquo;en ao&ucirc;t 2024. Logements ouvrant droit aux APL.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Montant du d&eacute;p&ocirc;t de garantie&nbsp;: 169.00 &euro;</p>",
+  "description" : "<p>169 Logements</p>\r\n\r\n<p>Studios meubl&eacute;s de 17,85 &agrave; 20 m&sup2; &eacute;quip&eacute;s d&rsquo;un lit 90x190, d&rsquo;une table, d&rsquo;un bureau, de deux chaises, d&rsquo;un placard ou &eacute;tag&egrave;res, d&rsquo;une kitchenette, d&rsquo;une salle de bain avec douche et WC. Ballon d&rsquo;eau chaude et chauffage &eacute;lectrique individuels.</p>\r\n\r\n<p>Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable du 1er septembre 2024 au 31 ao&ucirc;t 2025. Logements ouvrant droit aux APL.</p>\r\n\r\n<p>Montant du d&eacute;p&ocirc;t de garantie : 175.00 &euro;</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -46166,7 +46166,7 @@
   } ],
   "transports" : [ {
     "kind" : "BUS",
-    "description" : "Lignes : 207-216-263-UBS-T1B-T2-123-T3- 40E",
+    "description" : "Lignes : 123- 207-216-263-UBS-T1B-T2-123-T3-40E",
     "distance" : 0,
     "unitOfMeasure" : "NONE"
   }, {

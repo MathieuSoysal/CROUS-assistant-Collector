@@ -4725,7 +4725,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : null,
+  "description" : "<p>Montant du d&eacute;p&ocirc;t de garantie &agrave; partir de septembre 2024 : 257,62&euro;.</p>\r\n\r\n<p>&nbsp;</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,

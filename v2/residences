@@ -763,7 +763,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">151 Logements</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Chambre confort meubl&eacute;es de 9 m&sup2; &eacute;quip&eacute;es d&rsquo;un r&eacute;frig&eacute;rateur, d&rsquo;un lit, d&rsquo;un bureau, d&rsquo;une chaise, de rangements/placards et d&rsquo;une cabine tri-fonctions (douche, toilettes, lavabo).</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">2 chambres confort sont am&eacute;nag&eacute;es pour les personnes &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable jusqu&rsquo;en juin 2024. Logements ouvrant droit aux ALS.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Montant du d&eacute;p&ocirc;t de garantie&nbsp;: 244,00 &euro;</p>",
+  "description" : "<p>151 Logements</p>\r\n\r\n<p>Chambre confort meubl&eacute;es de 9m&sup2; &eacute;quip&eacute;es d&rsquo;un r&eacute;frig&eacute;rateur, d&rsquo;un lit, d&rsquo;un bureau, d&rsquo;une chaise, de rangements/placards et d&rsquo;une cabine tri-fonctions (douche, toilettes, lavabo).</p>\r\n\r\n<p>2 chambres am&eacute;nag&eacute;es pour les personnes &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p>Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable du 1er septembre 2024 au 30 juin 2025. Logements ouvrant droit aux ALS.</p>\r\n\r\n<p>Montant du d&eacute;p&ocirc;t de garantie : 255,00 &euro;</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -780,6 +780,16 @@
     "description" : "Lignes : 1-6a-6b",
     "distance" : 5,
     "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "TRAIN",
+    "description" : "Gare de Vannes à 25 minutes en bus, 50 minutes à pied",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "PRIVATE_PARKING",
+    "description" : "Parking de la résidence, places limitées",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
   } ]
 }, {
   "id" : 2070,
@@ -1316,7 +1326,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">129 Logements</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Studios meubl&eacute;s de 20 m&sup2; &eacute;quip&eacute;s d&rsquo;une kitchenette (r&eacute;frig&eacute;rateur, plaques &eacute;lectriques, &eacute;vier, placards), d&rsquo;un lit, de deux tables et deux chaises, de rangements/placards, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">6 studios sont am&eacute;nag&eacute;s pour les personnes &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable jusqu&rsquo;en ao&ucirc;t 2024. Logements ouvrant droit aux APL.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Montant du d&eacute;p&ocirc;t de garantie&nbsp;: 205,00 &euro;</p>",
+  "description" : "<p>129 Logements</p>\r\n\r\n<p>Studios meubl&eacute;s de 20m&sup2; &eacute;quip&eacute;s d&rsquo;une kitchenette (r&eacute;frig&eacute;rateur, plaques &eacute;lectriques, &eacute;vier, placards), d&rsquo;un lit, de deux tables et deux chaises, de rangements/placards, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p>6 studios sont am&eacute;nag&eacute;s pour les personnes &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p>Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable du 1er septembre 2024 au 31 ao&ucirc;t 2025. Logements ouvrant droit aux APL.</p>\r\n\r\n<p>Montant du d&eacute;p&ocirc;t de garantie : 212,00 &euro;</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -1333,6 +1343,16 @@
     "description" : "Lignes : 1-6a-6b",
     "distance" : 5,
     "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "TRAIN",
+    "description" : "Gare de Vannes à 25 minutes en bus, 50 minutes à pied",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  }, {
+    "kind" : "PRIVATE_PARKING",
+    "description" : "Parking de la résidence, places limitées",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
   } ]
 }, {
   "id" : 36,
@@ -21601,7 +21621,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">102 Logements</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Studios T1 meubl&eacute;s de 20 m&sup2; &eacute;quip&eacute;s d&rsquo;une kitchenette, d&rsquo;un bureau, de deux chaises, d&rsquo;&eacute;tag&egrave;res, d&rsquo;un lit, d&rsquo;un chevet, d&rsquo;un placard de rangement, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable jusqu&rsquo;en ao&ucirc;t 2024. Logements ouvrant droit aux APL.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Montant du d&eacute;p&ocirc;t de garantie&nbsp;: 197,00 &euro;</p>",
+  "description" : "<p>102 Logements</p>\r\n\r\n<p>Studios T1 meubl&eacute;s de 20m&sup2; &eacute;quip&eacute;s d&rsquo;une kitchenette, d&rsquo;un bureau, de deux chaises, d&rsquo;&eacute;tag&egrave;res, d&rsquo;un lit, d&rsquo;un chevet, d&rsquo;un placard de rangement, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p>Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable du 1er septembre 2024 au 31 ao&ucirc;t 2025. Logements ouvrant droit aux APL.</p>\r\n\r\n<p>Montant du d&eacute;p&ocirc;t de garantie : 216,00 &euro;</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -21683,7 +21703,7 @@
   "bedroomCount" : 1,
   "roomCount" : 2,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">24 Logements - <strong>Attribution prioritaire aux couples - </strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Studios T1 bis meubl&eacute;s de 30 m&sup2; &eacute;quip&eacute;s d&rsquo;une kitchenette, d&rsquo;un bureau, de deux chaises, d&rsquo;&eacute;tag&egrave;res, d&rsquo;un lit, d&rsquo;un chevet, d&rsquo;un placard de rangement, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">1 studio am&eacute;nag&eacute; pour les personnes &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable jusqu&rsquo;en ao&ucirc;t 2024. Logements ouvrant droit aux APL.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Logements r&eacute;serv&eacute;s aux couples ou colocataires.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Montant du d&eacute;p&ocirc;t de garantie&nbsp;: 254,00 &euro;</p>",
+  "description" : "<p>24 Logements - <strong>Attribution prioritaire aux couples</strong> -</p>\r\n\r\n<p>Studios T1Bis meubl&eacute;s de 30m&sup2; &eacute;quip&eacute;s d&rsquo;une kitchenette, d&rsquo;un bureau, de deux chaises, d&rsquo;&eacute;tag&egrave;res, d&rsquo;un lit, d&rsquo;un chevet, d&rsquo;un placard de rangement, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p>1 studio am&eacute;nag&eacute; pour les personnes &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p>Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable du 1er septembre 2024 au 31 ao&ucirc;t 2025. Logements ouvrant droit aux APL.</p>\r\n\r\n<p>Logements r&eacute;serv&eacute;s aux couples ou colocataires.</p>\r\n\r\n<p>Montant du d&eacute;p&ocirc;t de garantie : 267,00 &euro;</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -21729,7 +21749,7 @@
   "bedroomCount" : 1,
   "roomCount" : 2,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">8 Logements - <strong>Attribution prioritaire aux couples - </strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>FAIBLE DISPONIBILITE ET FORTE DEMANDE !! N&#39;HESITEZ PAS A FORMULER D&#39;AUTRES VOEUX DE LOGEMENT SUR CETTE VILLE</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Appartements T2 meubl&eacute;s de 40 m&sup2; &eacute;quip&eacute;s d&rsquo;une kitchenette, d&rsquo;un bureau, de deux chaises, d&rsquo;&eacute;tag&egrave;res, d&rsquo;un lit, d&rsquo;un chevet, d&rsquo;un placard de rangement, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable jusqu&rsquo;en ao&ucirc;t 2024. Logements ouvrant droit aux APL.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Logements r&eacute;serv&eacute;s aux couples ou colocataires.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Montant du d&eacute;p&ocirc;t de garantie&nbsp;: 315,00 &euro;</p>",
+  "description" : "<p>8 Logements - <strong>Attribution prioritaire aux couples</strong> -</p>\r\n\r\n<p><strong>FAIBLE DISPONIBILITE ET FORTE DEMANDE !! N&#39;HESITEZ PAS A FORMULER D&#39;AUTRES VOEUX DE LOGEMENT SUR CETTE VILLE</strong></p>\r\n\r\n<p>Appartements T2 meubl&eacute;s de 40m&sup2; &eacute;quip&eacute;s d&rsquo;une kitchenette, d&rsquo;un bureau, de deux chaises, d&rsquo;&eacute;tag&egrave;res, d&rsquo;un lit, d&rsquo;un chevet, d&rsquo;un placard de rangement, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p>Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable du 1er septembre 2024 au 31 ao&ucirc;t 2025. Logements ouvrant droit aux APL.</p>\r\n\r\n<p>Logements r&eacute;serv&eacute;s aux couples ou colocataires.</p>\r\n\r\n<p>Montant du d&eacute;p&ocirc;t de garantie : 331,00 &euro;</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -26024,7 +26044,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">16 Logements</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Studios meubl&eacute;s de 21 &agrave; 25 m&sup2; &eacute;quip&eacute;s d&rsquo;une kitchenette, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Non adapt&eacute;s pour les personnes &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable jusqu&rsquo;en ao&ucirc;t 2024. Logements ouvrant droit aux APL.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Montant du d&eacute;p&ocirc;t de garantie&nbsp;: 253,00 &euro;</p>\r\n\r\n<p>&nbsp;</p>",
+  "description" : "<p>16 Logements</p>\r\n\r\n<p>Studios meubl&eacute;s de 21 &agrave; 25 m&sup2; &eacute;quip&eacute;s d&rsquo;une kitchenette, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p>1 studio am&eacute;nag&eacute; pour les personnes &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p>Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable du 1er septembre 2024 au 31 ao&ucirc;t 2025. Logements ouvrant droit aux APL.</p>\r\n\r\n<p>Montant du d&eacute;p&ocirc;t de garantie : 262,00 &euro;</p>\r\n\r\n<p>&nbsp;</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -26392,7 +26412,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">67 Logements</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Studios meubl&eacute;s de 20 &agrave; 23 m&sup2; &eacute;quip&eacute;s de deux tables, deux chaises, un lit simple, d&rsquo;un coin cuisine&nbsp;avec &eacute;vier, plaque de cuisson et r&eacute;frig&eacute;rateur ainsi que d&rsquo;un espace WC, douche et lavabo.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable jusqu&rsquo;en ao&ucirc;t 2024. Logements ouvrant droit aux APL.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Montant du d&eacute;p&ocirc;t de garantie&nbsp;: 225,00 &euro;</p>",
+  "description" : "<p>67 Logements</p>\r\n\r\n<p>Studios meubl&eacute;s de 20 &agrave; 23 m&sup2; &eacute;quip&eacute;s de deux tables, deux chaises, un lit simple, d&rsquo;un coin cuisine avec &eacute;vier, plaque de cuisson et r&eacute;frig&eacute;rateur ainsi que d&rsquo;un espace WC, douche et lavabo.</p>\r\n\r\n<p>Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable du 1er septembre 2024 au 31 ao&ucirc;t 2025. Logements ouvrant droit aux APL.</p>\r\n\r\n<p>Montant du d&eacute;p&ocirc;t de garantie : 233,00 &euro;</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -29816,7 +29836,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">126 Logements</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Chambres confort meubl&eacute;es de 9 m&sup2; &eacute;quip&eacute;es d&rsquo;un lit simple relevable, d&rsquo;un bureau, d&rsquo;une chaise, d&rsquo;un r&eacute;frig&eacute;rateur et d&rsquo;un espace WC, douche, lavabo, rangements.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Espace cuisine avec &eacute;vier, plaques de cuisson, four micro-ondes et mini-four &agrave; chaque &eacute;tage.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable jusqu&rsquo;en ao&ucirc;t 2024. Logements ouvrant droit aux ALS.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Montant du d&eacute;p&ocirc;t de garantie&nbsp;: 256,00 &euro;</p>",
+  "description" : "<p>126 Logements</p>\r\n\r\n<p>Chambres confort meubl&eacute;es de 9m&sup2; &eacute;quip&eacute;es d&rsquo;un lit simple relevable, d&rsquo;un bureau, d&rsquo;une chaise, d&rsquo;un r&eacute;frig&eacute;rateur et d&rsquo;un espace WC, douche, lavabo, rangements.</p>\r\n\r\n<p>Espace cuisine avec &eacute;vier, plaques de cuisson, four micro-ondes et mini-four &agrave; chaque &eacute;tage.</p>\r\n\r\n<p>Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable du 1er septembre 2024 au 31 ao&ucirc;t 2025. Logements ouvrant droit aux ALS.</p>\r\n\r\n<p>Montant du d&eacute;p&ocirc;t de garantie : 256,00 &euro;</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -32250,7 +32270,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p>121 Logements</p>\r\n\r\n<p style=\"margin-left:0px; margin-right:0px\">Studios meubl&eacute;s de 18,05 m&sup2; &eacute;quip&eacute;s d&rsquo;une pi&egrave;ce &agrave; vivre avec bureau, chaise, baie vitr&eacute;e, lit, kitchenette avec r&eacute;frig&eacute;rateur, plaques de cuisson, &eacute;vier, placard ainsi que d&rsquo;une salle d&rsquo;eau avec lavabo, douche et WC.&nbsp;</p>\r\n\r\n<p style=\"margin-left:0px; margin-right:0px\">Non adapt&eacute; pour personne &agrave; mobilit&eacute; r&eacute;duite.&nbsp;</p>\r\n\r\n<p style=\"margin-left:0px; margin-right:0px\">Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et entretien des parties communes valable jusqu&rsquo;en ao&ucirc;t 2024. Logements ouvrant droit aux APL.&nbsp;</p>\r\n\r\n<p style=\"margin-left:0px; margin-right:0px\">Montant du d&eacute;p&ocirc;t de garantie : 250,00 &euro;</p>",
+  "description" : "<p>121 Logements</p>\r\n\r\n<p>Studios meubl&eacute;s de 18,05m&sup2; &eacute;quip&eacute;s d&rsquo;une pi&egrave;ce &agrave; vivre avec bureau, chaise, baie vitr&eacute;e, lit, kitchenette avec r&eacute;frig&eacute;rateur, plaques de cuisson, &eacute;vier, placard ainsi que d&rsquo;une salle d&rsquo;eau avec lavabo, douche et WC.</p>\r\n\r\n<p>Non adapt&eacute; pour personne &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p>Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et entretien des parties communes valable du 1er septembre 2024 au 31 ao&ucirc;t 2025. Logements ouvrant droit aux APL.</p>\r\n\r\n<p>Montant du d&eacute;p&ocirc;t de garantie : 258,00 &euro;</p>\r\n\r\n<p style=\"margin-left:0px; margin-right:0px\">&nbsp;</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -32262,7 +32282,12 @@
     "rentMin" : 33908,
     "rentMax" : 33908
   } ],
-  "transports" : [ ]
+  "transports" : [ {
+    "kind" : "PRIVATE_PARKING",
+    "description" : "Parking privé possible à la location",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
 }, {
   "id" : 2887,
   "label" : "Rés. Univ. Les Villes Dorées",
@@ -32281,7 +32306,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">6 Logements</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>FAIBLE DISPONIBILITE ET FORTE DEMANDE !! N&#39;HESITEZ PAS A FORMULER D&#39;AUTRES VOEUX DE LOGEMENT SUR CETTE VILLE</strong></p>\r\n\r\n<p style=\"margin-left:0px; margin-right:0px\">Studios meubl&eacute;s de 18,05 m&sup2; &eacute;quip&eacute;s d&rsquo;une pi&egrave;ce &agrave; vivre avec bureau, chaise, baie vitr&eacute;e, lit, kitchenette avec r&eacute;frig&eacute;rateur, plaques de cuisson, &eacute;vier, placard ainsi que d&rsquo;une salle d&rsquo;eau avec lavabo, douche et WC.&nbsp;</p>\r\n\r\n<p style=\"margin-left:0px; margin-right:0px\">Adapt&eacute;s pour personne &agrave; mobilit&eacute; r&eacute;duite.&nbsp;</p>\r\n\r\n<p style=\"margin-left:0px; margin-right:0px\">Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et entretien des parties communes valable jusqu&rsquo;en ao&ucirc;t 2024. Logements ouvrant droit aux APL.&nbsp;</p>\r\n\r\n<p style=\"margin-left:0px; margin-right:0px\">Montant du d&eacute;p&ocirc;t de garantie : 250,00 &euro;</p>",
+  "description" : "<p>6 Logements</p>\r\n\r\n<p><strong>FAIBLE DISPONIBILITE ET FORTE DEMANDE !! N&#39;HESITEZ PAS A FORMULER D&#39;AUTRES VOEUX DE LOGEMENT SUR CETTE VILLE</strong></p>\r\n\r\n<p>Studios meubl&eacute;s de 18,05m&sup2; &eacute;quip&eacute;s d&rsquo;une pi&egrave;ce &agrave; vivre avec bureau, chaise, baie vitr&eacute;e, lit, kitchenette avec r&eacute;frig&eacute;rateur, plaques de cuisson, &eacute;vier, placard ainsi que d&rsquo;une salle d&rsquo;eau avec lavabo, douche et WC.</p>\r\n\r\n<p>Adapt&eacute;s pour personne &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p>Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et entretien des parties communes valable du 1er septembre 2024 au 31 ao&ucirc;t 2025. Logements ouvrant droit aux APL.</p>\r\n\r\n<p>Montant du d&eacute;p&ocirc;t de garantie : 258,00 &euro;</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -32293,7 +32318,12 @@
     "rentMin" : 36994,
     "rentMax" : 36994
   } ],
-  "transports" : [ ]
+  "transports" : [ {
+    "kind" : "PRIVATE_PARKING",
+    "description" : "Parking privé possible à la location",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
 }, {
   "id" : 840,
   "label" : "Orsay-L Ile",
@@ -32850,7 +32880,7 @@
   "bedroomCount" : 4,
   "roomCount" : 5,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">4 logements de 4 chambres</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>FAIBLE DISPONIBILITE ET FORTE DEMANDE !! N&#39;HESITEZ PAS A FORMULER </strong><strong>D&rsquo;AUTRES VOEUX DE LOGEMENT SUR CETTE VILLE </strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Colocations meubl&eacute;es de 4 chambres de 9m&sup2;, chacune &eacute;quip&eacute;es d&rsquo;un grand bureau, d&rsquo;une chaise, d&rsquo;&eacute;tag&egrave;res, d&rsquo;un lit, d&rsquo;un chevet, d&rsquo;un placard de rangement et d&rsquo;un lavabo. Salle de bain et WC communs. Cuisine commune &eacute;quip&eacute;e de plaques de cuisson, d&rsquo;un grand r&eacute;frig&eacute;rateur, d&rsquo;une table et de quatre chaises, d&rsquo;un &eacute;vier et de rangements.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable jusqu&rsquo;en ao&ucirc;t<strong> </strong>2024. Logements ouvrant droit aux ALS.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Montant du d&eacute;p&ocirc;t de garantie&nbsp;: 180,00&euro;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Merci de s&eacute;lectionner le mode d&#39;occupation Colocation </strong></p>",
+  "description" : "<p>8 logements de 4 chambres</p>\r\n\r\n<p><strong>FAIBLE DISPONIBILITE ET FORTE DEMANDE !! N&#39;HESITEZ PAS A FORMULER D&rsquo;AUTRES VOEUX DE LOGEMENT SUR CETTE VILLE</strong></p>\r\n\r\n<p>Colocations meubl&eacute;es de 4 chambres de 9m&sup2;, chacune &eacute;quip&eacute;es d&rsquo;un grand bureau, d&rsquo;une chaise, d&rsquo;&eacute;tag&egrave;res, d&rsquo;un lit, d&rsquo;un chevet, d&rsquo;un placard de rangement et d&rsquo;un lavabo. Salle de bain et WC communs. Cuisine commune &eacute;quip&eacute;e de plaques de cuisson, d&rsquo;un grand r&eacute;frig&eacute;rateur, d&rsquo;une table et de quatre chaises, d&rsquo;un &eacute;vier et de rangements.</p>\r\n\r\n<p>Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable du 1er septembre 2024 au 31 ao&ucirc;t 2025. Logements ouvrant droit aux ALS.</p>\r\n\r\n<p>Montant du d&eacute;p&ocirc;t de garantie : 188,00&euro;</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>Merci de s&eacute;lectionner le mode d&#39;occupation Colocation </strong></p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -32868,7 +32898,7 @@
   } ],
   "transports" : [ {
     "kind" : "BUS",
-    "description" : "Ligne : 12",
+    "description" : "Ligne : 12 - N1",
     "distance" : 0,
     "unitOfMeasure" : "NONE"
   }, {
@@ -52094,7 +52124,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">75 Logements</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Studios meubl&eacute;s de 21,60 m&sup2; &eacute;quip&eacute;s d&rsquo;un lit, d&rsquo;un bureau, d&rsquo;une kitchenette, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Non adapt&eacute;s pour les personnes &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable jusqu&rsquo;en ao&ucirc;t 2024. Logements ouvrant droit aux APL.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Montant du d&eacute;p&ocirc;t de garantie&nbsp;: 191,00 &euro;</p>",
+  "description" : "<p>75 Logements</p>\r\n\r\n<p>Studios meubl&eacute;s de 21,60m&sup2; &eacute;quip&eacute;s d&rsquo;un lit, d&rsquo;un bureau, d&rsquo;une kitchenette, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p>Non adapt&eacute;s pour les personnes &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p>Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable du 1er septembre 2024 au 31 ao&ucirc;t 2025. Logements ouvrant droit aux APL.</p>\r\n\r\n<p>Montant du d&eacute;p&ocirc;t de garantie : 198,00 &euro;</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -52345,7 +52375,7 @@
   "bedroomCount" : 1,
   "roomCount" : 2,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">5 Logements - <strong>Attribution prioritaire aux couples - </strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>FAIBLE DISPONIBILITE ET FORTE DEMANDE !! N&#39;HESITEZ PAS A FORMULER D&#39;AUTRES VOEUX DE LOGEMENT SUR CETTE VILLE</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Studios meubl&eacute;s de 36,60 m&sup2; &eacute;quip&eacute;s d&rsquo;un lit, d&rsquo;un bureau, rangements, d&rsquo;une kitchenette, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Non adapt&eacute;s pour les personnes &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable jusqu&rsquo;en ao&ucirc;t 2024. Logements ouvrant droit aux APL.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Logements r&eacute;serv&eacute;s aux couples ou colocataires.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Montant du d&eacute;p&ocirc;t de garantie&nbsp;: 255,00 &euro;</p>",
+  "description" : "<p>5 Logements - <strong>Attribution prioritaire aux couples</strong> -</p>\r\n\r\n<p><strong>FAIBLE DISPONIBILITE ET FORTE DEMANDE !! N&#39;HESITEZ PAS A FORMULER D&#39;AUTRES VOEUX DE LOGEMENT SUR CETTE VILLE</strong></p>\r\n\r\n<p>Studios meubl&eacute;s de 36,60m&sup2; &eacute;quip&eacute;s d&rsquo;un lit, d&rsquo;un bureau, rangements, d&rsquo;une kitchenette, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p>Non adapt&eacute;s pour les personnes &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p>Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable du 1er septembre 2024 au 31 ao&ucirc;t 2025. Logements ouvrant droit aux APL.</p>\r\n\r\n<p>Logements r&eacute;serv&eacute;s aux couples ou colocataires.</p>\r\n\r\n<p>Montant du d&eacute;p&ocirc;t de garantie : 264,00 &euro;</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -52471,7 +52501,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">131 Logements</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Studios T1 meubl&eacute;s de 19,30 m&sup2; &agrave; 22,35 m&sup2; &eacute;quip&eacute;s d&rsquo;une kitchenette, d&rsquo;un bureau, de deux chaises, d&rsquo;&eacute;tag&egrave;res, d&rsquo;un lit, d&rsquo;un chevet, d&rsquo;un placard de rangement, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable jusqu&rsquo;en ao&ucirc;t 2024. Logements ouvrant droit aux APL.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Montant du d&eacute;p&ocirc;t de garantie&nbsp;: 197,00 &euro;</p>",
+  "description" : "<p>131 Logements</p>\r\n\r\n<p>Studios T1 meubl&eacute;s de 19,30m&sup2; &agrave; 22,35m&sup2; &eacute;quip&eacute;s d&rsquo;une kitchenette, d&rsquo;un bureau, de deux chaises, d&rsquo;&eacute;tag&egrave;res, d&rsquo;un lit, d&rsquo;un chevet, d&rsquo;un placard de rangement, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p>Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable du 1er septembre 2024 au 31 ao&ucirc;t 2025. Logements ouvrant droit aux APL.</p>\r\n\r\n<p>Montant du d&eacute;p&ocirc;t de garantie : 282,00 &euro;</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -52906,7 +52936,7 @@
   "bedroomCount" : 1,
   "roomCount" : 2,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">6 Logements - <strong>Attribution prioritaire aux couples - </strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\"><strong>FAIBLE DISPONIBILITE ET FORTE DEMANDE !! N&#39;HESITEZ PAS A FORMULER D&#39;AUTRES VOEUX DE LOGEMENT SUR CETTE VILLE</strong></p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Appartements T2 meubl&eacute;s de 42,32 m&sup2; &agrave; 44,58 m&sup2; &eacute;quip&eacute;s d&rsquo;une kitchenette, d&rsquo;un bureau, de deux chaises, d&rsquo;&eacute;tag&egrave;res, d&rsquo;un lit, d&rsquo;un chevet, d&rsquo;un placard de rangement, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">2 appartements am&eacute;nag&eacute;s pour les personnes &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable jusqu&rsquo;en ao&ucirc;t 2024. Logements ouvrant droit aux APL.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Logements r&eacute;serv&eacute;s aux couples ou colocataires.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Montant du d&eacute;p&ocirc;t de garantie&nbsp;: 315,00 &euro;</p>",
+  "description" : "<p>6 Logements - <strong>Attribution prioritaire aux couples</strong> -</p>\r\n\r\n<p><strong>FAIBLE DISPONIBILITE ET FORTE DEMANDE !! N&#39;HESITEZ PAS A FORMULER D&#39;AUTRES VOEUX DE LOGEMENT SUR CETTE VILLE</strong></p>\r\n\r\n<p>Appartements T2 meubl&eacute;s de 42,32m&sup2; &agrave; 44,58m&sup2; &eacute;quip&eacute;s d&rsquo;une kitchenette, d&rsquo;un bureau, de deux chaises, d&rsquo;&eacute;tag&egrave;res, d&rsquo;un lit, d&rsquo;un chevet, d&rsquo;un placard de rangement, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p>2 appartements am&eacute;nag&eacute;s pour les personnes &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p>Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable du 1er septembre 2024 au 31 ao&ucirc;t 2025. Logements ouvrant droit aux APL.</p>\r\n\r\n<p>Logements r&eacute;serv&eacute;s aux couples ou colocataires.</p>\r\n\r\n<p>Montant du d&eacute;p&ocirc;t de garantie : 448,00 &euro;</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -53129,7 +53159,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">51 Logements</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Studios meubl&eacute;s de 20 m&sup2; &eacute;quip&eacute;s d&rsquo;une kitchenette, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">2 studios sont am&eacute;nag&eacute;s pour les personnes &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable jusqu&rsquo;en ao&ucirc;t 2024. Logements ouvrant droit aux APL.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Montant du d&eacute;p&ocirc;t de garantie&nbsp;: 253,00 &euro;</p>",
+  "description" : "<p>51 Logements</p>\r\n\r\n<p>Studios meubl&eacute;s de 20m&sup2; &eacute;quip&eacute;s d&rsquo;une kitchenette, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p>1 studio am&eacute;nag&eacute; pour les personnes &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p>Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable du 1er septembre 2024 au 31 ao&ucirc;t 2025. Logements ouvrant droit aux APL.</p>\r\n\r\n<p>Montant du d&eacute;p&ocirc;t de garantie : 262,00 &euro;</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -53353,7 +53383,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">340 chambres conforts meubl&eacute;es de 9 m&sup2; &eacute;quip&eacute;es d&rsquo;un lit, d&rsquo;un bureau, de rangements, d&rsquo;une douche et d&rsquo;un WC.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes valable jusqu&rsquo;en ao&ucirc;t 2024. Logements ouvrant droit aux ALS.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Montant du d&eacute;p&ocirc;t de garantie&nbsp;: 244,00 &euro;</p>",
+  "description" : "<p>340 chambres meubl&eacute;es de 9m&sup2; &eacute;quip&eacute;es d&rsquo;un lit, d&rsquo;un bureau, de rangements, d&rsquo;une douche et d&rsquo;un WC.</p>\r\n\r\n<p>4 chambres de 12m&sup2; &agrave; 15m&sup2; adapt&eacute;es aux personnes &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p>Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes valable du 1er septembre 2024 au 31 ao&ucirc;t 2025. Logements ouvrant droit aux ALS.</p>\r\n\r\n<p>Montant du d&eacute;p&ocirc;t de garantie : 255,00 &euro;</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -53721,7 +53751,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">136 Logements</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Chambres confort meubl&eacute;es de 9 m&sup2; &eacute;quip&eacute;es d&rsquo;un lit, bureau, rangements, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">4 chambres sont am&eacute;nag&eacute;es pour les personnes &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable jusqu&rsquo;en ao&ucirc;t 2024. Logements ouvrant droit aux ALS.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Montant du d&eacute;p&ocirc;t de garantie&nbsp;: 244,00 &euro;</p>",
+  "description" : "<p>136 Logements</p>\r\n\r\n<p>Chambres confort meubl&eacute;es de 9m&sup2; &eacute;quip&eacute;es d&rsquo;un lit, bureau, rangements, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p>4 chambres de 12m&sup2; am&eacute;nag&eacute;es pour les personnes &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p>Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable du 1er septembre 2024 au 31 ao&ucirc;t 2025. Logements ouvrant droit aux ALS.</p>\r\n\r\n<p>Montant du d&eacute;p&ocirc;t de garantie : 255,00 &euro;</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -53863,7 +53893,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">68 Logements</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Studios T1 meubl&eacute;s de 13 m&sup2; &eacute;quip&eacute;s d&rsquo;un lit, d&rsquo;un bureau, rangements, d&rsquo;une kitchenette, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Non adapt&eacute;s pour les personnes &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable jusqu&rsquo;en janvier 2024. Logements ouvrant droit aux APL.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Montant du d&eacute;p&ocirc;t de garantie&nbsp;: 131,00 &euro;</p>",
+  "description" : "<p>68 Logements</p>\r\n\r\n<p>Studios T1 meubl&eacute;s de 13m&sup2; &eacute;quip&eacute;s d&rsquo;un lit, d&rsquo;un bureau, rangements, d&rsquo;une kitchenette, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p>Non adapt&eacute;s pour les personnes &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p>Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable du 1er septembre 2024 au 31 ao&ucirc;t 2025. Logements ouvrant droit aux APL.</p>\r\n\r\n<p>Montant du d&eacute;p&ocirc;t de garantie : 136,00 &euro;</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -54032,7 +54062,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">21 Logements</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Studios T1 meubl&eacute;s de 15 m&sup2; &eacute;quip&eacute;s d&rsquo;un lit, d&rsquo;un bureau, rangements, d&rsquo;une kitchenette, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Non adapt&eacute;s pour les personnes &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable jusqu&rsquo;en janvier 2024. Logements ouvrant droit aux APL.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Montant du d&eacute;p&ocirc;t de garantie&nbsp;: 131,00 &euro;</p>",
+  "description" : "<p>21 Logements</p>\r\n\r\n<p>Studios T1 meubl&eacute;s de 15m&sup2; &eacute;quip&eacute;s d&rsquo;un lit, d&rsquo;un bureau, rangements, d&rsquo;une kitchenette, d&rsquo;une salle de bain et d&rsquo;un WC.</p>\r\n\r\n<p>Non adapt&eacute;s pour les personnes &agrave; mobilit&eacute; r&eacute;duite.</p>\r\n\r\n<p>Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable du 1er septembre 2024 au 31 ao&ucirc;t 2025. Logements ouvrant droit aux APL.</p>\r\n\r\n<p>Montant du d&eacute;p&ocirc;t de garantie : 136,00 &euro;</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -54648,7 +54678,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">251 Logements</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Chambres conforts meubl&eacute;es de 9m&sup2; &eacute;quip&eacute;e d&rsquo;un lit escamotable, d&rsquo;un bureau, d&rsquo;une chaise, d&rsquo;un r&eacute;frig&eacute;rateur, de rangements et d&rsquo;une cabine lavabo, douche, WC.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable jusqu&rsquo;en ao&ucirc;t<strong> </strong>2024. Logements ouvrant droit aux ALS.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Montant du d&eacute;p&ocirc;t de garantie&nbsp;: 244,00 &euro;</p>",
+  "description" : "<p>251 Logements</p>\r\n\r\n<p>Chambres meubl&eacute;es de 9m&sup2; &eacute;quip&eacute;es d&rsquo;un lit escamotable, d&rsquo;un bureau, d&rsquo;une chaise, d&rsquo;un r&eacute;frig&eacute;rateur, de rangements et d&rsquo;une cabine lavabo, douche, WC.</p>\r\n\r\n<p>Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable du 1er septembre 2024 au 31 ao&ucirc;t 2025. Logements ouvrant droit aux ALS.</p>\r\n\r\n<p>Montant du d&eacute;p&ocirc;t de garantie : 255 &euro;</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -54662,7 +54692,7 @@
   } ],
   "transports" : [ {
     "kind" : "BUS",
-    "description" : "Ligne : 12",
+    "description" : "Ligne : 12 - N1",
     "distance" : 0,
     "unitOfMeasure" : "NONE"
   }, {
@@ -55199,7 +55229,7 @@
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
-  "description" : "<p style=\"margin-left:0cm; margin-right:0cm\">923 Logements</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Chambres confort meubl&eacute;es de 9m&sup2; &eacute;quip&eacute;es d&rsquo;un lit, d&rsquo;un bureau, d&rsquo;une chaise, d&rsquo;un r&eacute;frig&eacute;rateur, de rangements et d&rsquo;une cabine lavabo, douche, WC.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable jusqu&rsquo;en ao&ucirc;t<strong> </strong>2024. Logements ouvrant droit aux ALS.</p>\r\n\r\n<p style=\"margin-left:0cm; margin-right:0cm\">Montant du d&eacute;p&ocirc;t de garantie&nbsp;: 244,00 &euro;</p>",
+  "description" : "<p>923 Logements</p>\r\n\r\n<p>Chambres confort meubl&eacute;es de 9m&sup2; &eacute;quip&eacute;es d&rsquo;un lit, d&rsquo;un bureau, d&rsquo;une chaise, d&rsquo;un r&eacute;frig&eacute;rateur, de rangements et d&rsquo;une cabine lavabo, douche, WC.</p>\r\n\r\n<p>Loyer comprenant l&rsquo;eau, l&rsquo;&eacute;lectricit&eacute;, Internet, les ordures m&eacute;nag&egrave;res et l&rsquo;entretien des parties communes, valable du 1er septembre 2024 au 31 ao&ucirc;t 2025. Logements ouvrant droit aux ALS.</p>\r\n\r\n<p>Montant du d&eacute;p&ocirc;t de garantie : 255,00 &euro;</p>",
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
@@ -55213,7 +55243,7 @@
   } ],
   "transports" : [ {
     "kind" : "BUS",
-    "description" : "Lignes : C4-14-52-53-54-55-65-68-76-77-78-81-82-152ex-168ex-178ex",
+    "description" : "Lignes : C4-12-14-52-65-68-76-77-78-81-82-152ex-168ex-178ex",
     "distance" : 0,
     "unitOfMeasure" : "NONE"
   }, {

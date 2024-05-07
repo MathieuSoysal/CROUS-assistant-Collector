@@ -845,8 +845,8 @@
       "longitude" : -0.541
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -854,7 +854,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "FRIDGE" ],
   "areaMin" : 9.0,
   "areaMax" : 9.0,
   "occupationMods" : [ {
@@ -1239,8 +1239,8 @@
       "longitude" : -2.267
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -1248,7 +1248,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE", "MICROWAVE" ],
   "areaMin" : 18.0,
   "areaMax" : 18.0,
   "occupationMods" : [ {
@@ -1598,8 +1598,8 @@
       "longitude" : -1.53
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -1607,7 +1607,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "FRIDGE" ],
   "areaMin" : 9.0,
   "areaMax" : 9.0,
   "occupationMods" : [ {
@@ -2066,8 +2066,8 @@
       "longitude" : -1.53
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -2075,7 +2075,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 14.0,
   "areaMax" : 14.0,
   "occupationMods" : [ {
@@ -4740,8 +4740,8 @@
       "longitude" : -1.553
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -4749,7 +4749,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 17.0,
   "areaMax" : 18.3,
   "occupationMods" : [ {
@@ -4781,8 +4781,8 @@
       "longitude" : -1.52
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -4790,7 +4790,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 18.0,
   "areaMax" : 18.0,
   "occupationMods" : [ {
@@ -5009,8 +5009,8 @@
       "longitude" : -0.565
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -5018,7 +5018,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE", "MICROWAVE" ],
   "areaMin" : 18.0,
   "areaMax" : 18.0,
   "occupationMods" : [ {
@@ -5812,8 +5812,8 @@
       "longitude" : -0.759
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "DOUBLE",
   "bedroomCount" : 1,
   "roomCount" : 2,
   "inUnavailabilityPeriod" : false,
@@ -5821,7 +5821,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "LIVING_ROOM", "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
@@ -5857,8 +5857,8 @@
       "longitude" : -1.564
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "RAISED",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -5866,7 +5866,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "FRIDGE" ],
   "areaMin" : 9.0,
   "areaMax" : 9.0,
   "occupationMods" : [ {
@@ -6396,8 +6396,8 @@
       "longitude" : -1.564
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -6405,7 +6405,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "FRIDGE" ],
   "areaMin" : 9.0,
   "areaMax" : 9.0,
   "occupationMods" : [ {
@@ -6452,8 +6452,8 @@
       "longitude" : -0.759
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -6461,7 +6461,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 19.0,
   "areaMax" : 19.0,
   "occupationMods" : [ {
@@ -7265,8 +7265,8 @@
       "longitude" : -1.564
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -7274,7 +7274,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 14.0,
   "areaMax" : 23.0,
   "occupationMods" : [ {
@@ -8097,8 +8097,8 @@
       "longitude" : -0.603
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -8106,7 +8106,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "FRIDGE" ],
   "areaMin" : 9.0,
   "areaMax" : 9.0,
   "occupationMods" : [ {
@@ -8681,8 +8681,8 @@
       "longitude" : -1.559
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -8690,7 +8690,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "FRIDGE" ],
   "areaMin" : 9.0,
   "areaMax" : 9.0,
   "occupationMods" : [ {
@@ -9167,8 +9167,8 @@
       "longitude" : -1.559
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -9176,7 +9176,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE", "MICROWAVE" ],
   "areaMin" : 14.0,
   "areaMax" : 14.0,
   "occupationMods" : [ {
@@ -10081,8 +10081,8 @@
       "longitude" : -1.425
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -10090,7 +10090,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 25.0,
   "areaMax" : 25.0,
   "occupationMods" : [ {
@@ -10368,8 +10368,8 @@
       "longitude" : -2.267
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -10377,7 +10377,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "FRIDGE" ],
   "areaMin" : 9.0,
   "areaMax" : 9.0,
   "occupationMods" : [ {
@@ -10822,8 +10822,8 @@
       "longitude" : -2.267
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -10831,7 +10831,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE", "MICROWAVE" ],
   "areaMin" : 14.0,
   "areaMax" : 14.0,
   "occupationMods" : [ {
@@ -10858,8 +10858,8 @@
       "longitude" : -1.425
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -10867,7 +10867,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 20.0,
   "areaMax" : 20.0,
   "occupationMods" : [ {
@@ -11169,8 +11169,8 @@
       "longitude" : -1.561
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -11178,7 +11178,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 18.0,
   "areaMax" : 18.0,
   "occupationMods" : [ {
@@ -11443,8 +11443,8 @@
       "longitude" : -1.561
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -11452,7 +11452,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 19.0,
   "areaMax" : 19.0,
   "occupationMods" : [ {
@@ -12338,8 +12338,8 @@
       "longitude" : 0.166
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -12347,7 +12347,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "FRIDGE" ],
   "areaMin" : 9.0,
   "areaMax" : 9.0,
   "occupationMods" : [ {
@@ -13673,8 +13673,8 @@
       "longitude" : -1.554
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -13682,7 +13682,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 18.0,
   "areaMax" : 18.0,
   "occupationMods" : [ {
@@ -14038,8 +14038,8 @@
       "longitude" : -0.562
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -14047,7 +14047,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 16.8,
   "areaMax" : 16.8,
   "occupationMods" : [ {
@@ -14381,8 +14381,8 @@
       "longitude" : -1.435
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -14390,7 +14390,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE", "MICROWAVE" ],
   "areaMin" : 18.0,
   "areaMax" : 18.0,
   "occupationMods" : [ {
@@ -14650,8 +14650,8 @@
       "longitude" : -1.552
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -14659,7 +14659,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 17.17,
   "areaMax" : 19.43,
   "occupationMods" : [ {
@@ -14737,8 +14737,8 @@
       "longitude" : -0.544
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -14746,7 +14746,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 19.0,
   "areaMax" : 19.0,
   "occupationMods" : [ {
@@ -15078,8 +15078,8 @@
       "longitude" : -1.577
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -15087,7 +15087,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 18.0,
   "areaMax" : 18.0,
   "occupationMods" : [ {
@@ -15272,8 +15272,8 @@
       "longitude" : -1.543
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "DOUBLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -15281,7 +15281,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
@@ -15976,8 +15976,8 @@
       "longitude" : -1.577
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -15985,7 +15985,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 26.0,
   "areaMax" : 26.0,
   "occupationMods" : [ {
@@ -16522,8 +16522,8 @@
       "longitude" : -1.565
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -16531,7 +16531,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE", "MICROWAVE" ],
   "areaMin" : 18.0,
   "areaMax" : 18.0,
   "occupationMods" : [ {
@@ -17269,8 +17269,8 @@
       "longitude" : -1.565
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 2,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 2,
   "roomCount" : 3,
   "inUnavailabilityPeriod" : false,
@@ -17278,7 +17278,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "LIVING_ROOM", "WC", "SHOWER", "UNKNOWN", "FRIDGE", "MICROWAVE" ],
   "areaMin" : 36.0,
   "areaMax" : 36.0,
   "occupationMods" : [ {
@@ -17397,8 +17397,8 @@
       "longitude" : -1.543
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "DOUBLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -17406,7 +17406,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "BALCONY" ],
   "areaMin" : 31.0,
   "areaMax" : 31.0,
   "occupationMods" : [ {
@@ -17888,8 +17888,8 @@
       "longitude" : -0.587
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -17897,7 +17897,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 19.38,
   "areaMax" : 19.38,
   "occupationMods" : [ {
@@ -17924,8 +17924,8 @@
       "longitude" : -0.541
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -17933,7 +17933,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 18.0,
   "areaMax" : 18.0,
   "occupationMods" : [ {
@@ -18180,8 +18180,8 @@
       "longitude" : -0.587
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -18189,7 +18189,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE", "BALCONY" ],
   "areaMin" : 19.38,
   "areaMax" : 19.38,
   "occupationMods" : [ {
@@ -18339,8 +18339,8 @@
       "longitude" : -0.572
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -18348,7 +18348,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 18.6,
   "areaMax" : 18.6,
   "occupationMods" : [ {
@@ -18671,8 +18671,8 @@
       "longitude" : -0.572
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -18680,7 +18680,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 20.7,
   "areaMax" : 20.7,
   "occupationMods" : [ {
@@ -18722,8 +18722,8 @@
       "longitude" : -1.556
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -18731,7 +18731,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 18.58,
   "areaMax" : 18.58,
   "occupationMods" : [ {
@@ -19632,8 +19632,8 @@
       "longitude" : -0.598
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -19641,7 +19641,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "FRIDGE" ],
   "areaMin" : 12.0,
   "areaMax" : 17.0,
   "occupationMods" : [ {
@@ -19778,8 +19778,8 @@
       "longitude" : -0.564
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -19787,7 +19787,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 18.0,
   "areaMax" : 18.0,
   "occupationMods" : [ {
@@ -20140,8 +20140,8 @@
       "longitude" : -0.598
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -20149,7 +20149,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "FRIDGE" ],
   "areaMin" : 9.0,
   "areaMax" : 9.0,
   "occupationMods" : [ {
@@ -20424,8 +20424,8 @@
       "longitude" : 0.154
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -20433,7 +20433,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 21.0,
   "areaMax" : 21.0,
   "occupationMods" : [ {
@@ -20678,8 +20678,8 @@
       "longitude" : -0.598
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -20687,7 +20687,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE", "MICROWAVE" ],
   "areaMin" : 13.0,
   "areaMax" : 13.0,
   "occupationMods" : [ {
@@ -20847,8 +20847,8 @@
       "longitude" : -0.598
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -20856,7 +20856,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 16.0,
   "areaMax" : 19.64,
   "occupationMods" : [ {
@@ -21378,8 +21378,8 @@
       "longitude" : -0.598
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "DOUBLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -21387,7 +21387,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 30.35,
   "areaMax" : 30.35,
   "occupationMods" : [ {
@@ -22640,8 +22640,8 @@
       "longitude" : -0.602
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -22649,7 +22649,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 18.0,
   "areaMax" : 18.0,
   "occupationMods" : [ {
@@ -23469,8 +23469,8 @@
       "longitude" : -1.56
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -23478,7 +23478,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE", "MICROWAVE" ],
   "areaMin" : 18.0,
   "areaMax" : 18.0,
   "occupationMods" : [ {
@@ -23750,8 +23750,8 @@
       "longitude" : -1.56
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 2,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 2,
   "roomCount" : 2,
   "inUnavailabilityPeriod" : false,
@@ -28191,8 +28191,8 @@
       "longitude" : -0.767
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -28200,7 +28200,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 18.48,
   "areaMax" : 18.48,
   "occupationMods" : [ {
@@ -28360,8 +28360,8 @@
       "longitude" : -0.548
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "DOUBLE",
   "bedroomCount" : 1,
   "roomCount" : 2,
   "inUnavailabilityPeriod" : false,
@@ -28369,7 +28369,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "LIVING_ROOM", "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 44.3,
   "areaMax" : 47.9,
   "occupationMods" : [ {
@@ -28546,8 +28546,8 @@
       "longitude" : -0.548
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 3,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 3,
   "roomCount" : 4,
   "inUnavailabilityPeriod" : false,
@@ -28555,7 +28555,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "LIVING_ROOM", "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 67.2,
   "areaMax" : 67.2,
   "occupationMods" : [ {
@@ -34210,8 +34210,8 @@
       "longitude" : -1.547
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -34219,7 +34219,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "FRIDGE" ],
   "areaMin" : 9.0,
   "areaMax" : 9.0,
   "occupationMods" : [ {
@@ -43682,8 +43682,8 @@
       "longitude" : -1.577
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -43691,7 +43691,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "FRIDGE" ],
   "areaMin" : 9.0,
   "areaMax" : 9.0,
   "occupationMods" : [ {

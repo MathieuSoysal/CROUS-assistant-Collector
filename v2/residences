@@ -44288,6 +44288,47 @@
     "unitOfMeasure" : "NONE"
   } ]
 }, {
+  "id" : 1374,
+  "label" : "CU NOTRE DAME DE LOURDES",
+  "address" : {
+    "fullAddress" : "3 rue Notre Dame de Lourdes 54000 NANCY",
+    "street" : "3 rue Notre Dame de Lourdes",
+    "city" : "NANCY",
+    "zipCode" : "54000",
+    "location" : {
+      "latitude" : 48.675,
+      "longitude" : 6.178
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : null,
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "FRIDGE" ],
+  "areaMin" : 25.0,
+  "areaMax" : 25.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 43320,
+    "rentMax" : 43320
+  } ],
+  "transports" : [ {
+    "kind" : "BUS",
+    "description" : "",
+    "distance" : 3,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "FREE_URBAN_PARKING",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
   "id" : 1378,
   "label" : "Résidence Portalis",
   "address" : {

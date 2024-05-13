@@ -42197,8 +42197,8 @@
       "longitude" : 3.563
     }
   },
-  "bedCount" : 0,
-  "bedKind" : "NONE",
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
   "bedroomCount" : 1,
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
@@ -42206,7 +42206,7 @@
   "available" : true,
   "highDemand" : false,
   "lowStock" : false,
-  "equipements" : [ ],
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
   "areaMin" : 30.0,
   "areaMax" : 34.0,
   "occupationMods" : [ {

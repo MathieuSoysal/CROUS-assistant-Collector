@@ -39972,6 +39972,47 @@
     "unitOfMeasure" : "ON_FOOT"
   } ]
 }, {
+  "id" : 1144,
+  "label" : "Residence Braudel",
+  "address" : {
+    "fullAddress" : "3 rue Marcel Paul - 90000 BELFORT -",
+    "street" : "3 rue Marcel Paul",
+    "city" : "BELFORT -",
+    "zipCode" : "90000",
+    "location" : {
+      "latitude" : 47.641,
+      "longitude" : 6.854
+    }
+  },
+  "bedCount" : 1,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Appartement meubl&eacute; (lit bureau placards) - acc&egrave;s internet- Tarif mensuel toutes charges comprises sauf location compteur &eacute;lectrique et consommation- Possibilit&eacute; d&rsquo;aides CAF (APL) Pr&eacute;avis d&rsquo;un mois &agrave; donner avant d&eacute;part et &eacute;tat des lieux obligatoires avant d&eacute;part Prestations suppl&eacute;mentaires : location de draps (au mois),</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE" ],
+  "areaMin" : 30.0,
+  "areaMax" : 30.0,
+  "occupationMods" : [ {
+    "occupationKind" : "ALONE",
+    "rentMin" : 35675,
+    "rentMax" : 35675
+  } ],
+  "transports" : [ {
+    "kind" : "BUS",
+    "description" : "Ligne 5 et 7",
+    "distance" : 5,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "PAYING_URBAN_PARKING",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
   "id" : 1146,
   "label" : "Rés. Univ. Barbara",
   "address" : {
@@ -40579,6 +40620,60 @@
     "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 42115,
     "rentMax" : 42115
+  } ],
+  "transports" : [ {
+    "kind" : "BUS",
+    "description" : "Bus : 1 - S5 - 7 - 31",
+    "distance" : 10,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "TRAIN",
+    "description" : "Bus depuis l'arrêt gare :<br />\r\n3 direction Valdoie pour se rendre à l'IUT<br />\r\n3 direction GARE TGV pour se rendre à Sevenans UTBM<br />\r\n1, 2 ou 3 pour se rendre à l'UTBM Techno'home",
+    "distance" : 10,
+    "unitOfMeasure" : "ON_FOOT"
+  }, {
+    "kind" : "PAYING_URBAN_PARKING",
+    "description" : "",
+    "distance" : 0,
+    "unitOfMeasure" : "NONE"
+  } ]
+}, {
+  "id" : 1185,
+  "label" : "Residence J.P. Sartre",
+  "address" : {
+    "fullAddress" : "1, rue Gaston DEFERRE - 90000 BELFORT -",
+    "street" : "1, rue Gaston DEFERRE",
+    "city" : "BELFORT -",
+    "zipCode" : "90000",
+    "location" : {
+      "latitude" : 47.639,
+      "longitude" : 6.853
+    }
+  },
+  "bedCount" : 2,
+  "bedKind" : "SIMPLE",
+  "bedroomCount" : 1,
+  "roomCount" : 1,
+  "inUnavailabilityPeriod" : false,
+  "description" : "<p>Appartement meubl&eacute; (lit bureau placards) - acc&egrave;s internet- Tarif mensuel toutes charges comprises sauf location compteur &eacute;lectrique et consommation- Possibilit&eacute; d&rsquo;aides CAF (APL) Pr&eacute;avis d&rsquo;un mois &agrave; donner avant d&eacute;part et &eacute;tat des lieux obligatoires avant d&eacute;part Prestations suppl&eacute;mentaires : location de draps (au mois), achat kit accueil (produits d&rsquo;hygi&egrave;ne et toilette) , achat kit m&eacute;nager (accessoires de cuisine)</p>",
+  "available" : true,
+  "highDemand" : false,
+  "lowStock" : false,
+  "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE", "DUPLEX", "BALCONY" ],
+  "areaMin" : 35.0,
+  "areaMax" : 35.0,
+  "occupationMods" : [ {
+    "occupationKind" : "HOUSE_SHARING",
+    "rentMin" : 23585,
+    "rentMax" : 23585
+  }, {
+    "occupationKind" : "ALONE",
+    "rentMin" : 40890,
+    "rentMax" : 40890
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 47170,
+    "rentMax" : 47170
   } ],
   "transports" : [ {
     "kind" : "BUS",

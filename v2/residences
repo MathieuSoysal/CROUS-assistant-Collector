@@ -52978,7 +52978,7 @@
   "roomCount" : 1,
   "inUnavailabilityPeriod" : false,
   "description" : "<p>Logement meubl&eacute; et &eacute;quip&eacute; d&rsquo;un lit simple, un meuble de rangement (penderie et &eacute;tag&egrave;re), un bureau, une chaise, une table de nuit, un r&eacute;frig&eacute;rateur et au- dessus une &eacute;tag&egrave;re, un lavabo et une poubelle. Cuisine et sanitaires en commun. Le loyer comprend les charges d&#39;&eacute;lectricit&eacute;.</p>",
-  "available" : false,
+  "available" : true,
   "highDemand" : false,
   "lowStock" : false,
   "equipements" : [ "FRIDGE" ],

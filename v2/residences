@@ -39739,7 +39739,7 @@
   "highDemand" : false,
   "lowStock" : false,
   "equipements" : [ "WC", "SHOWER", "UNKNOWN", "FRIDGE", "MICROWAVE" ],
-  "areaMin" : 20.0,
+  "areaMin" : 17.3,
   "areaMax" : 20.0,
   "occupationMods" : [ {
     "occupationKind" : "ALONE",

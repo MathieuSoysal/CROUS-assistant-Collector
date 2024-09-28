@@ -152,15 +152,15 @@
   "areaMin" : 34.27,
   "areaMax" : 34.27,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 51838,
-    "rentMax" : 51838
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 25919,
     "rentMax" : 25919
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 51838,
+    "rentMax" : 51838
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 51838,
     "rentMax" : 51838
   } ],
@@ -589,15 +589,15 @@
   "areaMin" : 34.27,
   "areaMax" : 34.27,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 53618,
-    "rentMax" : 53618
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 26809,
     "rentMax" : 26809
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 53618,
+    "rentMax" : 53618
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 53618,
     "rentMax" : 53618
   } ],
@@ -1380,15 +1380,15 @@
   "areaMin" : 22.0,
   "areaMax" : 35.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 47062,
-    "rentMax" : 47062
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 23531,
     "rentMax" : 23531
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 47062,
+    "rentMax" : 47062
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 47062,
     "rentMax" : 47062
   } ],
@@ -1841,15 +1841,15 @@
   "areaMin" : 51.0,
   "areaMax" : 51.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 66921,
-    "rentMax" : 66921
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 33460,
     "rentMax" : 33460
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 66921,
+    "rentMax" : 66921
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 66921,
     "rentMax" : 66921
   } ],
@@ -3284,15 +3284,15 @@
   "areaMin" : 29.17,
   "areaMax" : 35.84,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 58260,
-    "rentMax" : 58260
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 29130,
     "rentMax" : 29130
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 58260,
+    "rentMax" : 58260
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 58260,
     "rentMax" : 58260
   } ],
@@ -3502,15 +3502,15 @@
   "areaMin" : 30.0,
   "areaMax" : 34.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 40145,
-    "rentMax" : 40145
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 20072,
     "rentMax" : 20072
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 40145,
+    "rentMax" : 40145
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 40145,
     "rentMax" : 40145
   } ],
@@ -4312,15 +4312,15 @@
   "areaMin" : 27.6,
   "areaMax" : 27.6,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 49968,
-    "rentMax" : 49968
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 24984,
     "rentMax" : 24984
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 49968,
+    "rentMax" : 49968
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 49968,
     "rentMax" : 49968
   } ],
@@ -4673,15 +4673,15 @@
   "areaMin" : 20.0,
   "areaMax" : 20.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 47020,
-    "rentMax" : 47020
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 23512,
     "rentMax" : 23512
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 47020,
+    "rentMax" : 47020
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 47020,
     "rentMax" : 47020
   } ],
@@ -5370,15 +5370,15 @@
   "areaMin" : 29.0,
   "areaMax" : 29.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 58683,
-    "rentMax" : 58683
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 29341,
     "rentMax" : 29341
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 58683,
+    "rentMax" : 58683
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 58683,
     "rentMax" : 58683
   } ],
@@ -5659,15 +5659,15 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 58683,
-    "rentMax" : 58683
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 29341,
     "rentMax" : 29341
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 58683,
+    "rentMax" : 58683
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 58683,
     "rentMax" : 58683
   } ],
@@ -6360,15 +6360,15 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 36899,
-    "rentMax" : 36899
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 19073,
     "rentMax" : 19073
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 36899,
+    "rentMax" : 36899
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 36899,
     "rentMax" : 36899
   } ],
@@ -7421,10 +7421,6 @@
   "areaMin" : 35.5,
   "areaMax" : 35.5,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 21650,
-    "rentMax" : 21650
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 21650,
     "rentMax" : 43300
@@ -7432,6 +7428,10 @@
     "occupationKind" : "ALONE",
     "rentMin" : 38800,
     "rentMax" : 38800
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 21650,
+    "rentMax" : 21650
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -7832,15 +7832,15 @@
   "areaMin" : 50.0,
   "areaMax" : 50.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 54046,
-    "rentMax" : 54046
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 27023,
     "rentMax" : 27023
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 54046,
+    "rentMax" : 54046
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 54046,
     "rentMax" : 54046
   } ],
@@ -8630,15 +8630,15 @@
   "areaMin" : 33.3,
   "areaMax" : 33.3,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 49350,
-    "rentMax" : 49350
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 24675,
     "rentMax" : 24675
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 49350,
+    "rentMax" : 49350
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 49350,
     "rentMax" : 49350
   } ],
@@ -9210,15 +9210,15 @@
   "areaMin" : 33.3,
   "areaMax" : 33.3,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 49350,
-    "rentMax" : 49350
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 24675,
     "rentMax" : 24675
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 49350,
+    "rentMax" : 49350
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 49350,
     "rentMax" : 49350
   } ],
@@ -9259,15 +9259,15 @@
   "areaMin" : 19.0,
   "areaMax" : 29.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 55455,
-    "rentMax" : 55455
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 27728,
     "rentMax" : 27728
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 55455,
+    "rentMax" : 55455
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 55455,
     "rentMax" : 55455
   } ],
@@ -11366,15 +11366,15 @@
   "areaMin" : 36.0,
   "areaMax" : 36.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 53878,
-    "rentMax" : 53878
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 26939,
     "rentMax" : 26939
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 53878,
+    "rentMax" : 53878
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 53878,
     "rentMax" : 53878
   } ],
@@ -12902,15 +12902,15 @@
   "areaMin" : 29.7,
   "areaMax" : 51.68,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 57816,
-    "rentMax" : 57816
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 28908,
     "rentMax" : 28908
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 57816,
+    "rentMax" : 57816
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 57816,
     "rentMax" : 57816
   } ],
@@ -13410,15 +13410,15 @@
   "areaMin" : 35.11,
   "areaMax" : 38.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 56299,
-    "rentMax" : 56299
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 28150,
     "rentMax" : 28150
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 56299,
+    "rentMax" : 56299
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 56299,
     "rentMax" : 56299
   } ],
@@ -14801,15 +14801,15 @@
   "areaMin" : 33.0,
   "areaMax" : 33.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 60123,
-    "rentMax" : 60123
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 30062,
     "rentMax" : 30062
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 60123,
+    "rentMax" : 60123
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 60123,
     "rentMax" : 60123
   } ],
@@ -15096,15 +15096,15 @@
   "areaMin" : 20.3,
   "areaMax" : 20.93,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 41564,
-    "rentMax" : 41564
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 20782,
     "rentMax" : 20782
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 41564,
+    "rentMax" : 41564
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 41564,
     "rentMax" : 41564
   } ],
@@ -17708,11 +17708,11 @@
   "areaMin" : 37.9,
   "areaMax" : 37.9,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 46484,
     "rentMax" : 49018
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 46484,
     "rentMax" : 49018
   } ],
@@ -17799,15 +17799,15 @@
   "areaMin" : 51.0,
   "areaMax" : 51.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 61176,
-    "rentMax" : 61176
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 30889,
     "rentMax" : 30889
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 61176,
+    "rentMax" : 61176
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 61176,
     "rentMax" : 61176
   } ],
@@ -19152,15 +19152,15 @@
   "areaMin" : 24.5,
   "areaMax" : 27.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 53441,
-    "rentMax" : 53441
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 26720,
     "rentMax" : 26720
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 53441,
+    "rentMax" : 53441
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 53441,
     "rentMax" : 53441
   } ],
@@ -19569,15 +19569,15 @@
   "areaMin" : 25.5,
   "areaMax" : 32.74,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 55311,
-    "rentMax" : 55311
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 27656,
     "rentMax" : 27656
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 55311,
+    "rentMax" : 55311
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 55311,
     "rentMax" : 55311
   } ],
@@ -19893,15 +19893,15 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 48096,
-    "rentMax" : 48096
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 24048,
     "rentMax" : 24048
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 48096,
+    "rentMax" : 48096
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 48096,
     "rentMax" : 48096
   } ],
@@ -20034,15 +20034,15 @@
   "areaMin" : 42.66,
   "areaMax" : 42.67,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 67909,
-    "rentMax" : 67909
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 33954,
     "rentMax" : 33954
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 67909,
+    "rentMax" : 67909
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 67909,
     "rentMax" : 67909
   } ],
@@ -20542,15 +20542,15 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 55529,
-    "rentMax" : 55529
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 27764,
     "rentMax" : 27764
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 55529,
+    "rentMax" : 55529
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 55529,
     "rentMax" : 55529
   } ],
@@ -20852,15 +20852,15 @@
   "areaMin" : 37.0,
   "areaMax" : 37.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 58829,
-    "rentMax" : 58829
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 29414,
     "rentMax" : 29414
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 58829,
+    "rentMax" : 58829
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 58829,
     "rentMax" : 58829
   } ],
@@ -21826,15 +21826,15 @@
   "areaMin" : 41.69,
   "areaMax" : 43.96,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 67899,
-    "rentMax" : 67899
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 33949,
     "rentMax" : 33949
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 67899,
+    "rentMax" : 67899
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 67899,
     "rentMax" : 67899
   } ],
@@ -22247,11 +22247,11 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 43841,
     "rentMax" : 43841
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 43841,
     "rentMax" : 43841
   } ],
@@ -22818,11 +22818,11 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 44540,
     "rentMax" : 44540
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 44540,
     "rentMax" : 44540
   } ],
@@ -25438,11 +25438,11 @@
   "areaMin" : 27.79,
   "areaMax" : 27.79,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 46331,
     "rentMax" : 46331
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 46331,
     "rentMax" : 46331
   } ],
@@ -26477,15 +26477,15 @@
   "areaMin" : 20.0,
   "areaMax" : 27.86,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 41800,
-    "rentMax" : 41800
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 25050,
     "rentMax" : 25050
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 41800,
+    "rentMax" : 41800
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 41800,
     "rentMax" : 41800
   } ],
@@ -26623,15 +26623,15 @@
   "areaMin" : 27.0,
   "areaMax" : 27.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 47258,
-    "rentMax" : 47258
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 23629,
     "rentMax" : 23629
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 47258,
+    "rentMax" : 47258
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 47258,
     "rentMax" : 47258
   } ],
@@ -26667,11 +26667,11 @@
   "areaMin" : 26.0,
   "areaMax" : 26.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 39390,
     "rentMax" : 39390
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 39390,
     "rentMax" : 39390
   } ],
@@ -26799,15 +26799,15 @@
   "areaMin" : 20.79,
   "areaMax" : 22.989,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 41564,
-    "rentMax" : 41564
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 20782,
     "rentMax" : 20782
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 41564,
+    "rentMax" : 41564
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 41564,
     "rentMax" : 41564
   } ],
@@ -28138,15 +28138,15 @@
   "areaMin" : 24.47,
   "areaMax" : 28.99,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 49976,
-    "rentMax" : 49976
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 24988,
     "rentMax" : 24988
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 49976,
+    "rentMax" : 49976
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 49976,
     "rentMax" : 49976
   } ],
@@ -28395,15 +28395,15 @@
   "areaMin" : 23.0,
   "areaMax" : 28.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 52010,
-    "rentMax" : 52010
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 26005,
     "rentMax" : 26005
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 52010,
+    "rentMax" : 52010
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 52010,
     "rentMax" : 52010
   } ],
@@ -30370,15 +30370,15 @@
   "areaMin" : 29.29,
   "areaMax" : 33.64,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 60466,
-    "rentMax" : 60466
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 30233,
     "rentMax" : 30233
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 60466,
+    "rentMax" : 60466
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 60466,
     "rentMax" : 60466
   } ],
@@ -31462,15 +31462,15 @@
   "areaMin" : 35.76,
   "areaMax" : 37.12,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 66126,
-    "rentMax" : 66126
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 33063,
     "rentMax" : 33063
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 66126,
+    "rentMax" : 66126
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 66126,
     "rentMax" : 66126
   } ],
@@ -37720,10 +37720,6 @@
   "areaMin" : 36.0,
   "areaMax" : 36.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 49460,
-    "rentMax" : 49460
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 24730,
     "rentMax" : 24730
@@ -37731,6 +37727,10 @@
     "occupationKind" : "ALONE",
     "rentMin" : 43280,
     "rentMax" : 43280
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 49460,
+    "rentMax" : 49460
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -38883,10 +38883,6 @@
   "areaMin" : 30.06,
   "areaMax" : 31.32,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 46860,
-    "rentMax" : 46860
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 23430,
     "rentMax" : 23430
@@ -38894,6 +38890,10 @@
     "occupationKind" : "ALONE",
     "rentMin" : 40680,
     "rentMax" : 40680
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 46860,
+    "rentMax" : 46860
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -38983,10 +38983,6 @@
   "areaMin" : 30.06,
   "areaMax" : 34.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 46265,
-    "rentMax" : 46265
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 23133,
     "rentMax" : 23133
@@ -38994,6 +38990,10 @@
     "occupationKind" : "ALONE",
     "rentMin" : 39565,
     "rentMax" : 39565
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 46265,
+    "rentMax" : 46265
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -39458,10 +39458,6 @@
   "areaMin" : 47.3,
   "areaMax" : 51.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 57500,
-    "rentMax" : 57500
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 28750,
     "rentMax" : 28750
@@ -39469,6 +39465,10 @@
     "occupationKind" : "ALONE",
     "rentMin" : 49975,
     "rentMax" : 49975
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 57500,
+    "rentMax" : 57500
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -40018,15 +40018,15 @@
   "areaMin" : 46.62,
   "areaMax" : 46.62,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 52940,
-    "rentMax" : 55440
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 26470,
     "rentMax" : 27720
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 52940,
+    "rentMax" : 55440
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 52940,
     "rentMax" : 55440
   } ],
@@ -40108,15 +40108,15 @@
   "areaMin" : 60.92,
   "areaMax" : 60.92,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 67690,
-    "rentMax" : 67690
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 22563,
     "rentMax" : 22563
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 67690,
+    "rentMax" : 67690
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 67690,
     "rentMax" : 67690
   } ],
@@ -40978,10 +40978,6 @@
   "areaMin" : 35.0,
   "areaMax" : 35.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 42115,
-    "rentMax" : 42115
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 21058,
     "rentMax" : 21058
@@ -40989,6 +40985,10 @@
     "occupationKind" : "ALONE",
     "rentMin" : 36455,
     "rentMax" : 36455
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 42115,
+    "rentMax" : 42115
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -41032,10 +41032,6 @@
   "areaMin" : 35.0,
   "areaMax" : 35.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 47170,
-    "rentMax" : 47170
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 23585,
     "rentMax" : 23585
@@ -41043,6 +41039,10 @@
     "occupationKind" : "ALONE",
     "rentMin" : 40890,
     "rentMax" : 40890
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 47170,
+    "rentMax" : 47170
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -41294,13 +41294,13 @@
   "areaMin" : 51.0,
   "areaMax" : 51.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 59375,
-    "rentMax" : 59375
-  }, {
     "occupationKind" : "ALONE",
     "rentMin" : 51125,
     "rentMax" : 51125
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 59375,
+    "rentMax" : 59375
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -42589,15 +42589,15 @@
   "areaMin" : 53.0,
   "areaMax" : 53.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 47185,
-    "rentMax" : 50485
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 23593,
     "rentMax" : 25243
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 47185,
+    "rentMax" : 50485
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 47185,
     "rentMax" : 50485
   } ],
@@ -42879,15 +42879,15 @@
   "areaMin" : 47.0,
   "areaMax" : 52.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 41805,
-    "rentMax" : 44105
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 20903,
     "rentMax" : 22053
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 41805,
+    "rentMax" : 44105
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 41805,
     "rentMax" : 44105
   } ],
@@ -42974,15 +42974,15 @@
   "areaMin" : 46.0,
   "areaMax" : 48.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 54805,
-    "rentMax" : 58505
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 27403,
     "rentMax" : 29253
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 54805,
+    "rentMax" : 58505
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 54805,
     "rentMax" : 58505
   } ],
@@ -45254,11 +45254,11 @@
   "areaMin" : 40.0,
   "areaMax" : 40.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 42359,
     "rentMax" : 42359
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 42359,
     "rentMax" : 42359
   } ],
@@ -45304,15 +45304,15 @@
   "areaMin" : 20.65,
   "areaMax" : 27.9,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 37621,
-    "rentMax" : 37621
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 18810,
     "rentMax" : 18810
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 37621,
+    "rentMax" : 37621
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 37621,
     "rentMax" : 37621
   } ],
@@ -45604,11 +45604,11 @@
   "areaMin" : 20.0,
   "areaMax" : 25.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 43430,
     "rentMax" : 43430
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 43430,
     "rentMax" : 43430
   } ],
@@ -45680,10 +45680,6 @@
   "areaMin" : 50.0,
   "areaMax" : 50.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 55400,
-    "rentMax" : 55400
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 27670,
     "rentMax" : 27670
@@ -45691,6 +45687,10 @@
     "occupationKind" : "ALONE",
     "rentMin" : 43900,
     "rentMax" : 43900
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 55400,
+    "rentMax" : 55400
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -45831,10 +45831,6 @@
   "areaMin" : 33.32,
   "areaMax" : 35.94,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 44860,
-    "rentMax" : 44860
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 22430,
     "rentMax" : 22430
@@ -45842,6 +45838,10 @@
     "occupationKind" : "ALONE",
     "rentMin" : 33890,
     "rentMax" : 33890
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 44860,
+    "rentMax" : 44860
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -45916,15 +45916,15 @@
   "areaMin" : 30.0,
   "areaMax" : 38.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 39654,
-    "rentMax" : 39654
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 19827,
     "rentMax" : 19827
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 39654,
+    "rentMax" : 39654
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 39654,
     "rentMax" : 39654
   } ],
@@ -45965,13 +45965,13 @@
   "areaMin" : 51.6,
   "areaMax" : 52.1,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 47626,
-    "rentMax" : 47626
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 23813,
     "rentMax" : 23813
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 47626,
+    "rentMax" : 47626
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -46041,15 +46041,15 @@
   "areaMin" : 25.0,
   "areaMax" : 25.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 37450,
-    "rentMax" : 37450
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 18730,
     "rentMax" : 18730
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 37450,
+    "rentMax" : 37450
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 37450,
     "rentMax" : 37450
   } ],
@@ -46141,15 +46141,15 @@
   "areaMin" : 18.0,
   "areaMax" : 18.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 41070,
-    "rentMax" : 41070
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 20535,
     "rentMax" : 20535
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 41070,
+    "rentMax" : 41070
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 41070,
     "rentMax" : 41070
   } ],
@@ -46190,11 +46190,11 @@
   "areaMin" : 40.0,
   "areaMax" : 40.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 34800,
     "rentMax" : 34800
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 34800,
     "rentMax" : 34800
   } ],
@@ -46235,11 +46235,11 @@
   "areaMin" : 50.0,
   "areaMax" : 50.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 43500,
     "rentMax" : 43500
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 43500,
     "rentMax" : 43500
   } ],
@@ -46509,13 +46509,13 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 38000,
-    "rentMax" : 38000
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 18700,
     "rentMax" : 18700
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 38000,
+    "rentMax" : 38000
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -46549,10 +46549,6 @@
   "areaMin" : 49.0,
   "areaMax" : 52.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 53950,
-    "rentMax" : 53950
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 26650,
     "rentMax" : 26650
@@ -46560,6 +46556,10 @@
     "occupationKind" : "ALONE",
     "rentMin" : 45470,
     "rentMax" : 45470
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 53950,
+    "rentMax" : 53950
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -47191,13 +47191,13 @@
   "areaMin" : 41.0,
   "areaMax" : 54.07,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 65132,
-    "rentMax" : 65132
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 32566,
     "rentMax" : 32566
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 65132,
+    "rentMax" : 65132
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -47348,11 +47348,11 @@
   "areaMin" : 30.0,
   "areaMax" : 32.8,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 40801,
     "rentMax" : 45124
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 40801,
     "rentMax" : 45124
   } ],
@@ -48171,13 +48171,13 @@
   "areaMin" : 34.44,
   "areaMax" : 38.76,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 57558,
-    "rentMax" : 57558
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 28779,
     "rentMax" : 28779
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 57558,
+    "rentMax" : 57558
   } ],
   "transports" : [ {
     "kind" : "TRAMWAY",
@@ -49140,15 +49140,15 @@
   "areaMin" : 30.0,
   "areaMax" : 30.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 46702,
-    "rentMax" : 46702
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 23351,
     "rentMax" : 23351
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 46702,
+    "rentMax" : 46702
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 46702,
     "rentMax" : 46702
   } ],
@@ -49613,11 +49613,11 @@
   "areaMin" : 25.0,
   "areaMax" : 25.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 37790,
     "rentMax" : 37790
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 37790,
     "rentMax" : 37790
   } ],
@@ -49984,13 +49984,13 @@
   "areaMin" : 30.84,
   "areaMax" : 36.3,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 53253,
-    "rentMax" : 53253
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 26627,
     "rentMax" : 26627
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 53253,
+    "rentMax" : 53253
   } ],
   "transports" : [ {
     "kind" : "BUS",
@@ -50162,11 +50162,11 @@
   "areaMin" : 48.0,
   "areaMax" : 48.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 60522,
     "rentMax" : 60522
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 60522,
     "rentMax" : 60522
   } ],
@@ -51593,11 +51593,11 @@
   "areaMin" : 30.15,
   "areaMax" : 30.5,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 42223,
     "rentMax" : 42223
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 42223,
     "rentMax" : 42223
   } ],
@@ -53096,11 +53096,11 @@
   "areaMin" : 35.0,
   "areaMax" : 39.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 42348,
     "rentMax" : 42348
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 42348,
     "rentMax" : 42348
   } ],
@@ -53551,11 +53551,11 @@
   "areaMin" : 36.6,
   "areaMax" : 36.6,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 37927,
     "rentMax" : 37927
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 37927,
     "rentMax" : 37927
   } ],
@@ -53948,11 +53948,11 @@
   "areaMin" : 23.89,
   "areaMax" : 28.71,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 42486,
     "rentMax" : 42486
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 42486,
     "rentMax" : 42486
   } ],
@@ -54203,11 +54203,11 @@
   "areaMin" : 42.32,
   "areaMax" : 44.58,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 56482,
     "rentMax" : 56482
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 56482,
     "rentMax" : 56482
   } ],
@@ -55370,10 +55370,6 @@
   "areaMin" : 28.0,
   "areaMax" : 54.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 17316,
-    "rentMax" : 51431
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 17200,
     "rentMax" : 19200
@@ -55381,6 +55377,10 @@
     "occupationKind" : "ALONE",
     "rentMin" : 34400,
     "rentMax" : 38400
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
+    "rentMin" : 17316,
+    "rentMax" : 51431
   } ],
   "transports" : [ ]
 }, {
@@ -55409,11 +55409,11 @@
   "areaMin" : 26.0,
   "areaMax" : 26.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
+    "occupationKind" : "ALONE",
     "rentMin" : 39561,
     "rentMax" : 39561
   }, {
-    "occupationKind" : "ALONE",
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 39561,
     "rentMax" : 39561
   } ],
@@ -56032,15 +56032,15 @@
   "areaMin" : 40.0,
   "areaMax" : 40.0,
   "occupationMods" : [ {
-    "occupationKind" : "COUPLE_TWO_SPACES",
-    "rentMin" : 53694,
-    "rentMax" : 53694
-  }, {
     "occupationKind" : "HOUSE_SHARING",
     "rentMin" : 27054,
     "rentMax" : 27054
   }, {
     "occupationKind" : "ALONE",
+    "rentMin" : 53694,
+    "rentMax" : 53694
+  }, {
+    "occupationKind" : "COUPLE_TWO_SPACES",
     "rentMin" : 53694,
     "rentMax" : 53694
   } ],

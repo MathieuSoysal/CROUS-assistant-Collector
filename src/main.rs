@@ -12,8 +12,7 @@ use std::error::Error;
 async fn main() -> Result<(), Box<dyn Error>> {
     env_logger::init();
     info!("Starting the MongoDB JSON Importer.");
-    let args: Vec<String> = env::args().collect();
-    let mongodb_uri = parse_arguments(&args)?;
+    let mongodb_uri = get_mongodb_uri()?;
     let url = "https://trouverunlogement.lescrous.fr/api/fr/search/36";
     let json_request_body = build_request_body();
     let response_json = execute_http_request(url, &json_request_body).await?;
@@ -24,7 +23,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
         items_node,
     )
     .await?;
-    insert_ids_with_timestamp_into_MongoDB(
+    insert_ids_with_timestamp_into_mongodb(
         &client.database("CROUS").collection::<Document>("available"),
         ids,
     )
@@ -33,15 +32,17 @@ async fn main() -> Result<(), Box<dyn Error>> {
     Ok(())
 }
 
-fn parse_arguments(args: &[String]) -> Result<String, Box<dyn Error>> {
-    if args.len() != 2 {
-        error!("Invalid number of arguments.");
-        eprintln!("Usage: {} <mongodb_uri>", args[0]);
-        std::process::exit(1);
+fn get_mongodb_uri() -> Result<String, Box<dyn Error>> {
+    match env::var("MONGODB_URI") {
+        Ok(val) => {
+            debug!("Retrieved MONGODB_URI from environment.");
+            Ok(val)
+        }
+        Err(e) => {
+            error!("MONGODB_URI environment variable not set: {}", e);
+            Err("MONGODB_URI environment variable not set".into())
+        }
     }
-    let mongodb_uri = args[1].clone();
-    debug!("Parsed arguments: URI={}", mongodb_uri);
-    Ok(mongodb_uri)
 }
 
 fn build_request_body() -> serde_json::Value {
@@ -147,7 +148,7 @@ async fn insert_logements_into_mongodb(
     }
 }
 
-async fn insert_ids_with_timestamp_into_MongoDB(
+async fn insert_ids_with_timestamp_into_mongodb(
     collection: &Collection<Document>,
     ids: Vec<Bson>,
 ) -> Result<(), Box<dyn Error>> {

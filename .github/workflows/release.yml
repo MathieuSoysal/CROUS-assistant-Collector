@@ -7,27 +7,6 @@ on:
 
 jobs:
 
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
-
-      - name: Set up Rust
-        uses: actions/setup-rust@v1
-        with:
-          rust-version: stable
-
-      - name: Build Release Binary
-        run: cargo build --release
-
-      - name: Upload Binary as Artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: crous_assistant_collector
-          path: target/release/crous_assistant_collector
-
   release:
     name: release ${{ matrix.target }}
     runs-on: ubuntu-latest

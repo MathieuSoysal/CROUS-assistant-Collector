@@ -6,31 +6,22 @@ on:
   workflow_dispatch:
 
 jobs:
-    creating-archive:
-        permissions:
-          contents: write
-        uses: ./.github/workflows/reusable-archiving.yml
+  run:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download Artifact
+        uses: actions/download-artifact@v3
         with:
-          ARCHIVE_MODE: HOUR
-          deploy: true
-        secrets:
-          MAIL : ${{ secrets.TEST_MAIL }}
-          PASSWORD : ${{ secrets.TEST_PASSWORD }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          name: crous_assistant_collector
+          path: ./binary
 
-    rerun-failed-jobs:
-      runs-on: ubuntu-latest
-      needs: creating-archive
-      if: failure()
-      steps:
-        - name: Checkout
-          uses:  actions/checkout@v4
-        - name: Rerun failed jobs in the current workflow
-          env: 
-            GH_TOKEN: ${{ secrets.RERUN_TOKEN }}
-          run: gh run rerun ${{ github.run_id }} --failed --repo ${{ github.repository }}
+      - name: Make Binary Executable
+        run: chmod +x ./binary/crous_assistant_collector
 
-
-          
-
-    
+      - name: Execute Binary
+        run: ./binary/crous_assistant_collector
+        env:
+          MONGODB_URI: ${{ secrets.MONGODB_URI }}
+          RUST_LOG: info

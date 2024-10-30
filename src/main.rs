@@ -18,14 +18,23 @@ async fn main() -> Result<(), Box<dyn Error>> {
     let json_request_body = build_request_body();
     let response_json = execute_http_request(url, &json_request_body).await?;
     let items_node = extract_items_node(&response_json)?;
-    let collection = connect_to_mongodb(&mongodb_uri).await?;
-    insert_data_into_mongodb(&collection, items_node).await?;
+    let client = connect_to_mongodb(&mongodb_uri).await?;
+    let ids = insert_logements_into_mongodb(
+        &client.database("CROUS").collection::<Document>("logements"),
+        items_node,
+    )
+    .await?;
+    insert_ids_with_timestamp_into_MongoDB(
+        &client.database("CROUS").collection::<Document>("available"),
+        ids,
+    )
+    .await?;
     info!("Data imported successfully.");
     Ok(())
 }
 
 fn parse_arguments(args: &[String]) -> Result<String, Box<dyn Error>> {
-    if args.len() != 4 {
+    if args.len() != 2 {
         error!("Invalid number of arguments.");
         eprintln!("Usage: {} <mongodb_uri>", args[0]);
         std::process::exit(1);
@@ -89,33 +98,30 @@ fn extract_items_node(response_json: &serde_json::Value) -> Result<&Value, Box<d
     Ok(items_node)
 }
 
-async fn connect_to_mongodb(mongodb_uri: &str) -> Result<Collection<Document>, Box<dyn Error>> {
-    info!("Connecting to MongoDB at {}", "CROUS");
+async fn connect_to_mongodb(mongodb_uri: &str) -> Result<Client, Box<dyn Error>> {
+    info!("Connecting to MongoDB at {}", mongodb_uri);
     let mut client_options = ClientOptions::parse(mongodb_uri).await?;
     client_options.app_name = Some("CROUS analytics".to_string());
     let server_api = ServerApi::builder().version(ServerApiVersion::V1).build();
     client_options.server_api = Some(server_api);
     let client = Client::with_options(client_options)?;
-    let database = client.database("CROUS");
-    let collection = database.collection::<Document>("logements");
-    database
+    client
+        .database("CROUS")
         .run_command(doc! { "ping": 1 })
         .await
         .map_err(|e| {
             error!("Failed to connect to MongoDB: {}", e);
             e
         })?;
-    info!(
-        "Successfully connected to MongoDB database: {}, collection: {}",
-        "CROUS", "logements"
-    );
-    Ok(collection)
+    info!("Successfully connected to MongoDB.");
+    Ok(client)
 }
 
-async fn insert_data_into_mongodb(
+async fn insert_logements_into_mongodb(
     collection: &Collection<Document>,
     items_node: &serde_json::Value,
-) -> Result<(), Box<dyn Error>> {
+) -> Result<Vec<Bson>, Box<dyn Error>> {
+    let mut ids = Vec::new();
     if let Some(items_array) = items_node.as_array() {
         info!("Inserting {} items into MongoDB.", items_array.len());
         for item_value in items_array {
@@ -123,8 +129,9 @@ async fn insert_data_into_mongodb(
             if let Bson::Document(mut doc) = bson_value {
                 if let Some(id_value) = doc.get("id").cloned() {
                     doc.insert("_id", id_value.clone());
+                    ids.push(id_value.clone());
                     let filter = doc! { "_id": id_value.clone() };
-                    collection.replace_one(filter, doc).upsert(true).await?;
+                    collection.replace_one(filter, doc).await?;
                     debug!("Inserted/Updated document with _id: {:?}", id_value);
                 } else {
                     warn!("Item missing 'id' field: {:?}", doc);
@@ -133,9 +140,22 @@ async fn insert_data_into_mongodb(
                 warn!("Expected a document but got a different BSON type.");
             }
         }
-        Ok(())
+        Ok(ids)
     } else {
         error!("Items node is not an array.");
         Err("Items node is not an array".into())
     }
+}
+
+async fn insert_ids_with_timestamp_into_MongoDB(
+    collection: &Collection<Document>,
+    ids: Vec<Bson>,
+) -> Result<(), Box<dyn Error>> {
+    let doc = doc! {
+        "timestamp": mongodb::bson::DateTime::now(),
+        "ids": ids,
+    };
+    collection.insert_one(doc).await?;
+    info!("Inserted ids into timestamp collection.");
+    Ok(())
 }

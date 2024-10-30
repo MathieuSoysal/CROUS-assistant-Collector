@@ -1,41 +1,31 @@
 {
-    "name": "Java",
-    "image": "mcr.microsoft.com/devcontainers/java:1-17-bullseye",
+    "name": "Rust Codespace",
+    "image": "mcr.microsoft.com/devcontainers/rust:1-1-bullseye",
+    "postCreateCommand": "rustup component add clippy rustfmt && cargo install cargo-watch",
+    "remoteUser": "vscode",
     "features": {
-        "ghcr.io/devcontainers/features/java:1": {
-            "installMaven": true,
-            "version": "latest",
-            "jdkDistro": "ms",
-            "gradleVersion": "latest",
-            "mavenVersion": "latest",
-            "antVersion": "latest"
-        },
-        "ghcr.io/devcontainers/features/docker-in-docker:2": {
-            "moby": true,
-            "azureDnsAutoDetection": true,
-            "installDockerBuildx": true,
-            "version": "latest",
-            "dockerDashComposeVersion": "v1"
-        }
+        "ghcr.io/devcontainers/features/common-utils:2": {}
     },
     "customizations": {
         "vscode": {
             "extensions": [
-                "vscjava.vscode-java-pack",
-                "SonarSource.sonarlint-vscode",
-                "redhat.vscode-xml",
-                "github.vscode-github-actions",
-                "ryanluker.vscode-coverage-gutters",
-                "Postman.postman-for-vscode",
-                "madhavd1.javadoc-tools"
-            ]
+                "rust-lang.rust-analyzer",
+                "vadimcn.vscode-lldb",
+                "tamasfe.even-better-toml",
+                "serayuzgur.crates",
+                "usernamehw.errorlens",
+                "editorconfig.editorconfig",
+                "eamodio.gitlens",
+                "ms-azuretools.vscode-docker"
+            ],
+            "settings": {
+                "editor.formatOnSave": true,
+                "[rust]": {
+                    "editor.formatOnSave": true
+                },
+                "rust-analyzer.checkOnSave.command": "clippy",
+                "rust-analyzer.cargo.autoReload": true
+            }
         }
-    },
-    "postStartCommand": "mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args=\"install --with-deps\"",
-    "remoteUser": "root",
-    "containerUser": "vscode",
-    "workspaceMount": "",
-    "runArgs": [
-        "--volume=${localWorkspaceFolder}:/workspaces/${localWorkspaceFolderBasename}:Z"
-    ]
+    }
 }

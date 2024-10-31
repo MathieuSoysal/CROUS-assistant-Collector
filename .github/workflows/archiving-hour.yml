@@ -10,11 +10,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Download Artifact
-        uses: actions/download-artifact@v3
+      - name: Cache Binary
+        uses: actions/cache@v3
         with:
-          name: crous_assistant_collector
-          path: ./binary
+          path: ./binary/crous_assistant_collector
+          key: ${{ runner.os }}-crous_assistant_collector-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-crous_assistant_collector-
+
+      - name: Check if Binary Exists
+        run: |
+          if [ ! -f ./binary/crous_assistant_collector ]; then
+            echo "Binary not found in cache. Exiting."
+            exit 1
+          fi
 
       - name: Make Binary Executable
         run: chmod +x ./binary/crous_assistant_collector

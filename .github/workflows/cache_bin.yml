@@ -1,4 +1,4 @@
-name: Adding bin to artifacts
+name: Adding bin to cache
 
 on:
     push:
@@ -22,12 +22,22 @@ jobs:
             with:
               rust-version: stable
     
+          - name: Cache Cargo Build
+            uses: actions/cache@v3
+            with:
+              path: target/release
+              key: ${{ runner.os }}-cargo-build-${{ hashFiles('**/Cargo.lock') }}
+              restore-keys: |
+                ${{ runner.os }}-cargo-build-
+
           - name: Build Release Binary
             run: cargo build --release
-    
-          - name: Upload Binary as Artifact
-            uses: actions/upload-artifact@v3
+
+          - name: Cache Binary
+            if: success() && steps.build.outputs.cache-hit != 'true'
+            uses: actions/cache@v3
             with:
-              name: crous_assistant_collector
               path: target/release/crous_assistant_collector
-    
+              key: ${{ runner.os }}-crous_assistant_collector-${{ github.sha }}
+              restore-keys: |
+                ${{ runner.os }}-crous_assistant_collector-

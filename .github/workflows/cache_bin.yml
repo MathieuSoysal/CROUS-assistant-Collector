@@ -16,13 +16,16 @@ jobs:
         steps:
           - name: Checkout Code
             uses: actions/checkout@v3
-    
+
           - name: Set up Rust
-            uses: actions/setup-rust@v1
+            uses: actions-rs/toolchain@v1
             with:
-              rust-version: stable
-    
+              toolchain: stable
+              override: true
+              components: clippy  # Optional, add components as needed
+
           - name: Cache Cargo Build
+            id: cargo-cache
             uses: actions/cache@v3
             with:
               path: target/release
@@ -34,7 +37,7 @@ jobs:
             run: cargo build --release
 
           - name: Cache Binary
-            if: success() && steps.build.outputs.cache-hit != 'true'
+            if: success() && steps.cargo-cache.outputs.cache-hit != 'true'
             uses: actions/cache@v3
             with:
               path: target/release/crous_assistant_collector

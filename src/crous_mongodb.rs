@@ -49,7 +49,11 @@ async fn insert_logement(
         if let Some(id_value) = doc.get("id").cloned() {
             doc.insert("_id", id_value.clone());
             let filter = doc! { "_id": id_value.clone() };
-            collection.replace_one(filter, doc).await.unwrap();
+            collection
+                .replace_one(filter, doc)
+                .upsert(true)
+                .await
+                .unwrap();
             debug!("Inserted/Updated document with _id: {:?}", id_value);
             return id_value;
         } else {

@@ -1,4 +1,4 @@
-use log::{debug, error, info, warn};
+use log::{error, info, warn};
 use std::error::Error;
 
 use mongodb::{
@@ -54,7 +54,7 @@ async fn insert_logement(
                 .upsert(true)
                 .await
                 .unwrap();
-            debug!("Inserted/Updated document with _id: {:?}", id_value);
+            info!("Inserted/Updated document with _id: {:?}", id_value);
             return id_value;
         } else {
             warn!("Item missing 'id' field: {:?}", doc);

@@ -39,11 +39,8 @@ async fn request_to_crous() -> Result<serde_json::Value, Box<dyn Error>> {
     let response = client.post(URL_CROUS).json(&json_body).send().await?;
     if response.status().is_success() {
         debug!("HTTP response status: {}", response.status());
-        if response.content_length().unwrap_or(0) == 0 {
-            error!("Empty response body.");
-            return Err("Empty response body.".into());
-        }
-        Ok(response.json().await?)
+        let json_response: serde_json::Value = response.json().await?;
+        Ok(json_response)
     } else {
         let message = format!(
             "HTTP request failed with status code: {}",
@@ -65,6 +62,10 @@ fn extract_items_node(response_json: &Value) -> Result<&Value, Box<dyn Error>> {
     let items_node = response_json
         .pointer("/results/items")
         .ok_or("Items node not found in the response")?;
+    if items_node.as_array().unwrap().is_empty() {
+        error!("Items node is empty.");
+        return Err("Items node is empty".into());
+    }
     debug!("Extracted items node.");
     Ok(items_node)
 }

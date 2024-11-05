@@ -1,6 +1,6 @@
 use log::{debug, error, info};
 
-use serde_json::Value;
+use serde_json::{json, Value};
 use std::error::Error;
 
 const URL_CROUS: &str = "https://trouverunlogement.lescrous.fr/api/fr/search/36";
@@ -39,6 +39,10 @@ async fn request_to_crous() -> Result<serde_json::Value, Box<dyn Error>> {
     let response = client.post(URL_CROUS).json(&json_body).send().await?;
     if response.status().is_success() {
         debug!("HTTP response status: {}", response.status());
+        if response.content_length().unwrap_or(0) == 0 {
+            error!("Empty response body.");
+            return Err("Empty response body.".into());
+        }
         Ok(response.json().await?)
     } else {
         let message = format!(
@@ -46,12 +50,18 @@ async fn request_to_crous() -> Result<serde_json::Value, Box<dyn Error>> {
             response.status()
         );
         error!("{}", message);
+        if response.status().is_server_error() {
+            return Ok(json!({}));
+        }
         Err(message.into())
     }
 }
 
-fn extract_items_node(response_json: &serde_json::Value) -> Result<&Value, Box<dyn Error>> {
+fn extract_items_node(response_json: &Value) -> Result<&Value, Box<dyn Error>> {
     info!("Extracting items.");
+    if response_json.is_null() {
+        return Ok(&Value::Null);
+    }
     let items_node = response_json
         .pointer("/results/items")
         .ok_or("Items node not found in the response")?;

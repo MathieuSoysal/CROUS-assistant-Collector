@@ -12,7 +12,10 @@ async fn main() -> Result<(), Box<dyn Error>> {
     let mongodb_uri = get_mongodb_uri()?;
     let logements = requestor::get_logements_from_crous().await?;
     let client = crous_mongodb::connect_to_mongodb(&mongodb_uri).await?;
-    let ids = crous_mongodb::insert_logements_into_mongodb(&client, &logements).await?;
+    let ids = match logements.is_null() {
+        true => Vec::new(),
+        false => crous_mongodb::insert_logements_into_mongodb(&client, &logements).await?,
+    };
     crous_mongodb::insert_ids_with_timestamp_into_mongodb(&client, ids).await?;
     info!("Data imported successfully.");
     Ok(())

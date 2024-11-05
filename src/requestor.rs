@@ -3,7 +3,7 @@ use log::{debug, error, info};
 use serde_json::{json, Value};
 use std::error::Error;
 
-const URL_CROUS: &str = "https://trouverunlogement.lescrous.fr/api/fr/search/36";
+const URL_CROUS: &str = "https://trouverunlogement.lescrous.fr/api/fr/search/37";
 
 pub async fn get_logements_from_crous() -> Result<serde_json::Value, Box<dyn Error>> {
     let response_json = request_to_crous().await?;
@@ -14,7 +14,7 @@ pub async fn get_logements_from_crous() -> Result<serde_json::Value, Box<dyn Err
 async fn build_request_body() -> serde_json::Value {
     info!("Building JSON request body.");
     serde_json::json!({
-        "idTool": 36,
+        "idTool": 37,
         "need_aggregation": true,
         "page": 1,
         "pageSize": 2500,

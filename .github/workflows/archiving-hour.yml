@@ -13,9 +13,12 @@ jobs:
 
       - name: Checkout Code
         uses: actions/checkout@v3
-
-      - name: Install OpenSSL
-        run: sudo apt-get install libssl-dev
+      
+        - name: Download libssl1.1
+        run: wget http://security.ubuntu.com/ubuntu/pool/main/o/openssl1.0/libssl1.1_1.1.1f-1ubuntu2_amd64.deb
+  
+      - name: Install libssl1.1
+        run: sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2_amd64.deb
 
       - name: Execute Binary
         run: ./crous_assistant_collector

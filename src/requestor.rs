@@ -1,4 +1,4 @@
-use log::{debug, error, info, warn};
+use log::{debug, error, info};
 
 use serde_json::{json, Value};
 use std::error::Error;

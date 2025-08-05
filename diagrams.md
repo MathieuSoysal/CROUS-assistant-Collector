@@ -1,109 +1,109 @@
 ```mermaid
 classDiagram
     %% ===================
-    %% DOMAIN CORE (CENTER)
+    %% DOMAIN CORE
     %% ===================
     
     class Logement {
         +String id
         +String name
         +f64 price
-        +Option~String~ location
-        +new(id: String, name: String, price: f64) Logement
-        +validate() Result~(), DomainError~
+        +validate() Result~(), String~
     }
 
     class LogementCollection {
         +Vec~Logement~ logements
-        +DateTime created_at
-        +new() LogementCollection
         +add_logement(logement: Logement)
-        +get_ids() Vec~String~
         +size() usize
-        +is_empty() bool
-    }
-
-    class LogementDomainService {
-        +validate_collection(collection: &LogementCollection) Result~(), DomainError~
-        +calculate_statistics(collection: &LogementCollection) LogementStats
-    }
-
-    class LogementStats {
-        +usize total_count
-        +f64 average_price
-    }
-
-    class DomainError {
-        <<enumeration>>
-        InvalidData(String)
-        ValidationFailed(String)
     }
 
     %% ===================
-    %% PORTS (INTERFACES)
+    %% PORTS
     %% ===================
     
-    %% Primary Port (Inbound)
     class LogementUseCase {
         <<interface>>
-        +collect_and_store() Result~CollectionResult, AppError~
-        +get_statistics() Result~LogementStats, AppError~
+        +collect_and_store() Result~usize, String~
     }
 
-    class CollectionResult {
-        +usize processed_count
-        +usize stored_count
-    }
-
-    %% Secondary Ports (Outbound)
     class DataProvider {
         <<interface>>
-        +fetch_logements() Result~LogementCollection, DataError~
+        +fetch_logements() Result~LogementCollection, String~
     }
 
     class DataSaver {
         <<interface>>
-        +save_logements(logements: &[Logement]) Result~Vec~String~, SaveError~
-        +save_snapshot(ids: Vec~String~) Result~(), SaveError~
+        +save_logements(logements: &[Logement]) Result~(), String~
     }
 
     %% ===================
-    %% APPLICATION LAYER
+    %% APPLICATION
     %% ===================
     
     class LogementService {
-        -LogementDomainService domain_service
-        -Box~dyn DataProvider~ data_provider
-        -Box~dyn DataSaver~ data_saver
-        +new(domain_service: LogementDomainService, data_provider: Box~dyn DataProvider~, data_saver: Box~dyn DataSaver~) LogementService
-        +collect_and_store() Result~CollectionResult, AppError~
-        +get_statistics() Result~LogementStats, AppError~
+        +collect_and_store() Result~usize, String~
     }
 
     %% ===================
-    %% ADAPTERS (INFRASTRUCTURE)
+    %% ADAPTERS
     %% ===================
     
-    %% Primary Adapter (Driving)
     class CliApp {
-        -Box~dyn LogementUseCase~ use_case
-        +new(use_case: Box~dyn LogementUseCase~) CliApp
-        +run() Result~(), CliError~
+        +run() Result~(), String~
     }
 
-    %% Secondary Adapters (Driven)
     class CrousApiProvider {
-        -reqwest::Client http_client
-        -String base_url
-        +new(base_url: String) CrousApiProvider
-        +fetch_logements() Result~LogementCollection, DataError~
+        +fetch_logements() Result~LogementCollection, String~
     }
 
     class MongoDataSaver {
-        -mongodb::Client client
-        -String database
-        +new(client: mongodb::Client, database: String) MongoDataSaver
-        +save_logements(logements: &[Logement]) Result~Vec~String~, SaveError~
+        +save_logements(logements: &[Logement]) Result~(), String~
+    }
+
+    %% ===================
+    %% RELATIONSHIPS
+    %% ===================
+    
+    %% Core relationships
+    LogementCollection *-- Logement
+    
+    %% Port implementations
+    LogementService ..|> LogementUseCase
+    CrousApiProvider ..|> DataProvider
+    MongoDataSaver ..|> DataSaver
+    
+    %% Dependencies
+    CliApp --> LogementUseCase
+    LogementService --> DataProvider
+    LogementService --> DataSaver
+```
+
+## Simplified Hexagonal Architecture
+
+### Core Components:
+
+1. **Domain**: `Logement`, `LogementCollection`
+2. **Ports**: `LogementUseCase`, `DataProvider`, `DataSaver`
+3. **Application**: `LogementService`
+4. **Adapters**: `CliApp`, `CrousApiProvider`, `MongoDataSaver`
+
+### Key Simplifications:
+
+- ✅ **Removed complex error hierarchies** - using simple `String` errors
+- ✅ **Eliminated domain services** - keeping business logic in entities
+- ✅ **Simplified configuration** - removed `AppConfig` and `AppBuilder`
+- ✅ **Reduced method signatures** - fewer parameters and return types
+- ✅ **Streamlined relationships** - only essential dependencies shown
+- ✅ **Single responsibility** - each class has one clear purpose
+
+### Architecture Benefits:
+
+- 🎯 **Easy to understand** - minimal cognitive load
+- 🔧 **Easy to implement** - straightforward code structure
+- 🧪 **Easy to test** - clear interfaces for mocking
+- 📦 **Easy to extend** - can add new adapters without changing core
+
+This ultra-simplified version maintains hexagonal architecture principles while being extremely easy to implement and understand.
         +save_snapshot(ids: Vec~String~) Result~(), SaveError~
     }
 

@@ -4,7 +4,7 @@ use serde_json::{json, Value};
 use std::error::Error;
 use std::time::Duration;
 
-const URL_CROUS: &str = "https://trouverunlogement.lescrous.fr/api/fr/search/37";
+const URL_CROUS: &str = "https://trouverunlogement.lescrous.fr/api/fr/search/41";
 
 pub async fn get_logements_from_crous() -> Result<serde_json::Value, Box<dyn Error>> {
     // Using insecure method to bypass SSL certificate verification

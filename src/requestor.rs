@@ -16,7 +16,7 @@ pub async fn get_logements_from_crous() -> Result<serde_json::Value, Box<dyn Err
 async fn build_request_body() -> serde_json::Value {
     info!("Building JSON request body.");
     serde_json::json!({
-        "idTool": 37,
+        "idTool": 41,
         "need_aggregation": true,
         "page": 1,
         "pageSize": 2500,

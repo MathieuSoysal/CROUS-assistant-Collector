@@ -1,0 +1,46 @@
+name: Build and Deploy Binary
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+        
+      - name: Setup Rust
+        uses: actions-rust-lang/setup-rust-toolchain@v1
+        with:
+          toolchain: stable
+          cache: true
+          
+      - name: Build release binary
+        run: cargo build --release
+        
+      - name: Get binary name
+        id: binary
+        run: |
+          BINARY_NAME=$(cargo metadata --no-deps --format-version 1 | jq -r '.packages[0].targets[] | select(.kind[] | contains("bin")) | .name')
+          echo "name=${BINARY_NAME}" >> "$GITHUB_OUTPUT"
+          
+      - name: Copy binary to root
+        run: cp target/release/${{ steps.binary.outputs.name }} ./bin
+          
+      - name: Commit and push binary
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add bin
+          git diff --staged --quiet || git commit -m "Update release binary [skip ci]"
+          git push

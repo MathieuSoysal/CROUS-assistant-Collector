@@ -4,7 +4,7 @@ use serde_json::{json, Value};
 use std::error::Error;
 use std::time::Duration;
 
-const URL_CROUS: &str = "https://trouverunlogement.lescrous.fr/api/fr/search/41";
+const URL_CROUS: &str = "https://trouverunlogement.lescrous.fr/api/fr/search/42";
 
 pub async fn get_logements_from_crous() -> Result<serde_json::Value, Box<dyn Error>> {
     // Using insecure method to bypass SSL certificate verification
@@ -16,7 +16,7 @@ pub async fn get_logements_from_crous() -> Result<serde_json::Value, Box<dyn Err
 async fn build_request_body() -> serde_json::Value {
     info!("Building JSON request body.");
     serde_json::json!({
-        "idTool": 41,
+        "idTool": 42,
         "need_aggregation": true,
         "page": 1,
         "pageSize": 2500,
@@ -91,7 +91,7 @@ mod tests {
     async fn test_build_request_body() {
         let body = build_request_body().await;
         
-        assert_eq!(body["idTool"], json!(37));
+        assert_eq!(body["idTool"], json!(42));
         assert_eq!(body["need_aggregation"], json!(true));
         assert_eq!(body["page"], json!(1));
         assert_eq!(body["pageSize"], json!(2500));
